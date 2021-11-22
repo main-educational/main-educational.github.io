@@ -43,6 +43,8 @@
     <script src="_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -173,90 +175,76 @@
             </div>
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   Installation
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#general-computing-requirements">
+   General computing requirements
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#general-computing-requirements">
-     General computing requirements
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#required-software">
+   Required software
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#os-specific-installation-instructions">
+   OS-specific installation instructions
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bash-shell">
+     Bash shell
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#required-software">
-     Required software
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#git">
+     Git
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#os-specific-installation-instructions">
-     OS-specific installation instructions
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#vscode">
+     VSCode
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#vscode-extensions">
+       VSCode extensions
+      </a>
+     </li>
+    </ul>
    </li>
-  </ul>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#update-the-apt-package-list">
-   Update the apt package list.
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#install-docker-s-package-dependencies">
-   Install Docker’s package dependencies.
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#download-and-add-docker-s-official-public-pgp-key">
-   Download and add Docker’s official public PGP key.
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#verify-the-fingerprint">
-   Verify the fingerprint.
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#add-the-stable-channel-s-docker-upstream-repository">
-   Add the
-   <code class="docutils literal notranslate">
-    <span class="pre">
-     stable
-    </span>
-   </code>
-   channel’s Docker upstream repository.
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#update-the-apt-package-list-for-the-new-apt-repo">
-   Update the apt package list (for the new apt repo).
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#install-the-latest-version-of-docker-ce">
-   Install the latest version of Docker CE.
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#allow-your-user-to-access-the-docker-cli-without-needing-root-access">
-   Allow your user to access the Docker CLI without needing root access.
-  </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#github-account">
-     GitHub account
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#python">
+     Python
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#python-packages">
+       Python packages
+      </a>
+     </li>
+    </ul>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#modern-web-browser">
-     Modern web browser
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#checking-your-install">
-     Checking your install
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#docker">
+     Docker
     </a>
    </li>
   </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#github-account">
+   GitHub account
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#modern-web-browser">
+   Modern web browser
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#checking-your-install">
+   Checking your install
+  </a>
  </li>
 </ul>
 
@@ -306,11 +294,13 @@
 <h2>OS-specific installation instructions<a class="headerlink" href="#os-specific-installation-instructions" title="Permalink to this headline">¶</a></h2>
 <p>Select the tab that corresponds to your operating system and follow the instructions therein.</p>
 <p>Note: If the instructions below aren’t working and you have spent more than 15-20 minutes troubleshooting on your own, reach out on the #help-installation channel on the BHS Discord with the exact problems you’re having.</p>
+<section id="bash-shell">
+<h3>Bash shell<a class="headerlink" href="#bash-shell" title="Permalink to this headline">¶</a></h3>
 <div class="tabbed-set docutils">
-<input checked="checked" id="e5f64767-e86b-4ad9-9289-168b529aabbb" name="abd8e59e-44db-455e-b7ce-cf0388b359f3" type="radio">
-</input><label class="tabbed-label" for="e5f64767-e86b-4ad9-9289-168b529aabbb">
+<input checked="checked" id="e717f2d5-9086-4342-a7d2-eccf68f820e5" name="f6282a89-6053-4bb3-963e-eaf558dd7a1e" type="radio">
+</input><label class="tabbed-label" for="e717f2d5-9086-4342-a7d2-eccf68f820e5">
 Windows</label><div class="tabbed-content docutils">
-<p><strong>Windows Subsystem for Linux (WSL)</strong></p>
+<p>** Windows Subsystem for Linux (WSL)**</p>
 <ol>
 <li><p>Search for Windows Powershell in your applications; right click and select Run as administrator. Select Yes on the prompt that appears asking if you want to allow the app to make changes to your device.</p></li>
 <li><p>Type the following into the Powershell and then press Enter:</p>
@@ -324,17 +314,80 @@ Windows</label><div class="tabbed-content docutils">
 </ol>
 <p>(The above step-by-step WSL instructions are distilled from here and here. If you have questions during the installation procedure those resources may have answers!)</p>
 <p>From this point on whenever the instructions specify to “open a terminal” please assume you are supposed to open the Ubuntu application.</p>
-<p><strong>Bash shell</strong></p>
+</div>
+<input id="531cfecf-70ee-491d-bd47-38700e2a1da8" name="f6282a89-6053-4bb3-963e-eaf558dd7a1e" type="radio">
+</input><label class="tabbed-label" for="531cfecf-70ee-491d-bd47-38700e2a1da8">
+Mac OS</label><div class="tabbed-content docutils">
+<p>You already have it! Depending on which version of Mac OS you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:</p>
+<p>Open a terminal and type echo $SHELL. If it reads /bin/bash then you are all set!</p>
+<p>Note: If you are using Mac Catalina (10.15.X) then it is possible your default shell is NOT CORRECT. To set the default to bash, type chsh -s /bin/bash in the terminal, enter your password when prompted, and then close + re-open the terminal.</p>
+</div>
+<input id="d59b40ed-685c-4a71-8dd9-7a3141240d12" name="f6282a89-6053-4bb3-963e-eaf558dd7a1e" type="radio">
+</input><label class="tabbed-label" for="d59b40ed-685c-4a71-8dd9-7a3141240d12">
+Linux</label><div class="tabbed-content docutils">
+<p>You already have it! Depending on which version of Linux you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:</p>
+<p>Open a terminal and type echo $SHELL. If it reads /bin/bash then you are all set! If not, whenever the instructions read “open a terminal,” please assume you are to open a terminal, type bash, and the proceed with the instructions as specified.</p>
+</div>
+</div>
+</section>
+<section id="git">
+<h3>Git<a class="headerlink" href="#git" title="Permalink to this headline">¶</a></h3>
+<div class="tabbed-set docutils">
+<input checked="checked" id="2ea27663-025c-43b2-b650-4885e2f2ecb7" name="d15da81a-925a-4de2-a628-addca080694c" type="radio">
+</input><label class="tabbed-label" for="2ea27663-025c-43b2-b650-4885e2f2ecb7">
+Windows</label><div class="tabbed-content docutils">
 <p>You already have it, now that you’ve installed the WSL!</p>
-<p><strong>Git</strong></p>
-<p>You already have it, now that you’ve installed the WSL!</p>
-<p><strong>VSCode</strong></p>
+</div>
+<input id="ebc70473-7469-4801-9ec3-6e5799ba9fb1" name="d15da81a-925a-4de2-a628-addca080694c" type="radio">
+</input><label class="tabbed-label" for="ebc70473-7469-4801-9ec3-6e5799ba9fb1">
+Mac OS</label><div class="tabbed-content docutils">
+<p>You may already have it! Try opening a terminal and typing git –version. If you do not see something like “git version X.XX.X” printed out, then follow these steps:</p>
+<ol class="simple">
+<li><p>Follow this link to automatically download an installer.</p></li>
+<li><p>Double click the downloaded file (git-2.23.0-intel-universal-mavericks.dmg) and then double click the git-2.23.0-intel-universal-mavericks.pkg icon inside the dmg that is opened.</p></li>
+<li><p>Follow the on-screen instructions to install the package</p></li>
+</ol>
+</div>
+<input id="9a2be3f9-c186-46f1-b37c-0a1347646ed8" name="d15da81a-925a-4de2-a628-addca080694c" type="radio">
+</input><label class="tabbed-label" for="9a2be3f9-c186-46f1-b37c-0a1347646ed8">
+Linux</label><div class="tabbed-content docutils">
+<p>You may already have it; try typing sudo apt-get install git (Ubuntu, Debian) or sudo yum install git (Fedora) inside the terminal.
+If you are prompted to install it follow the instructions on-screen to do so.</p>
+</div>
+</div>
+</section>
+<section id="vscode">
+<h3>VSCode<a class="headerlink" href="#vscode" title="Permalink to this headline">¶</a></h3>
+<div class="tabbed-set docutils">
+<input checked="checked" id="661d2a5e-4a68-4281-ba92-1b3b234b12c8" name="7aad0835-53dd-40f9-a641-262b61ddaea3" type="radio">
+</input><label class="tabbed-label" for="661d2a5e-4a68-4281-ba92-1b3b234b12c8">
+Windows</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button, then run the .exe file.</p></li>
 <li><p>Leave all the defaults during the installation with the following exception:
 Please make sure the box labelled “Register Code as an editor for supported file types” is selected</p></li>
 </ol>
-<p><strong>VSCode extensions</strong></p>
+</div>
+<input id="0c736730-7a43-42da-913a-beb1728f9a31" name="7aad0835-53dd-40f9-a641-262b61ddaea3" type="radio">
+</input><label class="tabbed-label" for="0c736730-7a43-42da-913a-beb1728f9a31">
+Mac OS</label><div class="tabbed-content docutils">
+<ol class="simple">
+<li><p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button.</p></li>
+<li><p>Unzip the downloaded file (e.g., VSCode-darwin-stable.zip) and moving the resulting Visual Studio Code file to your Applications directory</p></li>
+</ol>
+</div>
+<input id="d64199f0-27ce-4c5c-bf65-520036a46782" name="7aad0835-53dd-40f9-a641-262b61ddaea3" type="radio">
+</input><label class="tabbed-label" for="d64199f0-27ce-4c5c-bf65-520036a46782">
+Linux</label><div class="tabbed-content docutils">
+<p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button for either the .deb (Ubuntu, Debian) or the .rpm (Fedora, CentOS) file. Double-click the downloaded file to install VSCode. (You may be prompted to type your administrator password during the install).</p>
+</div>
+</div>
+<section id="vscode-extensions">
+<h4>VSCode extensions<a class="headerlink" href="#vscode-extensions" title="Permalink to this headline">¶</a></h4>
+<div class="tabbed-set docutils">
+<input checked="checked" id="95259784-0775-4515-b3cf-e2d11e2fb4b1" name="7da346b7-8d0b-47fd-aaa9-3165c07999f9" type="radio">
+</input><label class="tabbed-label" for="95259784-0775-4515-b3cf-e2d11e2fb4b1">
+Windows</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>Open the Ubuntu application.</p></li>
 <li><p>Type code . into the terminal and press Enter. You should see a message reading “Installing VS Code Server” and then a new windows will open up.</p></li>
@@ -347,155 +400,215 @@ Please make sure the box labelled “Register Code as an editor for supported fi
 </ul>
 </li>
 </ol>
-<p><strong>Python</strong></p>
+</div>
+<input id="893925a2-c369-480d-896f-9cc4dedcfb66" name="7da346b7-8d0b-47fd-aaa9-3165c07999f9" type="radio">
+</input><label class="tabbed-label" for="893925a2-c369-480d-896f-9cc4dedcfb66">
+Mac OS</label><div class="tabbed-content docutils">
+<ol class="simple">
+<li><p>Open the Visual Studio Code application</p></li>
+<li><p>Type Cmd+Shift+P and then enter “Shell command: Install ‘code’ command in PATH” into the search bar that appears at the top of the screen. Select the highlighted entry. A notification box should appear in the bottom-right corner indicating that the command was installed successfully.</p></li>
+<li><p>Type Cmd+Shift+P again and then enter “Extensions: Install extensions” into the search bar. Select the appropriate entry from the dropdown menu that appears (there should be four entries; simply select the one that reads “Extensions: Install extensions”).</p></li>
+<li><p>A new panel should appear on the left-hand side of the screen with a search bar. Search for each of the following extensions and press Install for the first entry that appears. (The author listed for all of these extensions should be “Microsoft”.)</p>
+<ul class="simple">
+<li><p>Python (n.b., you will need to reload VSCode after installing this)</p></li>
+<li><p>Docker</p></li>
+</ul>
+</li>
+</ol>
+</div>
+<input id="c5cd66c4-a119-4124-a836-8383f04cb7c3" name="7da346b7-8d0b-47fd-aaa9-3165c07999f9" type="radio">
+</input><label class="tabbed-label" for="c5cd66c4-a119-4124-a836-8383f04cb7c3">
+Linux</label><div class="tabbed-content docutils">
+<ol class="simple">
+<li><p>Open the Visual Studio Code application.</p></li>
+<li><p>Press Ctrl+Shift+P in the new window that opens and type “Extensions: Install extensions” into the search bar that appears at the top of the screen. Select the appropriate entry from the dropdown menu that appears (there should be four entries; simply select the one that reads “Extensions: Install extensions”).</p></li>
+<li><p>A new panel should appear on the left-hand side of the screen with a search bar. Search for each of the following extensions and press Install for the first entry that appears. (The author listed for all of these extensions should be “Microsoft”.)</p>
+<ul class="simple">
+<li><p>Python (n.b., you will need to reload VSCode after installing this)</p></li>
+<li><p>Docker</p></li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+</section>
+</section>
+<section id="python">
+<h3>Python<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h3>
+<div class="tabbed-set docutils">
+<input checked="checked" id="62b8699f-226a-49f1-b68d-60ddd41ac83e" name="2644d5fe-cdb6-4140-b4b6-f159432fd8d8" type="radio">
+</input><label class="tabbed-label" for="62b8699f-226a-49f1-b68d-60ddd41ac83e">
+Windows</label><div class="tabbed-content docutils">
 <ol>
 <li><p>Open a new terminal and type the following lines (separately) into the terminal, pressing Enter after each one:</p>
-<p>wget <a class="reference external" href="https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh">https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh</a>
-bash Miniconda3-latest-Linux-x86_64.sh</p>
+<p><code class="docutils literal notranslate"><span class="pre">wget</span> <span class="pre">https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">bash</span> <span class="pre">Miniconda3-latest-Linux-x86_64.sh</span></code></p>
 </li>
-<li><p>A license agreement will be displayed and the bottom of the terminal will read –More–. Press Enter or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter</p>
-<p>The installation script will inform you that it is going to install into a default directory (e.g., /home/$USER/miniconda3). Leave this default and press Enter.</p>
-</li>
+<li><p>A license agreement will be displayed and the bottom of the terminal will read –More–. Press Enter or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter</p></li>
+</ol>
+<p>The installation script will inform you that it is going to install into a default directory (e.g., <code class="docutils literal notranslate"><span class="pre">/home/$USER/miniconda3</span></code>). Leave this default and press Enter.</p>
+<ol>
 <li><p>When you are asked “Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],” type yes and press Enter. Exit the terminal once the installation has finished.</p></li>
 <li><p>Re-open the Ubuntu application. Type which python into the terminal and it should return a path (e.g., <code class="docutils literal notranslate"><span class="pre">/home/$USER/miniconda3/bin/python</span></code>).
 If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel on the BHS Slack.</p></li>
 <li><p>Type the following to remove the installation script that was downloaded:</p>
+<p><code class="docutils literal notranslate"><span class="pre">rm</span> <span class="pre">./Miniconda3-latest-Linux-x86_64.sh</span></code></p>
+</li>
+</ol>
+</div>
+<input id="c4c195b9-07a6-41b9-aa11-1651529405ef" name="2644d5fe-cdb6-4140-b4b6-f159432fd8d8" type="radio">
+</input><label class="tabbed-label" for="c4c195b9-07a6-41b9-aa11-1651529405ef">
+Mac OS</label><div class="tabbed-content docutils">
+<p>Open a new terminal and type the following lines (separately) into the terminal, pressing Enter after each one:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+bash Miniconda3-latest-MacOSX-x86_64.sh
+</pre></div>
+</div>
+<p>A license agreement will be displayed and the bottom of the terminal will read –More–. Press Enter or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter</p>
+<p>The installation script will inform you that it is going to install into a default directory (e.g., /home/$USER/miniconda3). Leave this default and press Enter.</p>
+<p>When you are asked “Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],” type yes and press Enter. Exit the terminal once the installation has finished.</p>
+<p>Re-open a terminal. Type which python into the terminal and it should return a path (e.g., /home/$USER/miniconda3/bin/python).
+If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel of the BHS Slack.</p>
+<p>Type the following to remove the installation script that was downloaded:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>rm ./Miniconda3-latest-MacOSX-x86_64.sh
+</pre></div>
+</div>
+</div>
+<input id="37468611-aaae-4e1d-8559-09e22a758671" name="2644d5fe-cdb6-4140-b4b6-f159432fd8d8" type="radio">
+</input><label class="tabbed-label" for="37468611-aaae-4e1d-8559-09e22a758671">
+Linux</label><div class="tabbed-content docutils">
+<ol>
+<li><p>Open a new terminal and type the following lines (separately) into the terminal, pressing Enter after each one:</p>
+<p><code class="docutils literal notranslate"><span class="pre">wget</span> <span class="pre">https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">bash</span> <span class="pre">Miniconda3-latest-Linux-x86_64.sh</span></code></p>
+</li>
+<li><p>A license agreement will be displayed and the bottom of the terminal will read –More–. Press Enter or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter</p></li>
+<li><p>The installation script will inform you that it is going to install into a default directory (e.g., /home/$USER/miniconda3). Leave this default and press Enter.</p></li>
+<li><p>When you are asked “Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],” type yes and press Enter. Exit the terminal once the installation has finished.</p></li>
+<li><p>Re-open a new terminal. Type which python into the terminal and it should return a path (e.g., /home/$USER/miniconda3/bin/python).</p>
+<ul class="simple">
+<li><p>If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel of the BHS Slack.</p></li>
+</ul>
+</li>
+<li><p>Type the following to remove the installation script that was downloaded:</p>
 <p>rm ./Miniconda3-latest-Linux-x86_64.sh</p>
 </li>
 </ol>
-<p><strong>Python packages</strong></p>
-<p>Open a terminal and type the following commands:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>conda config --append channels conda-forge
-conda config --set channel_priority strict
-conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
-</pre></div>
 </div>
-<p><strong>Docker</strong></p>
+</div>
+<section id="python-packages">
+<h4>Python packages<a class="headerlink" href="#python-packages" title="Permalink to this headline">¶</a></h4>
+<div class="tabbed-set docutils">
+<input checked="checked" id="da376729-2912-4678-9ba7-6abb98594859" name="8d4f4c97-96fc-4330-bd88-34ca8e3694e0" type="radio">
+</input><label class="tabbed-label" for="da376729-2912-4678-9ba7-6abb98594859">
+Windows</label><div class="tabbed-content docutils">
+<p>Open a terminal and type the following commands:
+conda config –append channels conda-forge
+conda config –set channel_priority strict
+conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn</p>
+</div>
+<input id="13b24d0a-a198-4015-86c8-424f19a62ee7" name="8d4f4c97-96fc-4330-bd88-34ca8e3694e0" type="radio">
+</input><label class="tabbed-label" for="13b24d0a-a198-4015-86c8-424f19a62ee7">
+Mac OS</label><div class="tabbed-content docutils">
+<p>Open a terminal and type the following commands:
+conda config –append channels conda-forge
+conda config –set channel_priority strict
+conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn</p>
+</div>
+<input id="b0d5a06e-56f9-4009-ad8d-221b341063ce" name="8d4f4c97-96fc-4330-bd88-34ca8e3694e0" type="radio">
+</input><label class="tabbed-label" for="b0d5a06e-56f9-4009-ad8d-221b341063ce">
+Linux</label><div class="tabbed-content docutils">
+<p>Open a terminal and type the following commands:
+conda config –append channels conda-forge
+conda config –set channel_priority strict
+conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn</p>
+</div>
+</div>
+</section>
+</section>
+<section id="docker">
+<h3>Docker<a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h3>
+<div class="tabbed-set docutils">
+<input checked="checked" id="21eeccab-1808-4803-8883-de8154ba422c" name="7ebe40ba-7b6f-4d22-825e-e19129d1eb39" type="radio">
+</input><label class="tabbed-label" for="21eeccab-1808-4803-8883-de8154ba422c">
+Windows</label><div class="tabbed-content docutils">
 <p>Unfortunately, Docker for Windows is a bit of a mess. The recommended version of Docker to install varies dramatically depending not only on which version of Windows you have installed (e.g., Windows 10 Home versus Professional/Enterprise/Education), but also which build of Windows you have. As such, developing a comprehensive set of instructions for installing Docker is rather difficult.</p>
 <p>For this course, you will need to install either Docker Toolbox for Windows or Docker for Windows Desktop. Which you install will depend on your OS. PLEASE NOTE that installing Docker for Windows Desktop will disable VirtualBox on your computer. If you actively use VirtualBox we recommend you install Docker Toolbox.</p>
 <p>(Note: the below instructions assume you are installing Docker Toolbox. Because there are fewer requirements for Docker Toolbox, it is likely that you will be able to install this more easily.)</p>
-<ol class="simple">
-<li><p>Download the latest Docker Toolbox installer (note: that link will automatically download the file)</p></li>
-<li><p>Run the downloaded .exe file and leave all the defaults during the installation procedure. Click Yeson the prompt that appears asking if the application can make changes to your computer.</p></li>
-<li><p>Search for and open the newly-installed “Docker Quickstart” application. Again, click Yeson the prompt that appears asking if the application can make changes to your computer. The application will do a number of things to finish installing and setting up Docker.</p></li>
-<li><p>Once you see a $ prompt type docker run hello-world. A brief introductory message should be printed to the screen.</p></li>
-<li><p>Close the “Docker Quickstart” application and open a terminal (i.e., the Ubuntu application).</p></li>
-<li><p>Copy-paste the following commands. You will be prompted to enter your password once.</p></li>
-<li><p>Close and re-open the terminal.</p></li>
-<li><p>Type <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">docker-compose</span></code>.</p></li>
-<li><p>Type powershell.exe “docker-machine config”. You should get output similar to the following:
-<code class="docutils literal notranslate">&#160; </code>–tlsverify<code class="docutils literal notranslate">&#160; </code>–tlscacert=”C:\Users\&lt;YOUR_USERNAME&gt;.docker\machine\machines\default\ca.pem”<code class="docutils literal notranslate">&#160; </code>–tlscert=”C:\Users\&lt;YOUR_USERNAME&gt;.docker\machine\machines\default\cert.pem”<code class="docutils literal notranslate">&#160; </code>–tlskey=”C:\Users\&lt;YOUR_USERNAME&gt;.docker\machine\machines\default\key.pem”<code class="docutils literal notranslate">&#160; </code>-H=tcp://xxx.xxx.xx.xxx:xxxx`</p></li>
-</ol>
+<p>Download the latest Docker Toolbox installer (note: that link will automatically download the file)</p>
+<p>Run the downloaded .exe file and leave all the defaults during the installation procedure. Click Yeson the prompt that appears asking if the application can make changes to your computer.</p>
+<p>Search for and open the newly-installed “Docker Quickstart” application. Again, click Yeson the prompt that appears asking if the application can make changes to your computer. The application will do a number of things to finish installing and setting up Docker.</p>
+<p>Once you see a $ prompt type docker run hello-world. A brief introductory message should be printed to the screen.</p>
+<p>Close the “Docker Quickstart” application and open a terminal (i.e., the Ubuntu application).</p>
+<p>Copy-paste the following commands. You will be prompted to enter your password once.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span># Update the apt package list.
+sudo apt-get update -y
+# Install Docker&#39;s package dependencies.
+sudo apt-get install -y \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    software-properties-common
+
+# Download and add Docker&#39;s official public PGP key.
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+# Verify the fingerprint.
+sudo apt-key fingerprint 0EBFCD88
+
+# Add the stable channel&#39;s Docker upstream repository.
+
+sudo add-apt-repository \
+    &quot;deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+    $(lsb_release -cs) \
+    stable&quot;
+
+# Update the apt package list (for the new apt repo).
+sudo apt-get update -y
+
+# Install the latest version of Docker CE.
+sudo apt-get install -y docker-ce
+
+# Allow your user to access the Docker CLI without needing root access.
+sudo usermod -aG docker $USER
+</pre></div>
+</div>
+<p>Close and re-open the terminal.</p>
+<p>Type <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">docker-compose</span></code>.</p>
+<p>Type powershell.exe “docker-machine config”. You should get output similar to the following:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>--tlsverify
+--tlscacert=&quot;C:\\Users\\&lt;YOUR_USERNAME&gt;\\.docker\\machine\\machines\\default\\ca.pem&quot;
+--tlscert=&quot;C:\\Users\\&lt;YOUR_USERNAME&gt;\\.docker\\machine\\machines\\default\\cert.pem&quot;
+--tlskey=&quot;C:\\Users\\&lt;YOUR_USERNAME&gt;\\.docker\\machine\\machines\\default\\key.pem&quot;
+-H=tcp://xxx.xxx.xx.xxx:xxxx
+</pre></div>
+</div>
 <p>where <code class="docutils literal notranslate"><span class="pre">&lt;YOUR_USERNAME&gt;</span></code> will have an actual value (likely your Windows username), and <code class="docutils literal notranslate"><span class="pre">tcp=xxx.xxx.xx.xxx:xxx</span></code> will be a series of numbers. If you don’t get this output then something has gone wrong. Please make sure you were able to run the docker run hello-world command, above. If you were and you still don’t receive this output, please contact one of the instructors on the #help-installation channel on the BHS Slack.</p>
 <ol>
 <li><p>You will use the the outputs of the above command to modify the commands below before running them in the terminal. First, take the numbers printed in place of the xs on the output of the line <code class="docutils literal notranslate"><span class="pre">-H=tcp://xxx.xxx.xx.xxx:xxxx</span></code> from above and replace the placeholder <code class="docutils literal notranslate"><span class="pre">xxx.xxx.xx.xxx:xxxx</span></code> on the first command below (export <code class="docutils literal notranslate"><span class="pre">DOCKER_HOST</span></code>). Second, take whatever value is printed in place of <code class="docutils literal notranslate"><span class="pre">&lt;YOUR_USERNAME&gt;</span></code> above and replace the <code class="docutils literal notranslate"><span class="pre">&lt;YOUR_USERNAME&gt;</span> </code>placeholder on the second command below (export <code class="docutils literal notranslate"><span class="pre">DOCKER_CERT_PATH</span></code>). Once you have updated the commands appropriately, copy and paste them into the terminal:</p>
-<p><code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">&quot;export</span> <span class="pre">DOCKER_HOST=tcp://xxx.xxx.xx.xxx:xxxx&quot;</span> <span class="pre">&gt;&gt;</span> <span class="pre">$HOME/.bashrc</span></code>
-<code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">&quot;export</span> <span class="pre">DOCKER_CERT_PATH=/mnt/c/Users/&lt;YOUR_USERNAME&gt;/.docker/machine/certs&quot;</span> <span class="pre">&gt;&gt;</span> <span class="pre">$HOME/.bashrc</span></code>
-<code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">&quot;export</span> <span class="pre">DOCKER_TLS_VERIFY=1&quot;</span> <span class="pre">&gt;&gt;</span> <span class="pre">$HOME/.bashrc</span></code></p>
+<p>echo “export DOCKER_HOST=tcp://xxx.xxx.xx.xxx:xxxx” &gt;&gt; <span class="math notranslate nohighlight">\(HOME/.bashrc
+echo &quot;export DOCKER_CERT_PATH=/mnt/c/Users/&lt;YOUR_USERNAME&gt;/.docker/machine/certs&quot; &gt;&gt; \)</span>HOME/.bashrc
+echo “export DOCKER_TLS_VERIFY=1” &gt;&gt; $HOME/.bashrc</p>
 </li>
 <li><p>Close and re-open a terminal (i.e., the Ubuntu application). Type docker run hello-world. The same brief introductory message you saw before should be printed to the screen.</p></li>
 </ol>
 <p>*Note: *If you restart your computer (or somehow otherwise shut down the Docker VM) you will need to re-open the “Docker Quickstart” application and wait until you see the $ prompt again before your docker commands will work again! If you are having problems running docker commands in the terminal, try re-opening the “Docker Quickstart” application.</p>
 <p>(The above step-by-step instructions are distilled from here and here. If you have questions during the installation procedure please check those links for potential answers!)</p>
 </div>
-<input id="2946854d-a467-4036-a4d9-ef9ef27c5ea6" name="abd8e59e-44db-455e-b7ce-cf0388b359f3" type="radio">
-</input><label class="tabbed-label" for="2946854d-a467-4036-a4d9-ef9ef27c5ea6">
+<input id="a641e6f5-be3a-4905-825e-cc58835000ce" name="7ebe40ba-7b6f-4d22-825e-e19129d1eb39" type="radio">
+</input><label class="tabbed-label" for="a641e6f5-be3a-4905-825e-cc58835000ce">
 Mac OS</label><div class="tabbed-content docutils">
-<p>Bash shell</p>
-<p>You already have it! Depending on which version of Mac OS you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Open a terminal and type echo $SHELL. If it reads /bin/bash then you are all set!
-</pre></div>
-</div>
-<p>Note: If you are using Mac Catalina (10.15.X) then it is possible your default shell is NOT CORRECT. To set the default to bash, type chsh -s /bin/bash in the terminal, enter your password when prompted, and then close + re-open the terminal.
-Git</p>
-<p>You may already have it! Try opening a terminal and typing git –version. If you do not see something like “git version X.XX.X” printed out, then follow these steps:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Follow this link to automatically download an installer.
-Double click the downloaded file (git-2.23.0-intel-universal-mavericks.dmg) and then double click the git-2.23.0-intel-universal-mavericks.pkg icon inside the dmg that is opened.
-Follow the on-screen instructions to install the package.
-</pre></div>
-</div>
-<p>VSCode</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Go to https://code.visualstudio.com/ and click the download button.
-Unzip the downloaded file (e.g., VSCode-darwin-stable.zip) and moving the resulting Visual Studio Code file to your Applications directory.
-</pre></div>
-</div>
-<p>VSCode extensions</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Open the Visual Studio Code application
-Type Cmd+Shift+P and then enter “Shell command: Install ‘code’ command in PATH” into the search bar that appears at the top of the screen. Select the highlighted entry. A notification box should appear in the bottom-right corner indicating that the command was installed successfully.
-Type Cmd+Shift+P again and then enter “Extensions: Install extensions” into the search bar. Select the appropriate entry from the dropdown menu that appears (there should be four entries; simply select the one that reads “Extensions: Install extensions”).
-A new panel should appear on the left-hand side of the screen with a search bar. Search for each of the following extensions and press Install for the first entry that appears. (The author listed for all of these extensions should be “Microsoft”.)
-    Python (n.b., you will need to reload VSCode after installing this)
-    Docker
-</pre></div>
-</div>
-<p>Python</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Open a new terminal and type the following lines (separately) into the terminal, pressing Enter after each one:
-
-curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
-bash Miniconda3-latest-MacOSX-x86_64.sh
-
-A license agreement will be displayed and the bottom of the terminal will read --More--. Press Enter or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter
-
-The installation script will inform you that it is going to install into a default directory (e.g., /home/$USER/miniconda3). Leave this default and press Enter.
-
-When you are asked “Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],” type yes and press Enter. Exit the terminal once the installation has finished.
-
-Re-open a terminal. Type which python into the terminal and it should return a path (e.g., /home/$USER/miniconda3/bin/python).
-    If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel of the BHS Slack.
-
-Type the following to remove the installation script that was downloaded:
-
-rm ./Miniconda3-latest-MacOSX-x86_64.sh
-</pre></div>
-</div>
-<p>Python packages</p>
-<p>Open a terminal and type the following commands:</p>
-<p>conda config –append channels conda-forge
-conda config –set channel_priority strict
-conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn</p>
-<p>Docker</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Go to https://hub.docker.com/editions/community/docker-ce-desktop-mac/ and press “Get Docker”.
-Open the “Docker.dmg” file that is downloaded and drag and drop the icon to the Applications folder
-Open the Docker application and enter your password. An icon will appear in the status bar in the top-left of the screen. Wait until it reads “Docker Desktop is now up and running!”
-Open a new terminal and type docker run hello-world. A brief introductory message should be printed to the screen.
-</pre></div>
-</div>
+<ol class="simple">
+<li><p>Go to <a class="reference external" href="https://hub.docker.com/editions/community/docker-ce-desktop-mac/">https://hub.docker.com/editions/community/docker-ce-desktop-mac/</a> and press “Get Docker”.</p></li>
+<li><p>Open the “Docker.dmg” file that is downloaded and drag and drop the icon to the Applications folder</p></li>
+<li><p>Open the Docker application and enter your password. An icon will appear in the status bar in the top-left of the screen. Wait until it reads “Docker Desktop is now up and running!”</p></li>
+<li><p>Open a new terminal and type docker run hello-world. A brief introductory message should be printed to the screen.</p></li>
+</ol>
 <p>(The above step-by-step Docker instructions are distilled from here. If you have questions during the installation procedure please check that link for potential answers!)</p>
 </div>
-<input id="acc37d61-b04b-4edf-a757-ba805928985a" name="abd8e59e-44db-455e-b7ce-cf0388b359f3" type="radio">
-</input><label class="tabbed-label" for="acc37d61-b04b-4edf-a757-ba805928985a">
+<input id="7352a19a-0f51-4a6b-9598-ad83cea92a28" name="7ebe40ba-7b6f-4d22-825e-e19129d1eb39" type="radio">
+</input><label class="tabbed-label" for="7352a19a-0f51-4a6b-9598-ad83cea92a28">
 Linux</label><div class="tabbed-content docutils">
-<p>Bash shell</p>
-<p>You already have it! Depending on which version of Linux you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:</p>
-<p>Open a terminal and type echo $SHELL. If it reads /bin/bash then you are all set! If not, whenever the instructions read “open a terminal,” please assume you are to open a terminal, type bash, and the proceed with the instructions as specified.</p>
-<p>Git</p>
-<p>You may already have it; try typing sudo apt-get install git (Ubuntu, Debian) or sudo yum install git (Fedora) inside the terminal. If you are prompted to install it follow the instructions on-screen to do so.</p>
-<p>VSCode</p>
-<p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button for either the .deb (Ubuntu, Debian) or the .rpm (Fedora, CentOS) file.
-Double-click the downloaded file to install VSCode. (You may be prompted to type your administrator password during the install).</p>
-<p>VSCode extensions</p>
-<p>Open the Visual Studio Code application.
-Press Ctrl+Shift+P in the new window that opens and type “Extensions: Install extensions” into the search bar that appears at the top of the screen. Select the appropriate entry from the dropdown menu that appears (there should be four entries; simply select the one that reads “Extensions: Install extensions”).
-A new panel should appear on the left-hand side of the screen with a search bar. Search for each of the following extensions and press Install for the first entry that appears. (The author listed for all of these extensions should be “Microsoft”.)
-Python (n.b., you will need to reload VSCode after installing this)
-Docker</p>
-<p>Python</p>
-<p>Open a new terminal and type the following lines (separately) into the terminal, pressing Enter after each one:</p>
-<p>wget <a class="reference external" href="https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh">https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh</a>
-bash Miniconda3-latest-Linux-x86_64.sh</p>
-<p>A license agreement will be displayed and the bottom of the terminal will read –More–. Press Enter or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter</p>
-<p>The installation script will inform you that it is going to install into a default directory (e.g., /home/$USER/miniconda3). Leave this default and press Enter.</p>
-<p>When you are asked “Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],” type yes and press Enter. Exit the terminal once the installation has finished.</p>
-<p>Re-open a new terminal. Type which python into the terminal and it should return a path (e.g., /home/$USER/miniconda3/bin/python).
-If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel of the BHS Slack.</p>
-<p>Type the following to remove the installation script that was downloaded:</p>
-<p>rm ./Miniconda3-latest-Linux-x86_64.sh</p>
-<p>Python packages</p>
-<p>Open a terminal and type the following commands:</p>
-<p>conda config –append channels conda-forge
-conda config –set channel_priority strict
-conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn</p>
-<p>Docker</p>
 <p>You will be following different instructions depending on your distro (Ubuntu, Debian, Fedora, CentOS). Make sure to follow the “Install using the repository” method!
 Once you’ve installed Docker make sure to follow the post-install instructions as well. You only need to do the “Manage Docker as a non-root user” and “Configure Docker to start on boot” steps.
 Open a new terminal and type docker run hello-world. A brief introductory message should be printed to the screen.</p>
@@ -503,44 +616,6 @@ Open a new terminal and type docker run hello-world. A brief introductory messag
 </div>
 </section>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="update-the-apt-package-list">
-<h1>Update the apt package list.<a class="headerlink" href="#update-the-apt-package-list" title="Permalink to this headline">¶</a></h1>
-<p>sudo apt-get update -y</p>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="install-docker-s-package-dependencies">
-<h1>Install Docker’s package dependencies.<a class="headerlink" href="#install-docker-s-package-dependencies" title="Permalink to this headline">¶</a></h1>
-<p>sudo apt-get install -y <br />
-apt-transport-https <br />
-ca-certificates <br />
-curl <br />
-software-properties-common</p>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="download-and-add-docker-s-official-public-pgp-key">
-<h1>Download and add Docker’s official public PGP key.<a class="headerlink" href="#download-and-add-docker-s-official-public-pgp-key" title="Permalink to this headline">¶</a></h1>
-<p>curl -fsSL <a class="reference external" href="https://download.docker.com/linux/ubuntu/gpg">https://download.docker.com/linux/ubuntu/gpg</a> | sudo apt-key add -</p>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="verify-the-fingerprint">
-<h1>Verify the fingerprint.<a class="headerlink" href="#verify-the-fingerprint" title="Permalink to this headline">¶</a></h1>
-<p>sudo apt-key fingerprint 0EBFCD88</p>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="add-the-stable-channel-s-docker-upstream-repository">
-<h1>Add the <code class="docutils literal notranslate"><span class="pre">stable</span></code> channel’s Docker upstream repository.<a class="headerlink" href="#add-the-stable-channel-s-docker-upstream-repository" title="Permalink to this headline">¶</a></h1>
-<p>sudo add-apt-repository <br />
-“deb [arch=amd64] <a class="reference external" href="https://download.docker.com/linux/ubuntu">https://download.docker.com/linux/ubuntu</a> <br />
-$(lsb_release -cs) <br />
-stable”</p>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="update-the-apt-package-list-for-the-new-apt-repo">
-<h1>Update the apt package list (for the new apt repo).<a class="headerlink" href="#update-the-apt-package-list-for-the-new-apt-repo" title="Permalink to this headline">¶</a></h1>
-<p>sudo apt-get update -y</p>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="install-the-latest-version-of-docker-ce">
-<h1>Install the latest version of Docker CE.<a class="headerlink" href="#install-the-latest-version-of-docker-ce" title="Permalink to this headline">¶</a></h1>
-<p>sudo apt-get install -y docker-ce</p>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="allow-your-user-to-access-the-docker-cli-without-needing-root-access">
-<h1>Allow your user to access the Docker CLI without needing root access.<a class="headerlink" href="#allow-your-user-to-access-the-docker-cli-without-needing-root-access" title="Permalink to this headline">¶</a></h1>
-<p>sudo usermod -aG docker $USER</p>
 <section id="github-account">
 <h2>GitHub account<a class="headerlink" href="#github-account" title="Permalink to this headline">¶</a></h2>
 <p>Go to <a class="reference external" href="https://github.com/join/">https://github.com/join/</a> and follow the on-screen instructions to create an account. It is a good idea to associate this with your university e-mail (if you have one) as this will entitle you to sign up for the GitHub Student Developer Pack which comes with some nice free bonuses.</p>
