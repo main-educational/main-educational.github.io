@@ -4,9 +4,9 @@
 
 :::{note}
 This year’s MAIN educational workshop is back in person!
-:::
 
 Register on [EventBrite](https://www.eventbrite.ca/e/main-educational-november-25th-26th-2021-tickets-205723744257)!
+:::
 
 ## About this event
 
