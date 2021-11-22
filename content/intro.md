@@ -9,7 +9,11 @@ This year’s MAIN educational workshop is back in person!
 
 ## About this event
 
-The workshop will cover first an introduction to machine learning for beginners, as well as using these tools in three broad applications: (1) mining for brain biomarkers for automated diagnosis; (2) decoding brain activity, i.e. identifying cognitive states based on brain activity; (3) predicting brain activity based on the activity of an artificial neural network, when both the brain and the artificial network are presented with similar stimuli.
+The workshop will cover first an introduction to machine learning for beginners, as well as using these tools in three broad applications: 
+
+1. mining for brain biomarkers for automated diagnosis
+2. decoding brain activity, i.e. identifying cognitive states based on brain activity 
+3. predicting brain activity based on the activity of an artificial neural network, when both the brain and the artificial network are presented with similar stimuli.
 
 The workshop features both theoretical lectures as well as hands-on tutorial using the Python language. You will be required to bring a laptop and install software prior to the workshop, and further instructions will be communicated after registration. This year, the instructors are members of the ORIGAMI and SIMEXP laboratories. Due to COVID-19 restrictions we are limiting the registration to 50 participants.
 
@@ -67,7 +71,9 @@ The workshop features both theoretical lectures as well as hands-on tutorial usi
       </a>
       <br />
     </td>
-    <td align="center">
+  </tr>
+  <tr>
+      <td align="center">
       <a href="https://github.com/pbellec">
         <img src="https://avatars.githubusercontent.com/u/1670887?v=4?s=100" width="100px;" alt=""/>
         <br /><sub><b>Pierre Bellec</b></sub>
