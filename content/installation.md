@@ -40,7 +40,7 @@ Note: If the instructions below aren't working and you have spent more than 15-2
 ### Bash shell
 ```{tabbed} Windows
 
-** Windows Subsystem for Linux (WSL)**
+**Windows Subsystem for Linux (WSL)**
 
 1. Search for Windows Powershell in your applications; right click and select Run as administrator. Select Yes on the prompt that appears asking if you want to allow the app to make changes to your device.
 
