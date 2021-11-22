@@ -21,10 +21,45 @@ The workshop features both theoretical lectures as well as hands-on tutorial usi
 
 ***COVID-19 Mandatory vaccination passport.
 
-## Contributors
+## Instructors and contributors
 
 <table>
   <tr>
+    <td align="center">
+      <a href="https://github.com/pravishsainath">
+        <img src="https://avatars.githubusercontent.com/u/13696562?v=4" width="100px;" alt=""/>
+        <br /><sub><b>Pravish Sainath</b></sub>
+      </a>
+      <br />
+    </td>
+    <td align="center">
+      <a href="https://github.com/srastegarnia">
+        <img src="https://avatars.githubusercontent.com/u/64853244?v=4" width="100px;" alt=""/>
+        <br /><sub><b> Shima Rastegarnia </b></sub>
+      </a>
+      <br />
+    </td>
+    <td align="center">
+      <a href="https://github.com/jeromedockes">
+        <img src="https://avatars.githubusercontent.com/u/9196501?v=4" width="100px;" alt=""/>
+        <br /><sub><b> Jérôme Dockès</b></sub>
+      </a>
+      <br />
+    </td>
+    <td align="center">
+      <a href="https://github.com/nikhil153">
+        <img src="https://avatars.githubusercontent.com/u/7978607?v=4" width="100px;" alt=""/>
+        <br /><sub><b>Nikhil Bhagwat </b></sub>
+      </a>
+      <br />
+    </td>
+    <td align="center">
+      <a href="https://github.com/FrancoisPgm">
+        <img src="https://avatars.githubusercontent.com/u/35327799?v=4" width="100px;" alt=""/>
+        <br /><sub><b> François Paugam</b></sub>
+      </a>
+      <br />
+    </td>
     <td align="center">
       <a href="https://wanghaoting.com">
         <img src="https://avatars.githubusercontent.com/u/13743617?v=4" width="100px;" alt=""/>
@@ -35,7 +70,14 @@ The workshop features both theoretical lectures as well as hands-on tutorial usi
     <td align="center">
       <a href="https://github.com/pbellec">
         <img src="https://avatars.githubusercontent.com/u/1670887?v=4?s=100" width="100px;" alt=""/>
-        <br /><sub><b>Pierre bellec</b></sub>
+        <br /><sub><b>Pierre Bellec</b></sub>
+      </a>
+      <br />
+    </td>
+    <td align="center">
+      <a href="https://github.com/k-jerbi">
+        <img src="https://avatars.githubusercontent.com/u/29810957?v=4" width="100px;" alt=""/>
+        <br /><sub><b>Karim Jerbi</b></sub>
       </a>
       <br />
     </td>
