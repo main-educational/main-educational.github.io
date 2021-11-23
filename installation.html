@@ -54,7 +54,7 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Schedule" href="schedule.html" />
+    <link rel="prev" title="Material" href="material.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -102,6 +102,11 @@
  <li class="toctree-l1">
   <a class="reference internal" href="schedule.html">
    Schedule
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="material.html">
+   Material
   </a>
  </li>
  <li class="toctree-l1 current active">
@@ -302,8 +307,8 @@
 <section id="bash-shell">
 <h3>Bash shell<a class="headerlink" href="#bash-shell" title="Permalink to this headline">¶</a></h3>
 <div class="tabbed-set docutils">
-<input checked="checked" id="211c8e9e-5191-473a-98fa-984e11ca74b9" name="47cfa93a-797e-477a-9cc1-5258a9efcf9e" type="radio">
-</input><label class="tabbed-label" for="211c8e9e-5191-473a-98fa-984e11ca74b9">
+<input checked="checked" id="5880c41a-466a-45cc-8aec-cffc8279268a" name="154d55cb-8fab-4835-93f5-04bcc97e876c" type="radio">
+</input><label class="tabbed-label" for="5880c41a-466a-45cc-8aec-cffc8279268a">
 Windows</label><div class="tabbed-content docutils">
 <p><strong>Windows Subsystem for Linux (WSL)</strong></p>
 <ol>
@@ -320,15 +325,15 @@ Windows</label><div class="tabbed-content docutils">
 <p>(The above step-by-step WSL instructions are distilled from here and here. If you have questions during the installation procedure those resources may have answers!)</p>
 <p>From this point on whenever the instructions specify to “open a terminal” please assume you are supposed to open the Ubuntu application.</p>
 </div>
-<input id="ad0b3b47-33d2-4f13-8824-abce18d731e1" name="47cfa93a-797e-477a-9cc1-5258a9efcf9e" type="radio">
-</input><label class="tabbed-label" for="ad0b3b47-33d2-4f13-8824-abce18d731e1">
+<input id="3ddae80c-1671-4844-b44c-266dddc2ed41" name="154d55cb-8fab-4835-93f5-04bcc97e876c" type="radio">
+</input><label class="tabbed-label" for="3ddae80c-1671-4844-b44c-266dddc2ed41">
 Mac OS</label><div class="tabbed-content docutils">
 <p>You already have it! Depending on which version of Mac OS you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:</p>
 <p>Open a terminal and type echo $SHELL. If it reads /bin/bash then you are all set!</p>
 <p>Note: If you are using Mac Catalina (10.15.X) then it is possible your default shell is NOT CORRECT. To set the default to bash, type chsh -s /bin/bash in the terminal, enter your password when prompted, and then close + re-open the terminal.</p>
 </div>
-<input id="6c3e943e-8c44-413a-9bc2-cad55d66153c" name="47cfa93a-797e-477a-9cc1-5258a9efcf9e" type="radio">
-</input><label class="tabbed-label" for="6c3e943e-8c44-413a-9bc2-cad55d66153c">
+<input id="883f665e-7dd9-4043-bdf9-1b69c6901b75" name="154d55cb-8fab-4835-93f5-04bcc97e876c" type="radio">
+</input><label class="tabbed-label" for="883f665e-7dd9-4043-bdf9-1b69c6901b75">
 Linux</label><div class="tabbed-content docutils">
 <p>You already have it! Depending on which version of Linux you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:</p>
 <p>Open a terminal and type echo $SHELL. If it reads /bin/bash then you are all set! If not, whenever the instructions read “open a terminal,” please assume you are to open a terminal, type bash, and the proceed with the instructions as specified.</p>
@@ -338,13 +343,13 @@ Linux</label><div class="tabbed-content docutils">
 <section id="git">
 <h3>Git<a class="headerlink" href="#git" title="Permalink to this headline">¶</a></h3>
 <div class="tabbed-set docutils">
-<input checked="checked" id="3e76f7a7-c52d-44ae-b085-93b82a4cea93" name="e51ce85e-1eab-4283-8a0f-34dc8acebe69" type="radio">
-</input><label class="tabbed-label" for="3e76f7a7-c52d-44ae-b085-93b82a4cea93">
+<input checked="checked" id="9c2cb36e-311e-4c6d-8053-6cf9c1aeb6fd" name="f0adfced-9b03-4f7b-96d1-bac13d2ec70e" type="radio">
+</input><label class="tabbed-label" for="9c2cb36e-311e-4c6d-8053-6cf9c1aeb6fd">
 Windows</label><div class="tabbed-content docutils">
 <p>You already have it, now that you’ve installed the WSL!</p>
 </div>
-<input id="5789866e-ec8d-431a-acb4-4c95a968f529" name="e51ce85e-1eab-4283-8a0f-34dc8acebe69" type="radio">
-</input><label class="tabbed-label" for="5789866e-ec8d-431a-acb4-4c95a968f529">
+<input id="70263dfc-4d5b-4e2d-838b-c2b01350d290" name="f0adfced-9b03-4f7b-96d1-bac13d2ec70e" type="radio">
+</input><label class="tabbed-label" for="70263dfc-4d5b-4e2d-838b-c2b01350d290">
 Mac OS</label><div class="tabbed-content docutils">
 <p>You may already have it! Try opening a terminal and typing git –version. If you do not see something like “git version X.XX.X” printed out, then follow these steps:</p>
 <ol class="simple">
@@ -353,8 +358,8 @@ Mac OS</label><div class="tabbed-content docutils">
 <li><p>Follow the on-screen instructions to install the package</p></li>
 </ol>
 </div>
-<input id="a684e7a7-ff5b-4602-8fd6-3a1379f48705" name="e51ce85e-1eab-4283-8a0f-34dc8acebe69" type="radio">
-</input><label class="tabbed-label" for="a684e7a7-ff5b-4602-8fd6-3a1379f48705">
+<input id="972640e7-3378-4966-9662-e3f4a40ef8ed" name="f0adfced-9b03-4f7b-96d1-bac13d2ec70e" type="radio">
+</input><label class="tabbed-label" for="972640e7-3378-4966-9662-e3f4a40ef8ed">
 Linux</label><div class="tabbed-content docutils">
 <p>You may already have it; try typing sudo apt-get install git (Ubuntu, Debian) or sudo yum install git (Fedora) inside the terminal.
 If you are prompted to install it follow the instructions on-screen to do so.</p>
@@ -364,8 +369,8 @@ If you are prompted to install it follow the instructions on-screen to do so.</p
 <section id="vscode">
 <h3>VSCode<a class="headerlink" href="#vscode" title="Permalink to this headline">¶</a></h3>
 <div class="tabbed-set docutils">
-<input checked="checked" id="7662d63e-26c4-45da-9a9e-5481bed7cd81" name="ce96ea9e-02f1-4586-8c50-fe8a0539556e" type="radio">
-</input><label class="tabbed-label" for="7662d63e-26c4-45da-9a9e-5481bed7cd81">
+<input checked="checked" id="bb287ee2-8095-4a18-acfd-15f15c4f6212" name="400f4356-8eaa-47cc-b19e-20f7928de3ca" type="radio">
+</input><label class="tabbed-label" for="bb287ee2-8095-4a18-acfd-15f15c4f6212">
 Windows</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button, then run the .exe file.</p></li>
@@ -373,16 +378,16 @@ Windows</label><div class="tabbed-content docutils">
 Please make sure the box labelled “Register Code as an editor for supported file types” is selected</p></li>
 </ol>
 </div>
-<input id="c8276862-e1f1-414d-8019-06cce30e1f02" name="ce96ea9e-02f1-4586-8c50-fe8a0539556e" type="radio">
-</input><label class="tabbed-label" for="c8276862-e1f1-414d-8019-06cce30e1f02">
+<input id="cd3554f6-1573-4a7f-88f1-809c8ef66180" name="400f4356-8eaa-47cc-b19e-20f7928de3ca" type="radio">
+</input><label class="tabbed-label" for="cd3554f6-1573-4a7f-88f1-809c8ef66180">
 Mac OS</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button.</p></li>
 <li><p>Unzip the downloaded file (e.g., VSCode-darwin-stable.zip) and moving the resulting Visual Studio Code file to your Applications directory</p></li>
 </ol>
 </div>
-<input id="8602d177-b1ac-4feb-a9a8-315a512e26fd" name="ce96ea9e-02f1-4586-8c50-fe8a0539556e" type="radio">
-</input><label class="tabbed-label" for="8602d177-b1ac-4feb-a9a8-315a512e26fd">
+<input id="27642830-89eb-446f-88b1-6539b1a8d3c7" name="400f4356-8eaa-47cc-b19e-20f7928de3ca" type="radio">
+</input><label class="tabbed-label" for="27642830-89eb-446f-88b1-6539b1a8d3c7">
 Linux</label><div class="tabbed-content docutils">
 <p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button for either the .deb (Ubuntu, Debian) or the .rpm (Fedora, CentOS) file. Double-click the downloaded file to install VSCode. (You may be prompted to type your administrator password during the install).</p>
 </div>
@@ -390,8 +395,8 @@ Linux</label><div class="tabbed-content docutils">
 <section id="vscode-extensions">
 <h4>VSCode extensions<a class="headerlink" href="#vscode-extensions" title="Permalink to this headline">¶</a></h4>
 <div class="tabbed-set docutils">
-<input checked="checked" id="f12cede9-d26b-4139-8331-0f47e1de1998" name="f43aca67-f38e-4101-a403-3ed3282e2a7a" type="radio">
-</input><label class="tabbed-label" for="f12cede9-d26b-4139-8331-0f47e1de1998">
+<input checked="checked" id="3ef10939-1a61-441e-9b97-f2428eb8de27" name="678bb33f-2e02-4519-8d0b-8cb506fc8298" type="radio">
+</input><label class="tabbed-label" for="3ef10939-1a61-441e-9b97-f2428eb8de27">
 Windows</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>Open the Ubuntu application.</p></li>
@@ -406,8 +411,8 @@ Windows</label><div class="tabbed-content docutils">
 </li>
 </ol>
 </div>
-<input id="2ccb0cc9-218d-4bae-976b-f6b35ba455b2" name="f43aca67-f38e-4101-a403-3ed3282e2a7a" type="radio">
-</input><label class="tabbed-label" for="2ccb0cc9-218d-4bae-976b-f6b35ba455b2">
+<input id="34fd8668-2c31-4281-9546-44d6e21024c1" name="678bb33f-2e02-4519-8d0b-8cb506fc8298" type="radio">
+</input><label class="tabbed-label" for="34fd8668-2c31-4281-9546-44d6e21024c1">
 Mac OS</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>Open the Visual Studio Code application</p></li>
@@ -421,8 +426,8 @@ Mac OS</label><div class="tabbed-content docutils">
 </li>
 </ol>
 </div>
-<input id="a6377a96-1f5f-44ec-bb9b-01aa3547ee7d" name="f43aca67-f38e-4101-a403-3ed3282e2a7a" type="radio">
-</input><label class="tabbed-label" for="a6377a96-1f5f-44ec-bb9b-01aa3547ee7d">
+<input id="c492531b-5373-4f23-8f0a-c581646a239a" name="678bb33f-2e02-4519-8d0b-8cb506fc8298" type="radio">
+</input><label class="tabbed-label" for="c492531b-5373-4f23-8f0a-c581646a239a">
 Linux</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>Open the Visual Studio Code application.</p></li>
@@ -441,8 +446,8 @@ Linux</label><div class="tabbed-content docutils">
 <section id="python">
 <h3>Python<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h3>
 <div class="tabbed-set docutils">
-<input checked="checked" id="87f4c0b5-f2ea-49c5-b4a9-5bb3c0822585" name="6fe5d5d9-e6b9-44b5-a0da-f3f42accd4d5" type="radio">
-</input><label class="tabbed-label" for="87f4c0b5-f2ea-49c5-b4a9-5bb3c0822585">
+<input checked="checked" id="f51b9179-8cf5-4a69-8805-e38f5681b7ec" name="bf8c150c-0635-4b4f-acf2-42b04ef601dd" type="radio">
+</input><label class="tabbed-label" for="f51b9179-8cf5-4a69-8805-e38f5681b7ec">
 Windows</label><div class="tabbed-content docutils">
 <ol>
 <li><p>Open a new terminal and type the following lines (separately) into the terminal, pressing Enter after each one:</p>
@@ -461,8 +466,8 @@ If you do not see a path like this then please try typing conda init, closing yo
 </li>
 </ol>
 </div>
-<input id="7d66042f-7ca9-415f-9cdb-2cde759986e4" name="6fe5d5d9-e6b9-44b5-a0da-f3f42accd4d5" type="radio">
-</input><label class="tabbed-label" for="7d66042f-7ca9-415f-9cdb-2cde759986e4">
+<input id="1e46757b-447a-44d0-9595-5f58cba35679" name="bf8c150c-0635-4b4f-acf2-42b04ef601dd" type="radio">
+</input><label class="tabbed-label" for="1e46757b-447a-44d0-9595-5f58cba35679">
 Mac OS</label><div class="tabbed-content docutils">
 <p>Open a new terminal and type the following lines (separately) into the terminal, pressing Enter after each one:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
@@ -479,8 +484,8 @@ If you do not see a path like this then please try typing conda init, closing yo
 </pre></div>
 </div>
 </div>
-<input id="5672e908-6c96-4639-aab8-deb9b9327a7e" name="6fe5d5d9-e6b9-44b5-a0da-f3f42accd4d5" type="radio">
-</input><label class="tabbed-label" for="5672e908-6c96-4639-aab8-deb9b9327a7e">
+<input id="15293376-c86d-4e2f-b5ca-e9a44e984f0f" name="bf8c150c-0635-4b4f-acf2-42b04ef601dd" type="radio">
+</input><label class="tabbed-label" for="15293376-c86d-4e2f-b5ca-e9a44e984f0f">
 Linux</label><div class="tabbed-content docutils">
 <ol>
 <li><p>Open a new terminal and type the following lines (separately) into the terminal, pressing Enter after each one:</p>
@@ -504,24 +509,24 @@ Linux</label><div class="tabbed-content docutils">
 <section id="python-packages">
 <h4>Python packages<a class="headerlink" href="#python-packages" title="Permalink to this headline">¶</a></h4>
 <div class="tabbed-set docutils">
-<input checked="checked" id="8b791dc0-085b-485c-9a0e-8e9d6b104c87" name="0e07d76a-f486-4094-81ee-cbb05d382054" type="radio">
-</input><label class="tabbed-label" for="8b791dc0-085b-485c-9a0e-8e9d6b104c87">
+<input checked="checked" id="dd303cc6-d419-4ef8-abf5-4e81e8009bb7" name="4b93a705-137f-4587-bbad-10e42756011d" type="radio">
+</input><label class="tabbed-label" for="dd303cc6-d419-4ef8-abf5-4e81e8009bb7">
 Windows</label><div class="tabbed-content docutils">
 <p>Open a terminal and type the following commands:
 conda config –append channels conda-forge
 conda config –set channel_priority strict
 conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn</p>
 </div>
-<input id="8e81281c-c856-46e2-9b1a-f087ea3a9647" name="0e07d76a-f486-4094-81ee-cbb05d382054" type="radio">
-</input><label class="tabbed-label" for="8e81281c-c856-46e2-9b1a-f087ea3a9647">
+<input id="4c3fbbce-acbd-4d3d-8076-6bb3bfec828b" name="4b93a705-137f-4587-bbad-10e42756011d" type="radio">
+</input><label class="tabbed-label" for="4c3fbbce-acbd-4d3d-8076-6bb3bfec828b">
 Mac OS</label><div class="tabbed-content docutils">
 <p>Open a terminal and type the following commands:
 conda config –append channels conda-forge
 conda config –set channel_priority strict
 conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn</p>
 </div>
-<input id="d556299c-812f-4050-a355-2a4805d3deee" name="0e07d76a-f486-4094-81ee-cbb05d382054" type="radio">
-</input><label class="tabbed-label" for="d556299c-812f-4050-a355-2a4805d3deee">
+<input id="984481f1-6933-45ca-9809-51b9198a1137" name="4b93a705-137f-4587-bbad-10e42756011d" type="radio">
+</input><label class="tabbed-label" for="984481f1-6933-45ca-9809-51b9198a1137">
 Linux</label><div class="tabbed-content docutils">
 <p>Open a terminal and type the following commands:
 conda config –append channels conda-forge
@@ -534,8 +539,8 @@ conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn nu
 <section id="docker">
 <h3>Docker<a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h3>
 <div class="tabbed-set docutils">
-<input checked="checked" id="1fd20eb8-c765-42d8-bfb1-b2823e269a1a" name="5ae7c8d9-7353-4d8b-8d76-eff8aaa10302" type="radio">
-</input><label class="tabbed-label" for="1fd20eb8-c765-42d8-bfb1-b2823e269a1a">
+<input checked="checked" id="c8cfb724-f6bc-4e9e-b74a-39d3d2657a93" name="ffe15b89-fae2-4a86-b6ae-399066a12529" type="radio">
+</input><label class="tabbed-label" for="c8cfb724-f6bc-4e9e-b74a-39d3d2657a93">
 Windows</label><div class="tabbed-content docutils">
 <p>Unfortunately, Docker for Windows is a bit of a mess. The recommended version of Docker to install varies dramatically depending not only on which version of Windows you have installed (e.g., Windows 10 Home versus Professional/Enterprise/Education), but also which build of Windows you have. As such, developing a comprehensive set of instructions for installing Docker is rather difficult.</p>
 <p>For this course, you will need to install either Docker Toolbox for Windows or Docker for Windows Desktop. Which you install will depend on your OS. PLEASE NOTE that installing Docker for Windows Desktop will disable VirtualBox on your computer. If you actively use VirtualBox we recommend you install Docker Toolbox.</p>
@@ -600,8 +605,8 @@ echo “export DOCKER_TLS_VERIFY=1” &gt;&gt; $HOME/.bashrc</p>
 <p>*Note: *If you restart your computer (or somehow otherwise shut down the Docker VM) you will need to re-open the “Docker Quickstart” application and wait until you see the $ prompt again before your docker commands will work again! If you are having problems running docker commands in the terminal, try re-opening the “Docker Quickstart” application.</p>
 <p>(The above step-by-step instructions are distilled from here and here. If you have questions during the installation procedure please check those links for potential answers!)</p>
 </div>
-<input id="126d3266-ea84-4417-a99c-fd7472a9f057" name="5ae7c8d9-7353-4d8b-8d76-eff8aaa10302" type="radio">
-</input><label class="tabbed-label" for="126d3266-ea84-4417-a99c-fd7472a9f057">
+<input id="da80081e-a497-4cdd-a765-e4ce474b6fc0" name="ffe15b89-fae2-4a86-b6ae-399066a12529" type="radio">
+</input><label class="tabbed-label" for="da80081e-a497-4cdd-a765-e4ce474b6fc0">
 Mac OS</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>Go to <a class="reference external" href="https://hub.docker.com/editions/community/docker-ce-desktop-mac/">https://hub.docker.com/editions/community/docker-ce-desktop-mac/</a> and press “Get Docker”.</p></li>
@@ -611,8 +616,8 @@ Mac OS</label><div class="tabbed-content docutils">
 </ol>
 <p>(The above step-by-step Docker instructions are distilled from here. If you have questions during the installation procedure please check that link for potential answers!)</p>
 </div>
-<input id="015838f8-72f8-4637-81b1-2b6d2100f574" name="5ae7c8d9-7353-4d8b-8d76-eff8aaa10302" type="radio">
-</input><label class="tabbed-label" for="015838f8-72f8-4637-81b1-2b6d2100f574">
+<input id="0eecb76a-34de-4d02-b75e-8258d1d07dd2" name="ffe15b89-fae2-4a86-b6ae-399066a12529" type="radio">
+</input><label class="tabbed-label" for="0eecb76a-34de-4d02-b75e-8258d1d07dd2">
 Linux</label><div class="tabbed-content docutils">
 <p>You will be following different instructions depending on your distro (Ubuntu, Debian, Fedora, CentOS). Make sure to follow the “Install using the repository” method!
 Once you’ve installed Docker make sure to follow the post-install instructions as well. You only need to do the “Manage Docker as a non-root user” and “Configure Docker to start on boot” steps.
@@ -664,11 +669,11 @@ Open a new terminal and type docker run hello-world. A brief introductory messag
         
             <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="schedule.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="material.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Schedule</p>
+            <p class="prev-next-title">Material</p>
         </div>
     </a>
 </div>
