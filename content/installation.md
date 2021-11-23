@@ -42,37 +42,38 @@ Note: If the instructions below aren't working and you have spent more than 15-2
 
 **Windows Subsystem for Linux (WSL)**
 
-1. Search for Windows Powershell in your applications; right click and select Run as administrator. Select Yes on the prompt that appears asking if you want to allow the app to make changes to your device.
+1. Search for `Windows Powershell` in your applications; right click and select `Run as administrator`. Select Yes on the prompt that appears asking if you want to allow the app to make changes to your device.
 
-2. Type the following into the Powershell and then press Enter:
+2. Type the following into the `Powershell` and then press `Enter`:
 
     `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
 
-3. Press Enter again when prompted to reboot your computer.
+3. Press `Enter` again when prompted to reboot your computer.
 
-4. Once your computer has rebooted, open the Microsoft Store and search for “Ubuntu.” Install the program labelled “Ubuntu 18.04” (not “Ubuntu 16.04” or “Ubuntu”) by clicking the tile, pressing Get, and then Install.
+4. Once your computer has rebooted, open the Microsoft Store and search for “Ubuntu.” Install the program labelled “Ubuntu 18.04” (not “Ubuntu 16.04” or “Ubuntu”) by clicking the tile, pressing `Get`, and then `Install`.
 
-5. Search for and open Ubuntu from your applications. There will be a slight delay (of a few minutes) while it finishes installing.
+5. Search for and open `Ubuntu` from your applications. There will be a slight delay (of a few minutes) while it finishes installing.
 
-6. You will be prompted to Enter new UNIX username. You can use any combination of alphanumeric characters here for your username, but a good choice is <first_initial><last_name> (e.g., jsmith for John Smith). You will then be prompted to enter a new password. (Choose something easy to remember as you will find yourself using it frequently.)
+6. You will be prompted to enter new UNIX username. You can use any combination of alphanumeric characters here for your username, but a good choice is `<first_initial><last_name>` (e.g., `jsmith` for John Smith). You will then be prompted to enter a new password. (Choose something easy to remember as you will find yourself using it frequently.)
 
-7. Right click on the top bar of the Ubuntu application and select “Properties”. Under the “Options” tab, under the “Edit Options” heading, make sure the box reading “Use Ctrl+Shift+C/V as Copy/Paste” is checked. Under the “Terminal” tab, under the “Cursor Shape” heading, make sure the box reading “Vertical Bar” is checked. Press “Okay” to save these settings and then exit the application.
+7. Right click on the top bar of the Ubuntu application and select `Properties`. Under the `Options` tab, under the `Edit Options` heading, make sure the box reading `Use Ctrl+Shift+C/V as Copy/Paste` is checked. Under the `Terminal` tab, under the `Cursor Shape` heading, make sure the box reading `Vertical Bar` is checked. Press `Okay` to save these settings and then exit the application.
 
 (The above step-by-step WSL instructions are distilled from here and here. If you have questions during the installation procedure those resources may have answers!)
 
-From this point on whenever the instructions specify to “open a terminal” please assume you are supposed to open the Ubuntu application.
+From this point on whenever the instructions specify to `open a terminal` please assume you are supposed to open the Ubuntu application.
 ```
 ```{tabbed} Mac OS
 You already have it! Depending on which version of Mac OS you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:
 
-Open a terminal and type echo $SHELL. If it reads /bin/bash then you are all set!
+- Open a terminal and type `echo $SHELL`. If it reads `/bin/bash` then you are all set!
 
-Note: If you are using Mac Catalina (10.15.X) then it is possible your default shell is NOT CORRECT. To set the default to bash, type chsh -s /bin/bash in the terminal, enter your password when prompted, and then close + re-open the terminal.
+Note: If you are using Mac Catalina (10.15.X) then it is possible your default shell is NOT CORRECT. To set the default to `bash`, type `chsh -s /bin/bash` in the terminal, enter your password when prompted, and then close + re-open the terminal.
 ```
 ```{tabbed} Linux
 You already have it! Depending on which version of Linux you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:
 
-Open a terminal and type echo $SHELL. If it reads /bin/bash then you are all set! If not, whenever the instructions read “open a terminal,” please assume you are to open a terminal, type bash, and the proceed with the instructions as specified.
+- Open a terminal and type `echo $SHELL`. If it reads `/bin/bash` then you are all set! 
+- If not, whenever the instructions read “open a terminal,” please assume you are to open a terminal, type `bash`, and the proceed with the instructions as specified.
 ```
 
 ### Git
@@ -82,21 +83,25 @@ You already have it, now that you’ve installed the WSL!
 ```
 
 ```{tabbed} Mac OS
-You may already have it! Try opening a terminal and typing git --version. If you do not see something like “git version X.XX.X” printed out, then follow these steps:
-1. Follow this link to automatically download an installer.
-2. Double click the downloaded file (git-2.23.0-intel-universal-mavericks.dmg) and then double click the git-2.23.0-intel-universal-mavericks.pkg icon inside the dmg that is opened.
-3. Follow the on-screen instructions to install the package
+You may already have it! Try opening a terminal and typing `git --version`. If you do not see something like `git version X.XX.X` printed out, then follow these steps:
+
+Follow this link to automatically download an installer.
+
+Double click the downloaded file (`git-2.23.0-intel-universal-mavericks.dmg`) and then double click the `git-2.23.0-intel-universal-mavericks.pkg` icon inside the dmg that is opened.
+
+Follow the on-screen instructions to install the package
 ```
 
 ```{tabbed} Linux
-You may already have it; try typing sudo apt-get install git (Ubuntu, Debian) or sudo yum install git (Fedora) inside the terminal. 
+You may already have it; try typing `sudo apt-get install git` (Ubuntu, Debian) or `sudo yum install git` (Fedora) inside the terminal. 
+
 If you are prompted to install it follow the instructions on-screen to do so.
 ```
 
 ### VSCode
 
 ```{tabbed} Windows
-1. Go to https://code.visualstudio.com/ and click the download button, then run the .exe file.
+1. Go to https://code.visualstudio.com/ and click the download button, then run the `.exe` file.
 2. Leave all the defaults during the installation with the following exception:
 Please make sure the box labelled “Register Code as an editor for supported file types” is selected
 ```
@@ -107,7 +112,8 @@ Please make sure the box labelled “Register Code as an editor for supported fi
 ```
 
 ```{tabbed} Linux
-Go to https://code.visualstudio.com/ and click the download button for either the .deb (Ubuntu, Debian) or the .rpm (Fedora, CentOS) file. Double-click the downloaded file to install VSCode. (You may be prompted to type your administrator password during the install).
+1. Go to https://code.visualstudio.com/ and click the download button for either the `.deb` (Ubuntu, Debian) or the `.rpm` (Fedora, CentOS) file. 
+2. Double-click the downloaded file to install VSCode. (You may be prompted to type your administrator password during the install).
 ```
 
 #### VSCode extensions
@@ -142,40 +148,40 @@ Go to https://code.visualstudio.com/ and click the download button for either th
 
 ```{tabbed} Windows
 
-1. Open a new terminal and type the following lines (separately) into the terminal, pressing Enter after each one:
+Open a new terminal and type the following lines (separately) into the terminal, pressing `Enter` after each one:
 
-    `wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh`
+    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+    bash Miniconda3-latest-Linux-x86_64.sh
 
-    `bash Miniconda3-latest-Linux-x86_64.sh`
+A license agreement will be displayed and the bottom of the terminal will read `--More--`. Press `Enter` or the space bar until you are prompted with `Do you accept the license terms? [yes|no].` Type `yes` and then press `Enter`
 
-2. A license agreement will be displayed and the bottom of the terminal will read --More--. Press Enter or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter
+The installation script will inform you that it is going to install into a default directory (e.g., `/home/$USER/miniconda3`). Leave this default and press `Enter`.
 
-The installation script will inform you that it is going to install into a default directory (e.g., `/home/$USER/miniconda3`). Leave this default and press Enter.
+When you are asked `Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],` type `yes` and press `Enter`. Exit the terminal once the installation has finished.
 
-3. When you are asked “Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],” type yes and press Enter. Exit the terminal once the installation has finished.
+Re-open the Ubuntu application. Type which python into the terminal and it should return a path (e.g., `/home/$USER/miniconda3/bin/python`).
+ - If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel on the BHS Slack.
 
-4. Re-open the Ubuntu application. Type which python into the terminal and it should return a path (e.g., `/home/$USER/miniconda3/bin/python`).
-If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel on the BHS Slack.
+Type the following to remove the installation script that was downloaded:
 
-5. Type the following to remove the installation script that was downloaded:
+    rm ./Miniconda3-latest-Linux-x86_64.sh
 
-    `rm ./Miniconda3-latest-Linux-x86_64.sh`
 ```
 
 ```{tabbed} Mac OS
-Open a new terminal and type the following lines (separately) into the terminal, pressing Enter after each one:
+Open a new terminal and type the following lines (separately) into the terminal, pressing `Enter` after each one:
 
     curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
     bash Miniconda3-latest-MacOSX-x86_64.sh
 
-A license agreement will be displayed and the bottom of the terminal will read --More--. Press Enter or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter
+A license agreement will be displayed and the bottom of the terminal will read --More--. Press `Enter` or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter
 
 The installation script will inform you that it is going to install into a default directory (e.g., /home/$USER/miniconda3). Leave this default and press Enter.
 
 When you are asked “Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],” type yes and press Enter. Exit the terminal once the installation has finished.
 
 Re-open a terminal. Type which python into the terminal and it should return a path (e.g., /home/$USER/miniconda3/bin/python).
-If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel of the BHS Slack.
+ - If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel of the BHS Slack.
 
 Type the following to remove the installation script that was downloaded:
 
@@ -184,24 +190,24 @@ Type the following to remove the installation script that was downloaded:
 ```
 
 ```{tabbed} Linux
-1. Open a new terminal and type the following lines (separately) into the terminal, pressing Enter after each one:
+Open a new terminal and type the following lines (separately) into the terminal, pressing `Enter` after each one:
 
-    `wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh`
+    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+    bash Miniconda3-latest-Linux-x86_64.sh
 
-    `bash Miniconda3-latest-Linux-x86_64.sh`
+A license agreement will be displayed and the bottom of the terminal will read --More--. Press `Enter` or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter
 
-2. A license agreement will be displayed and the bottom of the terminal will read --More--. Press Enter or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter
+The installation script will inform you that it is going to install into a default directory (e.g., /home/$USER/miniconda3). Leave this default and press Enter.
 
-3. The installation script will inform you that it is going to install into a default directory (e.g., /home/$USER/miniconda3). Leave this default and press Enter.
+When you are asked “Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],” type yes and press Enter. Exit the terminal once the installation has finished.
 
-4. When you are asked “Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],” type yes and press Enter. Exit the terminal once the installation has finished.
+Re-open a new terminal. Type which python into the terminal and it should return a path (e.g., /home/$USER/miniconda3/bin/python). 
+ - If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel of the BHS Slack.
 
-5. Re-open a new terminal. Type which python into the terminal and it should return a path (e.g., /home/$USER/miniconda3/bin/python).
-    - If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel of the BHS Slack.
-
-6. Type the following to remove the installation script that was downloaded:
+Type the following to remove the installation script that was downloaded:
 
     rm ./Miniconda3-latest-Linux-x86_64.sh
+
 ```
 
 
@@ -210,18 +216,21 @@ Type the following to remove the installation script that was downloaded:
 ```{tabbed} Windows
 
 Open a terminal and type the following commands:
+
     conda config --append channels conda-forge
     conda config --set channel_priority strict
     conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
 ```
 ```{tabbed} Mac OS
 Open a terminal and type the following commands:
+
     conda config --append channels conda-forge
     conda config --set channel_priority strict
     conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
 ```
 ```{tabbed} Linux
 Open a terminal and type the following commands:
+
     conda config --append channels conda-forge
     conda config --set channel_priority strict
     conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
@@ -294,13 +303,13 @@ Type powershell.exe "docker-machine config". You should get output similar to th
 
 where `<YOUR_USERNAME>` will have an actual value (likely your Windows username), and `tcp=xxx.xxx.xx.xxx:xxx` will be a series of numbers. If you don't get this output then something has gone wrong. Please make sure you were able to run the docker run hello-world command, above. If you were and you still don't receive this output, please contact one of the instructors on the #help-installation channel on the BHS Slack.
 
-10. You will use the the outputs of the above command to modify the commands below before running them in the terminal. First, take the numbers printed in place of the xs on the output of the line `-H=tcp://xxx.xxx.xx.xxx:xxxx` from above and replace the placeholder `xxx.xxx.xx.xxx:xxxx` on the first command below (export `DOCKER_HOST`). Second, take whatever value is printed in place of `<YOUR_USERNAME>` above and replace the `<YOUR_USERNAME> `placeholder on the second command below (export `DOCKER_CERT_PATH`). Once you have updated the commands appropriately, copy and paste them into the terminal:
+You will use the the outputs of the above command to modify the commands below before running them in the terminal. First, take the numbers printed in place of the xs on the output of the line `-H=tcp://xxx.xxx.xx.xxx:xxxx` from above and replace the placeholder `xxx.xxx.xx.xxx:xxxx` on the first command below (export `DOCKER_HOST`). Second, take whatever value is printed in place of `<YOUR_USERNAME>` above and replace the `<YOUR_USERNAME> `placeholder on the second command below (export `DOCKER_CERT_PATH`). Once you have updated the commands appropriately, copy and paste them into the terminal:
 
     echo "export DOCKER_HOST=tcp://xxx.xxx.xx.xxx:xxxx" >> $HOME/.bashrc
     echo "export DOCKER_CERT_PATH=/mnt/c/Users/<YOUR_USERNAME>/.docker/machine/certs" >> $HOME/.bashrc
     echo "export DOCKER_TLS_VERIFY=1" >> $HOME/.bashrc
 
-11. Close and re-open a terminal (i.e., the Ubuntu application). Type docker run hello-world. The same brief introductory message you saw before should be printed to the screen.
+Close and re-open a terminal (i.e., the Ubuntu application). Type docker run hello-world. The same brief introductory message you saw before should be printed to the screen.
 
 *Note: *If you restart your computer (or somehow otherwise shut down the Docker VM) you will need to re-open the “Docker Quickstart” application and wait until you see the $ prompt again before your docker commands will work again! If you are having problems running docker commands in the terminal, try re-opening the “Docker Quickstart” application.
 
