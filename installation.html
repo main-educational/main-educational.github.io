@@ -43,8 +43,6 @@
     <script src="_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -307,96 +305,102 @@
 <section id="bash-shell">
 <h3>Bash shell<a class="headerlink" href="#bash-shell" title="Permalink to this headline">¶</a></h3>
 <div class="tabbed-set docutils">
-<input checked="checked" id="5880c41a-466a-45cc-8aec-cffc8279268a" name="154d55cb-8fab-4835-93f5-04bcc97e876c" type="radio">
-</input><label class="tabbed-label" for="5880c41a-466a-45cc-8aec-cffc8279268a">
+<input checked="checked" id="dc7b814c-cd75-4b15-b019-aae195ddada6" name="e4b3d286-0f20-448f-a20e-98a8301007e8" type="radio">
+</input><label class="tabbed-label" for="dc7b814c-cd75-4b15-b019-aae195ddada6">
 Windows</label><div class="tabbed-content docutils">
 <p><strong>Windows Subsystem for Linux (WSL)</strong></p>
 <ol>
-<li><p>Search for Windows Powershell in your applications; right click and select Run as administrator. Select Yes on the prompt that appears asking if you want to allow the app to make changes to your device.</p></li>
-<li><p>Type the following into the Powershell and then press Enter:</p>
+<li><p>Search for <code class="docutils literal notranslate"><span class="pre">Windows</span> <span class="pre">Powershell</span></code> in your applications; right click and select <code class="docutils literal notranslate"><span class="pre">Run</span> <span class="pre">as</span> <span class="pre">administrator</span></code>. Select Yes on the prompt that appears asking if you want to allow the app to make changes to your device.</p></li>
+<li><p>Type the following into the <code class="docutils literal notranslate"><span class="pre">Powershell</span></code> and then press <code class="docutils literal notranslate"><span class="pre">Enter</span></code>:</p>
 <p><code class="docutils literal notranslate"><span class="pre">Enable-WindowsOptionalFeature</span> <span class="pre">-Online</span> <span class="pre">-FeatureName</span> <span class="pre">Microsoft-Windows-Subsystem-Linux</span></code></p>
 </li>
-<li><p>Press Enter again when prompted to reboot your computer.</p></li>
-<li><p>Once your computer has rebooted, open the Microsoft Store and search for “Ubuntu.” Install the program labelled “Ubuntu 18.04” (not “Ubuntu 16.04” or “Ubuntu”) by clicking the tile, pressing Get, and then Install.</p></li>
-<li><p>Search for and open Ubuntu from your applications. There will be a slight delay (of a few minutes) while it finishes installing.</p></li>
-<li><p>You will be prompted to Enter new UNIX username. You can use any combination of alphanumeric characters here for your username, but a good choice is &lt;first_initial&gt;&lt;last_name&gt; (e.g., jsmith for John Smith). You will then be prompted to enter a new password. (Choose something easy to remember as you will find yourself using it frequently.)</p></li>
-<li><p>Right click on the top bar of the Ubuntu application and select “Properties”. Under the “Options” tab, under the “Edit Options” heading, make sure the box reading “Use Ctrl+Shift+C/V as Copy/Paste” is checked. Under the “Terminal” tab, under the “Cursor Shape” heading, make sure the box reading “Vertical Bar” is checked. Press “Okay” to save these settings and then exit the application.</p></li>
+<li><p>Press <code class="docutils literal notranslate"><span class="pre">Enter</span></code> again when prompted to reboot your computer.</p></li>
+<li><p>Once your computer has rebooted, open the Microsoft Store and search for “Ubuntu.” Install the program labelled “Ubuntu 18.04” (not “Ubuntu 16.04” or “Ubuntu”) by clicking the tile, pressing <code class="docutils literal notranslate"><span class="pre">Get</span></code>, and then <code class="docutils literal notranslate"><span class="pre">Install</span></code>.</p></li>
+<li><p>Search for and open <code class="docutils literal notranslate"><span class="pre">Ubuntu</span></code> from your applications. There will be a slight delay (of a few minutes) while it finishes installing.</p></li>
+<li><p>You will be prompted to enter new UNIX username. You can use any combination of alphanumeric characters here for your username, but a good choice is <code class="docutils literal notranslate"><span class="pre">&lt;first_initial&gt;&lt;last_name&gt;</span></code> (e.g., <code class="docutils literal notranslate"><span class="pre">jsmith</span></code> for John Smith). You will then be prompted to enter a new password. (Choose something easy to remember as you will find yourself using it frequently.)</p></li>
+<li><p>Right click on the top bar of the Ubuntu application and select <code class="docutils literal notranslate"><span class="pre">Properties</span></code>. Under the <code class="docutils literal notranslate"><span class="pre">Options</span></code> tab, under the <code class="docutils literal notranslate"><span class="pre">Edit</span> <span class="pre">Options</span></code> heading, make sure the box reading <code class="docutils literal notranslate"><span class="pre">Use</span> <span class="pre">Ctrl+Shift+C/V</span> <span class="pre">as</span> <span class="pre">Copy/Paste</span></code> is checked. Under the <code class="docutils literal notranslate"><span class="pre">Terminal</span></code> tab, under the <code class="docutils literal notranslate"><span class="pre">Cursor</span> <span class="pre">Shape</span></code> heading, make sure the box reading <code class="docutils literal notranslate"><span class="pre">Vertical</span> <span class="pre">Bar</span></code> is checked. Press <code class="docutils literal notranslate"><span class="pre">Okay</span></code> to save these settings and then exit the application.</p></li>
 </ol>
 <p>(The above step-by-step WSL instructions are distilled from here and here. If you have questions during the installation procedure those resources may have answers!)</p>
-<p>From this point on whenever the instructions specify to “open a terminal” please assume you are supposed to open the Ubuntu application.</p>
+<p>From this point on whenever the instructions specify to <code class="docutils literal notranslate"><span class="pre">open</span> <span class="pre">a</span> <span class="pre">terminal</span></code> please assume you are supposed to open the Ubuntu application.</p>
 </div>
-<input id="3ddae80c-1671-4844-b44c-266dddc2ed41" name="154d55cb-8fab-4835-93f5-04bcc97e876c" type="radio">
-</input><label class="tabbed-label" for="3ddae80c-1671-4844-b44c-266dddc2ed41">
+<input id="30c7297a-6925-4578-b3bd-17e0045e6519" name="e4b3d286-0f20-448f-a20e-98a8301007e8" type="radio">
+</input><label class="tabbed-label" for="30c7297a-6925-4578-b3bd-17e0045e6519">
 Mac OS</label><div class="tabbed-content docutils">
 <p>You already have it! Depending on which version of Mac OS you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:</p>
-<p>Open a terminal and type echo $SHELL. If it reads /bin/bash then you are all set!</p>
-<p>Note: If you are using Mac Catalina (10.15.X) then it is possible your default shell is NOT CORRECT. To set the default to bash, type chsh -s /bin/bash in the terminal, enter your password when prompted, and then close + re-open the terminal.</p>
+<ul class="simple">
+<li><p>Open a terminal and type <code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">$SHELL</span></code>. If it reads <code class="docutils literal notranslate"><span class="pre">/bin/bash</span></code> then you are all set!</p></li>
+</ul>
+<p>Note: If you are using Mac Catalina (10.15.X) then it is possible your default shell is NOT CORRECT. To set the default to <code class="docutils literal notranslate"><span class="pre">bash</span></code>, type <code class="docutils literal notranslate"><span class="pre">chsh</span> <span class="pre">-s</span> <span class="pre">/bin/bash</span></code> in the terminal, enter your password when prompted, and then close + re-open the terminal.</p>
 </div>
-<input id="883f665e-7dd9-4043-bdf9-1b69c6901b75" name="154d55cb-8fab-4835-93f5-04bcc97e876c" type="radio">
-</input><label class="tabbed-label" for="883f665e-7dd9-4043-bdf9-1b69c6901b75">
+<input id="cdc7b378-dbc6-4d2b-a0a6-cad28423769f" name="e4b3d286-0f20-448f-a20e-98a8301007e8" type="radio">
+</input><label class="tabbed-label" for="cdc7b378-dbc6-4d2b-a0a6-cad28423769f">
 Linux</label><div class="tabbed-content docutils">
 <p>You already have it! Depending on which version of Linux you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:</p>
-<p>Open a terminal and type echo $SHELL. If it reads /bin/bash then you are all set! If not, whenever the instructions read “open a terminal,” please assume you are to open a terminal, type bash, and the proceed with the instructions as specified.</p>
+<ul class="simple">
+<li><p>Open a terminal and type <code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">$SHELL</span></code>. If it reads <code class="docutils literal notranslate"><span class="pre">/bin/bash</span></code> then you are all set!</p></li>
+<li><p>If not, whenever the instructions read “open a terminal,” please assume you are to open a terminal, type <code class="docutils literal notranslate"><span class="pre">bash</span></code>, and the proceed with the instructions as specified.</p></li>
+</ul>
 </div>
 </div>
 </section>
 <section id="git">
 <h3>Git<a class="headerlink" href="#git" title="Permalink to this headline">¶</a></h3>
 <div class="tabbed-set docutils">
-<input checked="checked" id="9c2cb36e-311e-4c6d-8053-6cf9c1aeb6fd" name="f0adfced-9b03-4f7b-96d1-bac13d2ec70e" type="radio">
-</input><label class="tabbed-label" for="9c2cb36e-311e-4c6d-8053-6cf9c1aeb6fd">
+<input checked="checked" id="fd406276-9051-40f7-854d-1d6cf3a178fc" name="e01f63f2-6e8a-4130-a31a-a0460dcb7b82" type="radio">
+</input><label class="tabbed-label" for="fd406276-9051-40f7-854d-1d6cf3a178fc">
 Windows</label><div class="tabbed-content docutils">
 <p>You already have it, now that you’ve installed the WSL!</p>
 </div>
-<input id="70263dfc-4d5b-4e2d-838b-c2b01350d290" name="f0adfced-9b03-4f7b-96d1-bac13d2ec70e" type="radio">
-</input><label class="tabbed-label" for="70263dfc-4d5b-4e2d-838b-c2b01350d290">
+<input id="39d7ecba-6580-43d8-9e4d-41884d4d9c19" name="e01f63f2-6e8a-4130-a31a-a0460dcb7b82" type="radio">
+</input><label class="tabbed-label" for="39d7ecba-6580-43d8-9e4d-41884d4d9c19">
 Mac OS</label><div class="tabbed-content docutils">
-<p>You may already have it! Try opening a terminal and typing git –version. If you do not see something like “git version X.XX.X” printed out, then follow these steps:</p>
-<ol class="simple">
-<li><p>Follow this link to automatically download an installer.</p></li>
-<li><p>Double click the downloaded file (git-2.23.0-intel-universal-mavericks.dmg) and then double click the git-2.23.0-intel-universal-mavericks.pkg icon inside the dmg that is opened.</p></li>
-<li><p>Follow the on-screen instructions to install the package</p></li>
-</ol>
+<p>You may already have it! Try opening a terminal and typing <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">--version</span></code>. If you do not see something like <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">version</span> <span class="pre">X.XX.X</span></code> printed out, then follow these steps:</p>
+<p>Follow this link to automatically download an installer.</p>
+<p>Double click the downloaded file (<code class="docutils literal notranslate"><span class="pre">git-2.23.0-intel-universal-mavericks.dmg</span></code>) and then double click the <code class="docutils literal notranslate"><span class="pre">git-2.23.0-intel-universal-mavericks.pkg</span></code> icon inside the dmg that is opened.</p>
+<p>Follow the on-screen instructions to install the package</p>
 </div>
-<input id="972640e7-3378-4966-9662-e3f4a40ef8ed" name="f0adfced-9b03-4f7b-96d1-bac13d2ec70e" type="radio">
-</input><label class="tabbed-label" for="972640e7-3378-4966-9662-e3f4a40ef8ed">
+<input id="f4457973-e274-476f-909a-ec3800fc4a21" name="e01f63f2-6e8a-4130-a31a-a0460dcb7b82" type="radio">
+</input><label class="tabbed-label" for="f4457973-e274-476f-909a-ec3800fc4a21">
 Linux</label><div class="tabbed-content docutils">
-<p>You may already have it; try typing sudo apt-get install git (Ubuntu, Debian) or sudo yum install git (Fedora) inside the terminal.
-If you are prompted to install it follow the instructions on-screen to do so.</p>
+<p>You may already have it; try typing <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">git</span></code> (Ubuntu, Debian) or <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">yum</span> <span class="pre">install</span> <span class="pre">git</span></code> (Fedora) inside the terminal.</p>
+<p>If you are prompted to install it follow the instructions on-screen to do so.</p>
 </div>
 </div>
 </section>
 <section id="vscode">
 <h3>VSCode<a class="headerlink" href="#vscode" title="Permalink to this headline">¶</a></h3>
 <div class="tabbed-set docutils">
-<input checked="checked" id="bb287ee2-8095-4a18-acfd-15f15c4f6212" name="400f4356-8eaa-47cc-b19e-20f7928de3ca" type="radio">
-</input><label class="tabbed-label" for="bb287ee2-8095-4a18-acfd-15f15c4f6212">
+<input checked="checked" id="5459cd3c-89de-493f-a894-ff09549d98d2" name="8bdedc02-138d-4201-884e-936694790c80" type="radio">
+</input><label class="tabbed-label" for="5459cd3c-89de-493f-a894-ff09549d98d2">
 Windows</label><div class="tabbed-content docutils">
 <ol class="simple">
-<li><p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button, then run the .exe file.</p></li>
+<li><p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button, then run the <code class="docutils literal notranslate"><span class="pre">.exe</span></code> file.</p></li>
 <li><p>Leave all the defaults during the installation with the following exception:
 Please make sure the box labelled “Register Code as an editor for supported file types” is selected</p></li>
 </ol>
 </div>
-<input id="cd3554f6-1573-4a7f-88f1-809c8ef66180" name="400f4356-8eaa-47cc-b19e-20f7928de3ca" type="radio">
-</input><label class="tabbed-label" for="cd3554f6-1573-4a7f-88f1-809c8ef66180">
+<input id="55ff86bd-c6eb-4681-b08e-4c26fc238c78" name="8bdedc02-138d-4201-884e-936694790c80" type="radio">
+</input><label class="tabbed-label" for="55ff86bd-c6eb-4681-b08e-4c26fc238c78">
 Mac OS</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button.</p></li>
 <li><p>Unzip the downloaded file (e.g., VSCode-darwin-stable.zip) and moving the resulting Visual Studio Code file to your Applications directory</p></li>
 </ol>
 </div>
-<input id="27642830-89eb-446f-88b1-6539b1a8d3c7" name="400f4356-8eaa-47cc-b19e-20f7928de3ca" type="radio">
-</input><label class="tabbed-label" for="27642830-89eb-446f-88b1-6539b1a8d3c7">
+<input id="0b733356-6a70-4acd-aa5a-7e89d252e6fa" name="8bdedc02-138d-4201-884e-936694790c80" type="radio">
+</input><label class="tabbed-label" for="0b733356-6a70-4acd-aa5a-7e89d252e6fa">
 Linux</label><div class="tabbed-content docutils">
-<p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button for either the .deb (Ubuntu, Debian) or the .rpm (Fedora, CentOS) file. Double-click the downloaded file to install VSCode. (You may be prompted to type your administrator password during the install).</p>
+<ol class="simple">
+<li><p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button for either the <code class="docutils literal notranslate"><span class="pre">.deb</span></code> (Ubuntu, Debian) or the <code class="docutils literal notranslate"><span class="pre">.rpm</span></code> (Fedora, CentOS) file.</p></li>
+<li><p>Double-click the downloaded file to install VSCode. (You may be prompted to type your administrator password during the install).</p></li>
+</ol>
 </div>
 </div>
 <section id="vscode-extensions">
 <h4>VSCode extensions<a class="headerlink" href="#vscode-extensions" title="Permalink to this headline">¶</a></h4>
 <div class="tabbed-set docutils">
-<input checked="checked" id="3ef10939-1a61-441e-9b97-f2428eb8de27" name="678bb33f-2e02-4519-8d0b-8cb506fc8298" type="radio">
-</input><label class="tabbed-label" for="3ef10939-1a61-441e-9b97-f2428eb8de27">
+<input checked="checked" id="385c437d-2579-4655-9c61-a42bea68b708" name="dd10f79c-8b30-4a44-99b5-0ef7be1d1300" type="radio">
+</input><label class="tabbed-label" for="385c437d-2579-4655-9c61-a42bea68b708">
 Windows</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>Open the Ubuntu application.</p></li>
@@ -411,8 +415,8 @@ Windows</label><div class="tabbed-content docutils">
 </li>
 </ol>
 </div>
-<input id="34fd8668-2c31-4281-9546-44d6e21024c1" name="678bb33f-2e02-4519-8d0b-8cb506fc8298" type="radio">
-</input><label class="tabbed-label" for="34fd8668-2c31-4281-9546-44d6e21024c1">
+<input id="3a0157fd-7e9c-41ce-af32-9cc03b75cc72" name="dd10f79c-8b30-4a44-99b5-0ef7be1d1300" type="radio">
+</input><label class="tabbed-label" for="3a0157fd-7e9c-41ce-af32-9cc03b75cc72">
 Mac OS</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>Open the Visual Studio Code application</p></li>
@@ -426,8 +430,8 @@ Mac OS</label><div class="tabbed-content docutils">
 </li>
 </ol>
 </div>
-<input id="c492531b-5373-4f23-8f0a-c581646a239a" name="678bb33f-2e02-4519-8d0b-8cb506fc8298" type="radio">
-</input><label class="tabbed-label" for="c492531b-5373-4f23-8f0a-c581646a239a">
+<input id="32be146e-f888-4a8a-8b01-d86b36401230" name="dd10f79c-8b30-4a44-99b5-0ef7be1d1300" type="radio">
+</input><label class="tabbed-label" for="32be146e-f888-4a8a-8b01-d86b36401230">
 Linux</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>Open the Visual Studio Code application.</p></li>
@@ -446,92 +450,99 @@ Linux</label><div class="tabbed-content docutils">
 <section id="python">
 <h3>Python<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h3>
 <div class="tabbed-set docutils">
-<input checked="checked" id="f51b9179-8cf5-4a69-8805-e38f5681b7ec" name="bf8c150c-0635-4b4f-acf2-42b04ef601dd" type="radio">
-</input><label class="tabbed-label" for="f51b9179-8cf5-4a69-8805-e38f5681b7ec">
+<input checked="checked" id="037df9ea-d0ad-471a-8d36-e96c04d98c6b" name="0c545189-7780-4926-b5c4-e97d51f0b07b" type="radio">
+</input><label class="tabbed-label" for="037df9ea-d0ad-471a-8d36-e96c04d98c6b">
 Windows</label><div class="tabbed-content docutils">
-<ol>
-<li><p>Open a new terminal and type the following lines (separately) into the terminal, pressing Enter after each one:</p>
-<p><code class="docutils literal notranslate"><span class="pre">wget</span> <span class="pre">https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh</span></code></p>
-<p><code class="docutils literal notranslate"><span class="pre">bash</span> <span class="pre">Miniconda3-latest-Linux-x86_64.sh</span></code></p>
-</li>
-<li><p>A license agreement will be displayed and the bottom of the terminal will read –More–. Press Enter or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter</p></li>
-</ol>
-<p>The installation script will inform you that it is going to install into a default directory (e.g., <code class="docutils literal notranslate"><span class="pre">/home/$USER/miniconda3</span></code>). Leave this default and press Enter.</p>
-<ol>
-<li><p>When you are asked “Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],” type yes and press Enter. Exit the terminal once the installation has finished.</p></li>
-<li><p>Re-open the Ubuntu application. Type which python into the terminal and it should return a path (e.g., <code class="docutils literal notranslate"><span class="pre">/home/$USER/miniconda3/bin/python</span></code>).
-If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel on the BHS Slack.</p></li>
-<li><p>Type the following to remove the installation script that was downloaded:</p>
-<p><code class="docutils literal notranslate"><span class="pre">rm</span> <span class="pre">./Miniconda3-latest-Linux-x86_64.sh</span></code></p>
-</li>
-</ol>
+<p>Open a new terminal and type the following lines (separately) into the terminal, pressing <code class="docutils literal notranslate"><span class="pre">Enter</span></code> after each one:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+</pre></div>
 </div>
-<input id="1e46757b-447a-44d0-9595-5f58cba35679" name="bf8c150c-0635-4b4f-acf2-42b04ef601dd" type="radio">
-</input><label class="tabbed-label" for="1e46757b-447a-44d0-9595-5f58cba35679">
+<p>A license agreement will be displayed and the bottom of the terminal will read <code class="docutils literal notranslate"><span class="pre">--More--</span></code>. Press <code class="docutils literal notranslate"><span class="pre">Enter</span></code> or the space bar until you are prompted with <code class="docutils literal notranslate"><span class="pre">Do</span> <span class="pre">you</span> <span class="pre">accept</span> <span class="pre">the</span> <span class="pre">license</span> <span class="pre">terms?</span> <span class="pre">[yes|no].</span></code> Type <code class="docutils literal notranslate"><span class="pre">yes</span></code> and then press <code class="docutils literal notranslate"><span class="pre">Enter</span></code></p>
+<p>The installation script will inform you that it is going to install into a default directory (e.g., <code class="docutils literal notranslate"><span class="pre">/home/$USER/miniconda3</span></code>). Leave this default and press <code class="docutils literal notranslate"><span class="pre">Enter</span></code>.</p>
+<p>When you are asked <code class="docutils literal notranslate"><span class="pre">Do</span> <span class="pre">you</span> <span class="pre">wish</span> <span class="pre">the</span> <span class="pre">installer</span> <span class="pre">to</span> <span class="pre">initialize</span> <span class="pre">Miniconda3</span> <span class="pre">by</span> <span class="pre">running</span> <span class="pre">conda</span> <span class="pre">init?</span> <span class="pre">[yes|no],</span></code> type <code class="docutils literal notranslate"><span class="pre">yes</span></code> and press <code class="docutils literal notranslate"><span class="pre">Enter</span></code>. Exit the terminal once the installation has finished.</p>
+<p>Re-open the Ubuntu application. Type which python into the terminal and it should return a path (e.g., <code class="docutils literal notranslate"><span class="pre">/home/$USER/miniconda3/bin/python</span></code>).</p>
+<ul class="simple">
+<li><p>If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel on the BHS Slack.</p></li>
+</ul>
+<p>Type the following to remove the installation script that was downloaded:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>rm ./Miniconda3-latest-Linux-x86_64.sh
+</pre></div>
+</div>
+</div>
+<input id="bed41482-5b16-4594-a7d8-2bbec143ad6d" name="0c545189-7780-4926-b5c4-e97d51f0b07b" type="radio">
+</input><label class="tabbed-label" for="bed41482-5b16-4594-a7d8-2bbec143ad6d">
 Mac OS</label><div class="tabbed-content docutils">
-<p>Open a new terminal and type the following lines (separately) into the terminal, pressing Enter after each one:</p>
+<p>Open a new terminal and type the following lines (separately) into the terminal, pressing <code class="docutils literal notranslate"><span class="pre">Enter</span></code> after each one:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 bash Miniconda3-latest-MacOSX-x86_64.sh
 </pre></div>
 </div>
-<p>A license agreement will be displayed and the bottom of the terminal will read –More–. Press Enter or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter</p>
+<p>A license agreement will be displayed and the bottom of the terminal will read –More–. Press <code class="docutils literal notranslate"><span class="pre">Enter</span></code> or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter</p>
 <p>The installation script will inform you that it is going to install into a default directory (e.g., /home/$USER/miniconda3). Leave this default and press Enter.</p>
 <p>When you are asked “Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],” type yes and press Enter. Exit the terminal once the installation has finished.</p>
-<p>Re-open a terminal. Type which python into the terminal and it should return a path (e.g., /home/$USER/miniconda3/bin/python).
-If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel of the BHS Slack.</p>
+<p>Re-open a terminal. Type which python into the terminal and it should return a path (e.g., /home/$USER/miniconda3/bin/python).</p>
+<ul class="simple">
+<li><p>If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel of the BHS Slack.</p></li>
+</ul>
 <p>Type the following to remove the installation script that was downloaded:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>rm ./Miniconda3-latest-MacOSX-x86_64.sh
 </pre></div>
 </div>
 </div>
-<input id="15293376-c86d-4e2f-b5ca-e9a44e984f0f" name="bf8c150c-0635-4b4f-acf2-42b04ef601dd" type="radio">
-</input><label class="tabbed-label" for="15293376-c86d-4e2f-b5ca-e9a44e984f0f">
+<input id="8d5de1ea-4b4c-42e3-a25a-45b4f7faad76" name="0c545189-7780-4926-b5c4-e97d51f0b07b" type="radio">
+</input><label class="tabbed-label" for="8d5de1ea-4b4c-42e3-a25a-45b4f7faad76">
 Linux</label><div class="tabbed-content docutils">
-<ol>
-<li><p>Open a new terminal and type the following lines (separately) into the terminal, pressing Enter after each one:</p>
-<p><code class="docutils literal notranslate"><span class="pre">wget</span> <span class="pre">https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh</span></code></p>
-<p><code class="docutils literal notranslate"><span class="pre">bash</span> <span class="pre">Miniconda3-latest-Linux-x86_64.sh</span></code></p>
-</li>
-<li><p>A license agreement will be displayed and the bottom of the terminal will read –More–. Press Enter or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter</p></li>
-<li><p>The installation script will inform you that it is going to install into a default directory (e.g., /home/$USER/miniconda3). Leave this default and press Enter.</p></li>
-<li><p>When you are asked “Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],” type yes and press Enter. Exit the terminal once the installation has finished.</p></li>
-<li><p>Re-open a new terminal. Type which python into the terminal and it should return a path (e.g., /home/$USER/miniconda3/bin/python).</p>
+<p>Open a new terminal and type the following lines (separately) into the terminal, pressing <code class="docutils literal notranslate"><span class="pre">Enter</span></code> after each one:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+</pre></div>
+</div>
+<p>A license agreement will be displayed and the bottom of the terminal will read –More–. Press <code class="docutils literal notranslate"><span class="pre">Enter</span></code> or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter</p>
+<p>The installation script will inform you that it is going to install into a default directory (e.g., /home/$USER/miniconda3). Leave this default and press Enter.</p>
+<p>When you are asked “Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],” type yes and press Enter. Exit the terminal once the installation has finished.</p>
+<p>Re-open a new terminal. Type which python into the terminal and it should return a path (e.g., /home/$USER/miniconda3/bin/python).</p>
 <ul class="simple">
 <li><p>If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel of the BHS Slack.</p></li>
 </ul>
-</li>
-<li><p>Type the following to remove the installation script that was downloaded:</p>
-<p>rm ./Miniconda3-latest-Linux-x86_64.sh</p>
-</li>
-</ol>
+<p>Type the following to remove the installation script that was downloaded:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>rm ./Miniconda3-latest-Linux-x86_64.sh
+</pre></div>
+</div>
 </div>
 </div>
 <section id="python-packages">
 <h4>Python packages<a class="headerlink" href="#python-packages" title="Permalink to this headline">¶</a></h4>
 <div class="tabbed-set docutils">
-<input checked="checked" id="dd303cc6-d419-4ef8-abf5-4e81e8009bb7" name="4b93a705-137f-4587-bbad-10e42756011d" type="radio">
-</input><label class="tabbed-label" for="dd303cc6-d419-4ef8-abf5-4e81e8009bb7">
+<input checked="checked" id="b48c25ce-f561-4ddd-9fe3-732e4f3468b0" name="83d68098-ee45-40b9-95e9-e819d1feeb68" type="radio">
+</input><label class="tabbed-label" for="b48c25ce-f561-4ddd-9fe3-732e4f3468b0">
 Windows</label><div class="tabbed-content docutils">
-<p>Open a terminal and type the following commands:
-conda config –append channels conda-forge
-conda config –set channel_priority strict
-conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn</p>
+<p>Open a terminal and type the following commands:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>conda config --append channels conda-forge
+conda config --set channel_priority strict
+conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
+</pre></div>
 </div>
-<input id="4c3fbbce-acbd-4d3d-8076-6bb3bfec828b" name="4b93a705-137f-4587-bbad-10e42756011d" type="radio">
-</input><label class="tabbed-label" for="4c3fbbce-acbd-4d3d-8076-6bb3bfec828b">
+</div>
+<input id="40f5f9ff-be89-4891-98ac-03874da0de88" name="83d68098-ee45-40b9-95e9-e819d1feeb68" type="radio">
+</input><label class="tabbed-label" for="40f5f9ff-be89-4891-98ac-03874da0de88">
 Mac OS</label><div class="tabbed-content docutils">
-<p>Open a terminal and type the following commands:
-conda config –append channels conda-forge
-conda config –set channel_priority strict
-conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn</p>
+<p>Open a terminal and type the following commands:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>conda config --append channels conda-forge
+conda config --set channel_priority strict
+conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
+</pre></div>
 </div>
-<input id="984481f1-6933-45ca-9809-51b9198a1137" name="4b93a705-137f-4587-bbad-10e42756011d" type="radio">
-</input><label class="tabbed-label" for="984481f1-6933-45ca-9809-51b9198a1137">
+</div>
+<input id="1cfc802c-1055-4f6e-911d-9a8406cca548" name="83d68098-ee45-40b9-95e9-e819d1feeb68" type="radio">
+</input><label class="tabbed-label" for="1cfc802c-1055-4f6e-911d-9a8406cca548">
 Linux</label><div class="tabbed-content docutils">
-<p>Open a terminal and type the following commands:
-conda config –append channels conda-forge
-conda config –set channel_priority strict
-conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn</p>
+<p>Open a terminal and type the following commands:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>conda config --append channels conda-forge
+conda config --set channel_priority strict
+conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
+</pre></div>
+</div>
 </div>
 </div>
 </section>
@@ -539,8 +550,8 @@ conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn nu
 <section id="docker">
 <h3>Docker<a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h3>
 <div class="tabbed-set docutils">
-<input checked="checked" id="c8cfb724-f6bc-4e9e-b74a-39d3d2657a93" name="ffe15b89-fae2-4a86-b6ae-399066a12529" type="radio">
-</input><label class="tabbed-label" for="c8cfb724-f6bc-4e9e-b74a-39d3d2657a93">
+<input checked="checked" id="b1bce617-d712-4eaf-8ab1-4a77eac4ff56" name="82e97b47-dd76-4486-9eba-e4e8c32dbacd" type="radio">
+</input><label class="tabbed-label" for="b1bce617-d712-4eaf-8ab1-4a77eac4ff56">
 Windows</label><div class="tabbed-content docutils">
 <p>Unfortunately, Docker for Windows is a bit of a mess. The recommended version of Docker to install varies dramatically depending not only on which version of Windows you have installed (e.g., Windows 10 Home versus Professional/Enterprise/Education), but also which build of Windows you have. As such, developing a comprehensive set of instructions for installing Docker is rather difficult.</p>
 <p>For this course, you will need to install either Docker Toolbox for Windows or Docker for Windows Desktop. Which you install will depend on your OS. PLEASE NOTE that installing Docker for Windows Desktop will disable VirtualBox on your computer. If you actively use VirtualBox we recommend you install Docker Toolbox.</p>
@@ -594,19 +605,18 @@ sudo usermod -aG docker $USER
 </pre></div>
 </div>
 <p>where <code class="docutils literal notranslate"><span class="pre">&lt;YOUR_USERNAME&gt;</span></code> will have an actual value (likely your Windows username), and <code class="docutils literal notranslate"><span class="pre">tcp=xxx.xxx.xx.xxx:xxx</span></code> will be a series of numbers. If you don’t get this output then something has gone wrong. Please make sure you were able to run the docker run hello-world command, above. If you were and you still don’t receive this output, please contact one of the instructors on the #help-installation channel on the BHS Slack.</p>
-<ol>
-<li><p>You will use the the outputs of the above command to modify the commands below before running them in the terminal. First, take the numbers printed in place of the xs on the output of the line <code class="docutils literal notranslate"><span class="pre">-H=tcp://xxx.xxx.xx.xxx:xxxx</span></code> from above and replace the placeholder <code class="docutils literal notranslate"><span class="pre">xxx.xxx.xx.xxx:xxxx</span></code> on the first command below (export <code class="docutils literal notranslate"><span class="pre">DOCKER_HOST</span></code>). Second, take whatever value is printed in place of <code class="docutils literal notranslate"><span class="pre">&lt;YOUR_USERNAME&gt;</span></code> above and replace the <code class="docutils literal notranslate"><span class="pre">&lt;YOUR_USERNAME&gt;</span> </code>placeholder on the second command below (export <code class="docutils literal notranslate"><span class="pre">DOCKER_CERT_PATH</span></code>). Once you have updated the commands appropriately, copy and paste them into the terminal:</p>
-<p>echo “export DOCKER_HOST=tcp://xxx.xxx.xx.xxx:xxxx” &gt;&gt; <span class="math notranslate nohighlight">\(HOME/.bashrc
-echo &quot;export DOCKER_CERT_PATH=/mnt/c/Users/&lt;YOUR_USERNAME&gt;/.docker/machine/certs&quot; &gt;&gt; \)</span>HOME/.bashrc
-echo “export DOCKER_TLS_VERIFY=1” &gt;&gt; $HOME/.bashrc</p>
-</li>
-<li><p>Close and re-open a terminal (i.e., the Ubuntu application). Type docker run hello-world. The same brief introductory message you saw before should be printed to the screen.</p></li>
-</ol>
+<p>You will use the the outputs of the above command to modify the commands below before running them in the terminal. First, take the numbers printed in place of the xs on the output of the line <code class="docutils literal notranslate"><span class="pre">-H=tcp://xxx.xxx.xx.xxx:xxxx</span></code> from above and replace the placeholder <code class="docutils literal notranslate"><span class="pre">xxx.xxx.xx.xxx:xxxx</span></code> on the first command below (export <code class="docutils literal notranslate"><span class="pre">DOCKER_HOST</span></code>). Second, take whatever value is printed in place of <code class="docutils literal notranslate"><span class="pre">&lt;YOUR_USERNAME&gt;</span></code> above and replace the <code class="docutils literal notranslate"><span class="pre">&lt;YOUR_USERNAME&gt;</span> </code>placeholder on the second command below (export <code class="docutils literal notranslate"><span class="pre">DOCKER_CERT_PATH</span></code>). Once you have updated the commands appropriately, copy and paste them into the terminal:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>echo &quot;export DOCKER_HOST=tcp://xxx.xxx.xx.xxx:xxxx&quot; &gt;&gt; $HOME/.bashrc
+echo &quot;export DOCKER_CERT_PATH=/mnt/c/Users/&lt;YOUR_USERNAME&gt;/.docker/machine/certs&quot; &gt;&gt; $HOME/.bashrc
+echo &quot;export DOCKER_TLS_VERIFY=1&quot; &gt;&gt; $HOME/.bashrc
+</pre></div>
+</div>
+<p>Close and re-open a terminal (i.e., the Ubuntu application). Type docker run hello-world. The same brief introductory message you saw before should be printed to the screen.</p>
 <p>*Note: *If you restart your computer (or somehow otherwise shut down the Docker VM) you will need to re-open the “Docker Quickstart” application and wait until you see the $ prompt again before your docker commands will work again! If you are having problems running docker commands in the terminal, try re-opening the “Docker Quickstart” application.</p>
 <p>(The above step-by-step instructions are distilled from here and here. If you have questions during the installation procedure please check those links for potential answers!)</p>
 </div>
-<input id="da80081e-a497-4cdd-a765-e4ce474b6fc0" name="ffe15b89-fae2-4a86-b6ae-399066a12529" type="radio">
-</input><label class="tabbed-label" for="da80081e-a497-4cdd-a765-e4ce474b6fc0">
+<input id="20555b03-6850-45a9-af87-539383399b44" name="82e97b47-dd76-4486-9eba-e4e8c32dbacd" type="radio">
+</input><label class="tabbed-label" for="20555b03-6850-45a9-af87-539383399b44">
 Mac OS</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>Go to <a class="reference external" href="https://hub.docker.com/editions/community/docker-ce-desktop-mac/">https://hub.docker.com/editions/community/docker-ce-desktop-mac/</a> and press “Get Docker”.</p></li>
@@ -616,8 +626,8 @@ Mac OS</label><div class="tabbed-content docutils">
 </ol>
 <p>(The above step-by-step Docker instructions are distilled from here. If you have questions during the installation procedure please check that link for potential answers!)</p>
 </div>
-<input id="0eecb76a-34de-4d02-b75e-8258d1d07dd2" name="ffe15b89-fae2-4a86-b6ae-399066a12529" type="radio">
-</input><label class="tabbed-label" for="0eecb76a-34de-4d02-b75e-8258d1d07dd2">
+<input id="c81c4c05-e428-4644-9550-d917203a80ea" name="82e97b47-dd76-4486-9eba-e4e8c32dbacd" type="radio">
+</input><label class="tabbed-label" for="c81c4c05-e428-4644-9550-d917203a80ea">
 Linux</label><div class="tabbed-content docutils">
 <p>You will be following different instructions depending on your distro (Ubuntu, Debian, Fedora, CentOS). Make sure to follow the “Install using the repository” method!
 Once you’ve installed Docker make sure to follow the post-install instructions as well. You only need to do the “Manage Docker as a non-root user” and “Configure Docker to start on boot” steps.
