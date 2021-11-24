@@ -57,17 +57,20 @@ Note: If the instructions below aren't working and you have spent more than 15-2
 6. You will be prompted to enter new UNIX username. You can use any combination of alphanumeric characters here for your username, but a good choice is `<first_initial><last_name>` (e.g., `jsmith` for John Smith). You will then be prompted to enter a new password. (Choose something easy to remember as you will find yourself using it frequently.)
 
 7. Right click on the top bar of the Ubuntu application and select `Properties`. Under the `Options` tab, under the `Edit Options` heading, make sure the box reading `Use Ctrl+Shift+C/V as Copy/Paste` is checked. Under the `Terminal` tab, under the `Cursor Shape` heading, make sure the box reading `Vertical Bar` is checked. Press `Okay` to save these settings and then exit the application.
-
-(The above step-by-step WSL instructions are distilled from here and here. If you have questions during the installation procedure those resources may have answers!)
-
+:::{note}
+The above step-by-step WSL instructions are distilled from here and here. If you have questions during the installation procedure those resources may have answers!
+:::
 From this point on whenever the instructions specify to `open a terminal` please assume you are supposed to open the Ubuntu application.
 ````
+
 ````{tabbed} Mac OS
 You already have it! Depending on which version of Mac OS you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:
 
 - Open a terminal and type `echo $SHELL`. If it reads `/bin/bash` then you are all set!
 
-Note: If you are using Mac Catalina (10.15.X) then it is possible your default shell is NOT CORRECT. To set the default to `bash`, type `chsh -s /bin/bash` in the terminal, enter your password when prompted, and then close + re-open the terminal.
+:::{note}
+If you are using Mac Catalina (10.15.X) then it is possible your default shell is NOT CORRECT. To set the default to `bash`, type `chsh -s /bin/bash` in the terminal, enter your password when prompted, and then close + re-open the terminal.
+:::
 ````
 ````{tabbed} Linux
 You already have it! Depending on which version of Linux you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:
@@ -162,7 +165,10 @@ Please make sure the box labelled “Register Code as an editor for supported fi
 4. When you are asked `Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],` type `yes` and press `Enter`. Exit the terminal once the installation has finished.
 
 5. Re-open the Ubuntu application. Type which python into the terminal and it should return a path (e.g., `/home/$USER/miniconda3/bin/python`).
-    - If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel on the BHS Slack.
+    :::{tip}
+    If you do not see a path like this then please try typing `conda init`, closing your terminal, and repeating this step. 
+    If your issue is still not resolved skip the following step and contact an instructor.
+    :::
 
 6. Type the following to remove the installation script that was downloaded:
 
@@ -177,14 +183,18 @@ Please make sure the box labelled “Register Code as an editor for supported fi
     curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
     bash Miniconda3-latest-MacOSX-x86_64.sh
     ```
-2. A license agreement will be displayed and the bottom of the terminal will read --More--. Press `Enter` or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter
+2. A license agreement will be displayed and the bottom of the terminal will read `--More--`. Press `Enter` or the space bar until you are prompted with `Do you accept the license terms? [yes|no].` Type `yes` and then press `Enter`
 
-3. The installation script will inform you that it is going to install into a default directory (e.g., /home/$USER/miniconda3). Leave this default and press Enter.
+3. The installation script will inform you that it is going to install into a default directory (e.g., `/home/$USER/miniconda3`). Leave this default and press `Enter`.
 
-4. When you are asked “Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],” type yes and press Enter. Exit the terminal once the installation has finished.
+4. When you are asked `Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],` type `yes` and press `Enter`. Exit the terminal once the installation has finished.
 
-5. Re-open a terminal. Type which python into the terminal and it should return a path (e.g., /home/$USER/miniconda3/bin/python).
-    - If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel of the BHS Slack.
+5. Re-open a terminal. Type which python into the terminal and it should return a path (e.g., `/home/$USER/miniconda3/bin/python`).
+
+    :::{tip}
+    If you do not see a path like this then please try typing `conda init`, closing your terminal, and repeating this step. 
+    If your issue is still not resolved skip the following step and contact an instructor.
+    :::
 
 6. Type the following to remove the installation script that was downloaded:
     ```
@@ -198,15 +208,17 @@ Please make sure the box labelled “Register Code as an editor for supported fi
     wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
     bash Miniconda3-latest-Linux-x86_64.sh
     ```
-2. A license agreement will be displayed and the bottom of the terminal will read --More--. Press `Enter` or the space bar until you are prompted with “Do you accept the license terms? [yes|no].” Type yes and then press Enter
+2. A license agreement will be displayed and the bottom of the terminal will read `--More--`. Press `Enter` or the space bar until you are prompted with `Do you accept the license terms? [yes|no]`. Type `yes` and then press `Enter`
 
-3. The installation script will inform you that it is going to install into a default directory (e.g., /home/$USER/miniconda3). Leave this default and press Enter.
+3. The installation script will inform you that it is going to install into a default directory (e.g., `/home/$USER/miniconda3`). Leave this default and press `Enter`.
 
-4. When you are asked “Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],” type yes and press Enter. Exit the terminal once the installation has finished.
+4. When you are asked `Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],` type `yes` and press `Enter`. Exit the terminal once the installation has finished.
 
-5. Re-open a new terminal. Type which python into the terminal and it should return a path (e.g., /home/$USER/miniconda3/bin/python). 
-    - If you do not see a path like this then please try typing conda init, closing your terminal, and repeating this step. If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel of the BHS Slack.
-
+5. Re-open a new terminal. Type which python into the terminal and it should return a path (e.g., `/home/$USER/miniconda3/bin/python`). 
+    :::{tip}
+    If you do not see a path like this then please try typing `conda init`, closing your terminal, and repeating this step. 
+    If your issue is still not resolved skip the following step and contact an instructor.
+    :::
 6. Type the following to remove the installation script that was downloaded:
     ```
     rm ./Miniconda3-latest-Linux-x86_64.sh
@@ -246,7 +258,9 @@ Unfortunately, Docker for Windows is a bit of a mess. The recommended version of
 
 For this course, you will need to install either Docker Toolbox for Windows or Docker for Windows Desktop. Which you install will depend on your OS. PLEASE NOTE that installing Docker for Windows Desktop will disable VirtualBox on your computer. If you actively use VirtualBox we recommend you install Docker Toolbox.
 
-(Note: the below instructions assume you are installing Docker Toolbox. Because there are fewer requirements for Docker Toolbox, it is likely that you will be able to install this more easily.)
+:::{note}
+The below instructions assume you are installing Docker Toolbox. Because there are fewer requirements for Docker Toolbox, it is likely that you will be able to install this more easily.
+:::
 
 1. Download the latest Docker Toolbox installer (note: that link will automatically download the file)
 
@@ -297,7 +311,7 @@ For this course, you will need to install either Docker Toolbox for Windows or D
 8. Type `pip install docker-compose`.
 
 9. Type `powershell.exe "docker-machine config"`. You should get output similar to the following:
-    ```
+    ``` 
     --tlsverify
     --tlscacert="C:\\Users\\<YOUR_USERNAME>\\.docker\\machine\\machines\\default\\ca.pem"
     --tlscert="C:\\Users\\<YOUR_USERNAME>\\.docker\\machine\\machines\\default\\cert.pem"
@@ -314,24 +328,29 @@ For this course, you will need to install either Docker Toolbox for Windows or D
     ```
 11. Close and re-open a terminal (i.e., the Ubuntu application). Type docker run hello-world. The same brief introductory message you saw before should be printed to the screen.
 
-*Note: *If you restart your computer (or somehow otherwise shut down the Docker VM) you will need to re-open the “Docker Quickstart” application and wait until you see the $ prompt again before your docker commands will work again! If you are having problems running docker commands in the terminal, try re-opening the “Docker Quickstart” application.
+:::{note}
+If you restart your computer (or somehow otherwise shut down the Docker VM) you will need to re-open the “Docker Quickstart” application and wait until you see the $ prompt again before your docker commands will work again! If you are having problems running docker commands in the terminal, try re-opening the “Docker Quickstart” application.
+:::
 
-(The above step-by-step instructions are distilled from here and here. If you have questions during the installation procedure please check those links for potential answers!)
 ````
-```{tabbed} Mac OS
+
+````{tabbed} Mac OS
 1. Go to https://hub.docker.com/editions/community/docker-ce-desktop-mac/ and press “Get Docker”.
 2. Open the “Docker.dmg” file that is downloaded and drag and drop the icon to the Applications folder
 3. Open the Docker application and enter your password. An icon will appear in the status bar in the top-left of the screen. Wait until it reads “Docker Desktop is now up and running!”
 4. Open a new terminal and type docker run hello-world. A brief introductory message should be printed to the screen.
 
-(The above step-by-step Docker instructions are distilled from here. If you have questions during the installation procedure please check that link for potential answers!)
-```
+````
 
-```{tabbed} Linux
+````{tabbed} Linux
 You will be following different instructions depending on your distro (Ubuntu, Debian, Fedora, CentOS). Make sure to follow the “Install using the repository” method!
 Once you’ve installed Docker make sure to follow the post-install instructions as well. You only need to do the “Manage Docker as a non-root user” and “Configure Docker to start on boot” steps.
 Open a new terminal and type docker run hello-world. A brief introductory message should be printed to the screen.
-```
+````
+
+:::{note}
+The above step-by-step Docker instructions are distilled from here. If you have questions during the installation procedure please check that link for potential answers!
+:::
 
 ## GitHub account
 
