@@ -9,7 +9,7 @@
  * Implement a typical model validation pipeline with Scikit-learn
  * Learn about various model performance scores and their use-cases
 
-**Materials**: [GitHub Link](https://github.com/neurodatascience/course-materials-2021/tree/master/lectures/29-July/11-intro-to-machine-learning-part-1)
+**Materials**: [GitHub Link](https://github.com/neurodatascience/main-2021-ml-parts-1-2)
 
 ## Brain encoding and decoding in fMRI
 **Instructors**: Shima Rastegarnia and Pravish Sainath
@@ -31,7 +31,7 @@
  * Learn about hyperparameters and model selection.
  * Learn about pitfalls when validating machine learning models and how to easily avoid them using scikit-learn.
 
-**Materials**: [GitHub Link](https://github.com/neurodatascience/main-2021-ml-part-2)
+**Materials**: [GitHub Link](https://github.com/neurodatascience/main-2021-ml-parts-1-2)
 
 ## Intro to [Nilearn](https://nilearn.github.io)
 
