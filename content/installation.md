@@ -7,8 +7,13 @@
 There are a few computing requirements for the course that are absolutely necessary (beyond the few software packages we would like you to install, described below):
 
 1. You must have administrator access to your computer (i.e., you must be able to install things yourself without requesting IT approval).
-2. You must have at least 40 GB of free disk space on your computer (but we would recommend more, to be safe).
-3. If you are using Windows you must be using Windows 10; Windows 7 and 8 will not be sufficient for this course.
+2. If you are using Windows you must be using Windows 10; Windows 7 and 8 will not be sufficient for this course.
+
+```{admonition} Disc space
+You might want to have at least 40 GB of free disk space on your computer (but we would recommend more, to be safe).
+This would be necessary if docker installation is needed.
+The 2021 course doesn't require docker.
+```
 
 If you foresee any of these being a problem please reach out to one of the instructors for what steps you can take to ensure you are ready for the course start on November 25th.
 
@@ -20,7 +25,7 @@ To get the most out of our course, we ask you to install the following software:
   - A version control system: Git
   - A remote-capable text editor: VSCode
   - Python 3 via Miniconda
-  - A virtualization system: Docker
+  - A virtualization system: Docker (Optional)
   - A GitHub account
   - A modern browser
 
@@ -251,7 +256,7 @@ Open a terminal and type the following commands:
     conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
 ```
 
-### Docker
+### Docker (Optional)
 ````{tabbed} Windows
 
 Unfortunately, Docker for Windows is a bit of a mess. The recommended version of Docker to install varies dramatically depending not only on which version of Windows you have installed (e.g., Windows 10 Home versus Professional/Enterprise/Education), but also which build of Windows you have. As such, developing a comprehensive set of instructions for installing Docker is rather difficult.
