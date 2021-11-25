@@ -27,11 +27,11 @@
 **Instructor**: Jérôme Dockes
 
 **Objectives**:
- * Understand how to evaluate the performance of machine learning models.
- * Learn about hyperparameters and model selection.
- * Learn about pitfalls when validating machine learning models and how to easily avoid them using scikit-learn.
+ * Understand the challenges of learning from high-dimensional data.
+ * Learn about tools to mitigate the issue: feature selection and dimensionality reduction.
+ * Train a machine-learning pipeline on fMRI data and evaluate its prediction performance.
 
-**Materials**: [GitHub Link](https://github.com/neurodatascience/main-2021-ml-part-2)
+**Materials**: [GitHub Link](https://github.com/neurodatascience/course-materials-2021/tree/master/lectures/30-July/12-intro-to-machine-learning-part-2/)
 
 ## Intro to [Nilearn](https://nilearn.github.io)
 

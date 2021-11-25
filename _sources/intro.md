@@ -53,7 +53,7 @@ The workshop features both theoretical lectures as well as hands-on tutorial usi
     <td align="center">
       <a href="https://github.com/nikhil153">
         <img src="https://avatars.githubusercontent.com/u/7978607?v=4" width="100px;" alt=""/>
-        <br /><sub><b>Nikhil Bhagwat</b></sub>
+        <br /><sub><b>Nikhil Bhagwat </b></sub>
       </a>
       <br />
     </td>
@@ -84,13 +84,6 @@ The workshop features both theoretical lectures as well as hands-on tutorial usi
       <a href="https://github.com/k-jerbi">
         <img src="https://avatars.githubusercontent.com/u/29810957?v=4" width="100px;" alt=""/>
         <br /><sub><b>Karim Jerbi</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/jbpoline">
-        <img src="https://avatars.githubusercontent.com/u/275048?v=4" width="100px;" alt=""/>
-        <br /><sub><b>Jean-Baptiste Poline</b></sub>
       </a>
       <br />
     </td>
