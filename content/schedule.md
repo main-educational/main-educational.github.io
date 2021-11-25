@@ -12,11 +12,11 @@
 
 13:30 - 14:30 Nikhil Bhagwat - Introduction to supervised learning (part 2)
 
-14:30 - 16:00 Shima Rastegarnia - Brain decoding in fMRI
+14:30 - 16:00 Hao-Ting Wang - fMRI machine learning with nilearn, part 1 building connectomes
 
 16:00 - 16:15 Break
 
-16:15 - 17:45 Pravish Sainath - Brain encoding in fMRI
+16:15 - 17:45 Francois Paugam - fMRI machine learning with nilearn, part 2 brain age prediction
 
 ## November 26th
 
@@ -30,9 +30,8 @@
 
 12:15 - 13:15 Lunch (provided onsite)
 
-13:15 - 14:45 Hao-Ting Wang - fMRI machine learning with nilearn, part 1 building connectomes
+13:15 - 14:45 Shima Rastegarnia - Brain decoding in fMRI
 
 14:45 - 15:00 Break
 
-15:00 - 16:30 Francois Paugam - fMRI machine learning with nilearn, part 2 brain age prediction
-
+15:00 - 16:30 Pravish Sainath - Brain encoding in fMRI
