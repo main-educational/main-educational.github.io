@@ -12,7 +12,7 @@
 **Materials**: [GitHub Link](https://github.com/neurodatascience/main-2021-ml-parts-1-2)
 
 ## Brain encoding and decoding in fMRI
-**Instructors**: Shima Rastegarnia and Pravish Sainath
+**Instructors**: Shima Rastegarnia, Pierre Bellec and Pravish Sainath
 
 **Objectives**:
  * Understand the principles of brain encoding and decoding in functional magnetic resonance imaging
