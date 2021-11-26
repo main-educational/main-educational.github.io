@@ -20,7 +20,7 @@
  * Use searchlight for brain decoding with multiple stimuli category
  * Use deep graph neural networks for brain decoding with multiple stimuli category.
 
-**Materials**: [Github Link]()
+**Materials**: [Jupyter book link](https://main-educational.github.io/brain_encoding_decoding/); [Github Link](https://github.com/main-educational/brain_encoding_decoding)
 
 ## Model selection and validation
 
