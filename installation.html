@@ -4,11 +4,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Installation &#8212; MAIN educational 2021</title>
     
-  <link href="_static/css/theme.css" rel="stylesheet">
-  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,36 +20,35 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script>
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -59,7 +60,21 @@
     <!-- Google Analytics -->
     
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
     
     <div class="container-fluid" id="banner"></div>
 
@@ -68,9 +83,10 @@
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
@@ -88,14 +104,15 @@
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="intro.html">
-   Welcome to MAIN educational 2021
-  </a>
- </li>
-</ul>
-<ul class="current nav bd-sidenav">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to MAIN educational 2022
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="schedule.html">
    Schedule
@@ -114,12 +131,17 @@
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-</div>
-
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
 </div>
 
 
@@ -127,61 +149,117 @@
 
 
           
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
     
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
-            
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
+    <div class="header-article row sticky-top noprint">
         
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/installation.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/installation.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
     </div>
 </div>
 
-            <!-- Source interaction buttons -->
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
-        </div>
-
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#general-computing-requirements">
    General computing requirements
@@ -255,22 +333,111 @@
  </li>
 </ul>
 
-            </nav>
-        </div>
-    </div>
+    </nav>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-        
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Installation</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#general-computing-requirements">
+   General computing requirements
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#required-software">
+   Required software
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#os-specific-installation-instructions">
+   OS-specific installation instructions
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bash-shell">
+     Bash shell
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#git">
+     Git
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#vscode">
+     VSCode
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#vscode-extensions">
+       VSCode extensions
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#python">
+     Python
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#python-packages">
+       Python packages
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#docker-optional">
+     Docker (Optional)
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#github-account">
+   GitHub account
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#modern-web-browser">
+   Modern web browser
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#checking-your-install">
+   Checking your install
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="installation">
-<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">#</a></h1>
 <blockquote>
 <div><p>Instructions to install and setup all the tools required for the MAIN 2021 educational.</p>
 </div></blockquote>
-<div class="section" id="general-computing-requirements">
-<h2>General computing requirements<a class="headerlink" href="#general-computing-requirements" title="Permalink to this headline">¶</a></h2>
+<section id="general-computing-requirements">
+<h2>General computing requirements<a class="headerlink" href="#general-computing-requirements" title="Permalink to this headline">#</a></h2>
 <p>There are a few computing requirements for the course that are absolutely necessary (beyond the few software packages we would like you to install, described below):</p>
 <ol class="simple">
 <li><p>You must have administrator access to your computer (i.e., you must be able to install things yourself without requesting IT approval).</p></li>
@@ -283,9 +450,9 @@ This would be necessary if docker installation is needed.
 The 2021 course doesn’t require docker.</p>
 </div>
 <p>If you foresee any of these being a problem please reach out to one of the instructors for what steps you can take to ensure you are ready for the course start on November 25th.</p>
-</div>
-<div class="section" id="required-software">
-<h2>Required software<a class="headerlink" href="#required-software" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="required-software">
+<h2>Required software<a class="headerlink" href="#required-software" title="Permalink to this headline">#</a></h2>
 <p>To get the most out of our course, we ask you to install the following software:</p>
 <ul class="simple">
 <li><p>A command-line shell: Bash</p></li>
@@ -301,404 +468,54 @@ The 2021 course doesn’t require docker.</p>
 <p>Miniconda and VSCode are not strictly required, if you already have python and prefer to use pip, or if you already have a favorite text editor for programming, feel free to use that instead.</p>
 </div>
 <p>If you already have all of the above software tools/packages installed, or are confident you’ll be able to install them by the time the course starts, you can jump straight to checking your install. The rest of this page provides more detail on installation procedures for each of the above elements, with separate instructions for each of the three major operating systems (Windows, Mac OS, and Linux).</p>
-</div>
-<div class="section" id="os-specific-installation-instructions">
-<h2>OS-specific installation instructions<a class="headerlink" href="#os-specific-installation-instructions" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="os-specific-installation-instructions">
+<h2>OS-specific installation instructions<a class="headerlink" href="#os-specific-installation-instructions" title="Permalink to this headline">#</a></h2>
 <p>Select the tab that corresponds to your operating system and follow the instructions therein.</p>
 <p>Note: If the instructions below aren’t working and you have spent more than 15-20 minutes troubleshooting on your own, reach out on the #help-installation channel on the BHS Discord with the exact problems you’re having.</p>
-<div class="section" id="bash-shell">
-<h3>Bash shell<a class="headerlink" href="#bash-shell" title="Permalink to this headline">¶</a></h3>
-<div class="tabbed-set docutils">
-<input checked="checked" id="a2c5f893-cd40-4118-9c64-a4f7d52c1f02" name="db401fbe-7d7c-4141-ae96-24674773ecb3" type="radio">
-</input><label class="tabbed-label" for="a2c5f893-cd40-4118-9c64-a4f7d52c1f02">
-Windows</label><div class="tabbed-content docutils">
-<p><strong>Windows Subsystem for Linux (WSL)</strong></p>
-<ol>
-<li><p>Search for <code class="docutils literal notranslate"><span class="pre">Windows</span> <span class="pre">Powershell</span></code> in your applications; right click and select <code class="docutils literal notranslate"><span class="pre">Run</span> <span class="pre">as</span> <span class="pre">administrator</span></code>. Select Yes on the prompt that appears asking if you want to allow the app to make changes to your device.</p></li>
-<li><p>Type the following into the <code class="docutils literal notranslate"><span class="pre">Powershell</span></code> and then press <code class="docutils literal notranslate"><span class="pre">Enter</span></code>:</p>
-<p><code class="docutils literal notranslate"><span class="pre">Enable-WindowsOptionalFeature</span> <span class="pre">-Online</span> <span class="pre">-FeatureName</span> <span class="pre">Microsoft-Windows-Subsystem-Linux</span></code></p>
-</li>
-<li><p>Press <code class="docutils literal notranslate"><span class="pre">Enter</span></code> again when prompted to reboot your computer.</p></li>
-<li><p>Once your computer has rebooted, open the Microsoft Store and search for “Ubuntu.” Install the program labelled “Ubuntu 18.04” (not “Ubuntu 16.04” or “Ubuntu”) by clicking the tile, pressing <code class="docutils literal notranslate"><span class="pre">Get</span></code>, and then <code class="docutils literal notranslate"><span class="pre">Install</span></code>.</p></li>
-<li><p>Search for and open <code class="docutils literal notranslate"><span class="pre">Ubuntu</span></code> from your applications. There will be a slight delay (of a few minutes) while it finishes installing.</p></li>
-<li><p>You will be prompted to enter new UNIX username. You can use any combination of alphanumeric characters here for your username, but a good choice is <code class="docutils literal notranslate"><span class="pre">&lt;first_initial&gt;&lt;last_name&gt;</span></code> (e.g., <code class="docutils literal notranslate"><span class="pre">jsmith</span></code> for John Smith). You will then be prompted to enter a new password. (Choose something easy to remember as you will find yourself using it frequently.)</p></li>
-<li><p>Right click on the top bar of the Ubuntu application and select <code class="docutils literal notranslate"><span class="pre">Properties</span></code>. Under the <code class="docutils literal notranslate"><span class="pre">Options</span></code> tab, under the <code class="docutils literal notranslate"><span class="pre">Edit</span> <span class="pre">Options</span></code> heading, make sure the box reading <code class="docutils literal notranslate"><span class="pre">Use</span> <span class="pre">Ctrl+Shift+C/V</span> <span class="pre">as</span> <span class="pre">Copy/Paste</span></code> is checked. Under the <code class="docutils literal notranslate"><span class="pre">Terminal</span></code> tab, under the <code class="docutils literal notranslate"><span class="pre">Cursor</span> <span class="pre">Shape</span></code> heading, make sure the box reading <code class="docutils literal notranslate"><span class="pre">Vertical</span> <span class="pre">Bar</span></code> is checked. Press <code class="docutils literal notranslate"><span class="pre">Okay</span></code> to save these settings and then exit the application.</p></li>
-</ol>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The above step-by-step WSL instructions are distilled from here and here. If you have questions during the installation procedure those resources may have answers!</p>
-</div>
-<p>From this point on whenever the instructions specify to <code class="docutils literal notranslate"><span class="pre">open</span> <span class="pre">a</span> <span class="pre">terminal</span></code> please assume you are supposed to open the Ubuntu application.</p>
-</div>
-<input id="12d548ce-82d8-43a2-b971-d07caf0ad746" name="db401fbe-7d7c-4141-ae96-24674773ecb3" type="radio">
-</input><label class="tabbed-label" for="12d548ce-82d8-43a2-b971-d07caf0ad746">
-Mac OS</label><div class="tabbed-content docutils">
-<p>You already have it! Depending on which version of Mac OS you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:</p>
-<ul class="simple">
-<li><p>Open a terminal and type <code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">$SHELL</span></code>. If it reads <code class="docutils literal notranslate"><span class="pre">/bin/bash</span></code> then you are all set!</p></li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>If you are using Mac Catalina (10.15.X) then it is possible your default shell is NOT CORRECT. To set the default to <code class="docutils literal notranslate"><span class="pre">bash</span></code>, type <code class="docutils literal notranslate"><span class="pre">chsh</span> <span class="pre">-s</span> <span class="pre">/bin/bash</span></code> in the terminal, enter your password when prompted, and then close + re-open the terminal.</p>
-</div>
-</div>
-<input id="4cefe9aa-a1d7-4553-8893-f1dd7c4e8952" name="db401fbe-7d7c-4141-ae96-24674773ecb3" type="radio">
-</input><label class="tabbed-label" for="4cefe9aa-a1d7-4553-8893-f1dd7c4e8952">
-Linux</label><div class="tabbed-content docutils">
-<p>You already have it! Depending on which version of Linux you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:</p>
-<ul class="simple">
-<li><p>Open a terminal and type <code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">$SHELL</span></code>. If it reads <code class="docutils literal notranslate"><span class="pre">/bin/bash</span></code> then you are all set!</p></li>
-<li><p>If not, whenever the instructions read “open a terminal,” please assume you are to open a terminal, type <code class="docutils literal notranslate"><span class="pre">bash</span></code>, and the proceed with the instructions as specified.</p></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="section" id="git">
-<h3>Git<a class="headerlink" href="#git" title="Permalink to this headline">¶</a></h3>
-<div class="tabbed-set docutils">
-<input checked="checked" id="f5a14e7b-edf3-4973-8831-518502138eea" name="ccf12c56-fa26-4258-9c7c-25a8e13a8ae9" type="radio">
-</input><label class="tabbed-label" for="f5a14e7b-edf3-4973-8831-518502138eea">
-Windows</label><div class="tabbed-content docutils">
-<p>You already have it, now that you’ve installed the WSL!</p>
-</div>
-<input id="c9ba4115-5ffd-44dd-ab13-fa8e60b50546" name="ccf12c56-fa26-4258-9c7c-25a8e13a8ae9" type="radio">
-</input><label class="tabbed-label" for="c9ba4115-5ffd-44dd-ab13-fa8e60b50546">
-Mac OS</label><div class="tabbed-content docutils">
-<p>You may already have it! Try opening a terminal and typing <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">--version</span></code>. If you do not see something like <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">version</span> <span class="pre">X.XX.X</span></code> printed out, then follow these steps:</p>
-<ol class="simple">
-<li><p>Follow this link to automatically download an installer.</p></li>
-<li><p>Double click the downloaded file (<code class="docutils literal notranslate"><span class="pre">git-2.23.0-intel-universal-mavericks.dmg</span></code>) and then double click the <code class="docutils literal notranslate"><span class="pre">git-2.23.0-intel-universal-mavericks.pkg</span></code> icon inside the dmg that is opened.</p></li>
-<li><p>Follow the on-screen instructions to install the package</p></li>
-</ol>
-</div>
-<input id="8e2c2e0f-be8b-4da8-ae3e-5b57733a62c8" name="ccf12c56-fa26-4258-9c7c-25a8e13a8ae9" type="radio">
-</input><label class="tabbed-label" for="8e2c2e0f-be8b-4da8-ae3e-5b57733a62c8">
-Linux</label><div class="tabbed-content docutils">
-<p>You may already have it; try typing <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">git</span></code> (Ubuntu, Debian) or <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">yum</span> <span class="pre">install</span> <span class="pre">git</span></code> (Fedora) inside the terminal.</p>
-<p>If you are prompted to install it follow the instructions on-screen to do so.</p>
-</div>
-</div>
-</div>
-<div class="section" id="vscode">
-<h3>VSCode<a class="headerlink" href="#vscode" title="Permalink to this headline">¶</a></h3>
-<div class="tabbed-set docutils">
-<input checked="checked" id="7cafd1de-3d50-460c-9590-584de8992759" name="d1ce5b47-e671-446b-bdf4-c0aade025bcf" type="radio">
-</input><label class="tabbed-label" for="7cafd1de-3d50-460c-9590-584de8992759">
-Windows</label><div class="tabbed-content docutils">
-<ol class="simple">
-<li><p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button, then run the <code class="docutils literal notranslate"><span class="pre">.exe</span></code> file.</p></li>
-<li><p>Leave all the defaults during the installation with the following exception:
-Please make sure the box labelled “Register Code as an editor for supported file types” is selected</p></li>
-</ol>
-</div>
-<input id="a9c46572-46f0-457c-bf94-72f3925fa9a3" name="d1ce5b47-e671-446b-bdf4-c0aade025bcf" type="radio">
-</input><label class="tabbed-label" for="a9c46572-46f0-457c-bf94-72f3925fa9a3">
-Mac OS</label><div class="tabbed-content docutils">
-<ol class="simple">
-<li><p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button.</p></li>
-<li><p>Unzip the downloaded file (e.g., VSCode-darwin-stable.zip) and moving the resulting Visual Studio Code file to your Applications directory</p></li>
-</ol>
-</div>
-<input id="72d31bd0-fbe9-467a-8746-78f9f215e75e" name="d1ce5b47-e671-446b-bdf4-c0aade025bcf" type="radio">
-</input><label class="tabbed-label" for="72d31bd0-fbe9-467a-8746-78f9f215e75e">
-Linux</label><div class="tabbed-content docutils">
-<ol class="simple">
-<li><p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button for either the <code class="docutils literal notranslate"><span class="pre">.deb</span></code> (Ubuntu, Debian) or the <code class="docutils literal notranslate"><span class="pre">.rpm</span></code> (Fedora, CentOS) file.</p></li>
-<li><p>Double-click the downloaded file to install VSCode. (You may be prompted to type your administrator password during the install).</p></li>
-</ol>
-</div>
-</div>
-<div class="section" id="vscode-extensions">
-<h4>VSCode extensions<a class="headerlink" href="#vscode-extensions" title="Permalink to this headline">¶</a></h4>
-<div class="tabbed-set docutils">
-<input checked="checked" id="41decf2e-9ee6-4f6b-8f16-f53a681edc0f" name="3ebfe738-f114-423e-91ca-921731f54f0e" type="radio">
-</input><label class="tabbed-label" for="41decf2e-9ee6-4f6b-8f16-f53a681edc0f">
-Windows</label><div class="tabbed-content docutils">
-<ol class="simple">
-<li><p>Open the Ubuntu application.</p></li>
-<li><p>Type code . into the terminal and press Enter. You should see a message reading “Installing VS Code Server” and then a new windows will open up.</p></li>
-<li><p>Press Ctrl+Shift+P in the new window that opens and type “Extensions: Install extensions” into the search bar that appears at the top of the screen. Select the appropriate entry from the dropdown menu that appears (there should be four entries; simply select the one that reads “Extensions: Install extensions”).</p></li>
-<li><p>A new panel should appear on the left-hand side of the screen with a search bar. Search for each of the following extensions and press Install for the first entry that appears. (The author listed for all of these extensions should be “Microsoft”.)</p>
-<ul class="simple">
-<li><p>Python (n.b., you will need to reload VSCode after installing this)</p></li>
-<li><p>Docker</p></li>
-<li><p>Remote - WSL</p></li>
-</ul>
-</li>
-</ol>
-</div>
-<input id="23366f9c-007a-49d5-84f3-03366fd6ac21" name="3ebfe738-f114-423e-91ca-921731f54f0e" type="radio">
-</input><label class="tabbed-label" for="23366f9c-007a-49d5-84f3-03366fd6ac21">
-Mac OS</label><div class="tabbed-content docutils">
-<ol class="simple">
-<li><p>Open the Visual Studio Code application</p></li>
-<li><p>Type Cmd+Shift+P and then enter “Shell command: Install ‘code’ command in PATH” into the search bar that appears at the top of the screen. Select the highlighted entry. A notification box should appear in the bottom-right corner indicating that the command was installed successfully.</p></li>
-<li><p>Type Cmd+Shift+P again and then enter “Extensions: Install extensions” into the search bar. Select the appropriate entry from the dropdown menu that appears (there should be four entries; simply select the one that reads “Extensions: Install extensions”).</p></li>
-<li><p>A new panel should appear on the left-hand side of the screen with a search bar. Search for each of the following extensions and press Install for the first entry that appears. (The author listed for all of these extensions should be “Microsoft”.)</p>
-<ul class="simple">
-<li><p>Python (n.b., you will need to reload VSCode after installing this)</p></li>
-<li><p>Docker</p></li>
-</ul>
-</li>
-</ol>
-</div>
-<input id="7034a9e8-68c9-47cb-b755-e1b8cb07d69f" name="3ebfe738-f114-423e-91ca-921731f54f0e" type="radio">
-</input><label class="tabbed-label" for="7034a9e8-68c9-47cb-b755-e1b8cb07d69f">
-Linux</label><div class="tabbed-content docutils">
-<ol class="simple">
-<li><p>Open the Visual Studio Code application.</p></li>
-<li><p>Press Ctrl+Shift+P in the new window that opens and type “Extensions: Install extensions” into the search bar that appears at the top of the screen. Select the appropriate entry from the dropdown menu that appears (there should be four entries; simply select the one that reads “Extensions: Install extensions”).</p></li>
-<li><p>A new panel should appear on the left-hand side of the screen with a search bar. Search for each of the following extensions and press Install for the first entry that appears. (The author listed for all of these extensions should be “Microsoft”.)</p>
-<ul class="simple">
-<li><p>Python (n.b., you will need to reload VSCode after installing this)</p></li>
-<li><p>Docker</p></li>
-</ul>
-</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-<div class="section" id="python">
-<h3>Python<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h3>
-<div class="tabbed-set docutils">
-<input checked="checked" id="4153c35c-1602-4912-82b9-92dcb74cb074" name="0778a1d5-92ce-4443-a48c-0b1b08200165" type="radio">
-</input><label class="tabbed-label" for="4153c35c-1602-4912-82b9-92dcb74cb074">
-Windows</label><div class="tabbed-content docutils">
-<ol>
-<li><p>Open a new terminal and type the following lines (separately) into the terminal, pressing <code class="docutils literal notranslate"><span class="pre">Enter</span></code> after each one:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">wget</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">repo</span><span class="o">.</span><span class="n">anaconda</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">miniconda</span><span class="o">/</span><span class="n">Miniconda3</span><span class="o">-</span><span class="n">latest</span><span class="o">-</span><span class="n">Linux</span><span class="o">-</span><span class="n">x86_64</span><span class="o">.</span><span class="n">sh</span>
-<span class="n">bash</span> <span class="n">Miniconda3</span><span class="o">-</span><span class="n">latest</span><span class="o">-</span><span class="n">Linux</span><span class="o">-</span><span class="n">x86_64</span><span class="o">.</span><span class="n">sh</span>
-</pre></div>
-</div>
-</li>
-<li><p>A license agreement will be displayed and the bottom of the terminal will read <code class="docutils literal notranslate"><span class="pre">--More--</span></code>. Press <code class="docutils literal notranslate"><span class="pre">Enter</span></code> or the space bar until you are prompted with <code class="docutils literal notranslate"><span class="pre">Do</span> <span class="pre">you</span> <span class="pre">accept</span> <span class="pre">the</span> <span class="pre">license</span> <span class="pre">terms?</span> <span class="pre">[yes|no].</span></code> Type <code class="docutils literal notranslate"><span class="pre">yes</span></code> and then press <code class="docutils literal notranslate"><span class="pre">Enter</span></code></p></li>
-<li><p>The installation script will inform you that it is going to install into a default directory (e.g., <code class="docutils literal notranslate"><span class="pre">/home/$USER/miniconda3</span></code>). Leave this default and press <code class="docutils literal notranslate"><span class="pre">Enter</span></code>.</p></li>
-<li><p>When you are asked <code class="docutils literal notranslate"><span class="pre">Do</span> <span class="pre">you</span> <span class="pre">wish</span> <span class="pre">the</span> <span class="pre">installer</span> <span class="pre">to</span> <span class="pre">initialize</span> <span class="pre">Miniconda3</span> <span class="pre">by</span> <span class="pre">running</span> <span class="pre">conda</span> <span class="pre">init?</span> <span class="pre">[yes|no],</span></code> type <code class="docutils literal notranslate"><span class="pre">yes</span></code> and press <code class="docutils literal notranslate"><span class="pre">Enter</span></code>. Exit the terminal once the installation has finished.</p></li>
-<li><p>Re-open the Ubuntu application. Type which python into the terminal and it should return a path (e.g., <code class="docutils literal notranslate"><span class="pre">/home/$USER/miniconda3/bin/python</span></code>).</p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>If you do not see a path like this then please try typing <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">init</span></code>, closing your terminal, and repeating this step.
-If your issue is still not resolved skip the following step and contact an instructor.</p>
-</div>
-</li>
-<li><p>Type the following to remove the installation script that was downloaded:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rm</span> <span class="o">./</span><span class="n">Miniconda3</span><span class="o">-</span><span class="n">latest</span><span class="o">-</span><span class="n">Linux</span><span class="o">-</span><span class="n">x86_64</span><span class="o">.</span><span class="n">sh</span>
-</pre></div>
-</div>
-</li>
-</ol>
-</div>
-<input id="081367c9-38f8-4563-97d5-1a3eea4cafbe" name="0778a1d5-92ce-4443-a48c-0b1b08200165" type="radio">
-</input><label class="tabbed-label" for="081367c9-38f8-4563-97d5-1a3eea4cafbe">
-Mac OS</label><div class="tabbed-content docutils">
-<ol>
-<li><p>Open a new terminal and type the following lines (separately) into the terminal, pressing <code class="docutils literal notranslate"><span class="pre">Enter</span></code> after each one:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">curl</span> <span class="o">-</span><span class="n">O</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">repo</span><span class="o">.</span><span class="n">anaconda</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">miniconda</span><span class="o">/</span><span class="n">Miniconda3</span><span class="o">-</span><span class="n">latest</span><span class="o">-</span><span class="n">MacOSX</span><span class="o">-</span><span class="n">x86_64</span><span class="o">.</span><span class="n">sh</span>
-<span class="n">bash</span> <span class="n">Miniconda3</span><span class="o">-</span><span class="n">latest</span><span class="o">-</span><span class="n">MacOSX</span><span class="o">-</span><span class="n">x86_64</span><span class="o">.</span><span class="n">sh</span>
-</pre></div>
-</div>
-</li>
-<li><p>A license agreement will be displayed and the bottom of the terminal will read <code class="docutils literal notranslate"><span class="pre">--More--</span></code>. Press <code class="docutils literal notranslate"><span class="pre">Enter</span></code> or the space bar until you are prompted with <code class="docutils literal notranslate"><span class="pre">Do</span> <span class="pre">you</span> <span class="pre">accept</span> <span class="pre">the</span> <span class="pre">license</span> <span class="pre">terms?</span> <span class="pre">[yes|no].</span></code> Type <code class="docutils literal notranslate"><span class="pre">yes</span></code> and then press <code class="docutils literal notranslate"><span class="pre">Enter</span></code></p></li>
-<li><p>The installation script will inform you that it is going to install into a default directory (e.g., <code class="docutils literal notranslate"><span class="pre">/home/$USER/miniconda3</span></code>). Leave this default and press <code class="docutils literal notranslate"><span class="pre">Enter</span></code>.</p></li>
-<li><p>When you are asked <code class="docutils literal notranslate"><span class="pre">Do</span> <span class="pre">you</span> <span class="pre">wish</span> <span class="pre">the</span> <span class="pre">installer</span> <span class="pre">to</span> <span class="pre">initialize</span> <span class="pre">Miniconda3</span> <span class="pre">by</span> <span class="pre">running</span> <span class="pre">conda</span> <span class="pre">init?</span> <span class="pre">[yes|no],</span></code> type <code class="docutils literal notranslate"><span class="pre">yes</span></code> and press <code class="docutils literal notranslate"><span class="pre">Enter</span></code>. Exit the terminal once the installation has finished.</p></li>
-<li><p>Re-open a terminal. Type which python into the terminal and it should return a path (e.g., <code class="docutils literal notranslate"><span class="pre">/home/$USER/miniconda3/bin/python</span></code>).</p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>If you do not see a path like this then please try typing <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">init</span></code>, closing your terminal, and repeating this step.
-If your issue is still not resolved skip the following step and contact an instructor.</p>
-</div>
-</li>
-<li><p>Type the following to remove the installation script that was downloaded:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rm</span> <span class="o">./</span><span class="n">Miniconda3</span><span class="o">-</span><span class="n">latest</span><span class="o">-</span><span class="n">MacOSX</span><span class="o">-</span><span class="n">x86_64</span><span class="o">.</span><span class="n">sh</span>
-</pre></div>
-</div>
-</li>
-</ol>
-</div>
-<input id="a1f0480a-ae32-4db4-9b37-348d4dffbf5c" name="0778a1d5-92ce-4443-a48c-0b1b08200165" type="radio">
-</input><label class="tabbed-label" for="a1f0480a-ae32-4db4-9b37-348d4dffbf5c">
-Linux</label><div class="tabbed-content docutils">
-<ol>
-<li><p>Open a new terminal and type the following lines (separately) into the terminal, pressing <code class="docutils literal notranslate"><span class="pre">Enter</span></code> after each one:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">wget</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">repo</span><span class="o">.</span><span class="n">anaconda</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">miniconda</span><span class="o">/</span><span class="n">Miniconda3</span><span class="o">-</span><span class="n">latest</span><span class="o">-</span><span class="n">Linux</span><span class="o">-</span><span class="n">x86_64</span><span class="o">.</span><span class="n">sh</span>
-<span class="n">bash</span> <span class="n">Miniconda3</span><span class="o">-</span><span class="n">latest</span><span class="o">-</span><span class="n">Linux</span><span class="o">-</span><span class="n">x86_64</span><span class="o">.</span><span class="n">sh</span>
-</pre></div>
-</div>
-</li>
-<li><p>A license agreement will be displayed and the bottom of the terminal will read <code class="docutils literal notranslate"><span class="pre">--More--</span></code>. Press <code class="docutils literal notranslate"><span class="pre">Enter</span></code> or the space bar until you are prompted with <code class="docutils literal notranslate"><span class="pre">Do</span> <span class="pre">you</span> <span class="pre">accept</span> <span class="pre">the</span> <span class="pre">license</span> <span class="pre">terms?</span> <span class="pre">[yes|no]</span></code>. Type <code class="docutils literal notranslate"><span class="pre">yes</span></code> and then press <code class="docutils literal notranslate"><span class="pre">Enter</span></code></p></li>
-<li><p>The installation script will inform you that it is going to install into a default directory (e.g., <code class="docutils literal notranslate"><span class="pre">/home/$USER/miniconda3</span></code>). Leave this default and press <code class="docutils literal notranslate"><span class="pre">Enter</span></code>.</p></li>
-<li><p>When you are asked <code class="docutils literal notranslate"><span class="pre">Do</span> <span class="pre">you</span> <span class="pre">wish</span> <span class="pre">the</span> <span class="pre">installer</span> <span class="pre">to</span> <span class="pre">initialize</span> <span class="pre">Miniconda3</span> <span class="pre">by</span> <span class="pre">running</span> <span class="pre">conda</span> <span class="pre">init?</span> <span class="pre">[yes|no],</span></code> type <code class="docutils literal notranslate"><span class="pre">yes</span></code> and press <code class="docutils literal notranslate"><span class="pre">Enter</span></code>. Exit the terminal once the installation has finished.</p></li>
-<li><p>Re-open a new terminal. Type which python into the terminal and it should return a path (e.g., <code class="docutils literal notranslate"><span class="pre">/home/$USER/miniconda3/bin/python</span></code>).</p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>If you do not see a path like this then please try typing <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">init</span></code>, closing your terminal, and repeating this step.
-If your issue is still not resolved skip the following step and contact an instructor.</p>
-</div>
-</li>
-<li><p>Type the following to remove the installation script that was downloaded:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rm</span> <span class="o">./</span><span class="n">Miniconda3</span><span class="o">-</span><span class="n">latest</span><span class="o">-</span><span class="n">Linux</span><span class="o">-</span><span class="n">x86_64</span><span class="o">.</span><span class="n">sh</span>
-</pre></div>
-</div>
-</li>
-</ol>
-</div>
-</div>
-<div class="section" id="python-packages">
-<h4>Python packages<a class="headerlink" href="#python-packages" title="Permalink to this headline">¶</a></h4>
-<div class="tabbed-set docutils">
-<input checked="checked" id="e058c4cc-f28e-443b-85c8-6a0030aa146d" name="1705783d-e166-4b4e-a065-8fd4d583c511" type="radio">
-</input><label class="tabbed-label" for="e058c4cc-f28e-443b-85c8-6a0030aa146d">
-Windows</label><div class="tabbed-content docutils">
-<p>Open a terminal and type the following commands:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>conda config --append channels conda-forge
-conda config --set channel_priority strict
-conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
-</pre></div>
-</div>
-</div>
-<input id="b8d51a40-382a-4d27-ba2c-80bdc32abdcc" name="1705783d-e166-4b4e-a065-8fd4d583c511" type="radio">
-</input><label class="tabbed-label" for="b8d51a40-382a-4d27-ba2c-80bdc32abdcc">
-Mac OS</label><div class="tabbed-content docutils">
-<p>Open a terminal and type the following commands:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>conda config --append channels conda-forge
-conda config --set channel_priority strict
-conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
-</pre></div>
-</div>
-</div>
-<input id="65e982e7-9c17-49b9-baa6-8d8dc6d12cd3" name="1705783d-e166-4b4e-a065-8fd4d583c511" type="radio">
-</input><label class="tabbed-label" for="65e982e7-9c17-49b9-baa6-8d8dc6d12cd3">
-Linux</label><div class="tabbed-content docutils">
-<p>Open a terminal and type the following commands:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>conda config --append channels conda-forge
-conda config --set channel_priority strict
-conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="section" id="docker-optional">
-<h3>Docker (Optional)<a class="headerlink" href="#docker-optional" title="Permalink to this headline">¶</a></h3>
-<div class="tabbed-set docutils">
-<input checked="checked" id="cb791451-2116-4e28-9868-d83b2f673c5e" name="4a6bd4c4-e572-4912-b0de-0c4b7c1c92c2" type="radio">
-</input><label class="tabbed-label" for="cb791451-2116-4e28-9868-d83b2f673c5e">
-Windows</label><div class="tabbed-content docutils">
-<p>Unfortunately, Docker for Windows is a bit of a mess. The recommended version of Docker to install varies dramatically depending not only on which version of Windows you have installed (e.g., Windows 10 Home versus Professional/Enterprise/Education), but also which build of Windows you have. As such, developing a comprehensive set of instructions for installing Docker is rather difficult.</p>
-<p>For this course, you will need to install either Docker Toolbox for Windows or Docker for Windows Desktop. Which you install will depend on your OS. PLEASE NOTE that installing Docker for Windows Desktop will disable VirtualBox on your computer. If you actively use VirtualBox we recommend you install Docker Toolbox.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The below instructions assume you are installing Docker Toolbox. Because there are fewer requirements for Docker Toolbox, it is likely that you will be able to install this more easily.</p>
-</div>
-<ol>
-<li><p>Download the latest Docker Toolbox installer (note: that link will automatically download the file)</p></li>
-<li><p>Run the downloaded .exe file and leave all the defaults during the installation procedure. Click Yeson the prompt that appears asking if the application can make changes to your computer.</p></li>
-<li><p>Search for and open the newly-installed “Docker Quickstart” application. Again, click Yeson the prompt that appears asking if the application can make changes to your computer. The application will do a number of things to finish installing and setting up Docker.</p></li>
-<li><p>Once you see a $ prompt type docker run hello-world. A brief introductory message should be printed to the screen.</p></li>
-<li><p>Close the “Docker Quickstart” application and open a terminal (i.e., the Ubuntu application).</p></li>
-<li><p>Copy-paste the following commands. You will be prompted to enter your password once.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span># Update the apt package list.
-sudo apt-get update -y
-# Install Docker&#39;s package dependencies.
-sudo apt-get install -y \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    software-properties-common
-
-# Download and add Docker&#39;s official public PGP key.
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-
-# Verify the fingerprint.
-sudo apt-key fingerprint 0EBFCD88
-
-# Add the stable channel&#39;s Docker upstream repository.
-
-sudo add-apt-repository \
-    &quot;deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-    $(lsb_release -cs) \
-    stable&quot;
-
-# Update the apt package list (for the new apt repo).
-sudo apt-get update -y
-
-# Install the latest version of Docker CE.
-sudo apt-get install -y docker-ce
-
-# Allow your user to access the Docker CLI without needing root access.
-sudo usermod -aG docker $USER
-</pre></div>
-</div>
-</li>
-<li><p>Close and re-open the terminal.</p></li>
-<li><p>Type <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">docker-compose</span></code>.</p></li>
-<li><p>Type <code class="docutils literal notranslate"><span class="pre">powershell.exe</span> <span class="pre">&quot;docker-machine</span> <span class="pre">config&quot;</span></code>. You should get output similar to the following:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">--</span><span class="n">tlsverify</span>
-<span class="o">--</span><span class="n">tlscacert</span><span class="o">=</span><span class="s2">&quot;C:</span><span class="se">\\</span><span class="s2">Users</span><span class="se">\\</span><span class="s2">&lt;YOUR_USERNAME&gt;</span><span class="se">\\</span><span class="s2">.docker</span><span class="se">\\</span><span class="s2">machine</span><span class="se">\\</span><span class="s2">machines</span><span class="se">\\</span><span class="s2">default</span><span class="se">\\</span><span class="s2">ca.pem&quot;</span>
-<span class="o">--</span><span class="n">tlscert</span><span class="o">=</span><span class="s2">&quot;C:</span><span class="se">\\</span><span class="s2">Users</span><span class="se">\\</span><span class="s2">&lt;YOUR_USERNAME&gt;</span><span class="se">\\</span><span class="s2">.docker</span><span class="se">\\</span><span class="s2">machine</span><span class="se">\\</span><span class="s2">machines</span><span class="se">\\</span><span class="s2">default</span><span class="se">\\</span><span class="s2">cert.pem&quot;</span>
-<span class="o">--</span><span class="n">tlskey</span><span class="o">=</span><span class="s2">&quot;C:</span><span class="se">\\</span><span class="s2">Users</span><span class="se">\\</span><span class="s2">&lt;YOUR_USERNAME&gt;</span><span class="se">\\</span><span class="s2">.docker</span><span class="se">\\</span><span class="s2">machine</span><span class="se">\\</span><span class="s2">machines</span><span class="se">\\</span><span class="s2">default</span><span class="se">\\</span><span class="s2">key.pem&quot;</span>
-<span class="o">-</span><span class="n">H</span><span class="o">=</span><span class="n">tcp</span><span class="p">:</span><span class="o">//</span><span class="n">xxx</span><span class="o">.</span><span class="n">xxx</span><span class="o">.</span><span class="n">xx</span><span class="o">.</span><span class="n">xxx</span><span class="p">:</span><span class="n">xxxx</span>
-</pre></div>
-</div>
-<p>where <code class="docutils literal notranslate"><span class="pre">&lt;YOUR_USERNAME&gt;</span></code> will have an actual value (likely your Windows username), and <code class="docutils literal notranslate"><span class="pre">tcp=xxx.xxx.xx.xxx:xxx</span></code> will be a series of numbers. If you don’t get this output then something has gone wrong. Please make sure you were able to run the docker run hello-world command, above. If you were and you still don’t receive this output, please contact one of the instructors on the #help-installation channel on the BHS Slack.</p>
-</li>
-<li><p>You will use the the outputs of the above command to modify the commands below before running them in the terminal. First, take the numbers printed in place of the xs on the output of the line <code class="docutils literal notranslate"><span class="pre">-H=tcp://xxx.xxx.xx.xxx:xxxx</span></code> from above and replace the placeholder <code class="docutils literal notranslate"><span class="pre">xxx.xxx.xx.xxx:xxxx</span></code> on the first command below (export <code class="docutils literal notranslate"><span class="pre">DOCKER_HOST</span></code>). Second, take whatever value is printed in place of <code class="docutils literal notranslate"><span class="pre">&lt;YOUR_USERNAME&gt;</span></code> above and replace the <code class="docutils literal notranslate"><span class="pre">&lt;YOUR_USERNAME&gt;</span> </code>placeholder on the second command below (export <code class="docutils literal notranslate"><span class="pre">DOCKER_CERT_PATH</span></code>). Once you have updated the commands appropriately, copy and paste them into the terminal:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>echo &quot;export DOCKER_HOST=tcp://xxx.xxx.xx.xxx:xxxx&quot; &gt;&gt; $HOME/.bashrc
-echo &quot;export DOCKER_CERT_PATH=/mnt/c/Users/&lt;YOUR_USERNAME&gt;/.docker/machine/certs&quot; &gt;&gt; $HOME/.bashrc
-echo &quot;export DOCKER_TLS_VERIFY=1&quot; &gt;&gt; $HOME/.bashrc
-</pre></div>
-</div>
-</li>
-<li><p>Close and re-open a terminal (i.e., the Ubuntu application). Type docker run hello-world. The same brief introductory message you saw before should be printed to the screen.</p></li>
-</ol>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>If you restart your computer (or somehow otherwise shut down the Docker VM) you will need to re-open the “Docker Quickstart” application and wait until you see the $ prompt again before your docker commands will work again! If you are having problems running docker commands in the terminal, try re-opening the “Docker Quickstart” application.</p>
-</div>
-</div>
-<input id="2ecc1217-9cfc-4dd2-ba91-decd3d3a4ee9" name="4a6bd4c4-e572-4912-b0de-0c4b7c1c92c2" type="radio">
-</input><label class="tabbed-label" for="2ecc1217-9cfc-4dd2-ba91-decd3d3a4ee9">
-Mac OS</label><div class="tabbed-content docutils">
-<ol class="simple">
-<li><p>Go to <a class="reference external" href="https://hub.docker.com/editions/community/docker-ce-desktop-mac/">https://hub.docker.com/editions/community/docker-ce-desktop-mac/</a> and press “Get Docker”.</p></li>
-<li><p>Open the “Docker.dmg” file that is downloaded and drag and drop the icon to the Applications folder</p></li>
-<li><p>Open the Docker application and enter your password. An icon will appear in the status bar in the top-left of the screen. Wait until it reads “Docker Desktop is now up and running!”</p></li>
-<li><p>Open a new terminal and type docker run hello-world. A brief introductory message should be printed to the screen.</p></li>
-</ol>
-</div>
-<input id="54b99584-534b-48bb-98dc-dc8f75c58ebd" name="4a6bd4c4-e572-4912-b0de-0c4b7c1c92c2" type="radio">
-</input><label class="tabbed-label" for="54b99584-534b-48bb-98dc-dc8f75c58ebd">
-Linux</label><div class="tabbed-content docutils">
-<p>You will be following different instructions depending on your distro (Ubuntu, Debian, Fedora, CentOS). Make sure to follow the “Install using the repository” method!
-Once you’ve installed Docker make sure to follow the post-install instructions as well. You only need to do the “Manage Docker as a non-root user” and “Configure Docker to start on boot” steps.
-Open a new terminal and type docker run hello-world. A brief introductory message should be printed to the screen.</p>
-</div>
-</div>
+<section id="bash-shell">
+<h3>Bash shell<a class="headerlink" href="#bash-shell" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="git">
+<h3>Git<a class="headerlink" href="#git" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="vscode">
+<h3>VSCode<a class="headerlink" href="#vscode" title="Permalink to this headline">#</a></h3>
+<section id="vscode-extensions">
+<h4>VSCode extensions<a class="headerlink" href="#vscode-extensions" title="Permalink to this headline">#</a></h4>
+</section>
+</section>
+<section id="python">
+<h3>Python<a class="headerlink" href="#python" title="Permalink to this headline">#</a></h3>
+<section id="python-packages">
+<h4>Python packages<a class="headerlink" href="#python-packages" title="Permalink to this headline">#</a></h4>
+</section>
+</section>
+<section id="docker-optional">
+<h3>Docker (Optional)<a class="headerlink" href="#docker-optional" title="Permalink to this headline">#</a></h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The above step-by-step Docker instructions are distilled from here. If you have questions during the installation procedure please check that link for potential answers!</p>
 </div>
-</div>
-</div>
-<div class="section" id="github-account">
-<h2>GitHub account<a class="headerlink" href="#github-account" title="Permalink to this headline">¶</a></h2>
+</section>
+</section>
+<section id="github-account">
+<h2>GitHub account<a class="headerlink" href="#github-account" title="Permalink to this headline">#</a></h2>
 <p>Go to <a class="reference external" href="https://github.com/join/">https://github.com/join/</a> and follow the on-screen instructions to create an account. It is a good idea to associate this with your university e-mail (if you have one) as this will entitle you to sign up for the GitHub Student Developer Pack which comes with some nice free bonuses.</p>
-</div>
-<div class="section" id="modern-web-browser">
-<h2>Modern web browser<a class="headerlink" href="#modern-web-browser" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="modern-web-browser">
+<h2>Modern web browser<a class="headerlink" href="#modern-web-browser" title="Permalink to this headline">#</a></h2>
 <p>Install Firefox or Chrome. (Safari will also work.) Microsoft Edge is not modern, despite what Microsoft might try and otherwise tell you.</p>
-</div>
-<div class="section" id="checking-your-install">
-<h2>Checking your install<a class="headerlink" href="#checking-your-install" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="checking-your-install">
+<h2>Checking your install<a class="headerlink" href="#checking-your-install" title="Permalink to this headline">#</a></h2>
 <p>Now that you’ve installed everything it’s time to check that everything works as expected! Type the following into your terminal:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bash &lt;<span class="o">(</span> curl -s https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/content/en/modules/installation/nds_check_install.sh <span class="o">)</span>
 </pre></div>
 </div>
 <p>If you installed everything correctly you should see a message informing you as such. If any problems were detected you should receive some brief instructions on what is wrong with potential suggestions on how to remedy it. If you followed these instructions step-by-step and cannot resolve the issue please contact one of the course instructors for more help.</p>
-</div>
-</div>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -722,9 +539,11 @@ Open a new terminal and type docker run hello-world. A brief introductory messag
 
               </div>
               
-        
-            <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
     <a class='left-prev' id="prev-link" href="material.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
@@ -733,26 +552,28 @@ Open a new terminal and type docker run hello-world. A brief introductory messag
         </div>
     </a>
 </div>
-        
+            </footer>
         </div>
     </div>
-    <footer class="footer">
-    <div class="container">
-      <p>
-        
-          By MAIN educational 2021 team<br/>
-        
-            &copy; Copyright 2021.<br/>
-      </p>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By MAIN educational 2021 team<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
     </div>
-  </footer>
-</main>
+    
+</div>
 
 
       </div>
     </div>
   
-  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
 
   </body>
 </html>
