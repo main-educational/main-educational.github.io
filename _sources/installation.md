@@ -1,6 +1,8 @@
 # Installation
 
-> Instructions to install and setup all the tools required for the MAIN 2021 educational.
+```{warning}
+These instructions are preliminary and can still be updated until December 1st.
+```
 
 ## General computing requirements
 
@@ -11,11 +13,10 @@ There are a few computing requirements for the course that are absolutely necess
 
 ```{admonition} Disc space
 You might want to have at least 40 GB of free disk space on your computer (but we would recommend more, to be safe).
-This would be necessary if docker installation is needed.
-The 2021 course doesn't require docker.
+This would be necessary if you decide to use docker installation, although this method is not required.
 ```
 
-If you foresee any of these being a problem please reach out to one of the instructors for what steps you can take to ensure you are ready for the course start on November 25th.
+If you foresee any of these being a problem please reach out to one of the instructors for what steps you can take to ensure you are ready for the course start.
 
 ## Required software
 
@@ -80,7 +81,7 @@ If you are using Mac Catalina (10.15.X) then it is possible your default shell i
 ````{tabbed} Linux
 You already have it! Depending on which version of Linux you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:
 
-- Open a terminal and type `echo $SHELL`. If it reads `/bin/bash` then you are all set! 
+- Open a terminal and type `echo $SHELL`. If it reads `/bin/bash` then you are all set!
 - If not, whenever the instructions read “open a terminal,” please assume you are to open a terminal, type `bash`, and the proceed with the instructions as specified.
 ````
 
@@ -101,7 +102,7 @@ You may already have it! Try opening a terminal and typing `git --version`. If y
 ````
 
 ````{tabbed} Linux
-You may already have it; try typing `sudo apt-get install git` (Ubuntu, Debian) or `sudo yum install git` (Fedora) inside the terminal. 
+You may already have it; try typing `sudo apt-get install git` (Ubuntu, Debian) or `sudo yum install git` (Fedora) inside the terminal.
 
 If you are prompted to install it follow the instructions on-screen to do so.
 ````
@@ -120,7 +121,7 @@ Please make sure the box labelled “Register Code as an editor for supported fi
 ````
 
 ````{tabbed} Linux
-1. Go to https://code.visualstudio.com/ and click the download button for either the `.deb` (Ubuntu, Debian) or the `.rpm` (Fedora, CentOS) file. 
+1. Go to https://code.visualstudio.com/ and click the download button for either the `.deb` (Ubuntu, Debian) or the `.rpm` (Fedora, CentOS) file.
 2. Double-click the downloaded file to install VSCode. (You may be prompted to type your administrator password during the install).
 ````
 
@@ -171,7 +172,7 @@ Please make sure the box labelled “Register Code as an editor for supported fi
 
 5. Re-open the Ubuntu application. Type which python into the terminal and it should return a path (e.g., `/home/$USER/miniconda3/bin/python`).
     :::{tip}
-    If you do not see a path like this then please try typing `conda init`, closing your terminal, and repeating this step. 
+    If you do not see a path like this then please try typing `conda init`, closing your terminal, and repeating this step.
     If your issue is still not resolved skip the following step and contact an instructor.
     :::
 
@@ -197,7 +198,7 @@ Please make sure the box labelled “Register Code as an editor for supported fi
 5. Re-open a terminal. Type which python into the terminal and it should return a path (e.g., `/home/$USER/miniconda3/bin/python`).
 
     :::{tip}
-    If you do not see a path like this then please try typing `conda init`, closing your terminal, and repeating this step. 
+    If you do not see a path like this then please try typing `conda init`, closing your terminal, and repeating this step.
     If your issue is still not resolved skip the following step and contact an instructor.
     :::
 
@@ -219,9 +220,9 @@ Please make sure the box labelled “Register Code as an editor for supported fi
 
 4. When you are asked `Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],` type `yes` and press `Enter`. Exit the terminal once the installation has finished.
 
-5. Re-open a new terminal. Type which python into the terminal and it should return a path (e.g., `/home/$USER/miniconda3/bin/python`). 
+5. Re-open a new terminal. Type which python into the terminal and it should return a path (e.g., `/home/$USER/miniconda3/bin/python`).
     :::{tip}
-    If you do not see a path like this then please try typing `conda init`, closing your terminal, and repeating this step. 
+    If you do not see a path like this then please try typing `conda init`, closing your terminal, and repeating this step.
     If your issue is still not resolved skip the following step and contact an instructor.
     :::
 6. Type the following to remove the installation script that was downloaded:
@@ -316,7 +317,7 @@ The below instructions assume you are installing Docker Toolbox. Because there a
 8. Type `pip install docker-compose`.
 
 9. Type `powershell.exe "docker-machine config"`. You should get output similar to the following:
-    ``` 
+    ```
     --tlsverify
     --tlscacert="C:\\Users\\<YOUR_USERNAME>\\.docker\\machine\\machines\\default\\ca.pem"
     --tlscert="C:\\Users\\<YOUR_USERNAME>\\.docker\\machine\\machines\\default\\cert.pem"
