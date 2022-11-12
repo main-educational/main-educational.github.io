@@ -33,30 +33,6 @@
 :img-top: images/profile_jerome.jpg
 :::
 
-:::{card} Alex Gramfort
-:margin: 3
-:class-body: text-center
-:link: https://alexandre.gramfort.net/
-:img-top: https://alexandre.gramfort.net/images/picture3.jpg
-:::
-
-:::{card} Peer Herholz
-:margin: 1
-:class-body: text-center
-:link: https://github.com/PeerHerholz
-:img-top: https://avatars.githubusercontent.com/u/20129524?v=4?s=100
-:::
-
-::::
-
-::::{card-carousel} 3
-:::{card} Thomas Jiralerspong
-:margin: 3
-:class-body: text-center
-:link: https://www.linkedin.com/in/thomas-jiralerspong/?originalSubdomain=ca
-:img-top: images/profile_thomas.jpg
-:::
-
 :::{card} Giuseppe Pietro Gava
 :margin: 3
 :class-body: text-center
@@ -64,7 +40,32 @@
 :img-top: images/profile_giuseppe.jpg
 :::
 
-:::{card} Giuseppe Quinn Lee
+:::{card} Alex Gramfort
+:margin: 3
+:class-body: text-center
+:link: https://alexandre.gramfort.net/
+:img-top: https://alexandre.gramfort.net/images/picture3.jpg
+:::
+::::
+
+::::{card-carousel} 3
+:::{card} Peer Herholz
+:margin: 1
+:class-body: text-center
+:link: https://github.com/PeerHerholz
+:img-top: https://avatars.githubusercontent.com/u/20129524?v=4?s=100
+:::
+
+:::{card} Thomas Jiralerspong
+:margin: 3
+:class-body: text-center
+:link: https://www.linkedin.com/in/thomas-jiralerspong/?originalSubdomain=ca
+:img-top: images/profile_thomas.jpg
+:::
+
+
+
+:::{card} Quinn Lee
 :margin: 3
 :class-body: text-center
 :link: https://www.linkedin.com/in/j-quinn-lee-142a8984

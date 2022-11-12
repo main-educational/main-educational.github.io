@@ -1,6 +1,6 @@
 # Organizers
 
-## Institutions
+## Executive committee
 
 ::::{card-carousel} 3
 
@@ -19,44 +19,6 @@ A neuroAI research center for Québec
 Learn more {fas}`arrow-right`
 :::
 
-:::{card}
-:margin: 3
-:class-body: text-center
-:class-header: bg-light text-center
-:link: https://criugm.qc.ca/
-
-**CRIUGM**
-^^^
-```{image} https://criugm.qc.ca/wp-content/themes/criugm%20-%202022-11-07/images/criugm/IUGM_recherche_rgb.png
-:height: 100
-```
-The research center of the Montreal Geriatrics Institute
-+++
-Learn more {fas}`arrow-right`
-:::
-
-:::{card}
-:margin: 3
-:class-body: text-center
-:class-header: bg-light text-center
-:link: https://unf-montreal.ca/
-
-**UNF Montreal**
-^^^
-```{image} images/logo_unf.png
-:height: 100
-```
-
-UdeM Functional Neuroimaging Unit
-+++
-Learn more {fas}`arrow-right`
-:::
-::::
-
-## Executive committee
-
-::::{card-carousel} 3
-
 :::{card} Pierre Bellec
 :margin: 3
 :class-body: text-center
@@ -70,6 +32,7 @@ Learn more {fas}`arrow-right`
 :link: https://github.com/clarkenj
 :img-top: https://avatars.githubusercontent.com/u/57987005?v=4?s=100
 :::
+::::
 
 ## Scientific committee
 
