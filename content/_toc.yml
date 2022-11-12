@@ -4,6 +4,9 @@
 format: jb-book
 root: intro
 chapters:
+- file: venue
+- file: organizers
 - file: schedule
+- file: CoC
 - file: material
 - file: installation

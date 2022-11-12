@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: MAIN educational 2021
-author: MAIN educational 2021 team
+title: MAIN educational
+author: MAIN educational team
 logo: logo.jpg
 
 # Force re-execution of notebooks on each build.
@@ -19,6 +19,19 @@ execute:
 # bibtex_bibfiles:
 #   - references.bib
 
+parse:
+  myst_enable_extensions:  # default extensions to enable in the myst parser. See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - substitution
+
 # Information about where the book exists on the web
 repository:
   url: https://github.com/main-educational/main-educational.github.io  # Online location of your book
@@ -28,5 +41,10 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  use_issues_button: false
-  use_repository_button: false
+  favicon: images/favicon.ico
+  use_issues_button: true
+  use_repository_button: true
+
+sphinx:
+ extra_extensions:
+   - sphinx_design

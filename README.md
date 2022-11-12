@@ -11,9 +11,5 @@ The website is built with the [jupyter book](https://jupyterbook.org/) project, 
 
 A static version of the book will be generated on `content/_build/html/`.
 
-### Hosting the book
-
-The html version of the book is hosted on the `gh-pages` branch of this repo. Navigate to your local build and run,
-- `ghp-import -n -p -f content/_build/html`
-
-This will automatically push your build to the `gh-pages` branch. More information on this hosting process can be found [here](https://jupyterbook.org/publish/gh-pages.html#manually-host-your-book-with-github-pages).
+### Publishing the book
+A [github action](https://github.com/main-educational/main-educational.github.io/blob/main/.github/workflows/deploy-book.yml) has been setup to automatically re-build and publish the book every time a change is made to the content of the `main` branch.
