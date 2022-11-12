@@ -49,77 +49,122 @@ Learn more {fas}`arrow-right`
 
 UdeM Functional Neuroimaging Unit
 +++
-Explore this book {fas}`arrow-right`
+Learn more {fas}`arrow-right`
 :::
 ::::
 
 ## Executive committee
 
-::::{card-carousel} 4
+::::{card-carousel} 3
 
-:::{card}
+:::{card} Pierre Bellec
 :margin: 3
 :class-body: text-center
 :link: https://github.com/pbellec
-
-```{image} https://avatars.githubusercontent.com/u/1670887?v=4?s=100
-:height: 100
-```
-+++
-Pierre Bellec
+:img-top: https://avatars.githubusercontent.com/u/1670887?v=4?s=100
 :::
 
-:::{card}
+:::{card} Natasha J Clarke
 :margin: 3
 :class-body: text-center
 :link: https://github.com/clarkenj
-
-```{image} https://avatars.githubusercontent.com/u/57987005?v=4?s=100
-:height: 100
-```
-+++
-Natasha J Clarke
+:img-top: https://avatars.githubusercontent.com/u/57987005?v=4?s=100
 :::
-::::
 
 ## Scientific committee
 
-::::{card-carousel} 4
+::::{card-carousel} 3
 
-:::{card}
+:::{card} Karim Jerbi
 :margin: 3
 :class-body: text-center
 :link: https://github.com/k-jerbi
-
-```{image} https://avatars.githubusercontent.com/u/29810957?v=4?s=100
-:height: 100
-```
-+++
-Karim Jerbi
+:img-top: https://avatars.githubusercontent.com/u/29810957?v=4?s=100
 :::
 
-:::{card}
+:::{card} Jean-Baptiste Poline
 :margin: 3
 :class-body: text-center
 :link: https://github.com/jbpoline
-
-```{image} images/profile_jbpoline.jpg
-:height: 100
-```
-+++
-Jean-Baptiste Poline
+:img-top: images/profile_jbpoline.jpg
 :::
 
-:::{card}
+:::{card} Shahab Bakhtiari
 :margin: 3
 :class-body: text-center
 :link: https://github.com/ShahabBakht
-
-```{image} https://avatars.githubusercontent.com/u/8434115?v=4?s=100
-:height: 100
-```
-+++
-Shahab Bakhtiari
+:img-top: https://avatars.githubusercontent.com/u/8434115?v=4?s=100
 :::
 
+::::
+
+## Volunteers
+
+::::{card-carousel} 3
+:::{card} Kira Dolhan
+:margin: 1
+:class-body: text-center
+:link: https://www.moraeslab.com/biapt/people/
+:img-top: images/profile_kira.jpg
+:::
+
+:::{card} Peer Herholz
+:margin: 1
+:class-body: text-center
+:link: https://github.com/PeerHerholz
+:img-top: https://avatars.githubusercontent.com/u/20129524?v=4?s=100
+:::
+
+:::{card} Catherine Landry
+:margin: 1
+:class-body: text-center
+:link: https://www.linkedin.com/in/catherine-landry-b8b1a7207/
+:img-top: images/profile_catherine.jpg
+:::
+::::
+
+::::{card-carousel} 3
+:::{card} Sen Li
+:margin: 1
+:class-body: text-center
+:link: https://www.linkedin.com/in/sensprouting/?originalSubdomain=ca
+:img-top: https://media-exp1.licdn.com/dms/image/C5603AQH6zNOR3UW-LQ/profile-displayphoto-shrink_800_800/0/1585105242461?e=1673481600&v=beta&t=JrgXxBhlfGetkdCoO0_RyBrJPXSzDLrNIJd-MBPkT8g
+:::
+
+:::{card} Ayuno Nakahashi
+:margin: 1
+:class-body: text-center
+:link: https://twitter.com/ayuno_n
+:img-top: https://uss2021.github.io/assets/img/team/ayuno_nakahashi.jpg
+:::
+
+:::{card} Pravish Sainath
+:margin: 1
+:class-body: text-center
+:link: https://github.com/pravishsainath
+:img-top: https://avatars.githubusercontent.com/u/13696562?v=4?s=100
+:::
+::::
+
+::::{card-carousel} 3
+:::{card} Marie-Anick Savard
+:margin: 1
+:class-body: text-center
+:link: https://www.linkedin.com/in/marie-anick-savard-779547240/?originalSubdomain=ca
+:img-top: https://media-exp1.licdn.com/dms/image/C4E03AQG5f1476MfFig/profile-displayphoto-shrink_800_800/0/1653922912468?e=1673481600&v=beta&t=DoBuZVxIcFY5KKT5DA93SG8-gGXqHJ5CoOMam7Qfrrk
+:::
+
+:::{card} Younes Valibeigi
+:margin: 1
+:class-body: text-center
+:link: https://www.linkedin.com/in/younes-valibeigi
+:img-top: https://media-exp1.licdn.com/dms/image/C5603AQE7fdgr1OUM-w/profile-displayphoto-shrink_800_800/0/1540043975745?e=1673481600&v=beta&t=fMp6u--3OPmTBA30KK01MTKb4TcmRXpe4ODz4WgP5gc
+:::
+
+:::{card} Erjun Zhang
+:margin: 1
+:class-body: text-center
+:link: https://github.com/zhangerjun
+:img-top: images/profile_erjun.jpg
+:::
 ::::
