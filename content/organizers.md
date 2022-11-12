@@ -128,7 +128,7 @@ Learn more {fas}`arrow-right`
 :margin: 1
 :class-body: text-center
 :link: https://www.linkedin.com/in/sensprouting/?originalSubdomain=ca
-:img-top: https://media-exp1.licdn.com/dms/image/C5603AQH6zNOR3UW-LQ/profile-displayphoto-shrink_800_800/0/1585105242461?e=1673481600&v=beta&t=JrgXxBhlfGetkdCoO0_RyBrJPXSzDLrNIJd-MBPkT8g
+:img-top: images/profile_seni.jpg
 :::
 
 :::{card} Ayuno Nakahashi
@@ -151,14 +151,14 @@ Learn more {fas}`arrow-right`
 :margin: 1
 :class-body: text-center
 :link: https://www.linkedin.com/in/marie-anick-savard-779547240/?originalSubdomain=ca
-:img-top: https://media-exp1.licdn.com/dms/image/C4E03AQG5f1476MfFig/profile-displayphoto-shrink_800_800/0/1653922912468?e=1673481600&v=beta&t=DoBuZVxIcFY5KKT5DA93SG8-gGXqHJ5CoOMam7Qfrrk
+:img-top: images/profile_marie-anick.jpg
 :::
 
 :::{card} Younes Valibeigi
 :margin: 1
 :class-body: text-center
 :link: https://www.linkedin.com/in/younes-valibeigi
-:img-top: https://media-exp1.licdn.com/dms/image/C5603AQE7fdgr1OUM-w/profile-displayphoto-shrink_800_800/0/1540043975745?e=1673481600&v=beta&t=fMp6u--3OPmTBA30KK01MTKb4TcmRXpe4ODz4WgP5gc
+:img-top: images/profile_younes.jpg
 :::
 
 :::{card} Erjun Zhang
