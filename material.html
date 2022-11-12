@@ -53,8 +53,8 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="_static/favicon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Installation" href="installation.html" />
-    <link rel="prev" title="Code of Conduct" href="CoC.html" />
+    <link rel="next" title="Venue" href="venue.html" />
+    <link rel="prev" title="Program" href="program.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -116,13 +116,23 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="venue.html">
-   Venue
+  <a class="reference internal" href="speakers.html">
+   Speakers
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="speakers.html">
-   Speakers
+  <a class="reference internal" href="program.html">
+   Program
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Material
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="venue.html">
+   Venue
   </a>
  </li>
  <li class="toctree-l1">
@@ -131,18 +141,8 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="schedule.html">
-   Schedule
-  </a>
- </li>
- <li class="toctree-l1">
   <a class="reference internal" href="CoC.html">
    Code of Conduct
-  </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Material
   </a>
  </li>
  <li class="toctree-l1">
@@ -328,23 +328,189 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#supervised-learning">
-   Supervised learning
+  <a class="reference internal nav-link" href="#supervised-learning-using-scikit-learn">
+   Supervised learning using scikit-learn
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#instructor">
+     Instructor
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#objectives">
+     Objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#materials">
+     Materials
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#representational-structure-in-neural-time-series-using-calcium-imaging-and-electrophysiology">
+   Representational structure in neural time series using calcium imaging and electrophysiology
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#instructors">
+     Instructors
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Materials
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#keynote-patrick-mineault">
+   Keynote Patrick Mineault
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#brain-encoding-and-decoding-in-fmri">
-   Brain encoding and decoding in fMRI
+  <a class="reference internal nav-link" href="#introduction-to-deep-learning-using-pytorch">
+   Introduction to deep learning using Pytorch
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     Instructors
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     Objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id5">
+     Materials
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#machine-learning-in-functional-mri-using-nilearn">
+   Machine learning in functional MRI using Nilearn
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id6">
+     Instructors
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id7">
+     Objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id8">
+     Materials
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#keynote-elizabeth-dupre">
+   Keynote Elizabeth Dupre
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#model-selection-and-validation">
    Model selection and validation
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id9">
+     Instructor
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id10">
+     Objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id11">
+     Materials
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#intro-to-nilearn">
-   Intro to Nilearn
+  <a class="reference internal nav-link" href="#introduction-to-electro-and-magneto-encephalography-using-mne-python">
+   Introduction to electro- and magneto-encephalography using MNE-python
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id12">
+     Instructor
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id13">
+     Objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id14">
+     Materials
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#brain-decoding">
+   Brain decoding
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id15">
+     Instructors
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id16">
+   Objectives
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id17">
+   Materials
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#brain-encoding">
+   Brain encoding
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id18">
+     Instructors
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id19">
+   Objectives
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id20">
+   Materials
   </a>
  </li>
 </ul>
@@ -367,23 +533,189 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#supervised-learning">
-   Supervised learning
+  <a class="reference internal nav-link" href="#supervised-learning-using-scikit-learn">
+   Supervised learning using scikit-learn
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#instructor">
+     Instructor
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#objectives">
+     Objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#materials">
+     Materials
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#representational-structure-in-neural-time-series-using-calcium-imaging-and-electrophysiology">
+   Representational structure in neural time series using calcium imaging and electrophysiology
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#instructors">
+     Instructors
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Materials
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#keynote-patrick-mineault">
+   Keynote Patrick Mineault
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#brain-encoding-and-decoding-in-fmri">
-   Brain encoding and decoding in fMRI
+  <a class="reference internal nav-link" href="#introduction-to-deep-learning-using-pytorch">
+   Introduction to deep learning using Pytorch
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     Instructors
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     Objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id5">
+     Materials
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#machine-learning-in-functional-mri-using-nilearn">
+   Machine learning in functional MRI using Nilearn
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id6">
+     Instructors
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id7">
+     Objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id8">
+     Materials
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#keynote-elizabeth-dupre">
+   Keynote Elizabeth Dupre
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#model-selection-and-validation">
    Model selection and validation
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id9">
+     Instructor
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id10">
+     Objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id11">
+     Materials
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#intro-to-nilearn">
-   Intro to Nilearn
+  <a class="reference internal nav-link" href="#introduction-to-electro-and-magneto-encephalography-using-mne-python">
+   Introduction to electro- and magneto-encephalography using MNE-python
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id12">
+     Instructor
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id13">
+     Objectives
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id14">
+     Materials
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#brain-decoding">
+   Brain decoding
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id15">
+     Instructors
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id16">
+   Objectives
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id17">
+   Materials
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#brain-encoding">
+   Brain encoding
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id18">
+     Instructors
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id19">
+   Objectives
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id20">
+   Materials
   </a>
  </li>
 </ul>
@@ -398,53 +730,179 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="material">
 <h1>Material<a class="headerlink" href="#material" title="Permalink to this headline">#</a></h1>
-<section id="supervised-learning">
-<h2>Supervised learning<a class="headerlink" href="#supervised-learning" title="Permalink to this headline">#</a></h2>
-<p><strong>Instructor</strong>: Nikhil Bhagwat</p>
-<p><strong>Objectives</strong>:</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The descriptions and material below are provisional, and may be updated until Dec 1st 2022.</p>
+</div>
+<section id="supervised-learning-using-scikit-learn">
+<span id="material-supervised-learning"></span><h2>Supervised learning using scikit-learn<a class="headerlink" href="#supervised-learning-using-scikit-learn" title="Permalink to this headline">#</a></h2>
+<section id="instructor">
+<h3>Instructor<a class="headerlink" href="#instructor" title="Permalink to this headline">#</a></h3>
+<p>Nikhil Bhagwat</p>
+</section>
+<section id="objectives">
+<h3>Objectives<a class="headerlink" href="#objectives" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p>Understand basic concepts in supervised machine-learning</p></li>
 <li><p>Implement a typical model validation pipeline with Scikit-learn</p></li>
 <li><p>Learn about various model performance scores and their use-cases</p></li>
 </ul>
-<p><strong>Materials</strong>: <a class="reference external" href="https://github.com/neurodatascience/main-2021-ml-parts-1-2">GitHub Link</a></p>
 </section>
-<section id="brain-encoding-and-decoding-in-fmri">
-<h2>Brain encoding and decoding in fMRI<a class="headerlink" href="#brain-encoding-and-decoding-in-fmri" title="Permalink to this headline">#</a></h2>
-<p><strong>Instructors</strong>: Shima Rastegarnia, Pierre Bellec and Pravish Sainath</p>
-<p><strong>Objectives</strong>:</p>
+<section id="materials">
+<h3>Materials<a class="headerlink" href="#materials" title="Permalink to this headline">#</a></h3>
+<p><a class="reference external" href="https://github.com/neurodatascience/main-2021-ml-parts-1-2">GitHub Link</a></p>
+</section>
+</section>
+<section id="representational-structure-in-neural-time-series-using-calcium-imaging-and-electrophysiology">
+<h2>Representational structure in neural time series using calcium imaging and electrophysiology<a class="headerlink" href="#representational-structure-in-neural-time-series-using-calcium-imaging-and-electrophysiology" title="Permalink to this headline">#</a></h2>
+<section id="instructors">
+<h3>Instructors<a class="headerlink" href="#instructors" title="Permalink to this headline">#</a></h3>
+<p><strong>Dr. Quinn Lee</strong> is a CIHR/FRQ postdoctoral research fellow in the Brandon Lab at McGill University (Montreal, QC, Canada). Prior to joining the Brandon Lab, he completed my PhD at the University of Lethbridge (Lethbridge, AB, Canada) with Drs. Robert Sutherland and Robert McDonald studying how long-term memory is organized at the systems-level in the brain. His current work aims to understand how aspects of experience and memory are represented in neuronal population activity in the rodent hippocampus across protracted experience. To this end, he uses a combination of miniscope calcium imaging in freely moving animals, advanced behavioral tracking, and computational methods to explore questions about neuronal representation and behavior.</p>
+<p><strong>Dr Giuseppe P Gava</strong> is a postdoctoral neuroscientist in the Dupret Lab at the MRC BNDU, University of Oxford. He was awarded a PhD from the Centre for Doctoral Training in Neurotechnology at Imperial College London, where he also graduated in Biomedical Engineering. He aims to use concepts from network science, topology and information theory to understand the complex neural circuitry and dynamics that shape memory and cognition.</p>
+</section>
+<section id="id1">
+<h3>Objectives<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
-<li><p>Understand the principles of brain encoding and decoding in functional magnetic resonance imaging</p></li>
-<li><p>Use ridge regression for brain encoding using features of a pretrained artificial neural network</p></li>
-<li><p>Use searchlight for brain decoding with multiple stimuli category</p></li>
-<li><p>Use deep graph neural networks for brain decoding with multiple stimuli category.</p></li>
+<li><p>Data analysis for in vivo calcium imaging time series from freely-behaving animals</p></li>
+<li><p>Data analysis for electrophysiological time series from freely-behaving animals</p></li>
 </ul>
-<p><strong>Materials</strong>: <a class="reference external" href="https://main-educational.github.io/brain_encoding_decoding/">Jupyter book link</a>; <a class="reference external" href="https://github.com/main-educational/brain_encoding_decoding">Github Link</a></p>
 </section>
-<section id="model-selection-and-validation">
-<h2>Model selection and validation<a class="headerlink" href="#model-selection-and-validation" title="Permalink to this headline">#</a></h2>
-<p><strong>Instructor</strong>: Jérôme Dockes</p>
-<p><strong>Objectives</strong>:</p>
+<section id="id2">
+<h3>Materials<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h3>
+<p>To be announced.</p>
+</section>
+</section>
+<section id="keynote-patrick-mineault">
+<h2>Keynote Patrick Mineault<a class="headerlink" href="#keynote-patrick-mineault" title="Permalink to this headline">#</a></h2>
+<p><strong>Dr Patrick Mineault</strong> is a neurotechnologist and CEO of xcorr consulting. His career spans academia and industry: he was a data scientist at Google, research scientist at Meta on brain-computer-interfaces, founder of a medtech startup and founding CTO of the educational nonprofit Neuromatch. His research at the intersection of neuroscience and AI has been published in NeurIPS, Neuron, PNAS, J Neurosci and Plos Comp Bio. He is the author of the Good Research Code Handbook and writes a popular computational neuroscience blog, <a class="reference external" href="https://xcorr.net/">xcorr.net</a>. He obtained his PhD in computational neuroscience at McGill University.</p>
+<p><strong>Title</strong>: What’s the endgame of neuroAI?</p>
+<p><strong>Summary</strong>: Neuroscience and AI have a long, intertwined history. Artificial intelligence pioneers looked to the principles of the organization of the brain as inspiration to make intelligent machines. In a surprising reversal, AI is now helping us understand its very source of inspiration: the human brain. Over the next decade, we’ll make ever more precise in silico brain models. As a result, we’ll soon be able to download and use sensory models, on demand, with the same convenience that we can do object recognition or natural language processing.</p>
+<p>In this talk, I will take you on a tour of the near future. I will argue that we should use this newfound capability to help improve human health, both for people with neurological disorders and to enhance the well. I discuss enabling technological trends: advances in AI, industrial use cases, AR/VR and BCI. I invite everyone to reflect on the role of innovation and academia to help humans flourish.</p>
+</section>
+<section id="introduction-to-deep-learning-using-pytorch">
+<h2>Introduction to deep learning using Pytorch<a class="headerlink" href="#introduction-to-deep-learning-using-pytorch" title="Permalink to this headline">#</a></h2>
+<section id="id3">
+<h3>Instructors<a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h3>
+<p>Mohammad Yaghoubi, Thomas Jiralerspong and Krystal Pan</p>
+</section>
+<section id="id4">
+<h3>Objectives<a class="headerlink" href="#id4" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
-<li><p>Understand how to evaluate the performance of machine learning models.</p></li>
-<li><p>Learn about hyperparameters and model selection.</p></li>
-<li><p>Learn about pitfalls when validating machine learning models and how to easily avoid them using scikit-learn.</p></li>
+<li><p>Understand basic concepts in deep learning</p></li>
+<li><p>Discover the pytorch interface to build artificial neural networks</p></li>
+<li><p>Train a basic model using pytorch</p></li>
 </ul>
-<p><strong>Materials</strong>: <a class="reference external" href="https://github.com/neurodatascience/main-2021-ml-parts-1-2">GitHub Link</a></p>
 </section>
-<section id="intro-to-nilearn">
-<h2>Intro to <a class="reference external" href="https://nilearn.github.io">Nilearn</a><a class="headerlink" href="#intro-to-nilearn" title="Permalink to this headline">#</a></h2>
-<p><strong>Instructors</strong>: Hao-Ting Wang and Francois Paugam</p>
-<p><strong>Objectives</strong>:</p>
+<section id="id5">
+<h3>Materials<a class="headerlink" href="#id5" title="Permalink to this headline">#</a></h3>
+<p>The training material is adapted from NeuroMatch Academy.
+<a class="reference external" href="https://colab.research.google.com/drive/1Arf7Ydg1VjNx5wv9IOI5xTCYbQ5Djo-7?usp=sharing">Google collab Link</a></p>
+</section>
+</section>
+<section id="machine-learning-in-functional-mri-using-nilearn">
+<h2>Machine learning in functional MRI using <a class="reference external" href="https://nilearn.github.io">Nilearn</a><a class="headerlink" href="#machine-learning-in-functional-mri-using-nilearn" title="Permalink to this headline">#</a></h2>
+<section id="id6">
+<h3>Instructors<a class="headerlink" href="#id6" title="Permalink to this headline">#</a></h3>
+<p>Hao-Ting Wang and Yasmin Mzayek</p>
+</section>
+<section id="id7">
+<h3>Objectives<a class="headerlink" href="#id7" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p>Understand the structure of functional magnetic resonance imaging data.</p></li>
 <li><p>Generate correlation matrices using fMRI time series (aka “connectomes”).</p></li>
 <li><p>Visualize brain maps and connectomes.</p></li>
 <li><p>Train machine learning models to classify subjects by age groups based on brain connectivity.</p></li>
 </ul>
-<p><strong>Materials</strong>:
-<a class="reference external" href="https://github.com/main-educational/intro_ML">Github Link</a>
+</section>
+<section id="id8">
+<h3>Materials<a class="headerlink" href="#id8" title="Permalink to this headline">#</a></h3>
+<p><a class="reference external" href="https://github.com/main-educational/intro_ML">Github Link</a>
 <a class="reference external" href="https://main-educational.github.io/intro_ML/intro.html">Jupyter Book Link</a></p>
+</section>
+</section>
+<section id="keynote-elizabeth-dupre">
+<h2>Keynote Elizabeth Dupre<a class="headerlink" href="#keynote-elizabeth-dupre" title="Permalink to this headline">#</a></h2>
+<p><strong>Dr Elizabeth Dupre</strong> is a Wu Tsai interdisciplinary postdoctoral research fellow at Stanford University, working between the Poldrack and Linderman labs. As a psychologist and computational neuroscientist, her work focuses on developing methods to characterize complex, naturalistic cognition in health and disease. Specifically, her current projects aim to model individual brain activity across a range of cognitive states—and to assess the generalizability of these individualized models—by extending statistical methods for human neuroimaging data analysis. Her background is in cognitive neuroscience, with a Ph.D. in neuroscience from McGill University and Bachelors and Masters degrees in developmental psychology from Cornell University. My dissertation focused on benchmarking emerging methods to compare functional activations during complex cognitive tasks. As part of her research, she helps to develop several tools used across the open Python ecosystem such as Nilearn. She is also actively involved in community initiatives to promote open, interdisciplinary science. She currently serve as chair of the Organization for Human Brain Mapping (OHBM) Communications Committee and as a handling editor at the Journal of Open Source Software (JOSS).</p>
+<p><strong>Title</strong>: TBA</p>
+<p><strong>Summary</strong>: TBA</p>
+</section>
+<section id="model-selection-and-validation">
+<h2>Model selection and validation<a class="headerlink" href="#model-selection-and-validation" title="Permalink to this headline">#</a></h2>
+<section id="id9">
+<h3>Instructor<a class="headerlink" href="#id9" title="Permalink to this headline">#</a></h3>
+<p>Jérôme Dockes</p>
+</section>
+<section id="id10">
+<h3>Objectives<a class="headerlink" href="#id10" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p>Understand how to evaluate the performance of machine learning models.</p></li>
+<li><p>Learn about hyperparameters and model selection.</p></li>
+<li><p>Learn about pitfalls when validating machine learning models and how to easily avoid them using scikit-learn.</p></li>
+</ul>
+</section>
+<section id="id11">
+<h3>Materials<a class="headerlink" href="#id11" title="Permalink to this headline">#</a></h3>
+<p><a class="reference external" href="https://github.com/neurodatascience/main-2021-ml-parts-1-2">GitHub Link</a></p>
+</section>
+</section>
+<section id="introduction-to-electro-and-magneto-encephalography-using-mne-python">
+<h2>Introduction to electro- and magneto-encephalography using <a class="reference external" href="https://mne.tools/stable/index.html">MNE-python</a><a class="headerlink" href="#introduction-to-electro-and-magneto-encephalography-using-mne-python" title="Permalink to this headline">#</a></h2>
+<section id="id12">
+<h3>Instructor<a class="headerlink" href="#id12" title="Permalink to this headline">#</a></h3>
+<p>Alexandre Gramfort</p>
+</section>
+<section id="id13">
+<h3>Objectives<a class="headerlink" href="#id13" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p>Understand the structure of electro- and magneto-encephalography data.</p></li>
+<li><p>Prepare and visualize MEG brain activity</p></li>
+<li><p>Train machine learning models on MEG data</p></li>
+</ul>
+</section>
+<section id="id14">
+<h3>Materials<a class="headerlink" href="#id14" title="Permalink to this headline">#</a></h3>
+<p>TBA</p>
+</section>
+</section>
+<section id="brain-decoding">
+<h2>Brain decoding<a class="headerlink" href="#brain-decoding" title="Permalink to this headline">#</a></h2>
+<section id="id15">
+<h3>Instructors<a class="headerlink" href="#id15" title="Permalink to this headline">#</a></h3>
+<p>Dr Peer Herholz</p>
+</section>
+</section>
+<section id="id16">
+<h2>Objectives<a class="headerlink" href="#id16" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Understand the principles of brain decoding</p></li>
+<li><p>Use ridge regression for brain encoding using features of a pretrained artificial neural network in functional magnetic resonance imaging</p></li>
+<li><p>Use searchlight for brain decoding with multiple stimuli category</p></li>
+<li><p>Use deep graph neural networks for brain decoding with multiple stimuli category.</p></li>
+</ul>
+</section>
+<section id="id17">
+<h2>Materials<a class="headerlink" href="#id17" title="Permalink to this headline">#</a></h2>
+<p><a class="reference external" href="https://main-educational.github.io/brain_encoding_decoding/">Jupyter book link</a>; <a class="reference external" href="https://github.com/main-educational/brain_encoding_decoding">Github Link</a></p>
+</section>
+<section id="brain-encoding">
+<h2>Brain encoding<a class="headerlink" href="#brain-encoding" title="Permalink to this headline">#</a></h2>
+<section id="id18">
+<h3>Instructors<a class="headerlink" href="#id18" title="Permalink to this headline">#</a></h3>
+<p>Dr Isil Bilgin and Mr Pravish Sainath</p>
+</section>
+</section>
+<section id="id19">
+<h2>Objectives<a class="headerlink" href="#id19" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Understand the principles of brain encoding</p></li>
+<li><p>Use ridge regression to encode brain activity in functional magnetic resonance imaging using direct representation of visual stimuli</p></li>
+<li><p>Use ridge regression to encode brain activity in functional magnetic resonance imaging during a movie watching task using a large artificial language network</p></li>
+</ul>
+</section>
+<section id="id20">
+<h2>Materials<a class="headerlink" href="#id20" title="Permalink to this headline">#</a></h2>
+<p><a class="reference external" href="https://main-educational.github.io/brain_encoding_decoding/">Jupyter book link</a>; <a class="reference external" href="https://github.com/main-educational/brain_encoding_decoding">Github Link</a>
+<a class="reference external" href="https://github.com/jashna14/DL4Brain">Github repository</a></p>
 </section>
 </section>
 
@@ -475,17 +933,17 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="CoC.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="program.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Code of Conduct</p>
+            <p class="prev-next-title">Program</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="installation.html" title="next page">
+    <a class='right-next' id="next-link" href="venue.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Installation</p>
+        <p class="prev-next-title">Venue</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
