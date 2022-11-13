@@ -3,7 +3,7 @@
 ![](./banner.jpeg)
 
 :::{note}
-**Register for online or in-person participation using [EventBrite]()!**
+**Register for online or in-person participation using [EventBrite](https://www.eventbrite.ca/e/444622175897)!**
 :::
 
 The educational workshop is organized by the [UNIQUE](https://www.unique.quebec/) NeuroAI center as part of the Montreal Artificial Intelligence and Neuroscience (MAIN) 2022 [conference](https://www.main2022.org/). This is an hybrid event, with the vast majority of the presentations happening in-person and streamed online. Some speakers will present online only. There are two parallel tracks running over two days:
