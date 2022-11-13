@@ -3,11 +3,11 @@
 ## December 9th
 
 ### Morning sessions
-08:00 EST - 09:00 EST **Registration**, snack and coffee
+08:30 EST - 09:00 EST **Registration**, snack and coffee
 
 09:00 EST - 09:10 EST **Welcome**
 
-09:15 EST - 12:00 EST **Parallel sessions**. Note a break from 10:00 EST to 10:15 EST with coffee and snack provided onsite.
+09:15 EST - 12:00 EST **Parallel sessions**. Note a break from 10:30 EST to 10:45 EST with coffee and snack provided onsite.
 
 ::::{card-carousel} 3
 
@@ -57,7 +57,7 @@ Learn more {fas}`arrow-right`
 :::
 ::::
 
-14:15 EST - 17:00 EST **Parallel sessions**. Note a break from 15:00 EST to 15:15 EST with coffee and snack provided onsite.
+14:15 EST - 17:00 EST **Parallel sessions**. Note a break from 15:30 EST to 15:45 EST with coffee and snack provided onsite.
 ::::{card-carousel} 3
 
 :::{card}
@@ -95,9 +95,9 @@ Learn more {fas}`arrow-right`
 ## December 10th
 
 ### Morning sessions
-08:00 EST - 09:00 EST Snack and coffee
+08:30 EST - 09:00 EST Snack and coffee
 
-09:00 EST - 12:00 EST **Parallel sessions**. Note a break from 10:00 EST to 10:15 EST with coffee and snack provided onsite.
+09:00 EST - 12:00 EST **Parallel sessions**. Note a break from 10:30 EST to 10:45 EST with coffee and snack provided onsite.
 
 ::::{card-carousel} 3
 
@@ -146,7 +146,7 @@ Learn more {fas}`arrow-right`
 :::
 ::::
 
-14:15 EST - 17:00 EST **Parallel sessions**. Note a break from 15:00 EST to 15:15 EST with coffee and snack provided onsite.
+14:15 EST - 17:00 EST **Parallel sessions**. Note a break from 15:30 EST to 15:45 EST with coffee and snack provided onsite.
 ::::{card-carousel} 3
 
 :::{card}
