@@ -172,7 +172,7 @@ Learn more {fas}`arrow-right`
 :class-header: bg-light text-center
 :link: ./material.html#brain-encoding
 
-**Isil Bilgin and Pravish Sainath**
+**Isil Bilgin, Alexandre Pasquiou and Pravish Sainath**
 ^^^
 ```{image} images/thumbnail_encoding.png
 :height: 100

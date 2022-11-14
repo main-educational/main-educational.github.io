@@ -97,6 +97,13 @@
 ::::
 
 ::::{card-carousel} 3
+:::{card} Alexandre Pasquiou
+:margin: 3
+:class-body: text-center
+:link: https://twitter.com/a_pasquiou
+:img-top: images/profile_alexandre_pasquiou.jpg
+:::
+
 :::{card} Pravish Sainath
 :margin: 3
 :class-body: text-center
@@ -110,7 +117,9 @@
 :link: https://wanghaoting.com
 :img-top: https://avatars.githubusercontent.com/u/13743617?v=4
 :::
+::::
 
+::::{card-carousel} 3
 :::{card} Mohammad Yaghoubi
 :margin: 3
 :class-body: text-center
