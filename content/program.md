@@ -30,18 +30,19 @@ Learn more {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: ./material.html#representational-structure-in-neural-time-series-using-calcium-imaging-and-electrophysiology
+:link: ./material.html#machine-learning-in-functional-mri-using-nilearn
 
-**Quinn Lee and Giuseppe Pietro Gava**
+**Hao-Ting Wang and Yasmin Mzayek**
 ^^^
-```{image} images/logo_unique.jpg
+```{image} images/logo_nilearn.png
 :height: 100
 ```
-Calcium imaging and electrophysiological time series in freely-behaving animals
+Machine learning in functional MRI using Nilearn
 +++
 Learn more {fas}`arrow-right`
 :::
 ::::
+
 
 ### Afternoon sessions
 12:00 EST - 13:00 EST **Lunch** (provided onsite)
@@ -79,18 +80,19 @@ Learn more {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: ./material.html#machine-learning-in-functional-mri-using-nilearn
+:link: ./material.html#representational-structure-in-neural-time-series-using-calcium-imaging-and-electrophysiology
 
-**Hao-Ting Wang and Yasmin Mzayek**
+**Quinn Lee and Giuseppe Pietro Gava**
 ^^^
-```{image} images/logo_nilearn.png
+```{image} images/logo_unique.jpg
 :height: 100
 ```
-Machine learning in functional MRI using Nilearn
+Calcium imaging and electrophysiological time series in freely-behaving animals
 +++
 Learn more {fas}`arrow-right`
 :::
 ::::
+
 
 ## December 10th
 
