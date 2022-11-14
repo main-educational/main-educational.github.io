@@ -35,7 +35,7 @@ To be announced.
 
 ## Keynote Patrick Mineault
 
-**Dr Patrick Mineault** is a neurotechnologist and CEO of xcorr consulting. His career spans academia and industry: he was a data scientist at Google, research scientist at Meta on brain-computer-interfaces, founder of a medtech startup and founding CTO of the educational nonprofit Neuromatch. His research at the intersection of neuroscience and AI has been published in NeurIPS, Neuron, PNAS, J Neurosci and Plos Comp Bio. He is the author of the Good Research Code Handbook and writes a popular computational neuroscience blog, [xcorr.net](https://xcorr.net/). He obtained his PhD in computational neuroscience at McGill University.
+**Patrick Mineault, PhD** is a neurotechnologist and CEO of xcorr consulting. His career spans academia and industry: he was a data scientist at Google, research scientist at Meta on brain-computer-interfaces, founder of a medtech startup and founding CTO of the educational nonprofit Neuromatch. His research at the intersection of neuroscience and AI has been published in NeurIPS, Neuron, PNAS, J Neurosci and Plos Comp Bio. He is the author of the Good Research Code Handbook and writes a popular computational neuroscience blog, [xcorr.net](https://xcorr.net/). He obtained his PhD in computational neuroscience at McGill University.
 
 **Title**: What's the endgame of neuroAI?
 
