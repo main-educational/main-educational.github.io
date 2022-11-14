@@ -123,7 +123,7 @@ Dr Peer Herholz
 
 ## Brain encoding
 ### Instructors
-Dr Isil Bilgin and Mr Pravish Sainath
+Dr Isil Bilgin, Mr Alexandre Pasquiou and Mr Pravish Sainath
 
 ## Objectives
  * Understand the principles of brain encoding
