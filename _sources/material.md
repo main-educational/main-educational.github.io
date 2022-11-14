@@ -60,7 +60,9 @@ The training material is adapted from NeuroMatch Academy.
 ## Machine learning in functional MRI using [Nilearn](https://nilearn.github.io)
 
 ### Instructors
-Hao-Ting Wang and Yasmin Mzayek
+**Yasmin Mzayek** obtained her Master's in Brain and Cognitive Sciences from the University of Amsterdam. During this time she did an internship at the Netherlands Cancer Institute in Amsterdam and worked on analyzing diffusion-weighted imaging data. Then she went to Aix Marseille University to work on pulse sequence programming for diffusion MR spectroscopy as well as processing and analysis of data from this modality. She also worked as scientific programmer and data scientist at the University of Groningen. Currently, she is a research engineer at INRIA working on maintaining the Nilearn Python toolkit.
+
+** Dr Hao-Ting Wang** is a IVADO postdoctoral fellow at CRIUGM. Her project focuses on discovery of transdiagnostic brain biomarkers amongst neurodegenerative conditions from multiple open access datasets. Her expertise lies in fMRI data processing, functional connectivity, and data workflow construction. She is also a core developer of Nilearn with a focus on fMRI data processing and feature extraction.
 
 ### Objectives
  * Understand the structure of functional magnetic resonance imaging data.
