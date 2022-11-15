@@ -22,9 +22,9 @@ Nikhil Bhagwat
 ## Representational structure in neural time series using calcium imaging and electrophysiology
 
 ### Instructors
-**Dr. Quinn Lee** is a CIHR/FRQ postdoctoral research fellow in the Brandon Lab at McGill University (Montreal, QC, Canada). Prior to joining the Brandon Lab, he completed my PhD at the University of Lethbridge (Lethbridge, AB, Canada) with Drs. Robert Sutherland and Robert McDonald studying how long-term memory is organized at the systems-level in the brain. His current work aims to understand how aspects of experience and memory are represented in neuronal population activity in the rodent hippocampus across protracted experience. To this end, he uses a combination of miniscope calcium imaging in freely moving animals, advanced behavioral tracking, and computational methods to explore questions about neuronal representation and behavior.
+**Quinn Lee, PhD** is a CIHR/FRQ postdoctoral research fellow in the Brandon Lab at McGill University (Montreal, QC, Canada). Prior to joining the Brandon Lab, he completed my PhD at the University of Lethbridge (Lethbridge, AB, Canada) with Drs. Robert Sutherland and Robert McDonald studying how long-term memory is organized at the systems-level in the brain. His current work aims to understand how aspects of experience and memory are represented in neuronal population activity in the rodent hippocampus across protracted experience. To this end, he uses a combination of miniscope calcium imaging in freely moving animals, advanced behavioral tracking, and computational methods to explore questions about neuronal representation and behavior.
 
-**Dr Giuseppe P Gava** is a postdoctoral neuroscientist in the Dupret Lab at the MRC BNDU, University of Oxford. He was awarded a PhD from the Centre for Doctoral Training in Neurotechnology at Imperial College London, where he also graduated in Biomedical Engineering. He aims to use concepts from network science, topology and information theory to understand the complex neural circuitry and dynamics that shape memory and cognition.
+**Giuseppe P Gava, PhD** is a postdoctoral neuroscientist in the Dupret Lab at the MRC BNDU, University of Oxford. He was awarded a PhD from the Centre for Doctoral Training in Neurotechnology at Imperial College London, where he also graduated in Biomedical Engineering. He aims to use concepts from network science, topology and information theory to understand the complex neural circuitry and dynamics that shape memory and cognition.
 
 ### Objectives
  * Data analysis for in vivo calcium imaging time series from freely-behaving animals
@@ -35,7 +35,7 @@ To be announced.
 
 ## Keynote Patrick Mineault
 
-**Dr Patrick Mineault** is a neurotechnologist and CEO of xcorr consulting. His career spans academia and industry: he was a data scientist at Google, research scientist at Meta on brain-computer-interfaces, founder of a medtech startup and founding CTO of the educational nonprofit Neuromatch. His research at the intersection of neuroscience and AI has been published in NeurIPS, Neuron, PNAS, J Neurosci and Plos Comp Bio. He is the author of the Good Research Code Handbook and writes a popular computational neuroscience blog, [xcorr.net](https://xcorr.net/). He obtained his PhD in computational neuroscience at McGill University.
+**Patrick Mineault, PhD** is a neurotechnologist and CEO of xcorr consulting. His career spans academia and industry: he was a data scientist at Google, research scientist at Meta on brain-computer-interfaces, founder of a medtech startup and founding CTO of the educational nonprofit Neuromatch. His research at the intersection of neuroscience and AI has been published in NeurIPS, Neuron, PNAS, J Neurosci and Plos Comp Bio. He is the author of the Good Research Code Handbook and writes a popular computational neuroscience blog, [xcorr.net](https://xcorr.net/). He obtained his PhD in computational neuroscience at McGill University.
 
 **Title**: What's the endgame of neuroAI?
 
@@ -62,7 +62,7 @@ The training material is adapted from NeuroMatch Academy.
 ### Instructors
 **Yasmin Mzayek** obtained her Master's in Brain and Cognitive Sciences from the University of Amsterdam. During this time she did an internship at the Netherlands Cancer Institute in Amsterdam and worked on analyzing diffusion-weighted imaging data. Then she went to Aix Marseille University to work on pulse sequence programming for diffusion MR spectroscopy as well as processing and analysis of data from this modality. She also worked as scientific programmer and data scientist at the University of Groningen. Currently, she is a research engineer at INRIA working on maintaining the Nilearn Python toolkit.
 
-**Dr Hao-Ting Wang** is a IVADO postdoctoral fellow at CRIUGM. Her project focuses on discovery of transdiagnostic brain biomarkers amongst neurodegenerative conditions from multiple open access datasets. Her expertise lies in fMRI data processing, functional connectivity, and data workflow construction. She is also a core developer of Nilearn with a focus on fMRI data processing and feature extraction.
+**Hao-Ting Wang, PhD** is a IVADO postdoctoral fellow at CRIUGM. Her project focuses on discovery of transdiagnostic brain biomarkers amongst neurodegenerative conditions from multiple open access datasets. Her expertise lies in fMRI data processing, functional connectivity, and data workflow construction. She is also a core developer of Nilearn with a focus on fMRI data processing and feature extraction.
 
 ### Objectives
  * Understand the structure of functional magnetic resonance imaging data.
@@ -76,11 +76,14 @@ The training material is adapted from NeuroMatch Academy.
 
 ## Keynote Elizabeth Dupre
 
-**Dr Elizabeth Dupre** is a Wu Tsai interdisciplinary postdoctoral research fellow at Stanford University, working between the Poldrack and Linderman labs. As a psychologist and computational neuroscientist, her work focuses on developing methods to characterize complex, naturalistic cognition in health and disease. Specifically, her current projects aim to model individual brain activity across a range of cognitive states—and to assess the generalizability of these individualized models—by extending statistical methods for human neuroimaging data analysis. Her background is in cognitive neuroscience, with a Ph.D. in neuroscience from McGill University and Bachelors and Masters degrees in developmental psychology from Cornell University. My dissertation focused on benchmarking emerging methods to compare functional activations during complex cognitive tasks. As part of her research, she helps to develop several tools used across the open Python ecosystem such as Nilearn. She is also actively involved in community initiatives to promote open, interdisciplinary science. She currently serve as chair of the Organization for Human Brain Mapping (OHBM) Communications Committee and as a handling editor at the Journal of Open Source Software (JOSS).
+**Elizabeth Dupre, PhD** is a [Wu Tsai interdisciplinary postdoctoral research fellow](https://neuroscience.stanford.edu/people/elizabeth-dupre) at Stanford University, working between Prof. Russ [Poldrack](https://poldracklab.stanford.edu/) and Prof. Scott [Linderman](https://web.stanford.edu/~swl1/). As a psychologist and computational neuroscientist, her work focuses on modeling individual brain activity across a range of cognitive states—and assessing the generalizability of these individualized models—by extending statistical methods for human neuroimaging data analysis. Through her work, Dr DuPre has taken an active role developing tools in the open source Python ecosystem, with a focus on improving the reproducibility of analysis workflows.
 
-**Title**: TBA
+**Title**: Aligning representations in brains and machines
 
-**Summary**: TBA
+**Summary**: Computational neuroscience is focused on uncovering general organizational principles supporting neural activity and behavior; however, uncovering these principles relies on making appropriate comparisons across individuals. This presents a core technical and conceptual challenge, as individuals differ along nearly every relevant dimension: from the number of neurons supporting computation to the exact computation being performed. Similarly in artificial neural networks, multiple initializations of the same architecture—on the same data—may recruit non-overlapping hidden units, complicating direct comparisons of trained networks.
+
+In this talk, I will introduce techniques for aligning representations in both brains and in machines. I will argue for the importance of considering alignment methods in developing a comprehensive science at the intersection of artificial intelligence and neuroscience that reflects our shared goal of understanding principles of computation. Finally, I will consider current applications and limitations of these techniques, discussing relevant future directions for this area.
+
 
 ## Model selection and validation
 

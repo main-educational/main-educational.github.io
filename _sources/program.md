@@ -144,7 +144,7 @@ Learn more {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :link: ./material.html#keynote-elizabeth-dupre
-:img-top: https://avatars.githubusercontent.com/u/15017191?v=4
+:img-top: images/profile_emdupre.jpg
 :::
 ::::
 

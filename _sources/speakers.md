@@ -19,7 +19,7 @@
 :margin: 3
 :class-body: text-center
 :link: https://elizabeth-dupre.com/
-:img-top: https://avatars.githubusercontent.com/u/15017191?v=4
+:img-top: images/profile_emdupre.jpg
 :::
 
 ::::
