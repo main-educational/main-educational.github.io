@@ -19,19 +19,22 @@ Nikhil Bhagwat
 ### Materials
 [GitHub Link](https://github.com/neurodatascience/main-2021-ml-parts-1-2)
 
-## Representational structure in neural time series using calcium imaging and electrophysiology
+## Machine learning in functional MRI using [Nilearn](https://nilearn.github.io)
 
 ### Instructors
-**Dr. Quinn Lee** is a CIHR/FRQ postdoctoral research fellow in the Brandon Lab at McGill University (Montreal, QC, Canada). Prior to joining the Brandon Lab, he completed my PhD at the University of Lethbridge (Lethbridge, AB, Canada) with Drs. Robert Sutherland and Robert McDonald studying how long-term memory is organized at the systems-level in the brain. His current work aims to understand how aspects of experience and memory are represented in neuronal population activity in the rodent hippocampus across protracted experience. To this end, he uses a combination of miniscope calcium imaging in freely moving animals, advanced behavioral tracking, and computational methods to explore questions about neuronal representation and behavior.
+**Yasmin Mzayek** obtained her Master's in Brain and Cognitive Sciences from the University of Amsterdam. During this time she did an internship at the Netherlands Cancer Institute in Amsterdam and worked on analyzing diffusion-weighted imaging data. Then she went to Aix Marseille University to work on pulse sequence programming for diffusion MR spectroscopy as well as processing and analysis of data from this modality. She also worked as scientific programmer and data scientist at the University of Groningen. Currently, she is a research engineer at INRIA working on maintaining the Nilearn Python toolkit.
 
-**Dr Giuseppe P Gava** is a postdoctoral neuroscientist in the Dupret Lab at the MRC BNDU, University of Oxford. He was awarded a PhD from the Centre for Doctoral Training in Neurotechnology at Imperial College London, where he also graduated in Biomedical Engineering. He aims to use concepts from network science, topology and information theory to understand the complex neural circuitry and dynamics that shape memory and cognition.
+**Dr Hao-Ting Wang** is a IVADO postdoctoral fellow at CRIUGM. Her project focuses on discovery of transdiagnostic brain biomarkers amongst neurodegenerative conditions from multiple open access datasets. Her expertise lies in fMRI data processing, functional connectivity, and data workflow construction. She is also a core developer of Nilearn with a focus on fMRI data processing and feature extraction.
 
 ### Objectives
- * Data analysis for in vivo calcium imaging time series from freely-behaving animals
- * Data analysis for electrophysiological time series from freely-behaving animals
+ * Understand the structure of functional magnetic resonance imaging data.
+ * Generate correlation matrices using fMRI time series (aka "connectomes").
+ * Visualize brain maps and connectomes.
+ * Train machine learning models to classify subjects by age groups based on brain connectivity.
 
 ### Materials
-To be announced.
+[Github Link](https://github.com/main-educational/intro_ML)
+[Jupyter Book Link](https://main-educational.github.io/intro_ML/intro.html)
 
 ## Keynote Patrick Mineault
 
@@ -57,30 +60,19 @@ Mohammad Yaghoubi, Thomas Jiralerspong and Krystal Pan
 The training material is adapted from NeuroMatch Academy.
 [Google collab Link](https://colab.research.google.com/drive/1Arf7Ydg1VjNx5wv9IOI5xTCYbQ5Djo-7?usp=sharing)
 
-## Machine learning in functional MRI using [Nilearn](https://nilearn.github.io)
+## Representational structure in neural time series using calcium imaging and electrophysiology
 
 ### Instructors
-**Yasmin Mzayek** obtained her Master's in Brain and Cognitive Sciences from the University of Amsterdam. During this time she did an internship at the Netherlands Cancer Institute in Amsterdam and worked on analyzing diffusion-weighted imaging data. Then she went to Aix Marseille University to work on pulse sequence programming for diffusion MR spectroscopy as well as processing and analysis of data from this modality. She also worked as scientific programmer and data scientist at the University of Groningen. Currently, she is a research engineer at INRIA working on maintaining the Nilearn Python toolkit.
+**Dr. Quinn Lee** is a CIHR/FRQ postdoctoral research fellow in the Brandon Lab at McGill University (Montreal, QC, Canada). Prior to joining the Brandon Lab, he completed my PhD at the University of Lethbridge (Lethbridge, AB, Canada) with Drs. Robert Sutherland and Robert McDonald studying how long-term memory is organized at the systems-level in the brain. His current work aims to understand how aspects of experience and memory are represented in neuronal population activity in the rodent hippocampus across protracted experience. To this end, he uses a combination of miniscope calcium imaging in freely moving animals, advanced behavioral tracking, and computational methods to explore questions about neuronal representation and behavior.
 
-**Dr Hao-Ting Wang** is a IVADO postdoctoral fellow at CRIUGM. Her project focuses on discovery of transdiagnostic brain biomarkers amongst neurodegenerative conditions from multiple open access datasets. Her expertise lies in fMRI data processing, functional connectivity, and data workflow construction. She is also a core developer of Nilearn with a focus on fMRI data processing and feature extraction.
+**Dr Giuseppe P Gava** is a postdoctoral neuroscientist in the Dupret Lab at the MRC BNDU, University of Oxford. He was awarded a PhD from the Centre for Doctoral Training in Neurotechnology at Imperial College London, where he also graduated in Biomedical Engineering. He aims to use concepts from network science, topology and information theory to understand the complex neural circuitry and dynamics that shape memory and cognition.
 
 ### Objectives
- * Understand the structure of functional magnetic resonance imaging data.
- * Generate correlation matrices using fMRI time series (aka "connectomes").
- * Visualize brain maps and connectomes.
- * Train machine learning models to classify subjects by age groups based on brain connectivity.
+ * Data analysis for in vivo calcium imaging time series from freely-behaving animals
+ * Data analysis for electrophysiological time series from freely-behaving animals
 
 ### Materials
-[Github Link](https://github.com/main-educational/intro_ML)
-[Jupyter Book Link](https://main-educational.github.io/intro_ML/intro.html)
-
-## Keynote Elizabeth Dupre
-
-**Dr Elizabeth Dupre** is a Wu Tsai interdisciplinary postdoctoral research fellow at Stanford University, working between the Poldrack and Linderman labs. As a psychologist and computational neuroscientist, her work focuses on developing methods to characterize complex, naturalistic cognition in health and disease. Specifically, her current projects aim to model individual brain activity across a range of cognitive states—and to assess the generalizability of these individualized models—by extending statistical methods for human neuroimaging data analysis. Her background is in cognitive neuroscience, with a Ph.D. in neuroscience from McGill University and Bachelors and Masters degrees in developmental psychology from Cornell University. My dissertation focused on benchmarking emerging methods to compare functional activations during complex cognitive tasks. As part of her research, she helps to develop several tools used across the open Python ecosystem such as Nilearn. She is also actively involved in community initiatives to promote open, interdisciplinary science. She currently serve as chair of the Organization for Human Brain Mapping (OHBM) Communications Committee and as a handling editor at the Journal of Open Source Software (JOSS).
-
-**Title**: TBA
-
-**Summary**: TBA
+To be announced.
 
 ## Model selection and validation
 
@@ -108,6 +100,14 @@ Alexandre Gramfort
 
 ### Materials
 TBA
+
+## Keynote Elizabeth Dupre
+
+**Dr Elizabeth Dupre** is a Wu Tsai interdisciplinary postdoctoral research fellow at Stanford University, working between the Poldrack and Linderman labs. As a psychologist and computational neuroscientist, her work focuses on developing methods to characterize complex, naturalistic cognition in health and disease. Specifically, her current projects aim to model individual brain activity across a range of cognitive states—and to assess the generalizability of these individualized models—by extending statistical methods for human neuroimaging data analysis. Her background is in cognitive neuroscience, with a Ph.D. in neuroscience from McGill University and Bachelors and Masters degrees in developmental psychology from Cornell University. My dissertation focused on benchmarking emerging methods to compare functional activations during complex cognitive tasks. As part of her research, she helps to develop several tools used across the open Python ecosystem such as Nilearn. She is also actively involved in community initiatives to promote open, interdisciplinary science. She currently serve as chair of the Organization for Human Brain Mapping (OHBM) Communications Committee and as a handling editor at the Journal of Open Source Software (JOSS).
+
+**Title**: TBA
+
+**Summary**: TBA
 
 ## Brain decoding
 ### Instructors
