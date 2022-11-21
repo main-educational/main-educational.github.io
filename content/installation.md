@@ -35,7 +35,7 @@ If you already have all of the above software tools/packages installed, or are c
 
 Select the tab that corresponds to your operating system and follow the instructions therein.
 
-Note: If the instructions below aren't working and you have spent more than 15-20 minutes troubleshooting on your own, reach out on the #help-installation channel on the Discord server with the exact problems you're having.
+Note: If the instructions below aren't working and you have spent more than 15-20 minutes troubleshooting on your own, reach out on the #installation-and-set-up channel on the Discord server with the exact problems you're having.
 
 
 ### Bash shell
@@ -65,7 +65,7 @@ From this point on whenever the instructions specify to `open a terminal` please
 ```
 
 ```{tab-item} Mac OS
-You already have it! Depending on which version of Mac OS you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:
+You already have it! Depending on which version of Mac OS you’re running you may need to type `bash` inside the terminal to access it. To check whether this is necessary, follow these steps:
 
 - Open a terminal and type `echo $SHELL`. If it reads `/bin/bash` then you are all set!
 
@@ -240,21 +240,21 @@ Open a terminal and type the following commands:
 
     conda config --append channels conda-forge
     conda config --set channel_priority strict
-    conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
+    conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn tensorflow keras pytorch torchvision torchaudio cpuonly -c pytorch
 ```
 ```{tab-item} Mac OS
 Open a terminal and type the following commands:
 
     conda config --append channels conda-forge
     conda config --set channel_priority strict
-    conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
+    conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn tensorflow keras pytorch torchvision torchaudio -c pytorch
 ```
 ```{tab-item} Linux
 Open a terminal and type the following commands:
 
     conda config --append channels conda-forge
     conda config --set channel_priority strict
-    conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
+    conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn tensorflow keras pytorch torchvision torchaudio cpuonly -c pytorch
 ```
 ````
 
