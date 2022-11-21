@@ -65,7 +65,7 @@ From this point on whenever the instructions specify to `open a terminal` please
 ```
 
 ```{tab-item} Mac OS
-You already have it! Depending on which version of Mac OS you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:
+You already have it! Depending on which version of Mac OS you’re running you may need to type `bash` inside the terminal to access it. To check whether this is necessary, follow these steps:
 
 - Open a terminal and type `echo $SHELL`. If it reads `/bin/bash` then you are all set!
 
