@@ -35,7 +35,7 @@ If you already have all of the above software tools/packages installed, or are c
 
 Select the tab that corresponds to your operating system and follow the instructions therein.
 
-Note: If the instructions below aren't working and you have spent more than 15-20 minutes troubleshooting on your own, reach out on the #help-installation channel on the Discord server with the exact problems you're having.
+Note: If the instructions below aren't working and you have spent more than 15-20 minutes troubleshooting on your own, reach out on the #installation-and-set-up channel on the Discord server with the exact problems you're having.
 
 
 ### Bash shell
