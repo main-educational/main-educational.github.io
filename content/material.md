@@ -36,9 +36,11 @@ The descriptions and material below are provisional, and may be updated until De
 ### Objectives
  * Data analysis for in vivo calcium imaging time series from freely-behaving animals
  * Data analysis for electrophysiological time series from freely-behaving animals
+ * Compare representation in neural data to theoretical models with representational similarity analysis (RSA) and manifold-based analyses
+ * Assess the co-firing structure and topology of neuronal networks and compare them using Riemannian metrics.
 
 ### Materials
-To be announced.
+[GitHub link to ephys material](https://github.com/drsax93/cofiringTopology)
 
 ## Keynote Patrick Mineault
 
