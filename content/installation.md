@@ -240,21 +240,21 @@ Open a terminal and type the following commands:
 
     conda config --append channels conda-forge
     conda config --set channel_priority strict
-    conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
+    conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn tensorflow keras pytorch torchvision torchaudio cpuonly -c pytorch
 ```
 ```{tab-item} Mac OS
 Open a terminal and type the following commands:
 
     conda config --append channels conda-forge
     conda config --set channel_priority strict
-    conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
+    conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn tensorflow keras pytorch torchvision torchaudio -c pytorch
 ```
 ```{tab-item} Linux
 Open a terminal and type the following commands:
 
     conda config --append channels conda-forge
     conda config --set channel_priority strict
-    conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
+    conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn tensorflow keras pytorch torchvision torchaudio cpuonly -c pytorch
 ```
 ````
 
