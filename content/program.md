@@ -3,7 +3,7 @@
 ## December 9th
 
 ### Morning sessions
-08:30 EST - 09:00 EST **Registration**, snack and coffee
+08:00 EST - 09:00 EST **Registration**, snack and coffee
 
 09:00 EST - 09:10 EST **Welcome**
 
