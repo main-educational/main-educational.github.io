@@ -137,6 +137,6 @@ Learn more {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :link: https://www.linkedin.com/in/paul-m-ab7222225/
-:img-top: images/profile_paul.jpeg
+:img-top: images/profile_paul.png
 :::
 ::::
