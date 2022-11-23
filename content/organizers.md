@@ -132,10 +132,11 @@ Learn more {fas}`arrow-right`
 :::
 ::::
 
-::::{card-carousel} 1
+::::{card-carousel} 3
 :::{card} Paul McNicoll
-:margin: 1
+:margin: 3
 :class-body: text-center
 :link: https://www.linkedin.com/in/paul-m-ab7222225/
-:img-top: images/profile_paul.jpg
+:img-top: images/profile_paul.jpeg
 :::
+::::
