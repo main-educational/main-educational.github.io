@@ -104,11 +104,27 @@
 :img-top: images/profile_alexandre_pasquiou.jpg
 :::
 
+:::{card} Shima Rastegarnia
+:margin: 3
+:class-body: text-center
+:link: https://github.com/srastegarnia
+:img-top: https://avatars.githubusercontent.com/u/64853244?v=4
+:::
+
 :::{card} Pravish Sainath
 :margin: 3
 :class-body: text-center
 :link: https://github.com/pravishsainath
 :img-top: https://avatars.githubusercontent.com/u/13696562?v=4
+:::
+::::
+
+::::{card-carousel} 3
+:::{card} Bertrand Thirion
+:margin: 3
+:class-body: text-center
+:link: https://twitter.com/BertrandThirion
+:img-top: images/profile_bertrand.jpg
 :::
 
 :::{card} Hao-Ting Wang
@@ -117,9 +133,7 @@
 :link: https://wanghaoting.com
 :img-top: https://avatars.githubusercontent.com/u/13743617?v=4
 :::
-::::
 
-::::{card-carousel} 3
 :::{card} Mohammad Yaghoubi
 :margin: 3
 :class-body: text-center
