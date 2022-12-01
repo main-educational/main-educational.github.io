@@ -122,18 +122,69 @@ Alexandre Gramfort
 TBA
 
 ## Brain decoding
-### Instructors
-Dr Peer Herholz
 
-## Objectives
- * Understand the principles of brain decoding
- * Use ridge regression for brain encoding using features of a pretrained artificial neural network in functional magnetic resonance imaging
- * Use searchlight for brain decoding with multiple stimuli category
- * Use deep graph neural networks for brain decoding with multiple stimuli category.
+Within this session, we will go through the basics of running/applying `decoding models`
+to `fMRI` data. More precisely, we will explore how we can utilize different `decoding models`
+to `estimate`/`predict` what an agent is `perceiving` or `doing` based on `recordings` of `responses`/`activity`.
+Given the time restrictions, we will focus on `biological agents`, ie `human participants`, and thus `brain` `responses` obtained from `fMRI`.
+### Instructors
+
+**Peer Herholz** is a research affiliate at [The Neuro (Montreal Neurological Institute-Hospital)](https://www.mcgill.ca/neuro/)/[ORIGAMI lab](https://neurodatascience.github.io/) (PI: [Dr. JB Poline](https://www.mcgill.ca/neuro/jean-baptiste-poline-phd)) at [McGill University](https://www.mcgill.ca/) and the [McGovern Institute for Brain Research](https://mcgovern.mit.edu/)/[Senseable Intelligence Group](https://sensein.group/) (PI: [Satra Ghosh](https://satra.cogitatum.org/)). He obtained his PhD in cognitive & computational neuroscience, focusing on auditory processing in humans and machines. Afterwards, he conducted multiple postdocs further working at the intersection between neuroscience & artificial intelligence, as well as expanding the integration of open & reproducible scientific practices therein. Currently, he is working on research questions related to generalization in biological and artificial neural networks, comparing respective representations and their underlying computation.
+
+**Bertrand Thirion**
+
+**Shima Rastegarnia**
+## Objectives 📍
+ * Understand the core aspects & principles of `brain decoding`
+   - including `dataset` requirements
+ * Explore different `decoding models` that can be applied to `brain data`
+   - `Support Vector Machines` (`SVM`s)
+   - `Multilayer Perceptrons` (`MLP`s)
+   - `Graph-Convolutional Neural Networks` (`GCN`s)
+ * Get first hands-on experience using the respective `python` `libraries` 
+
+### Questions you will be able to answer after taking this module 🎯
+  * What does `brain decoding` entail?
+  * What kind of `data` and `information` is required for `brain decoding` analyses?
+  * What are examples of suitable `decoding models` and what do they comprise?
 
 ## Materials
 
-[Jupyter book link](https://main-educational.github.io/brain_encoding_decoding/); [Github Link](https://github.com/main-educational/brain_encoding_decoding)
+::::{card-carousel} 4
+
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://main-educational.github.io/brain_encoding_decoding
+**The Jupyter Book of this session**
+^^^
+```{image} https://main-educational.github.io/brain_encoding_decoding/_static/neurolibre-logo.png
+:height: 100
+```
+
+Explore and follow the session via `Jupyter Book`.
++++
+Get to the session {fas}`arrow-right`
+:::
+
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://github.com/main-educational/brain_encoding_decoding
+
+**The session's GitHub repository**
+^^^
+```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+:height: 100
+```
+
+Check out the session's materials on `GitHub`.
++++
+Explore the `GitHub` repository {fas}`arrow-right`
+:::
+::::
 
 ## Brain encoding
 ### Instructors
