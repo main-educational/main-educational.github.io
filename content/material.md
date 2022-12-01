@@ -178,6 +178,12 @@ In this talk, I will take you on a tour of the near future. I will argue that we
 :::
 ::::
 
+**Mohammad Yaghoubi** is a PhD student at McGill University. He conducts his research under the supervision of Dr. Mark Brandon at the Integrated Program in Neuroscience. His research focuses on developing statistical and machine-learning based tools to better analyze high-dimensional neuronal and behavioral data.
+
+**Thomas Jiralerspong** is an undergraduate student in Honours Computer Science at McGill. He is also an undergraduate researcher with Professor Blake Richards, interested in generalization in reinforcement learning and cognitively inspired reinforcement learning models.
+
+**Krystal Pan** is a Master’s student under supervision by Dr. Blake Richards. She is interested in biologically plausible AI models of the vision system. She is also the Lab Manager of the LiNC Lab.
+
 ### Objectives
  * Understand basic concepts in deep learning
  * Discover the pytorch interface to build artificial neural networks
