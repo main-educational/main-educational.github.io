@@ -131,3 +131,12 @@ Learn more {fas}`arrow-right`
 :img-top: images/profile_erjun.jpg
 :::
 ::::
+
+::::{card-carousel} 3
+:::{card} Paul McNicoll
+:margin: 3
+:class-body: text-center
+:link: https://www.linkedin.com/in/paul-m-ab7222225/
+:img-top: images/profile_paul.png
+:::
+::::
