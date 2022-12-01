@@ -34,13 +34,16 @@ The descriptions and material below are provisional, and may be updated until De
 **Giuseppe P Gava, PhD** is a postdoctoral neuroscientist in the Dupret Lab at the MRC BNDU, University of Oxford. He was awarded a PhD from the Centre for Doctoral Training in Neurotechnology at Imperial College London, where he also graduated in Biomedical Engineering. He aims to use concepts from network science, topology and information theory to understand the complex neural circuitry and dynamics that shape memory and cognition.
 
 ### Objectives
- * Data analysis for in vivo calcium imaging time series from freely-behaving animals
  * Data analysis for electrophysiological time series from freely-behaving animals
+ * Data analysis for in vivo calcium imaging time series from freely-behaving animals
+ * Assess the co-firing structure and topology of neuronal networks, comparing them using Riemannian metrics
  * Compare representation in neural data to theoretical models with representational similarity analysis (RSA) and manifold-based analyses
- * Assess the co-firing structure and topology of neuronal networks and compare them using Riemannian metrics.
+
 
 ### Materials
-[GitHub link to ephys material](https://github.com/drsax93/cofiringTopology)
+ * Ephys material: [GitHub link](https://github.com/drsax93/cofiringTopology);
+[Google collab link](https://colab.research.google.com/drive/1eQjaabGHZFHwYjiM516S0UjeL9B3-2iZ#scrollTo=Rvuf55uzAKXn)
+ * Calcium imaging material: [Github link](https://github.com/jquinnlee/MAIN_2022_calRSA/blob/main/MAIN2022_calciumRSA_demo.ipynb)
 
 ## Keynote Patrick Mineault
 
