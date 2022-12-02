@@ -448,10 +448,20 @@ Explore the `GitHub` repository {fas}`arrow-right`
 :::
 ::::
 
+
+
+**Isil Poyraz Bilgin** is a Postdoctoral research fellow at the [CRUIGM](https://criugm.qc.ca/en/) [CNeuroMod](https://www.cneuromod.ca/) project and is supervised by [Prof. Leila Wehbe](https://www.cs.cmu.edu/~lwehbe/) and [Prof. Pierre Bellec](https://simexp.github.io/lab-website/team.html#:~:text=THE%20SIMEXP%20TEAM-,Pierre%20Bellec%2C%20PhD,-%2C%20is%20the). Her work focuses on implementing encoding models to predict brain activities of processing the natural language using representations extracted from natural language models. Her main interest lies in developing optimizations to improve the predictive performance of the neural networks of language models with well-defined features from the cross-model brain representations of naturalistic information processing. She holds a bachelor's degree in pure mathematics and a Ph.D. in Cybernetics. Her Ph.D. thesis focuses on investigating the emergence of the neural representation of the novel semantic concepts in the human brain using simultaneous EEG and fMRI.
+
+**Alexandre Pasquiou** is a PhD student working at [INRIA MIND](https://team.inria.fr/mind/) team, with [Christophe Pallier](https://www.pallier.org/) and [Bertrand Thirion](https://pages.saclay.inria.fr/bertrand.thirion/). His work focuses on understanding how the brain processes language. Being an engineer from [CentraleSupélec](https://www.centralesupelec.fr/) (specialized in applied mathematics), he uses machine learning models to dive deeply into the neural bases of language comprehension relying on both encoding and decoding experimental paradigms. Some of his work studied semantic and syntactic processing, the integration of contextual information as well as the pitfalls of encoding models that leveraged features derived from neural language models.
+
+
 ### Objectives
  * Understand the principles of brain encoding
  * Use ridge regression to encode brain activity in functional magnetic resonance imaging using direct representation of visual stimuli
  * Use ridge regression to encode brain activity in functional magnetic resonance imaging during a movie watching task using a large artificial language network
+ * Understand how high-dimensional language representations are used in building brain encoding models
+ * Apply language embedding models to predict the predict the activity in the cortex associated with processing the naturalistic stimuli (movie watching).
+
 
 ### Materials
 
