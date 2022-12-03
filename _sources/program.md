@@ -108,7 +108,7 @@ Learn more {fas}`arrow-right`
 :class-body: text-center
 :class-header: bg-light text-center
 :link: ./material.html#model-selection-and-validation
-**Jérôme Dockes**
+**Jérôme Dockès**
 ^^^
 ```{image} images/logo_scikit-learn.png
 :height: 100
