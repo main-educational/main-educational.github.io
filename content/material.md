@@ -266,7 +266,7 @@ Explore {fas}`arrow-right`
 :link: https://main-educational.github.io/intro_ML/intro.html
 **The Jupyter Book of this session**
 ^^^
-```{image} https://main-educational.github.io/brain_encoding_decoding/_static/neurolibre-logo.png
+```{image} images/logo_neurolibre.png
 :height: 100
 ```
 
@@ -314,7 +314,24 @@ In this talk, I will introduce techniques for aligning representations in both b
  * Learn about pitfalls when validating machine learning models and how to easily avoid them using scikit-learn.
 
 ### Materials
-[GitHub Link](https://github.com/neurodatascience/main-2021-ml-parts-1-2)
+::::{card-carousel} 4
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://github.com/neurodatascience/main-2021-ml-parts-1-2
+
+**The session's GitHub repository**
+^^^
+```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+:height: 100
+```
+
+Check out the session's materials on `GitHub`.
++++
+Explore the `GitHub` repository {fas}`arrow-right`
+:::
+::::
 
 ## Introduction to electro- and magneto-encephalography using [MNE-python](https://mne.tools/stable/index.html)
 
@@ -393,10 +410,10 @@ Given the time restrictions, we will focus on `biological agents`, ie `human par
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: https://main-educational.github.io/brain_encoding_decoding
+:link: https://main-educational.github.io/brain_decoding
 **The Jupyter Book of this session**
 ^^^
-```{image} https://main-educational.github.io/brain_encoding_decoding/_static/neurolibre-logo.png
+```{image} images/logo_neurolibre.png
 :height: 100
 ```
 
@@ -409,7 +426,7 @@ Get to the session {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: https://github.com/main-educational/brain_encoding_decoding
+:link: https://github.com/main-educational/brain_decoding
 
 **The session's GitHub repository**
 ^^^
@@ -466,22 +483,6 @@ Explore the `GitHub` repository {fas}`arrow-right`
 ### Materials
 
 ::::{card-carousel} 3
-
-:::{card}
-:margin: 3
-:class-body: text-center
-:class-header: bg-light text-center
-:link: https://main-educational.github.io/brain_encoding_decoding
-**The Jupyter Book of this session**
-^^^
-```{image} https://main-educational.github.io/brain_encoding_decoding/_static/neurolibre-logo.png
-:height: 100
-```
-
-Explore and follow the session via `Jupyter Book`.
-+++
-Get to the session {fas}`arrow-right`
-:::
 
 :::{card}
 :margin: 3
