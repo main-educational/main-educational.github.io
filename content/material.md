@@ -396,7 +396,7 @@ Given the time restrictions, we will focus on `biological agents`, ie `human par
 :link: https://main-educational.github.io/brain_encoding_decoding
 **The Jupyter Book of this session**
 ^^^
-```{image} https://main-educational.github.io/brain_encoding_decoding/_static/neurolibre-logo.png
+```{image} https://main-educational.github.io/brain_decoding/_static/neurolibre-logo.png
 :height: 100
 ```
 

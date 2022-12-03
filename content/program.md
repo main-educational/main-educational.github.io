@@ -156,7 +156,7 @@ Learn more {fas}`arrow-right`
 :class-body: text-center
 :class-header: bg-light text-center
 :link: ./material.html#brain-decoding
-**Peer Herholz**
+**Peer Herholz, Bertrand Thirion and Shima Rastegarnia**
 ^^^
 ```{image} images/thumbnail_decoding.png
 :height: 100
