@@ -473,20 +473,20 @@ Explore the `GitHub` repository {fas}`arrow-right`
 
 
 ### Objectives
-In the first part of the session we will focus on 
+In the first part of the session we will focus on
   * Understanding the foundations of `brain endecoding` with;
-     - Preparation of the `fMRI and stimuli dataset` 
+     - Preparation of the `fMRI and stimuli dataset`
      - Building encoding models using `ridge regression` to extract direct representation of visual stimuli
      - Evaluation of the model performance using `cross validation`
      - Visualisation of the encoding scores on `cortex`
 
 In the second part of the session we will dive into the predictive `brain encoding` models to
-  * Understand the utilization of the high-dimensional stimuli features in `brain encoding` models 
-  * Explore `brain encoding` of processing the naturalistic stimuli (movie watching) by utilizing 
+  * Understand the utilization of the high-dimensional stimuli features in `brain encoding` models
+  * Explore `brain encoding` of processing the naturalistic stimuli (movie watching) by utilizing
      - `Textual features` extracted with pretrained `BERT` language model
      - `Audio features` extracted with `MFCC (Mel Frequency Cepstral Coefficients)` technique
-     - `Audio features` extracted with `ResNet-50` model 
-     - 
+     - `Audio features` extracted with `ResNet-50` model
+     -
   in `ridge regression` models to predict the brain representations.
   * Visualize the prediction accuracy in the cortex brain maps
 
@@ -508,7 +508,7 @@ In the second part of the session we will dive into the predictive `brain encodi
 :link: https://main-educational.github.io/brain_decoding/encoding.html
 **The session's GitHub repository**
 ^^^
-```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.pngg
+```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 :height: 100
 ```
 
