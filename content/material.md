@@ -447,7 +447,7 @@ Explore the `GitHub` repository {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :link: https://github.com/complexbrains
-:img-top: https://avatars.githubusercontent.com/u/45263281?v=4
+:img-top: images/isil_bilgin.jpg
 :::
 
 :::{card} Alexandre Pasquiou
@@ -465,10 +465,37 @@ Explore the `GitHub` repository {fas}`arrow-right`
 :::
 ::::
 
+
+
+**Isil Poyraz Bilgin** is a Postdoctoral research fellow at the [CRUIGM](https://criugm.qc.ca/en/) [CNeuroMod](https://www.cneuromod.ca/) project and is supervised by [Prof. Leila Wehbe](https://www.cs.cmu.edu/~lwehbe/) and [Prof. Pierre Bellec](https://simexp.github.io/lab-website/team.html#:~:text=THE%20SIMEXP%20TEAM-,Pierre%20Bellec%2C%20PhD,-%2C%20is%20the). Her work focuses on implementing encoding models to predict brain activities of processing the natural language using representations extracted from natural language models. Her main interest lies in developing optimizations to improve the predictive performance of the neural networks of language models with well-defined features of brain dynamics in processing naturalistic stimuli. She holds a bachelor's degree in pure mathematics and Ph.D. in Cybernetics. Her thesis work focuses on dynamic functional connectivity of the emergence of the neural representation of the novel semantic concepts in the human brain using simultaneous EEG and fMRI.
+
+**Alexandre Pasquiou** is a PhD student working at [INRIA MIND](https://team.inria.fr/mind/) team, with [Christophe Pallier](https://www.pallier.org/) and [Bertrand Thirion](https://pages.saclay.inria.fr/bertrand.thirion/). His work focuses on understanding how the brain processes language. Being an engineer from [CentraleSupélec](https://www.centralesupelec.fr/) (specialized in applied mathematics), he uses machine learning models to dive deeply into the neural bases of language comprehension relying on both encoding and decoding experimental paradigms. Some of his work studied semantic and syntactic processing, the integration of contextual information as well as the pitfalls of encoding models that leveraged features derived from neural language models.
+
+
 ### Objectives
- * Understand the principles of brain encoding
- * Use ridge regression to encode brain activity in functional magnetic resonance imaging using direct representation of visual stimuli
- * Use ridge regression to encode brain activity in functional magnetic resonance imaging during a movie watching task using a large artificial language network
+In the first part of the session we will focus on 
+  * Understanding the foundations of `brain endecoding` with;
+     - Preparation of the `fMRI and stimuli dataset` 
+     - Building encoding models using `ridge regression` to extract direct representation of visual stimuli
+     - Evaluation of the model performance using `cross validation`
+     - Visualisation of the encoding scores on `cortex`
+
+In the second part of the session we will dive into the predictive `brain encoding` models to
+  * Understand the utilization of the high-dimensional stimuli features in `brain encoding` models 
+  * Explore `brain encoding` of processing the naturalistic stimuli (movie watching) by utilizing 
+     - `Textual features` extracted with pretrained `BERT` language model
+     - `Audio features` extracted with `MFCC (Mel Frequency Cepstral Coefficients)` technique
+     - `Audio features` extracted with `ResNet-50` model 
+     - 
+  in `ridge regression` models to predict the brain representations.
+  * Visualize the prediction accuracy in the cortex brain maps
+
+
+### Questions you will be able to answer after taking this module 🎯
+  * What are the constituents of the `brain encoding`?
+  * How `deep learning` models could utilize rich features of the `naturalistic stimuli` in the analysis of `brain encoding`?
+  * How the trained `brain encoding` models could generalize to new brain data for  different feature spaces?
+
 
 ### Materials
 
@@ -478,11 +505,27 @@ Explore the `GitHub` repository {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: https://github.com/jashna14/DL4Brain
-
-**The session's repository**
+:link: https://main-educational.github.io/brain_decoding/encoding.html
+**The session's GitHub repository**
 ^^^
-```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.pngg
+:height: 100
+```
+
+Explore and follow the session via `Jupyter Book`.
++++
+Get to the session {fas}`arrow-right`
+:::
+
+
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://colab.research.google.com/drive/1mZvZEUPAkHPhlbc5jWrj4PXc6tBe1_ZR?usp=sharing
+**The Jupyter Book of this session**
+^^^
+```{image} images/logo_colab.png
 :height: 100
 ```
 
