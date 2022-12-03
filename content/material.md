@@ -300,13 +300,17 @@ In this talk, I will introduce techniques for aligning representations in both b
 
 ### Instructor
 ::::{card-carousel} 3
-:::{card} Jerôme Dockes
+:::{card} Jérôme Dockès
 :margin: 3
 :class-body: text-center
 :link: https://github.com/jeromedockes
 :img-top: images/profile_jerome.jpg
 :::
 ::::
+
+**Jérôme Dockès** is a post-doc in the [ORIGAMI lab](https://neurodatascience.github.io/) (PI: [Dr. JB Poline](https://www.mcgill.ca/neuro/jean-baptiste-poline-phd)) at McGill University.
+He completed his PhD thesis on statistical methods for large-scale meta-analysis of neuroimaging studies in the [Parietal lab](https://team.inria.fr/parietal/) at INRIA.
+His current work focuses on tools and resources to facilitate text-mining and meta-analysis of the neuroimaging literature. 
 
 ### Objectives
  * Understand how to evaluate the performance of machine learning models.
