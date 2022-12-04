@@ -1,7 +1,4 @@
 # Installation
-```{warning}
-The installation instructions below are provisional, and may be updated until Dec 1st 2022.
-```
 
 ## General computing requirements
 

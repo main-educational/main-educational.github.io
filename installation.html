@@ -469,10 +469,6 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="installation">
 <h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">#</a></h1>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>The installation instructions below are provisional, and may be updated until Dec 1st 2022.</p>
-</div>
 <section id="general-computing-requirements">
 <h2>General computing requirements<a class="headerlink" href="#general-computing-requirements" title="Permalink to this headline">#</a></h2>
 <p>There are a few computing requirements for the course that are absolutely necessary (beyond the few software packages we would like you to install, described below):</p>
@@ -508,8 +504,8 @@ title="Print to PDF"
 <section id="bash-shell">
 <h3>Bash shell<a class="headerlink" href="#bash-shell" title="Permalink to this headline">#</a></h3>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="9e9c3496-ae67-45f9-a73f-56f7d9f58e93" name="7e39c223-2413-41b9-b37c-f31678522e3a" type="radio">
-</input><label class="sd-tab-label" for="9e9c3496-ae67-45f9-a73f-56f7d9f58e93">
+<input checked="checked" id="6c20ae3c-d44a-4a11-8f1d-f7c9c7b2bf48" name="a7ac420d-619e-4fe5-a24d-e5c46195528e" type="radio">
+</input><label class="sd-tab-label" for="6c20ae3c-d44a-4a11-8f1d-f7c9c7b2bf48">
 Windows</label><div class="sd-tab-content docutils">
 <p><strong>Windows Subsystem for Linux (WSL)</strong></p>
 <ol>
@@ -525,8 +521,8 @@ Windows</label><div class="sd-tab-content docutils">
 </ol>
 <p>From this point on whenever the instructions specify to <code class="docutils literal notranslate"><span class="pre">open</span> <span class="pre">a</span> <span class="pre">terminal</span></code> please assume you are supposed to open the Ubuntu application.</p>
 </div>
-<input id="065a4e4b-f52f-4696-9cf9-59c2c478d7db" name="7e39c223-2413-41b9-b37c-f31678522e3a" type="radio">
-</input><label class="sd-tab-label" for="065a4e4b-f52f-4696-9cf9-59c2c478d7db">
+<input id="ce6473d7-4552-429e-bd25-6fc75a90d891" name="a7ac420d-619e-4fe5-a24d-e5c46195528e" type="radio">
+</input><label class="sd-tab-label" for="ce6473d7-4552-429e-bd25-6fc75a90d891">
 Mac OS</label><div class="sd-tab-content docutils">
 <p>You already have it! Depending on which version of Mac OS you’re running you may need to type <code class="docutils literal notranslate"><span class="pre">bash</span></code> inside the terminal to access it. To check whether this is necessary, follow these steps:</p>
 <ul class="simple">
@@ -534,8 +530,8 @@ Mac OS</label><div class="sd-tab-content docutils">
 </ul>
 <p>Note that if you are using Mac Catalina (10.15.X) then it is possible your default shell is NOT CORRECT. To set the default to <code class="docutils literal notranslate"><span class="pre">bash</span></code>, type <code class="docutils literal notranslate"><span class="pre">chsh</span> <span class="pre">-s</span> <span class="pre">/bin/bash</span></code> in the terminal, enter your password when prompted, and then close + re-open the terminal.</p>
 </div>
-<input id="40a8c27c-7c7d-47ae-843b-d207bcf42399" name="7e39c223-2413-41b9-b37c-f31678522e3a" type="radio">
-</input><label class="sd-tab-label" for="40a8c27c-7c7d-47ae-843b-d207bcf42399">
+<input id="af1007dc-7291-4561-bd35-1cff4d58c677" name="a7ac420d-619e-4fe5-a24d-e5c46195528e" type="radio">
+</input><label class="sd-tab-label" for="af1007dc-7291-4561-bd35-1cff4d58c677">
 Linux</label><div class="sd-tab-content docutils">
 <p>You already have it! Depending on which version of Linux you’re running you may need to type bash inside the terminal to access it. To check whether this is necessary, follow these steps:</p>
 <ul class="simple">
@@ -548,13 +544,13 @@ Linux</label><div class="sd-tab-content docutils">
 <section id="git">
 <h3>Git<a class="headerlink" href="#git" title="Permalink to this headline">#</a></h3>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="f3c0d4bf-9214-435e-a107-0b44c89b8f58" name="745e4493-5caa-45a6-af89-71e52caa3a52" type="radio">
-</input><label class="sd-tab-label" for="f3c0d4bf-9214-435e-a107-0b44c89b8f58">
+<input checked="checked" id="8dbb489f-df43-4091-a822-9318e2f2f426" name="29fd0103-9770-49bc-b230-875bc642caf0" type="radio">
+</input><label class="sd-tab-label" for="8dbb489f-df43-4091-a822-9318e2f2f426">
 Windows</label><div class="sd-tab-content docutils">
 <p>You already have it, now that you’ve installed the WSL!</p>
 </div>
-<input id="4ba661e7-928b-4457-af33-bd349318c45d" name="745e4493-5caa-45a6-af89-71e52caa3a52" type="radio">
-</input><label class="sd-tab-label" for="4ba661e7-928b-4457-af33-bd349318c45d">
+<input id="8dcfc271-f522-43e1-a0f5-cdc76b9c63eb" name="29fd0103-9770-49bc-b230-875bc642caf0" type="radio">
+</input><label class="sd-tab-label" for="8dcfc271-f522-43e1-a0f5-cdc76b9c63eb">
 Mac OS</label><div class="sd-tab-content docutils">
 <p>You may already have it! Try opening a terminal and typing <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">--version</span></code>. If you do not see something like <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">version</span> <span class="pre">X.XX.X</span></code> printed out, then follow these steps:</p>
 <ol class="simple">
@@ -563,8 +559,8 @@ Mac OS</label><div class="sd-tab-content docutils">
 <li><p>Follow the on-screen instructions to install the package</p></li>
 </ol>
 </div>
-<input id="82ccfa46-ddf4-40db-99cc-5d30e97cb56b" name="745e4493-5caa-45a6-af89-71e52caa3a52" type="radio">
-</input><label class="sd-tab-label" for="82ccfa46-ddf4-40db-99cc-5d30e97cb56b">
+<input id="91c356f5-36fc-400d-a76e-c6905f2c8b17" name="29fd0103-9770-49bc-b230-875bc642caf0" type="radio">
+</input><label class="sd-tab-label" for="91c356f5-36fc-400d-a76e-c6905f2c8b17">
 Linux</label><div class="sd-tab-content docutils">
 <p>You may already have it; try typing <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">git</span></code> (Ubuntu, Debian) or <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">yum</span> <span class="pre">install</span> <span class="pre">git</span></code> (Fedora) inside the terminal.</p>
 <p>If you are prompted to install it follow the instructions on-screen to do so.</p>
@@ -575,8 +571,8 @@ Linux</label><div class="sd-tab-content docutils">
 <h3>VSCode<a class="headerlink" href="#vscode" title="Permalink to this headline">#</a></h3>
 <p>There are many options to edit code. Below are instructions to install VSCode. If you do not already have a text editor for coding and looking for options, this could be a good choice.</p>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="691c4b1c-c4eb-453c-8743-d58f80063f74" name="8a0cdde3-6ceb-4c38-bb52-f9514ce6104d" type="radio">
-</input><label class="sd-tab-label" for="691c4b1c-c4eb-453c-8743-d58f80063f74">
+<input checked="checked" id="bd3c92fa-4914-48e4-854b-d3e6ca3fb504" name="bd8b95b4-8b10-4540-a976-32cb68adcae0" type="radio">
+</input><label class="sd-tab-label" for="bd3c92fa-4914-48e4-854b-d3e6ca3fb504">
 Windows</label><div class="sd-tab-content docutils">
 <ol class="simple">
 <li><p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button, then run the <code class="docutils literal notranslate"><span class="pre">.exe</span></code> file.</p></li>
@@ -584,16 +580,16 @@ Windows</label><div class="sd-tab-content docutils">
 Please make sure the box labelled “Register Code as an editor for supported file types” is selected</p></li>
 </ol>
 </div>
-<input id="978e6f43-606e-43c5-8a9b-31d53797252d" name="8a0cdde3-6ceb-4c38-bb52-f9514ce6104d" type="radio">
-</input><label class="sd-tab-label" for="978e6f43-606e-43c5-8a9b-31d53797252d">
+<input id="7a30a28f-ea98-451f-98bb-b7b75374917b" name="bd8b95b4-8b10-4540-a976-32cb68adcae0" type="radio">
+</input><label class="sd-tab-label" for="7a30a28f-ea98-451f-98bb-b7b75374917b">
 Mac OS</label><div class="sd-tab-content docutils">
 <ol class="simple">
 <li><p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button.</p></li>
 <li><p>Unzip the downloaded file (e.g., VSCode-darwin-stable.zip) and moving the resulting Visual Studio Code file to your Applications directory</p></li>
 </ol>
 </div>
-<input id="a4e912a3-088e-42db-be6a-2efe690235cd" name="8a0cdde3-6ceb-4c38-bb52-f9514ce6104d" type="radio">
-</input><label class="sd-tab-label" for="a4e912a3-088e-42db-be6a-2efe690235cd">
+<input id="2530c8b7-7a04-49e3-9e43-b969caafdacb" name="bd8b95b4-8b10-4540-a976-32cb68adcae0" type="radio">
+</input><label class="sd-tab-label" for="2530c8b7-7a04-49e3-9e43-b969caafdacb">
 Linux</label><div class="sd-tab-content docutils">
 <ol class="simple">
 <li><p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button for either the <code class="docutils literal notranslate"><span class="pre">.deb</span></code> (Ubuntu, Debian) or the <code class="docutils literal notranslate"><span class="pre">.rpm</span></code> (Fedora, CentOS) file.</p></li>
@@ -604,8 +600,8 @@ Linux</label><div class="sd-tab-content docutils">
 <section id="vscode-extensions">
 <h4>VSCode extensions<a class="headerlink" href="#vscode-extensions" title="Permalink to this headline">#</a></h4>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="87ccad35-9774-4846-b1c2-56f7fe9c6891" name="e96844dc-e2ac-4e5b-a5ae-338d4aa8b460" type="radio">
-</input><label class="sd-tab-label" for="87ccad35-9774-4846-b1c2-56f7fe9c6891">
+<input checked="checked" id="72e778a5-906a-4463-bbd1-8985c94ea701" name="c4e4d306-013e-4126-aafc-624639846c52" type="radio">
+</input><label class="sd-tab-label" for="72e778a5-906a-4463-bbd1-8985c94ea701">
 Windows</label><div class="sd-tab-content docutils">
 <ol class="simple">
 <li><p>Open the Ubuntu application.</p></li>
@@ -620,8 +616,8 @@ Windows</label><div class="sd-tab-content docutils">
 </li>
 </ol>
 </div>
-<input id="3226ab8a-47cb-48ba-a2a7-db010f6cf533" name="e96844dc-e2ac-4e5b-a5ae-338d4aa8b460" type="radio">
-</input><label class="sd-tab-label" for="3226ab8a-47cb-48ba-a2a7-db010f6cf533">
+<input id="30c89bca-34b8-40a3-94e3-a2bcdd6eebd0" name="c4e4d306-013e-4126-aafc-624639846c52" type="radio">
+</input><label class="sd-tab-label" for="30c89bca-34b8-40a3-94e3-a2bcdd6eebd0">
 Mac OS</label><div class="sd-tab-content docutils">
 <ol class="simple">
 <li><p>Open the Visual Studio Code application</p></li>
@@ -635,8 +631,8 @@ Mac OS</label><div class="sd-tab-content docutils">
 </li>
 </ol>
 </div>
-<input id="9934a2a5-d153-4b7b-8248-7fa27b867615" name="e96844dc-e2ac-4e5b-a5ae-338d4aa8b460" type="radio">
-</input><label class="sd-tab-label" for="9934a2a5-d153-4b7b-8248-7fa27b867615">
+<input id="27991ac5-7f62-457c-a87b-7b19aebf5a7a" name="c4e4d306-013e-4126-aafc-624639846c52" type="radio">
+</input><label class="sd-tab-label" for="27991ac5-7f62-457c-a87b-7b19aebf5a7a">
 Linux</label><div class="sd-tab-content docutils">
 <ol class="simple">
 <li><p>Open the Visual Studio Code application.</p></li>
@@ -656,8 +652,8 @@ Linux</label><div class="sd-tab-content docutils">
 <h3>Python<a class="headerlink" href="#python" title="Permalink to this headline">#</a></h3>
 <p>All the hands-on components of the training use Python.</p>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="d2cd4cba-e907-40ce-938a-4744603960b8" name="8a748e1d-2605-4708-854a-f561e63c251e" type="radio">
-</input><label class="sd-tab-label" for="d2cd4cba-e907-40ce-938a-4744603960b8">
+<input checked="checked" id="0246c346-692c-4b04-a3a3-f5d6ac9f953f" name="866c2f40-69f3-4829-9eff-dd83645836ac" type="radio">
+</input><label class="sd-tab-label" for="0246c346-692c-4b04-a3a3-f5d6ac9f953f">
 Windows</label><div class="sd-tab-content docutils">
 <ol>
 <li><p>Open a new terminal and type the following lines (separately) into the terminal, pressing <code class="docutils literal notranslate"><span class="pre">Enter</span></code> after each one:</p>
@@ -683,8 +679,8 @@ If your issue is still not resolved skip the following step and contact an instr
 </li>
 </ol>
 </div>
-<input id="2b6a5c5b-edd2-49de-b0da-4e9fd183cfde" name="8a748e1d-2605-4708-854a-f561e63c251e" type="radio">
-</input><label class="sd-tab-label" for="2b6a5c5b-edd2-49de-b0da-4e9fd183cfde">
+<input id="ef50827e-1a71-450e-bf00-56c6945e84cf" name="866c2f40-69f3-4829-9eff-dd83645836ac" type="radio">
+</input><label class="sd-tab-label" for="ef50827e-1a71-450e-bf00-56c6945e84cf">
 Mac OS</label><div class="sd-tab-content docutils">
 <ol>
 <li><p>Open a new terminal and type the following lines (separately) into the terminal, pressing <code class="docutils literal notranslate"><span class="pre">Enter</span></code> after each one:</p>
@@ -710,8 +706,8 @@ If your issue is still not resolved skip the following step and contact an instr
 </li>
 </ol>
 </div>
-<input id="67a211ef-3a6d-4dcb-beb0-2968200e9a89" name="8a748e1d-2605-4708-854a-f561e63c251e" type="radio">
-</input><label class="sd-tab-label" for="67a211ef-3a6d-4dcb-beb0-2968200e9a89">
+<input id="4ab64e4d-823d-4546-9c19-acd0eb838552" name="866c2f40-69f3-4829-9eff-dd83645836ac" type="radio">
+</input><label class="sd-tab-label" for="4ab64e4d-823d-4546-9c19-acd0eb838552">
 Linux</label><div class="sd-tab-content docutils">
 <ol>
 <li><p>Open a new terminal and type the following lines (separately) into the terminal, pressing <code class="docutils literal notranslate"><span class="pre">Enter</span></code> after each one:</p>
@@ -735,8 +731,8 @@ Linux</label><div class="sd-tab-content docutils">
 <section id="python-packages">
 <h4>Python packages<a class="headerlink" href="#python-packages" title="Permalink to this headline">#</a></h4>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="596d5812-e71e-440c-bc8b-662406b2b08d" name="d4ad317d-23f6-474f-b971-a562537541b3" type="radio">
-</input><label class="sd-tab-label" for="596d5812-e71e-440c-bc8b-662406b2b08d">
+<input checked="checked" id="53c7992b-af1e-4f40-93a6-06340e8ad1af" name="8e0a6f9e-a51a-4da8-bbeb-cdfb93159c00" type="radio">
+</input><label class="sd-tab-label" for="53c7992b-af1e-4f40-93a6-06340e8ad1af">
 Windows</label><div class="sd-tab-content docutils">
 <p>Open a terminal and type the following commands:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>conda config --append channels conda-forge
@@ -745,8 +741,8 @@ conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn nu
 </pre></div>
 </div>
 </div>
-<input id="9ff414e2-261c-4a84-ae99-965e16d951fb" name="d4ad317d-23f6-474f-b971-a562537541b3" type="radio">
-</input><label class="sd-tab-label" for="9ff414e2-261c-4a84-ae99-965e16d951fb">
+<input id="a482fd10-0c87-4f6e-bd02-1753fe9a775c" name="8e0a6f9e-a51a-4da8-bbeb-cdfb93159c00" type="radio">
+</input><label class="sd-tab-label" for="a482fd10-0c87-4f6e-bd02-1753fe9a775c">
 Mac OS</label><div class="sd-tab-content docutils">
 <p>Open a terminal and type the following commands:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>conda config --append channels conda-forge
@@ -755,8 +751,8 @@ conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn nu
 </pre></div>
 </div>
 </div>
-<input id="32bf394f-908e-42bf-8d7f-d96ad6ca5867" name="d4ad317d-23f6-474f-b971-a562537541b3" type="radio">
-</input><label class="sd-tab-label" for="32bf394f-908e-42bf-8d7f-d96ad6ca5867">
+<input id="14496a1b-0504-48e1-940a-070de7ac10a6" name="8e0a6f9e-a51a-4da8-bbeb-cdfb93159c00" type="radio">
+</input><label class="sd-tab-label" for="14496a1b-0504-48e1-940a-070de7ac10a6">
 Linux</label><div class="sd-tab-content docutils">
 <p>Open a terminal and type the following commands:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>conda config --append channels conda-forge
