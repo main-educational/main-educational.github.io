@@ -1,6 +1,13 @@
 # Speakers
 
 ::::{card-carousel} 3
+:::{card} Hubert Banville
+:margin: 3
+:class-body: text-center
+:link: https://github.com/hubertjb
+:img-top: https://hubertjb.github.io/images/me.jpg
+:::
+
 :::{card} Nikhil Bhagwat
 :margin: 3
 :class-body: text-center
@@ -15,6 +22,10 @@
 :img-top: https://avatars.githubusercontent.com/u/45263281?v=4
 :::
 
+::::
+
+
+::::{card-carousel} 3
 :::{card} Elizabeth Dupre
 :margin: 3
 :class-body: text-center
@@ -22,10 +33,6 @@
 :img-top: images/profile_emdupre.jpg
 :::
 
-::::
-
-
-::::{card-carousel} 3
 :::{card} Jérôme Dockès
 :margin: 3
 :class-body: text-center
@@ -40,15 +47,15 @@
 :img-top: images/profile_giuseppe.jpg
 :::
 
+::::
+
+::::{card-carousel} 3
 :::{card} Alex Gramfort
 :margin: 3
 :class-body: text-center
 :link: https://alexandre.gramfort.net/
 :img-top: https://alexandre.gramfort.net/images/picture3.jpg
 :::
-::::
-
-::::{card-carousel} 3
 :::{card} Peer Herholz
 :margin: 1
 :class-body: text-center
@@ -65,15 +72,15 @@
 
 
 
+::::
+
+::::{card-carousel} 3
 :::{card} Quinn Lee
 :margin: 3
 :class-body: text-center
 :link: https://www.linkedin.com/in/j-quinn-lee-142a8984
 :img-top: images/profile_quinn.jpg
 :::
-::::
-
-::::{card-carousel} 3
 :::{card} Patrick Mineault
 :margin: 3
 :class-body: text-center
@@ -88,15 +95,15 @@
 :img-top: images/profile_yasmin.jpg
 :::
 
+::::
+
+::::{card-carousel} 3
 :::{card} Krystal Pan
 :margin: 3
 :class-body: text-center
 :link: https://www.linkedin.com/in/krystal-xuejing-pan/?originalSubdomain=ca
 :img-top: images/profile_krystal.jpg
 :::
-::::
-
-::::{card-carousel} 3
 :::{card} Alexandre Pasquiou
 :margin: 3
 :class-body: text-center
@@ -111,15 +118,15 @@
 :img-top: https://avatars.githubusercontent.com/u/64853244?v=4
 :::
 
+::::
+
+::::{card-carousel} 3
 :::{card} Pravish Sainath
 :margin: 3
 :class-body: text-center
 :link: https://github.com/pravishsainath
 :img-top: https://avatars.githubusercontent.com/u/13696562?v=4
 :::
-::::
-
-::::{card-carousel} 3
 :::{card} Bertrand Thirion
 :margin: 3
 :class-body: text-center
@@ -133,6 +140,9 @@
 :link: https://wanghaoting.com
 :img-top: https://avatars.githubusercontent.com/u/13743617?v=4
 :::
+::::
+
+::::{card-carousel} 3
 
 :::{card} Mohammad Yaghoubi
 :margin: 3

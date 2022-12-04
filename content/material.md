@@ -358,6 +358,8 @@ Explore the `GitHub` repository {fas}`arrow-right`
 
 **Alex Gramfort** is a research scientist at Meta in Paris, France. Before joining Meta, he was a team leader and PI at Inria. His work focusses on machine learning for brain signals. His main and active opensource contributions are to [scikit-learn](https://scikit-learn.org), [MNE-Python](https://mne.tools/stable/index.html) and [braindecode](https://braindecode.org/stable/index.html).
 
+**Hubert Banville** is a Research Scientist at InteraXon (maker of the Muse headband). He completed a PhD in the Parietal team at Inria, Université Paris-Saclay, under the supervision of Alexandre Gramfort and Denis Engemann. This work was done jointly at InteraXon. His research focuses on machine learning for processing EEG and other biosignals.
+
 ### Objectives
  * Understand the structure of electro- and magneto-encephalography signals
  * Preprocess and visualize MEG/EEG data
