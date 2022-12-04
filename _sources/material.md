@@ -310,7 +310,7 @@ In this talk, I will introduce techniques for aligning representations in both b
 
 **Jérôme Dockès** is a post-doc in the [ORIGAMI lab](https://neurodatascience.github.io/) (PI: [Dr. JB Poline](https://www.mcgill.ca/neuro/jean-baptiste-poline-phd)) at McGill University.
 He completed his PhD thesis on statistical methods for large-scale meta-analysis of neuroimaging studies in the [Parietal lab](https://team.inria.fr/parietal/) at INRIA.
-His current work focuses on tools and resources to facilitate text-mining and meta-analysis of the neuroimaging literature. 
+His current work focuses on tools and resources to facilitate text-mining and meta-analysis of the neuroimaging literature.
 
 ### Objectives
  * Understand how to evaluate the performance of machine learning models.
@@ -347,7 +347,6 @@ Explore the `GitHub` repository {fas}`arrow-right`
 :link: https://alexandre.gramfort.net/
 :img-top: https://alexandre.gramfort.net/images/picture3.jpg
 :::
-::::
 
 :::{card} Hubert Banville
 :margin: 3
@@ -355,6 +354,9 @@ Explore the `GitHub` repository {fas}`arrow-right`
 :link: https://github.com/hubertjb
 :img-top: https://hubertjb.github.io/images/me.jpg
 :::
+::::
+
+**Alex Gramfort** is a research scientist at Meta in Paris, France. Before joining Meta, he was a team leader and PI at Inria. His work focusses on machine learning for brain signals. His main and active opensource contributions are to [scikit-learn](https://scikit-learn.org), [MNE-Python](https://mne.tools/stable/index.html) and [braindecode](https://braindecode.org/stable/index.html).
 
 ### Objectives
  * Understand the structure of electro- and magneto-encephalography signals
@@ -370,7 +372,18 @@ Explore the `GitHub` repository {fas}`arrow-right`
 :class-header: bg-light text-center
 :link: https://github.com/agramfort/22_main_ml_meeg_tuto
 
-**Alex Gramfort** is a research scientist at Meta in Paris, France. Before joining Meta, he was a team leader and PI at Inria. His work focusses on machine learning for brain signals. His main and active opensource contributions are to [scikit-learn](https://scikit-learn.org), [MNE-Python](https://mne.tools/stable/index.html) and [braindecode](https://braindecode.org/stable/index.html).
+**The session's GitHub repository**
+^^^
+```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+:height: 100
+```
+
+Check out the session's materials.
++++
+Explore {fas}`arrow-right`
+:::
+::::
+
 
 ## Brain decoding
 
@@ -527,7 +540,7 @@ In the second part of the session we will dive into the predictive `brain encodi
 :link: https://main-educational.github.io/brain_decoding/encoding.html
 **The session's GitHub repository**
 ^^^
-```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+```{image} images/logo_neurolibre.png
 :height: 100
 ```
 
