@@ -266,7 +266,7 @@ Explore {fas}`arrow-right`
 :link: https://main-educational.github.io/intro_ML/intro.html
 **The Jupyter Book of this session**
 ^^^
-```{image} https://main-educational.github.io/brain_encoding_decoding/_static/neurolibre-logo.png
+```{image} images/logo_neurolibre.png
 :height: 100
 ```
 
@@ -300,7 +300,7 @@ In this talk, I will introduce techniques for aligning representations in both b
 
 ### Instructor
 ::::{card-carousel} 3
-:::{card} Jerôme Dockes
+:::{card} Jérôme Dockès
 :margin: 3
 :class-body: text-center
 :link: https://github.com/jeromedockes
@@ -308,13 +308,34 @@ In this talk, I will introduce techniques for aligning representations in both b
 :::
 ::::
 
+**Jérôme Dockès** is a post-doc in the [ORIGAMI lab](https://neurodatascience.github.io/) (PI: [Dr. JB Poline](https://www.mcgill.ca/neuro/jean-baptiste-poline-phd)) at McGill University.
+He completed his PhD thesis on statistical methods for large-scale meta-analysis of neuroimaging studies in the [Parietal lab](https://team.inria.fr/parietal/) at INRIA.
+His current work focuses on tools and resources to facilitate text-mining and meta-analysis of the neuroimaging literature. 
+
 ### Objectives
  * Understand how to evaluate the performance of machine learning models.
  * Learn about hyperparameters and model selection.
  * Learn about pitfalls when validating machine learning models and how to easily avoid them using scikit-learn.
 
 ### Materials
-[GitHub Link](https://github.com/neurodatascience/main-2021-ml-parts-1-2)
+::::{card-carousel} 4
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://github.com/neurodatascience/main-2021-ml-parts-1-2
+
+**The session's GitHub repository**
+^^^
+```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+:height: 100
+```
+
+Check out the session's materials on `GitHub`.
++++
+Explore the `GitHub` repository {fas}`arrow-right`
+:::
+::::
 
 ## Introduction to electro- and magneto-encephalography using [MNE-python](https://mne.tools/stable/index.html)
 
@@ -393,10 +414,10 @@ Given the time restrictions, we will focus on `biological agents`, ie `human par
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: https://main-educational.github.io/brain_encoding_decoding
+:link: https://main-educational.github.io/brain_decoding
 **The Jupyter Book of this session**
 ^^^
-```{image} https://main-educational.github.io/brain_decoding/_static/neurolibre-logo.png
+```{image} images/logo_neurolibre.png
 :height: 100
 ```
 
@@ -409,7 +430,7 @@ Get to the session {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: https://github.com/main-educational/brain_encoding_decoding
+:link: https://github.com/main-educational/brain_decoding
 
 **The session's GitHub repository**
 ^^^
@@ -430,7 +451,7 @@ Explore the `GitHub` repository {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :link: https://github.com/complexbrains
-:img-top: https://avatars.githubusercontent.com/u/45263281?v=4
+:img-top: images/isil_bilgin.jpg
 :::
 
 :::{card} Alexandre Pasquiou
@@ -448,10 +469,37 @@ Explore the `GitHub` repository {fas}`arrow-right`
 :::
 ::::
 
+
+
+**Isil Poyraz Bilgin** is a Postdoctoral research fellow at the [CRUIGM](https://criugm.qc.ca/en/) [CNeuroMod](https://www.cneuromod.ca/) project and is supervised by [Prof. Leila Wehbe](https://www.cs.cmu.edu/~lwehbe/) and [Prof. Pierre Bellec](https://simexp.github.io/lab-website/team.html#:~:text=THE%20SIMEXP%20TEAM-,Pierre%20Bellec%2C%20PhD,-%2C%20is%20the). Her work focuses on implementing encoding models to predict brain activities of processing the natural language using representations extracted from natural language models. Her main interest lies in developing optimizations to improve the predictive performance of the neural networks of language models with well-defined features of brain dynamics in processing naturalistic stimuli. She holds a bachelor's degree in pure mathematics and Ph.D. in Cybernetics. Her thesis work focuses on dynamic functional connectivity of the emergence of the neural representation of the novel semantic concepts in the human brain using simultaneous EEG and fMRI.
+
+**Alexandre Pasquiou** is a PhD student working at [INRIA MIND](https://team.inria.fr/mind/) team, with [Christophe Pallier](https://www.pallier.org/) and [Bertrand Thirion](https://pages.saclay.inria.fr/bertrand.thirion/). His work focuses on understanding how the brain processes language. Being an engineer from [CentraleSupélec](https://www.centralesupelec.fr/) (specialized in applied mathematics), he uses machine learning models to dive deeply into the neural bases of language comprehension relying on both encoding and decoding experimental paradigms. Some of his work studied semantic and syntactic processing, the integration of contextual information as well as the pitfalls of encoding models that leveraged features derived from neural language models.
+
+
 ### Objectives
- * Understand the principles of brain encoding
- * Use ridge regression to encode brain activity in functional magnetic resonance imaging using direct representation of visual stimuli
- * Use ridge regression to encode brain activity in functional magnetic resonance imaging during a movie watching task using a large artificial language network
+In the first part of the session we will focus on
+  * Understanding the foundations of `brain endecoding` with;
+     - Preparation of the `fMRI and stimuli dataset`
+     - Building encoding models using `ridge regression` to extract direct representation of visual stimuli
+     - Evaluation of the model performance using `cross validation`
+     - Visualisation of the encoding scores on `cortex`
+
+In the second part of the session we will dive into the predictive `brain encoding` models to
+  * Understand the utilization of the high-dimensional stimuli features in `brain encoding` models
+  * Explore `brain encoding` of processing the naturalistic stimuli (movie watching) by utilizing
+     - `Textual features` extracted with pretrained `BERT` language model
+     - `Audio features` extracted with `MFCC (Mel Frequency Cepstral Coefficients)` technique
+     - `Audio features` extracted with `ResNet-50` model
+     -
+  in `ridge regression` models to predict the brain representations.
+  * Visualize the prediction accuracy in the cortex brain maps
+
+
+### Questions you will be able to answer after taking this module 🎯
+  * What are the constituents of the `brain encoding`?
+  * How `deep learning` models could utilize rich features of the `naturalistic stimuli` in the analysis of `brain encoding`?
+  * How the trained `brain encoding` models could generalize to new brain data for  different feature spaces?
+
 
 ### Materials
 
@@ -461,10 +509,10 @@ Explore the `GitHub` repository {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: https://main-educational.github.io/brain_encoding_decoding
-**The Jupyter Book of this session**
+:link: https://main-educational.github.io/brain_decoding/encoding.html
+**The session's GitHub repository**
 ^^^
-```{image} https://main-educational.github.io/brain_encoding_decoding/_static/neurolibre-logo.png
+```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 :height: 100
 ```
 
@@ -473,15 +521,15 @@ Explore and follow the session via `Jupyter Book`.
 Get to the session {fas}`arrow-right`
 :::
 
+
 :::{card}
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: https://github.com/jashna14/DL4Brain
-
-**The session's repository**
+:link: https://colab.research.google.com/drive/1mZvZEUPAkHPhlbc5jWrj4PXc6tBe1_ZR?usp=sharing
+**The Jupyter Book of this session**
 ^^^
-```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+```{image} images/logo_colab.png
 :height: 100
 ```
 

@@ -26,7 +26,7 @@
 
 
 ::::{card-carousel} 3
-:::{card} Jerôme Dockes
+:::{card} Jérôme Dockès
 :margin: 3
 :class-body: text-center
 :link: https://github.com/jeromedockes
