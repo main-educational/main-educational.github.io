@@ -337,7 +337,7 @@ Explore the `GitHub` repository {fas}`arrow-right`
 :::
 ::::
 
-## Introduction to electro- and magneto-encephalography using [MNE-python](https://mne.tools/stable/index.html)
+## Machine learning on electro- and magneto-encephalography (EEG/MEG)
 
 ### Instructor
 ::::{card-carousel} 3
@@ -349,13 +349,28 @@ Explore the `GitHub` repository {fas}`arrow-right`
 :::
 ::::
 
+:::{card} Hubert Banville
+:margin: 3
+:class-body: text-center
+:link: https://github.com/hubertjb
+:img-top: https://hubertjb.github.io/images/me.jpg
+:::
+
 ### Objectives
- * Understand the structure of electro- and magneto-encephalography data.
- * Prepare and visualize MEG brain activity
- * Train machine learning models on MEG data
+ * Understand the structure of electro- and magneto-encephalography signals
+ * Preprocess and visualize MEG/EEG data
+ * Learn about the ML techniques to decode evoked and induced MEG/EEG activity
+ * Train machine learning models on MEG data using [MNE-python](https://mne.tools/stable/index.html) and PyTorch
 
 ### Materials
-TBA
+::::{card-carousel} 4
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://github.com/agramfort/22_main_ml_meeg_tuto
+
+**Alex Gramfort** is a research scientist at Meta in Paris, France. Before joining Meta, he was a team leader and PI at Inria. His work focusses on machine learning for brain signals. His main and active opensource contributions are to [scikit-learn](https://scikit-learn.org), [MNE-Python](https://mne.tools/stable/index.html) and [braindecode](https://braindecode.org/stable/index.html).
 
 ## Brain decoding
 
