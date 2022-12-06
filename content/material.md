@@ -539,7 +539,7 @@ In the second part of the session we will dive into the predictive `brain encodi
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: https://main-educational.github.io/brain_decoding/encoding.html
+:link: https://main-educational.github.io/brain_encoding_decoding/encoding.html
 **The session's GitHub repository**
 ^^^
 ```{image} images/logo_neurolibre.png
@@ -556,7 +556,7 @@ Get to the session {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: https://colab.research.google.com/drive/1mZvZEUPAkHPhlbc5jWrj4PXc6tBe1_ZR?usp=sharing
+:link: https://colab.research.google.com/drive/1mZvZEUPAkHPhlbc5jWrj4PXc6tBe1_ZR?usp=share_link
 **The Jupyter Book of this session**
 ^^^
 ```{image} images/logo_colab.png
