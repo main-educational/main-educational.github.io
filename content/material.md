@@ -246,7 +246,7 @@ Explore the notebook {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: https://github.com/main-educational/intro_ML
+:link: https://github.com/main-educational/intro_nilearn
 
 **Session's repository**
 ^^^
@@ -263,7 +263,7 @@ Explore {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: https://main-educational.github.io/intro_ML/intro.html
+:link: https://main-educational.github.io/intro_nilearn/intro.html
 **The Jupyter Book of this session**
 ^^^
 ```{image} images/logo_neurolibre.png
