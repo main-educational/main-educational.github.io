@@ -138,7 +138,7 @@
 :margin: 3
 :class-body: text-center
 :link: https://wanghaoting.com
-:img-top: https://avatars.githubusercontent.com/u/13743617?v=4
+:img-top: images/profile_haoting.jpg
 :::
 ::::
 
