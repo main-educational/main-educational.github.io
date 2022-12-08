@@ -260,7 +260,7 @@ Open a terminal and type the following commands:
 Now that you've installed everything it's time to check that everything works as expected! Type the following into your terminal:
 
 ```bash
-bash <( curl -s https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/content/en/modules/installation/nds_check_install.sh )
+bash <( curl -s https://raw.githubusercontent.com/main-educational/main-educational.github.io/main/content/main_educational_check_install.sh )
 ```
 
 If you installed everything correctly you should see a message informing you as such. If any problems were detected you should receive some brief instructions on what is wrong with potential suggestions on how to remedy it. If you followed these instructions step-by-step and cannot resolve the issue please contact one of the course instructors for more help.
