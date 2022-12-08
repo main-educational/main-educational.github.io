@@ -445,7 +445,7 @@ Bertrand Thirion is senior researcher in the MIND team, part of Inria research i
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: https://main-educational.github.io/brain_decoding
+:link: https://main-educational.github.io/brain_encoding_decoding
 **The Jupyter Book of this session**
 ^^^
 ```{image} images/logo_neurolibre.png
