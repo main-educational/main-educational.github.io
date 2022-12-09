@@ -16,7 +16,7 @@
 :class-body: text-center
 :class-header: bg-light text-center
 :link: ./material.html#supervised-learning-using-scikit-learn
-**Nikhil Bhagwat**
+**Nikhil Bhagwat (atrium)**
 ^^^
 ```{image} images/logo_scikit-learn.png
 :height: 100
@@ -32,7 +32,7 @@ Learn more {fas}`arrow-right`
 :class-header: bg-light text-center
 :link: ./material.html#machine-learning-in-functional-mri-using-nilearn
 
-**Hao-Ting Wang and Yasmin Mzayek**
+**Hao-Ting Wang and Yasmin Mzayek (amphitheater)**
 ^^^
 ```{image} images/logo_nilearn.png
 :height: 100
@@ -47,7 +47,7 @@ Learn more {fas}`arrow-right`
 ### Afternoon sessions
 12:00 EST - 13:00 EST **Lunch** (provided onsite)
 
-13:00 EST - 14:00 EST **Keynote lecture**  
+13:00 EST - 14:00 EST **Keynote lecture (amphitheater)**  
 ::::{card-carousel} 3
 :::{card} Patrick Mineault - What's the endgame of neuroAI?
 :margin: 3
@@ -66,7 +66,7 @@ Learn more {fas}`arrow-right`
 :class-body: text-center
 :class-header: bg-light text-center
 :link: ./material.html#introduction-to-deep-learning-using-pytorch
-**Mohammad Yaghoubi, Thomas Jiralerspong and Krystal Pan**
+**Mohammad Yaghoubi, Thomas Jiralerspong and Krystal Pan (amphitheater)**
 ^^^
 ```{image} images/logo_pytorch.png
 :height: 100
@@ -82,7 +82,7 @@ Learn more {fas}`arrow-right`
 :class-header: bg-light text-center
 :link: ./material.html#representational-structure-in-neural-time-series-using-calcium-imaging-and-electrophysiology
 
-**Quinn Lee and Giuseppe Pietro Gava**
+**Quinn Lee and Giuseppe Pietro Gava (atrium)**
 ^^^
 ```{image} images/logo_unique.jpg
 :height: 100
@@ -108,7 +108,7 @@ Learn more {fas}`arrow-right`
 :class-body: text-center
 :class-header: bg-light text-center
 :link: ./material.html#model-selection-and-validation
-**Jérôme Dockès**
+**Jérôme Dockès (online - streamed in atrium)**
 ^^^
 ```{image} images/logo_scikit-learn.png
 :height: 100
@@ -124,7 +124,7 @@ Learn more {fas}`arrow-right`
 :class-header: bg-light text-center
 :link: ./material.html#introduction-to-electro-and-magneto-encephalography-using-mne-python
 
-**Alex Gramfort (online)**
+**Alex Gramfort (online - streamed in amphitheater)**
 ^^^
 ```{image} images/logo_mne.png
 :height: 100
@@ -138,7 +138,7 @@ Learn more {fas}`arrow-right`
 ### Afternoon sessions
 12:00 EST - 13:00 EST **Lunch** (provided onsite)
 
-13:00 EST - 14:00 EST **Keynote lecture (online)**  
+13:00 EST - 14:00 EST **Keynote lecture (online - streamed in amphitheater)**  
 ::::{card-carousel} 3
 :::{card} Elizabeth Dupre - Aligning representations in brain and machines
 :margin: 3
@@ -156,7 +156,7 @@ Learn more {fas}`arrow-right`
 :class-body: text-center
 :class-header: bg-light text-center
 :link: ./material.html#brain-decoding
-**Peer Herholz, Bertrand Thirion and Shima Rastegarnia**
+**Peer Herholz, Bertrand Thirion and Shima Rastegarnia (amphitheater)**
 ^^^
 ```{image} images/thumbnail_decoding.png
 :height: 100
@@ -172,7 +172,7 @@ Learn more {fas}`arrow-right`
 :class-header: bg-light text-center
 :link: ./material.html#brain-encoding
 
-**Isil Bilgin, Alexandre Pasquiou and Pravish Sainath**
+**Isil Bilgin, Alexandre Pasquiou and Pravish Sainath (atrium)**
 ^^^
 ```{image} images/thumbnail_encoding.png
 :height: 100
