@@ -133,7 +133,7 @@ Explore {fas}`arrow-right`
 
  ::::
 
-## Keynote Patrick Mineault
+## Keynote: What's the endgame of neuroAI?
 
 ::::{card-carousel} 3
 :::{card} Patrick Mineault
@@ -145,8 +145,6 @@ Explore {fas}`arrow-right`
 ::::
 
 **Patrick Mineault, PhD** is a neurotechnologist and CEO of xcorr consulting. His career spans academia and industry: he was a data scientist at Google, research scientist at Meta on brain-computer-interfaces, founder of a medtech startup and founding CTO of the educational nonprofit Neuromatch. His research at the intersection of neuroscience and AI has been published in NeurIPS, Neuron, PNAS, J Neurosci and Plos Comp Bio. He is the author of the Good Research Code Handbook and writes a popular computational neuroscience blog, [xcorr.net](https://xcorr.net/). He obtained his PhD in computational neuroscience at McGill University.
-
-**Title**: What's the endgame of neuroAI?
 
 **Summary**: Neuroscience and AI have a long, intertwined history. Artificial intelligence pioneers looked to the principles of the organization of the brain as inspiration to make intelligent machines. In a surprising reversal, AI is now helping us understand its very source of inspiration: the human brain. Over the next decade, we’ll make ever more precise in silico brain models. As a result, we’ll soon be able to download and use sensory models, on demand, with the same convenience that we can do object recognition or natural language processing.
 
@@ -277,7 +275,7 @@ Get to the session {fas}`arrow-right`
 
 ::::
 
-## Keynote Elizabeth Dupre
+## Keynote: Aligning representations in brains and machines
 ::::{card-carousel} 3
 :::{card} Elizabeth Dupre
 :margin: 3
@@ -289,12 +287,29 @@ Get to the session {fas}`arrow-right`
 
 **Elizabeth Dupre, PhD** is a [Wu Tsai interdisciplinary postdoctoral research fellow](https://neuroscience.stanford.edu/people/elizabeth-dupre) at Stanford University, working between Prof. Russ [Poldrack](https://poldracklab.stanford.edu/) and Prof. Scott [Linderman](https://web.stanford.edu/~swl1/). As a psychologist and computational neuroscientist, her work focuses on modeling individual brain activity across a range of cognitive states—and assessing the generalizability of these individualized models—by extending statistical methods for human neuroimaging data analysis. Through her work, Dr DuPre has taken an active role developing tools in the open source Python ecosystem, with a focus on improving the reproducibility of analysis workflows.
 
-**Title**: Aligning representations in brains and machines
-
 **Summary**: Computational neuroscience is focused on uncovering general organizational principles supporting neural activity and behavior; however, uncovering these principles relies on making appropriate comparisons across individuals. This presents a core technical and conceptual challenge, as individuals differ along nearly every relevant dimension: from the number of neurons supporting computation to the exact computation being performed. Similarly in artificial neural networks, multiple initializations of the same architecture—on the same data—may recruit non-overlapping hidden units, complicating direct comparisons of trained networks.
 
 In this talk, I will introduce techniques for aligning representations in both brains and in machines. I will argue for the importance of considering alignment methods in developing a comprehensive science at the intersection of artificial intelligence and neuroscience that reflects our shared goal of understanding principles of computation. Finally, I will consider current applications and limitations of these techniques, discussing relevant future directions for this area.
 
+### Materials
+::::{card-carousel} 4
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://doi.org/10.5281/zenodo.7422545
+
+**The session's slides**
+^^^
+```{image} images/logo_pdf.png
+:height: 100
+```
+
+Check out the session's slides on `zenodo`.
++++
+Explore {fas}`arrow-right`
+:::
+::::
 
 ## Model selection and validation
 
