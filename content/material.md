@@ -150,6 +150,25 @@ Explore {fas}`arrow-right`
 
 In this talk, I will take you on a tour of the near future. I will argue that we should use this newfound capability to help improve human health, both for people with neurological disorders and to enhance the well. I discuss enabling technological trends: advances in AI, industrial use cases, AR/VR and BCI. I invite everyone to reflect on the role of innovation and academia to help humans flourish.
 
+### Materials
+
+::::{card-carousel} 3
+
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://www.youtube.com/watch?v=-Gci9mkRkEs
+**Video of this session**
+^^^
+```{image} images/logo_youtube.png
+:height: 100
+```
++++
+Get to the session {fas}`arrow-right`
+:::
+::::
+
 ## Introduction to deep learning using Pytorch
 
 ### Instructors
@@ -292,7 +311,7 @@ Get to the session {fas}`arrow-right`
 In this talk, I will introduce techniques for aligning representations in both brains and in machines. I will argue for the importance of considering alignment methods in developing a comprehensive science at the intersection of artificial intelligence and neuroscience that reflects our shared goal of understanding principles of computation. Finally, I will consider current applications and limitations of these techniques, discussing relevant future directions for this area.
 
 ### Materials
-::::{card-carousel} 4
+::::{card-carousel} 3
 :::{card}
 :margin: 3
 :class-body: text-center
@@ -333,7 +352,7 @@ His current work focuses on tools and resources to facilitate text-mining and me
  * Learn about pitfalls when validating machine learning models and how to easily avoid them using scikit-learn.
 
 ### Materials
-::::{card-carousel} 4
+::::{card-carousel} 3
 :::{card}
 :margin: 3
 :class-body: text-center
@@ -382,7 +401,7 @@ Explore the `GitHub` repository {fas}`arrow-right`
  * Train machine learning models on MEG data using [MNE-python](https://mne.tools/stable/index.html) and PyTorch
 
 ### Materials
-::::{card-carousel} 4
+::::{card-carousel} 3
 :::{card}
 :margin: 3
 :class-body: text-center
@@ -476,7 +495,7 @@ Get to the session {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: https://github.com/main-educational/brain_decoding
+:link: https://github.com/main-educational/brain_encoding_decoding
 
 **The session's GitHub repository**
 ^^^
@@ -555,16 +574,16 @@ In the second part of the session we will dive into the predictive `brain encodi
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: https://main-educational.github.io/brain_encoding_decoding/encoding.html
-**The session's GitHub repository**
+:link: https://github.com/AlexandrePsq/main_tutorial
+**The session's repository**
 ^^^
-```{image} images/logo_neurolibre.png
+```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 :height: 100
 ```
 
-Explore and follow the session via `Jupyter Book`.
+Check out the session's materials on `GitHub`.
 +++
-Get to the session {fas}`arrow-right`
+Explore {fas}`arrow-right`
 :::
 
 
@@ -572,10 +591,10 @@ Get to the session {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: https://colab.research.google.com/drive/1mZvZEUPAkHPhlbc5jWrj4PXc6tBe1_ZR?usp=share_link
+:link: https://main-educational.github.io/brain_encoding_decoding/intro.html
 **The Jupyter Book of this session**
 ^^^
-```{image} images/logo_colab.png
+```{image} images/logo_neurolibre.png
 :height: 100
 ```
 
