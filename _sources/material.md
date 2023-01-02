@@ -316,6 +316,21 @@ In this talk, I will introduce techniques for aligning representations in both b
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
+:link: https://www.youtube.com/watch?v=IWIiR6mjrXY
+**Video of this session**
+^^^
+```{image} images/logo_youtube.png
+:height: 100
+```
++++
+Get to the session {fas}`arrow-right`
+:::
+
+
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
 :link: https://doi.org/10.5281/zenodo.7422545
 
 **The session's slides**
