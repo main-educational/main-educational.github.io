@@ -435,6 +435,20 @@ Explore the `GitHub` repository {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
+:link: https://www.youtube.com/watch?v=ePrxz7wRp1g
+**Video of this session**
+^^^
+```{image} images/logo_youtube.png
+:height: 100
+```
++++
+Get to the session {fas}`arrow-right`
+:::
+
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
 :link: https://github.com/agramfort/22_main_ml_meeg_tuto
 
 **The session's GitHub repository**
