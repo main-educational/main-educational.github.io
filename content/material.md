@@ -400,6 +400,20 @@ His current work focuses on tools and resources to facilitate text-mining and me
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
+:link: https://youtu.be/X7RBbD__MJw
+**Video of this session**
+^^^
+```{image} images/logo_youtube.png
+:height: 100
+```
++++
+Get to the session {fas}`arrow-right`
+:::
+
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
 :link: https://github.com/neurodatascience/main-2021-ml-parts-1-2
 
 **The session's GitHub repository**
