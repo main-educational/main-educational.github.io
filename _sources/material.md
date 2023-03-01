@@ -236,7 +236,8 @@ Get to the session {fas}`arrow-right`
  * Train a basic model using pytorch
 
 ### Materials
-The training material is adapted from NeuroMatch Academy.
+The training material is adapted from NeuroMatch Academy. Note that videos recorded by Pr. Konrad Kording are included in the google colab resource. The main educational session was purely hands-on support of the participants, and recording of this session will not be made available.
+
 ::::{card-carousel} 3
 :::{card}
 :margin: 3
