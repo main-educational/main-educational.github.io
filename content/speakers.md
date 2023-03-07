@@ -115,7 +115,7 @@
 :margin: 3
 :class-body: text-center
 :link: https://github.com/srastegarnia
-:img-top: https://avatars.githubusercontent.com/u/64853244?v=4
+:img-top: images/profile_shima_rastegarnia.jpg
 :::
 
 ::::

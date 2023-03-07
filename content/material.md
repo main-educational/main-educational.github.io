@@ -527,7 +527,7 @@ Given the time restrictions, we will focus on `biological agents`, ie `human par
 :margin: 3
 :class-body: text-center
 :link: https://github.com/srastegarnia
-:img-top: https://avatars.githubusercontent.com/u/64853244?v=4
+:img-top: images/profile_shima_rastegarnia.jpg
 :::
 
 :::{card} Bertrand Thirion
@@ -543,7 +543,8 @@ Given the time restrictions, we will focus on `biological agents`, ie `human par
 **Bertrand Thirion**
 Bertrand Thirion is senior researcher in the MIND team, part of Inria research institute, Saclay, France, that develops statistics and machine learning techniques for brain imaging. He contributes both algorithms and software, with a special focus on functional neuroimaging applications. He is involved in the Neurospin, CEA neuroimaging center, one of the leading high-field MRI for brain imaging places. From 2018 to 2021, Bertrand Thirion has been the head of the DATAIA Institute that federates research on AI, data science and their societal impact in Paris-Saclay University. In 2020, he has recently been appointed as member of the expert committee in charge of advising the government during the Covid-19 pandemic. In 2021, he has become the Head of science (délégué scientifique) of the Inria Saclay-Île-de-France research center. Bertrand Thirion is PI of the [Karaib AI Chair](http://project.inria.fr/karaib) of the [Individual Brain Charting](http://project.inria.fr/ibc) project.
 
-**Shima Rastegarnia**
+**Shima Rastegarnia** Shima Rastegarnia obtained her Master’s in Computer Science from Montreal university. She completed her Master's at the CRUIGM CNeuroMod project under the supervision of Dr. Pierre Bellec. Her research work focuses on implementing machine learning and deep learning models for brain decoding using functional magnetic resonance imaging datasets.
+
 ### Objectives 📍
  * Understand the core aspects & principles of `brain decoding`
    - including `dataset` requirements
