@@ -562,6 +562,33 @@ Bertrand Thirion is senior researcher in the MIND team, part of Inria research i
 ### Materials
 
 ::::{card-carousel} 4
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://youtu.be/Eem-OxkvTCc
+**Video of this session (Part 1)**
+^^^
+```{image} images/logo_youtube.png
+:height: 100
+```
++++
+Get to the session {fas}`arrow-right`
+:::
+
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: https://youtu.be/eN5OPMh5PIA
+**Video of this session (Part 2)**
+^^^
+```{image} images/logo_youtube.png
+:height: 100
+```
++++
+Get to the session {fas}`arrow-right`
+:::
 
 :::{card}
 :margin: 3
