@@ -540,7 +540,7 @@ Given the time restrictions, we will focus on `biological agents`, ie `human par
 :::{card} Alexis Thual
 :margin: 3
 :class-body: text-center
-:link:
+:link: https://twitter.com/alexisthual
 :img-top: images/profile_alexis_thual.jpg
 :::
 

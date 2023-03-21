@@ -134,15 +134,21 @@
 :img-top: images/profile_bertrand.jpg
 :::
 
+:::{card} Alexis Thual
+:margin: 3
+:class-body: text-center
+:link: https://twitter.com/alexisthual
+:img-top: images/profile_alexis_thual.jpg
+:::
+::::
+
+::::{card-carousel} 3
 :::{card} Hao-Ting Wang
 :margin: 3
 :class-body: text-center
 :link: https://wanghaoting.com
 :img-top: images/profile_haoting.jpg
 :::
-::::
-
-::::{card-carousel} 3
 
 :::{card} Mohammad Yaghoubi
 :margin: 3
