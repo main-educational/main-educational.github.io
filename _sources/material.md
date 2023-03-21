@@ -515,7 +515,7 @@ to `fMRI` data. More precisely, we will explore how we can utilize different `de
 to `estimate`/`predict` what an agent is `perceiving` or `doing` based on `recordings` of `responses`/`activity`.
 Given the time restrictions, we will focus on `biological agents`, ie `human participants`, and thus `brain` `responses` obtained from `fMRI`.
 ### Instructors
-::::{card-carousel} 3
+::::{card-carousel} 4
 :::{card} Peer Herholz
 :margin: 1
 :class-body: text-center
@@ -536,14 +536,23 @@ Given the time restrictions, we will focus on `biological agents`, ie `human par
 :link: https://twitter.com/BertrandThirion
 :img-top: images/profile_bertrand.jpg
 :::
+
+:::{card} Alexis Thual
+:margin: 3
+:class-body: text-center
+:link: https://twitter.com/alexisthual
+:img-top: images/profile_alexis_thual.jpg
+:::
+
 ::::
 
 **Peer Herholz** is a research affiliate at [The Neuro (Montreal Neurological Institute-Hospital)](https://www.mcgill.ca/neuro/)/[ORIGAMI lab](https://neurodatascience.github.io/) (PI: [Dr. JB Poline](https://www.mcgill.ca/neuro/jean-baptiste-poline-phd)) at [McGill University](https://www.mcgill.ca/) and the [McGovern Institute for Brain Research](https://mcgovern.mit.edu/)/[Senseable Intelligence Group](https://sensein.group/) (PI: [Satra Ghosh](https://satra.cogitatum.org/)). He obtained his PhD in cognitive & computational neuroscience, focusing on auditory processing in humans and machines. Afterwards, he conducted multiple postdocs further working at the intersection between neuroscience & artificial intelligence, as well as expanding the integration of open & reproducible scientific practices therein. Currently, he is working on research questions related to generalization in biological and artificial neural networks, comparing respective representations and their underlying computation.
 
-**Bertrand Thirion**
-Bertrand Thirion is senior researcher in the MIND team, part of Inria research institute, Saclay, France, that develops statistics and machine learning techniques for brain imaging. He contributes both algorithms and software, with a special focus on functional neuroimaging applications. He is involved in the Neurospin, CEA neuroimaging center, one of the leading high-field MRI for brain imaging places. From 2018 to 2021, Bertrand Thirion has been the head of the DATAIA Institute that federates research on AI, data science and their societal impact in Paris-Saclay University. In 2020, he has recently been appointed as member of the expert committee in charge of advising the government during the Covid-19 pandemic. In 2021, he has become the Head of science (délégué scientifique) of the Inria Saclay-Île-de-France research center. Bertrand Thirion is PI of the [Karaib AI Chair](http://project.inria.fr/karaib) of the [Individual Brain Charting](http://project.inria.fr/ibc) project.
+**Shima Rastegarnia** obtained her Master’s in Computer Science from Montreal university. She completed her Master's at the CRUIGM CNeuroMod project under the supervision of Dr. Pierre Bellec. Her research work focuses on implementing machine learning and deep learning models for brain decoding using functional magnetic resonance imaging datasets.
 
-**Shima Rastegarnia** Shima Rastegarnia obtained her Master’s in Computer Science from Montreal university. She completed her Master's at the CRUIGM CNeuroMod project under the supervision of Dr. Pierre Bellec. Her research work focuses on implementing machine learning and deep learning models for brain decoding using functional magnetic resonance imaging datasets.
+**Alexis Thual** is a PhD student working at Neurospin CEA and Inria (France). His work focuses on building open-source tools to efficiently compute comparisons between brains although their anatomy and activation patterns are very different across individuals. In particular, his methods can be used to draw comparisons between human and non-human primates. He is also a core-developer of Nilearn.
+
+**Bertrand Thirion** is senior researcher in the MIND team, part of Inria research institute, Saclay, France, that develops statistics and machine learning techniques for brain imaging. He contributes both algorithms and software, with a special focus on functional neuroimaging applications. He is involved in the Neurospin, CEA neuroimaging center, one of the leading high-field MRI for brain imaging places. From 2018 to 2021, Bertrand Thirion has been the head of the DATAIA Institute that federates research on AI, data science and their societal impact in Paris-Saclay University. In 2020, he has recently been appointed as member of the expert committee in charge of advising the government during the Covid-19 pandemic. In 2021, he has become the Head of science (délégué scientifique) of the Inria Saclay-Île-de-France research center. Bertrand Thirion is PI of the [Karaib AI Chair](http://project.inria.fr/karaib) of the [Individual Brain Charting](http://project.inria.fr/ibc) project.
 
 ### Objectives 📍
  * Understand the core aspects & principles of `brain decoding`
