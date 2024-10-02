@@ -3,7 +3,7 @@
 ![](./banner.jpeg)
 
 :::{note}
-**Registration for the event are now open on [eventbrite](https://www.eventbrite.ca/e/main-educational-2024-tickets-1006869863867). Note that the program is preliminary and may be subject to change as the instructors are still developing and updating their tutorials.**
+**Registration for the event is now open on [eventbrite](https://www.eventbrite.ca/e/main-educational-2024-tickets-1006869863867). Note that the program is preliminary and may be subject to change as the instructors are still developing and updating their tutorials.**
 :::
 
 The educational workshop is organized by the [UNIQUE](https://www.unique.quebec/) NeuroAI center as part of the Montreal Artificial Intelligence and Neuroscience (MAIN) 2024 [conference](https://www.main2024.org/). This is an in person event.
