@@ -109,6 +109,8 @@ Explore the `GitHub` repository {fas}`arrow-right`
 :::
 ::::
 
+**Himanshu Aggarwal** is a research engineer at the [MIND](https://team.inria.fr/mind/) team, INRIA Saclay, France, and is currently working as a core maintainer on [Nilearn](https://nilearn.github.io/). Previously, he was involved in the Individual Brain Charting (IBC) project with the same team, where he developed various cognitive experiments for task-based fMRI acquisitions, as well as documentation and preprocessing pipelines for the acquired data. His other recent projects involve subject fingerprinting and naturalistic task decoding with functional connectivity and improving task decoding accuracy in scarce data settings.
+
 **Hao-Ting Wang, PhD** is a IVADO postdoctoral fellow at CRIUGM. Her project focuses on discovery of transdiagnostic brain biomarkers amongst neurodegenerative conditions from multiple open access datasets. Her expertise lies in fMRI data processing, functional connectivity, and data workflow construction. She is also a core developer of Nilearn with a focus on fMRI data processing and feature extraction.
 
 ### Objectives
@@ -201,7 +203,7 @@ Explore {fas}`arrow-right`
 
 
 ## Experimentation on in silico neural responses
-In this session you will use pre-trained encoding models from the Neural Encoding Dataset (NED) to generate in silico functional magnetic resonance imaging (fMRI) and electroencephalography (EEG) responses to images. You will then leverage the generated in silico neural responses for experimentation. Specifically, using relational neural control (RNC) you will explore in silico fMRI responses for tens of thousands of naturalistic images, to find controlling images that align or disentangle responses for different areas across visual cortex (e.g., V1, V4, FFA, PPA), thus isolating their shared and unique representational content.
+In this session you will use pre-trained encoding models from the [Neural Encoding Dataset](https://github.com/gifale95/NED) (NED) to generate in silico functional magnetic resonance imaging (fMRI) and electroencephalography (EEG) responses to images. You will then leverage the generated in silico neural responses for experimentation. Specifically, using relational neural control (RNC) you will explore in silico fMRI responses for tens of thousands of naturalistic images, to find controlling images that align or disentangle responses for different areas across visual cortex (e.g., V1, V4, FFA, PPA), thus isolating their shared and unique representational content.
 
 ### Instructor
 ::::{grid}
@@ -238,7 +240,7 @@ This session is divided into two halves, each combining theory and practice.
 :class-header: bg-light text-center
 :link: https://github.com/gifale95/NED
 
-**NED repository**
+**NED Github repository**
 ^^^
 ```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 :height: 100
@@ -254,7 +256,7 @@ Explore {fas}`arrow-right`
 :class-header: bg-light text-center
 :link: https://drive.google.com/drive/folders/13aTI5eSK4yDosi63OfsyN20fLo6T5uNj?usp=drive_link
 
-**NED collab tutorials**
+**NED Colab tutorials**
 ^^^
 ```{image} images/logo_colab.png
 :height: 100
@@ -270,7 +272,7 @@ Explore {fas}`arrow-right`
 :class-header: bg-light text-center
 :link: https://github.com/gifale95/RNC
 
-**RNC repository**
+**RNC Github repository**
 ^^^
 ```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 :height: 100
@@ -286,7 +288,7 @@ Explore {fas}`arrow-right`
 :class-header: bg-light text-center
 :link: https://drive.google.com/drive/folders/1ZTzbeZ1tNtBu2P6fgjbRY8-1KuY-0Kkr?usp=drive_link
 
-**RNC collab tutorials**
+**RNC Colab tutorials**
 ^^^
 ```{image} images/logo_colab.png
 :height: 100
