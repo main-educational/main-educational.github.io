@@ -1,22 +1,23 @@
 # Program
 
-## December 9th
+All sessions running on October 25th 2024.
 
-### Morning sessions
-08:00 EST - 09:00 EST **Registration**, snack and coffee
+## Morning: neuroAI primers
+Two morning tracks (M1 and M2) will run in parallel, with common events:
+08:00-09:00 **Registration**, snack and coffee (main entrance hall).
+09:00-09:10 **Welcome** (room P310).
+10:30-10:45 **break with coffee and snack** (main entrance hall).
 
-09:00 EST - 09:10 EST **Welcome**
-
-09:15 EST - 12:00 EST **Parallel sessions**. Note a break from 10:30 EST to 10:45 EST with coffee and snack provided onsite.
+### Track M1: introduction to machine learning (room P310)
+This track is hosted in room P310.
 
 ::::{card-carousel} 3
-
 :::{card}
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
 :link: ./material.html#supervised-learning-using-scikit-learn
-**Nikhil Bhagwat (atrium)**
+**09:15-10:30 am TBD**
 ^^^
 ```{image} images/logo_scikit-learn.png
 :height: 100
@@ -30,90 +31,34 @@ Learn more {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: ./material.html#machine-learning-in-functional-mri-using-nilearn
-
-**Hao-Ting Wang and Yasmin Mzayek (amphitheater)**
-^^^
-```{image} images/logo_nilearn.png
-:height: 100
-```
-Machine learning in functional MRI using Nilearn
-+++
-Learn more {fas}`arrow-right`
-:::
-::::
-
-
-### Afternoon sessions
-12:00 EST - 13:00 EST **Lunch** (provided onsite)
-
-13:00 EST - 14:00 EST **Keynote lecture (amphitheater)**  
-::::{card-carousel} 3
-:::{card} Patrick Mineault - What's the endgame of neuroAI?
-:margin: 3
-:class-body: text-center
-:link: ./material.html#keynote-patrick-mineault
-:img-top: images/profile_patrick.jpg
-Learn more {fas}`arrow-right`
-:::
-::::
-
-14:15 EST - 17:00 EST **Parallel sessions**. Note a break from 15:30 EST to 15:45 EST with coffee and snack provided onsite.
-::::{card-carousel} 3
-
-:::{card}
-:margin: 3
-:class-body: text-center
-:class-header: bg-light text-center
-:link: ./material.html#introduction-to-deep-learning-using-pytorch
-**Mohammad Yaghoubi, Thomas Jiralerspong and Krystal Pan (amphitheater)**
-^^^
-```{image} images/logo_pytorch.png
-:height: 100
-```
-Introduction to deep learning using pytorch.
-+++
-Learn more {fas}`arrow-right`
-:::
-
-:::{card}
-:margin: 3
-:class-body: text-center
-:class-header: bg-light text-center
-:link: ./material.html#representational-structure-in-neural-time-series-using-calcium-imaging-and-electrophysiology
-
-**Quinn Lee and Giuseppe Pietro Gava (atrium)**
-^^^
-```{image} images/logo_unique.jpg
-:height: 100
-```
-Calcium imaging and electrophysiological time series in freely-behaving animals
-+++
-Learn more {fas}`arrow-right`
-:::
-::::
-
-
-## December 10th
-
-### Morning sessions
-08:30 EST - 09:00 EST Snack and coffee
-
-09:00 EST - 12:00 EST **Parallel sessions**. Note a break from 10:30 EST to 10:45 EST with coffee and snack provided onsite.
-
-::::{card-carousel} 3
-
-:::{card}
-:margin: 3
-:class-body: text-center
-:class-header: bg-light text-center
 :link: ./material.html#model-selection-and-validation
-**Jérôme Dockès (online - streamed in atrium)**
+**10:45-12:00 TBD**
 ^^^
 ```{image} images/logo_scikit-learn.png
 :height: 100
 ```
 Model selection and validation using scikit-learn.
++++
+Learn more {fas}`arrow-right`
+:::
+::::
+
+### Track M2: ML interfaces for neuroimaging (S142)
+
+::::{card-carousel} 3
+
+:::{card}
+:margin: 3
+:class-body: text-center
+:class-header: bg-light text-center
+:link: ./material.html#machine-learning-in-functional-mri-using-nilearn
+
+**9-15-10:30 Hao-Ting Wang and Himanshu Aggarwal**
+^^^
+```{image} images/logo_nilearn.png
+:height: 100
+```
+Machine learning in functional MRI using Nilearn
 +++
 Learn more {fas}`arrow-right`
 :::
@@ -124,7 +69,7 @@ Learn more {fas}`arrow-right`
 :class-header: bg-light text-center
 :link: ./material.html#introduction-to-electro-and-magneto-encephalography-using-mne-python
 
-**Alex Gramfort (online - streamed in amphitheater)**
+**10:45-12:00 Annalisa Pascarella and Vanessa Hadid**
 ^^^
 ```{image} images/logo_mne.png
 :height: 100
@@ -135,20 +80,25 @@ Learn more {fas}`arrow-right`
 :::
 ::::
 
-### Afternoon sessions
-12:00 EST - 13:00 EST **Lunch** (provided onsite)
+## Afternoon: neuroAI models
+Note the following services offered:
+ * 12:00-13:00 **Lunch** (main entrance)
+ * 14:15-14:30 **break** with coffee and snack (main entrance)
+ * 15:45-16:00 **break** with coffee and snack (main entrance)
 
-13:00 EST - 14:00 EST **Keynote lecture (online - streamed in amphitheater)**  
+### Keynote 1 (13:00-14:15 P310)
+
 ::::{card-carousel} 3
-:::{card} Elizabeth Dupre - Aligning representations in brain and machines
+:::{card} Alessandro Gifford - Experimentation on in silico neural responses
 :margin: 3
 :class-body: text-center
-:link: ./material.html#keynote-elizabeth-dupre
-:img-top: images/profile_emdupre.jpg
+:link: ./material.html#keynote-alessandro-gifford
+:img-top: https://avatars.githubusercontent.com/u/50326481?v=4?s=100
+Learn more {fas}`arrow-right`
 :::
 ::::
 
-14:15 EST - 17:00 EST **Parallel sessions**. Note a break from 15:30 EST to 15:45 EST with coffee and snack provided onsite.
+### Foundational techniques (14:30-15:45)
 ::::{card-carousel} 3
 
 :::{card}
@@ -156,7 +106,7 @@ Learn more {fas}`arrow-right`
 :class-body: text-center
 :class-header: bg-light text-center
 :link: ./material.html#brain-decoding
-**Peer Herholz, Bertrand Thirion and Shima Rastegarnia (amphitheater)**
+**Pierre-Louis Barbarant, Peer Herholz (P310)**
 ^^^
 ```{image} images/thumbnail_decoding.png
 :height: 100
@@ -170,15 +120,25 @@ Learn more {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: ./material.html#brain-encoding
-
-**Isil Bilgin, Alexandre Pasquiou and Pravish Sainath (atrium)**
+:link: ./material.html#brain-decoding
+**Hamza Abdelhedi (S142)**
 ^^^
-```{image} images/thumbnail_encoding.png
+```{image} images/logo_mne.png
 :height: 100
 ```
-Introduction to brain encoding in fMRI
+Introduction to representational similarity analysis in M/EEG
 +++
+Learn more {fas}`arrow-right`
+:::
+::::
+
+### Keynote 2 (16:00-17:15 P310)
+::::{card-carousel} 3
+:::{card} Melanie Segado - Towards modelling high-level movement
+:margin: 3
+:class-body: text-center
+:link: ./material.html#modelling-movement
+:img-top: images/profile_melanie.jpeg
 Learn more {fas}`arrow-right`
 :::
 ::::
