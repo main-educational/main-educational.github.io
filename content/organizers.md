@@ -19,7 +19,7 @@ A neuroAI research center for Québec
 Learn more {fas}`arrow-right`
 :::
 
-:::{grid-item-card} Pierre Bellec
+:::{grid-item-card} Pierre Lune Bellec
 :margin: 3
 :columns: 12 6 3 3
 :class-body: text-center
@@ -47,6 +47,14 @@ Learn more {fas}`arrow-right`
 :link: https://github.com/pravishsainath
 :img-top: https://avatars.githubusercontent.com/u/13696562?v=4?s=100
 :::
+
+:::{grid-item-card} Bertrand Thirion
+:margin: 3
+:columns: 12 6 3 3
+:link: https://x.com/BertrandThirion
+:img-top: images/profile_bertrand.jpg
+:::
+
 ::::
 
 ## Volunteers
