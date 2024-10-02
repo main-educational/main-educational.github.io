@@ -4,14 +4,16 @@
 ## Supervised learning using scikit-learn
 
 ### Instructor
-::::{card-carousel} 3
-:::{card} TBA
+::::{grid}
+:::{grid-item-card} Nikhil Bhagwat
 :margin: 3
-:class-body: text-center
-:link: https://github.com/unknown
-:img-top: images/logo_scikit-learn.png
+:columns: 12 6 3 3
+:link: https://github.com/nikhil153
+:img-top: https://avatars.githubusercontent.com/u/7978607?v=4
 :::
 ::::
+
+**Nikhil Bhagwat, PhD** is an Academic Associate in the [ORIGAMI lab](https://neurodatascience.github.io/) (PI: [Dr. JB Poline](https://www.mcgill.ca/neuro/jean-baptiste-poline-phd)) at McGill University. He completed his PhD thesis on prognostic applications for Alzheimer’s disease using MR imaging and machine-learning (ML) techniques in the [CoBrA Lab](https://www.cobralab.ca/) (PI: [Dr. Mallar Chakravarty](http://cobralab.ca/members/commander/)) at the University of Toronto. Subsequently, he worked as a researcher at the University of Massachusetts and the Allen Institute. His current research interests include disease staging, subtyping, and prognosis using ML models, along with development of neuroinformatics tools for improving [reproducibility](https://github.com/neurodatascience/mr_proc) and [sustainability](https://neuropipelines.github.io/10carbon) of computational pipelines.
 
 
 ### Objectives
@@ -27,11 +29,11 @@
   * Model evaluatation - what are type-1 and type-2 errors?
 
 ### Materials
-::::{card-carousel} 3
+::::{grid}
 
-:::{card}
+:::{grid-item-card}
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :class-header: bg-light text-center
 :link: https://github.com/neurodatascience/main-2021-ml-parts-1-2
 
@@ -50,14 +52,16 @@ Explore {fas}`arrow-right`
 ## Model selection and validation using scikit-learn
 
 ### Instructor
-::::{card-carousel} 3
-:::{card} TBA
+::::{grid}
+:::{grid-item-card} Jean-Baptiste Poline
 :margin: 3
-:class-body: text-center
-:link: https://github.com/unknown
-:img-top: images/logo_scikit-learn.png
+:columns: 12 6 3 3
+:link: https://www.mcgill.ca/ludmercentre/our-people/principal-investigators/jb-poline
+:img-top: images/profile_jbpoline.jpg
 :::
 ::::
+
+**Jean-Baptiste (JB) Poline, PhD**, is an Associate Professor in the Department of Neurology and Neurosurgery at McGill; the co-Chair of the NeuroHub and Chair of the Technical Steering Committee for the Canadian Open Neuroscience Platform (CONP) at the Neuro; and a Principal Investigator at the Ludmer Centre for Neuroinformatics & Mental Health. Among the early pioneers of functional magnetic resonance imaging (fMRI), today, Prof. Jean-Baptiste Poline is a leading researcher in the fields of fMRI, imaging genetics research, and the neuroinformatics technologies that make a big-data approach to neuroscience possible. His work in brain imaging methods, specifically fMRI, is advancing research in neurological and mental disorders by providing unique ways to explore the effects of genetic variations on brain structure, function, and connectivity.
 
 ### Objectives
  * Understand how to evaluate the performance of machine learning models.
@@ -65,11 +69,11 @@ Explore {fas}`arrow-right`
  * Learn about pitfalls when validating machine learning models and how to easily avoid them using scikit-learn.
 
 ### Materials
-::::{card-carousel} 3
+::::{grid}
 
-:::{card}
+:::{grid-item-card}
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :class-header: bg-light text-center
 :link: https://github.com/neurodatascience/main-2021-ml-parts-1-2
 
@@ -89,17 +93,17 @@ Explore the `GitHub` repository {fas}`arrow-right`
 
 ### Instructors
 
-::::{card-carousel} 3
-:::{card} Himanshu Aggarwal
+::::{grid}
+:::{grid-item-card} Himanshu Aggarwal
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :link: https://scholar.google.com/citations?user=E3C4UtMAAAAJ&hl=en
 :img-top: images/profile_himanshu.jpeg
 :::
 
-:::{card} Hao-Ting Wang
+:::{grid-item-card} Hao-Ting Wang
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :link: https://wanghaoting.com
 :img-top: https://avatars.githubusercontent.com/u/13743617?v=4
 :::
@@ -114,11 +118,11 @@ Explore the `GitHub` repository {fas}`arrow-right`
  * Train machine learning models to classify subjects by age groups based on brain connectivity.
 
 ### Materials
-::::{card-carousel} 3
+::::{grid}
 
-:::{card}
+:::{grid-item-card}
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :class-header: bg-light text-center
 :link: https://github.com/main-educational/intro_nilearn
 
@@ -133,9 +137,9 @@ Check out the session's materials on `GitHub`.
 Explore {fas}`arrow-right`
 :::
 
-:::{card}
+:::{grid-item-card}
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :class-header: bg-light text-center
 :link: https://main-educational.github.io/intro_nilearn/intro.html
 **The Jupyter Book of this session**
@@ -153,17 +157,17 @@ Get to the session {fas}`arrow-right`
 ## Machine learning on electro- and magneto-encephalography (EEG/MEG)
 
 ### Instructor
-::::{card-carousel} 3
-:::{card} Annalisa Pascarella
+::::{grid}
+:::{grid-item-card} Annalisa Pascarella
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :link: https://github.com/annapasca
 :img-top: images/profile_annalisa.jpeg
 :::
 
-:::{card} Vanessa Hadid
+:::{grid-item-card} Vanessa Hadid
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :link: https://scholar.google.com/citations?user=d9Dr5fkAAAAJ&hl=fr
 :img-top: images/profile_vanessa.jpeg
 :::
@@ -176,10 +180,10 @@ Get to the session {fas}`arrow-right`
  * Train machine learning models on MEG data using [MNE-python](https://mne.tools/stable/index.html) and PyTorch
 
 ### Materials
-::::{card-carousel} 3
-:::{card}
+::::{grid}
+:::{grid-item-card}
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :class-header: bg-light text-center
 :link: https://github.com/agramfort/22_main_ml_meeg_tuto
 
@@ -197,11 +201,13 @@ Explore {fas}`arrow-right`
 
 
 ## Experimentation on in silico neural responses
+In this session you will use pre-trained encoding models from the Neural Encoding Dataset (NED) to generate in silico functional magnetic resonance imaging (fMRI) and electroencephalography (EEG) responses to images. You will then leverage the generated in silico neural responses for experimentation. Specifically, using relational neural control (RNC) you will explore in silico fMRI responses for tens of thousands of naturalistic images, to find controlling images that align or disentangle responses for different areas across visual cortex (e.g., V1, V4, FFA, PPA), thus isolating their shared and unique representational content.
 
-::::{card-carousel} 3
-:::{card} Alessandro (Ale) Gifford
+### Instructor
+::::{grid}
+:::{grid-item-card} Alessandro (Ale) Gifford
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :link: https://github.com/gifale95
 :img-top: https://avatars.githubusercontent.com/u/50326481?v=4?s=100
 :::
@@ -213,14 +219,14 @@ Explore {fas}`arrow-right`
 This session is divided into two halves, each combining theory and practice.
 
  * The first half will focus on in silico neural responses. Here you will:
-  * Learn the advantages, limitations, and use cases of experimentation on in silico neural responses generated by encoding models;
-  * Familiarize with the NED toolbox;
-  * Use pre-trained encoding models from NED to generate in silico fMRI and EEG responses to images.
+   * Learn the advantages, limitations, and use cases of experimentation on in silico neural responses generated by encoding models;
+   * Familiarize with the NED toolbox;
+   * Use pre-trained encoding models from NED to generate in silico fMRI and EEG responses to images.
 
 * The second half will focus on applying RNC on in silico fMRI responses to naturalistic images. Here you will:
-  * Understand the concept of representational relationships;
-  * Familiarize with the RNC paradigm and its use cases;
-  * Learn how to use RNC to uncover shared and unique representational content across visual areas.
+   * Understand the concept of representational relationships;
+   * Familiarize with the RNC paradigm and its use cases;
+   * Learn how to use RNC to uncover shared and unique representational content across visual areas.
 
 ### Materials
 
@@ -295,16 +301,16 @@ Explore {fas}`arrow-right`
 ## Representational similarity analysis in M/EEG
 
 ### Instructor
-::::{card-carousel} 3
-:::{card} Hamza Abdelhedi
+::::{grid}
+:::{grid-item-card} Hamza Abdelhedi
 :margin: 1
-:class-body: text-center
+:columns: 12 6 3 3
 :link: https://hamzaabdelhedi.com
 :img-top: https://avatars.githubusercontent.com/u/46931648?v=4?s=100
 :::
 ::::
 
-**Hamza Abdelhedi** is a PhD student at the faculty of medicine, Université de Montréal in Québec, Canada 🇨🇦, pursuing a degree in Biomedical Engineering. His passion lies in Artificial Intelligence 🤖, Neuroscience 🧠, Python programming 🐍, and open source projects. I He thoroughly enjoys learning and contributing in various ways, particularly through coding projects that not only delve into the science but also aim to vulgarize and make it accessible to everyone. In addition to his current studies, he recently obtrained a M.Sc in Artificial Intelligence from Mila/UdeM. Plus, he has a background in Telecommunication Engineering and Mathematics from my educational journey in Tunisia 🇹🇳.
+**Hamza Abdelhedi** is a PhD student at the faculty of medicine, Université de Montréal in Québec, Canada 🇨🇦, pursuing a degree in Biomedical Engineering. His passion lies in Artificial Intelligence 🤖, Neuroscience 🧠, Python programming 🐍, and open source projects. He thoroughly enjoys learning and contributing in various ways, particularly through coding projects that not only delve into the science but also aim to vulgarize and make it accessible to everyone. In addition to his current studies, he recently obtrained a M.Sc in Artificial Intelligence from Mila/UdeM. He also has a background in Telecommunication Engineering and Mathematics from my educational journey in Tunisia 🇹🇳.
 
 
 ### Objectives 📍
@@ -323,17 +329,17 @@ to `fMRI` data. More precisely, we will explore how we can utilize different `de
 to `estimate`/`predict` what an agent is `perceiving` or `doing` based on `recordings` of `responses`/`activity`.
 Given the time restrictions, we will focus on `biological agents`, ie `human participants`, and thus `brain` `responses` obtained from `fMRI`.
 ### Instructors
-::::{card-carousel} 3
-:::{card} Peer Herholz
+::::{grid}
+:::{grid-item-card} Peer Herholz
 :margin: 1
-:class-body: text-center
+:columns: 12 6 3 3
 :link: https://github.com/PeerHerholz
 :img-top: https://avatars.githubusercontent.com/u/20129524?v=4?s=100
 :::
 
-:::{card} https://github.com/pbarbarant
+:::{grid-item-card} https://github.com/pbarbarant
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :link: https://github.com/srastegarnia
 :img-top: https://avatars.githubusercontent.com/u/104081777?v=4?s=100
 :::
@@ -357,11 +363,11 @@ Given the time restrictions, we will focus on `biological agents`, ie `human par
 
 ### Materials
 
-::::{card-carousel} 3
+::::{grid}
 
-:::{card}
+:::{grid-item-card}
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :class-header: bg-light text-center
 :link: https://main-educational.github.io/brain_encoding_decoding
 **The Jupyter Book of this session**
@@ -375,9 +381,9 @@ Explore and follow the session via `Jupyter Book`.
 Get to the session {fas}`arrow-right`
 :::
 
-:::{card}
+:::{grid-item-card}
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :class-header: bg-light text-center
 :link: https://github.com/main-educational/brain_encoding_decoding
 
@@ -394,10 +400,10 @@ Explore the `GitHub` repository {fas}`arrow-right`
 ::::
 
 ## Towards modelling high-level movement
-::::{card-carousel} 3
-:::{card} Melanie Segado
+::::{grid}
+:::{grid-item-card} Melanie Segado
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :link: https://scholar.google.com/citations?user=p8VD3GUAAAAJ&hl=en
 :img-top: images/profile_melanie.jpeg
 Learn more {fas}`arrow-right`

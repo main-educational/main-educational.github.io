@@ -11,10 +11,10 @@ Two tracks will run in parallel, with common events:
 ### Introduction to machine learning (room P310)
 This track is hosted in room P310.
 
-::::{card-carousel} 3
-:::{card}
+::::{grid}
+:::{grid-item-card}
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :class-header: bg-light text-center
 :link: ./program.html#supervised-learning-using-scikit-learn
 **09:15-10:30 am TBD**
@@ -27,9 +27,9 @@ Introduction to supervised learning using scikit-learn.
 Learn more {fas}`arrow-right`
 :::
 
-:::{card}
+:::{grid-item-card}
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :class-header: bg-light text-center
 :link: ./program.html#model-selection-and-validation-using-scikit-learn
 **10:45-12:00 TBD**
@@ -45,11 +45,11 @@ Learn more {fas}`arrow-right`
 
 ### ML interfaces for neuroimaging (S142)
 
-::::{card-carousel} 3
+::::{grid}
 
-:::{card}
+:::{grid-item-card}
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :class-header: bg-light text-center
 :link: ./program.html#machine-learning-in-functional-mri-using-nilearn
 
@@ -63,9 +63,9 @@ Machine learning in functional MRI using Nilearn
 Learn more {fas}`arrow-right`
 :::
 
-:::{card}
+:::{grid-item-card}
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :class-header: bg-light text-center
 :link: ./program.html#machine-learning-on-electro-and-magneto-encephalography-eeg-meg
 
@@ -88,10 +88,10 @@ Note the following services offered:
 
 ### Keynote 1 (13:00-14:15 P310)
 
-::::{card-carousel} 3
-:::{card} Alessandro Gifford - Experimentation on in silico neural responses
+::::{grid}
+:::{grid-item-card} Alessandro Gifford - Experimentation on in silico neural responses
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :link: ./program.html#experimentation-on-in-silico-neural-responses
 :img-top: https://avatars.githubusercontent.com/u/50326481?v=4?s=100
 Learn more {fas}`arrow-right`
@@ -99,11 +99,11 @@ Learn more {fas}`arrow-right`
 ::::
 
 ### Foundational techniques (14:30-15:45)
-::::{card-carousel} 3
+::::{grid}
 
-:::{card}
+:::{grid-item-card}
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :class-header: bg-light text-center
 :link: ./program.html#brain-decoding
 **Pierre-Louis Barbarant, Peer Herholz (P310)**
@@ -116,9 +116,9 @@ Introduction to brain decoding in fMRI
 Learn more {fas}`arrow-right`
 :::
 
-:::{card}
+:::{grid-item-card}
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :class-header: bg-light text-center
 :link: ./program.html#representational-similarity-analysis-in-m-eeg
 **Hamza Abdelhedi (S142)**
@@ -133,10 +133,10 @@ Learn more {fas}`arrow-right`
 ::::
 
 ### Keynote 2 (16:00-17:15 P310)
-::::{card-carousel} 3
-:::{card} Melanie Segado -
+::::{grid}
+:::{grid-item-card} Melanie Segado -
 :margin: 3
-:class-body: text-center
+:columns: 12 6 3 3
 :link: ./program.html#towards-modelling-high-level-movement
 :img-top: images/profile_melanie.jpeg
 Learn more {fas}`arrow-right`
