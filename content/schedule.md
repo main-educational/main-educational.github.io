@@ -67,7 +67,7 @@ Learn more {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: ./program.html#introduction-to-electro-and-magneto-encephalography-using-mne-python
+:link: ./program.html#machine-learning-on-electro-and-magneto-encephalography-eeg-meg
 
 **10:45-12:00 Annalisa Pascarella and Vanessa Hadid**
 ^^^
@@ -92,7 +92,7 @@ Note the following services offered:
 :::{card} Alessandro Gifford - Experimentation on in silico neural responses
 :margin: 3
 :class-body: text-center
-:link: ./program.html#keynote-alessandro-gifford
+:link: ./program.html#experimentation-on-in-silico-neural-responses
 :img-top: https://avatars.githubusercontent.com/u/50326481?v=4?s=100
 Learn more {fas}`arrow-right`
 :::
@@ -120,7 +120,7 @@ Learn more {fas}`arrow-right`
 :margin: 3
 :class-body: text-center
 :class-header: bg-light text-center
-:link: ./program.html#brain-decoding
+:link: ./program.html#representational-similarity-analysis-in-m-eeg
 **Hamza Abdelhedi (S142)**
 ^^^
 ```{image} images/logo_mne.png
@@ -134,10 +134,10 @@ Learn more {fas}`arrow-right`
 
 ### Keynote 2 (16:00-17:15 P310)
 ::::{card-carousel} 3
-:::{card} Melanie Segado - Towards modelling high-level movement
+:::{card} Melanie Segado -
 :margin: 3
 :class-body: text-center
-:link: ./program.html#modelling-movement
+:link: ./program.html#towards-modelling-high-level-movement
 :img-top: images/profile_melanie.jpeg
 Learn more {fas}`arrow-right`
 :::

@@ -196,7 +196,7 @@ Explore {fas}`arrow-right`
 ::::
 
 
-## Keynote 1: Experimentation on in silico neural responses
+## Experimentation on in silico neural responses
 
 ::::{card-carousel} 3
 :::{card} Alessandro (Ale) Gifford
@@ -393,7 +393,7 @@ Explore the `GitHub` repository {fas}`arrow-right`
 :::
 ::::
 
-## Keynote 2: Towards modelling high-level movement
+## Towards modelling high-level movement
 ::::{card-carousel} 3
 :::{card} Melanie Segado
 :margin: 3
