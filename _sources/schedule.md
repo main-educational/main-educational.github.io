@@ -134,7 +134,7 @@ Learn more {fas}`arrow-right`
 
 ### Keynote 2 (16:00-17:15 P310)
 ::::{grid}
-:::{grid-item-card} Melanie Segado -
+:::{grid-item-card} Melanie Segado - Towards modelling high-level movement
 :margin: 3
 :columns: 12 6 3 3
 :link: ./program.html#towards-modelling-high-level-movement
