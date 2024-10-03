@@ -175,6 +175,10 @@ Get to the session {fas}`arrow-right`
 :::
 ::::
 
+**Annalisa Pascarella**, PhD, is a senior researcher at Institute of Applied Mathematics M. Picone, National Council of Research in Rome (Italy). Her main research interests are centered on the formulation, implementation and validation of computational methods for the solution of the M/EEG inverse problems with a focus on Bayesian methods to track neural activity. In the last years she has been involved in the development of Neuropycon, an open-source brain data analysis kit which provides reproducible Python-based pipelines for advanced multi-thread processing of fMRI, M/EEG data. Some of her recent projects include the classification of mental states from M/EEG measurements during various meditation techniques by combining complexity measured and machine learning techniques.
+
+**Vanessa Hadid**, PhD, is a postdoctoral researcher in the Faculty of Medicine at McGill University and the Department of Psychology at Université de Montréal, specializing in the neurophysiological analysis of sensory systems. She completed her Ph.D. in Experimental Medicine at Université de Montréal, where she used ML tools to decode unconscious processes in blindsight by exploring the structure and dynamics of EEG and MEG signals in cortical blindness. Currently, her postdoctoral research focuses on predicting cochlear implant outcomes using multimodal neuroimaging and ML approaches. Passionate about predicting cerebral plasticity, particularly under sensory deprivation, she aims to better understand the relationship between the brain and human behavior. She is also a lecturer, having taught several courses on cognitive and neurophysiological processes at both Université de Montréal and McGill University.
+
 ### Objectives
  * Understand the structure of electro- and magneto-encephalography signals
  * Preprocess and visualize MEG/EEG data
@@ -202,7 +206,7 @@ Explore {fas}`arrow-right`
 ::::
 
 
-## Experimentation on in silico neural responses
+## Experimentation on in silico neural responses from encoding models
 In this session you will use pre-trained encoding models from the [Neural Encoding Dataset](https://github.com/gifale95/NED) (NED) to generate in silico functional magnetic resonance imaging (fMRI) and electroencephalography (EEG) responses to images. You will then leverage the generated in silico neural responses for experimentation. Specifically, using relational neural control (RNC) you will explore in silico fMRI responses for tens of thousands of naturalistic images, to find controlling images that align or disentangle responses for different areas across visual cortex (e.g., V1, V4, FFA, PPA), thus isolating their shared and unique representational content.
 
 ### Instructor
@@ -300,7 +304,7 @@ Explore {fas}`arrow-right`
 
 ::::
 
-## Representational similarity analysis in M/EEG
+## Understanding Representational Similarity Analysis
 
 ### Instructor
 ::::{grid}
@@ -315,11 +319,14 @@ Explore {fas}`arrow-right`
 **Hamza Abdelhedi** is a PhD student at the faculty of medicine, Université de Montréal in Québec, Canada 🇨🇦, pursuing a degree in Biomedical Engineering. His passion lies in Artificial Intelligence 🤖, Neuroscience 🧠, Python programming 🐍, and open source projects. He thoroughly enjoys learning and contributing in various ways, particularly through coding projects that not only delve into the science but also aim to vulgarize and make it accessible to everyone. In addition to his current studies, he recently obtrained a M.Sc in Artificial Intelligence from Mila/UdeM. He also has a background in Telecommunication Engineering and Mathematics from my educational journey in Tunisia 🇹🇳.
 
 
-### Objectives 📍
-TBA
+### Objectives:
+Representational Similarity Analysis (RSA) is a multivariate technique that links disparate types of data based on shared structures in their 	similarity (or distance) matrices. It is a powerful method for comparing and understanding neural representations across different conditions, 	modalities, or species. This tutorial aims to equip participants with the knowledge and skills needed to apply RSA in their own research.
 
-### Questions you will be able to answer after taking this module 🎯
-TBA
+#### Participants will:
+ - **Understand the Concept of a Representational Dissimilarity Matrix (RDM)**: Learn what an RDM is and how it can be computed within the 	framework of RSA.
+ - **Gain Hands-On Experience with RSA Techniques**: Work directly with datasets to perform RSA, including the computation and analysis of 	representational dissimilarity matrices (RDMs).
+ - **Explore Applications Across Modalities**: Discuss how RSA can be applied to various data types, such as fMRI, M/EEG, behavioral data, 	and ANN activations, facilitating a multidisciplinary approach to understanding representation.
+ - **Using Noise Ceilings and Random Models as Benchmark Tools**: Understand how these tools can provide critical benchmarks for 	interpreting RSA results.
 
 ### Materials
 TBA
