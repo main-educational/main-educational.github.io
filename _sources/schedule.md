@@ -92,7 +92,7 @@ Note the following services offered:
 :::{grid-item-card} Alessandro Gifford - Experimentation on in silico neural responses
 :margin: 3
 :columns: 12 6 3 3
-:link: ./program.html#experimentation-on-in-silico-neural-responses
+:link: ./program.html#experimentation-on-in-silico-neural-responses-from-encoding-models
 :img-top: https://avatars.githubusercontent.com/u/50326481?v=4?s=100
 Learn more {fas}`arrow-right`
 :::
@@ -120,13 +120,13 @@ Learn more {fas}`arrow-right`
 :margin: 3
 :columns: 12 6 3 3
 :class-header: bg-light text-center
-:link: ./program.html#representational-similarity-analysis-in-m-eeg
+:link: ./program.html#understanding-representational-similarity-analysis
 **Hamza Abdelhedi (S142)**
 ^^^
 ```{image} images/logo_mne.png
 :height: 100
 ```
-Introduction to representational similarity analysis in M/EEG
+Understanding Representational Similarity Analysis
 +++
 Learn more {fas}`arrow-right`
 :::
