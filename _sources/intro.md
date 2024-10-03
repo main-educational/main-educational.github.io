@@ -11,3 +11,6 @@ The educational workshop is organized by the [UNIQUE](https://www.unique.quebec/
 The morning includes two parallel tracks with neuroAI primers on machine learning and neuroimaging. The afternoon features parallel sessions on two foundational techniques for neuroAI: brain decoding and representational similarity analysis. Finally, two keynote tutorials will introduce recent and exciting neuroAI applications: in-silico neuroimaging experiments and foundation models for modelling movement.
 
 You will be required to bring a laptop and install software prior to the workshop. Coffee, snack and lunch will be offered onsite.
+
+![University partners](images/partners_university.jpg "MAIN University partners")
+![Network partners](images/partners_network.jpg "Networkm partners")
