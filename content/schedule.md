@@ -123,7 +123,7 @@ Learn more {fas}`arrow-right`
 :link: ./program.html#understanding-representational-similarity-analysis
 **Hamza Abdelhedi (S142)**
 ^^^
-```{image} images/logo_mne.png
+```{image} images/logo_rsa.png
 :height: 100
 ```
 Understanding Representational Similarity Analysis
