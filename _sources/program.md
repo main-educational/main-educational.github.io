@@ -346,15 +346,17 @@ Given the time restrictions, we will focus on `biological agents`, ie `human par
 :img-top: https://avatars.githubusercontent.com/u/20129524?v=4?s=100
 :::
 
-:::{grid-item-card} https://github.com/pbarbarant
+:::{grid-item-card} Pierre-Louis Barbarant
 :margin: 3
 :columns: 12 6 3 3
-:link: https://github.com/srastegarnia
+:link: https://github.com/pbarbarant
 :img-top: https://avatars.githubusercontent.com/u/104081777?v=4?s=100
 :::
 ::::
 
 **Peer Herholz** is a research affiliate at [The Neuro (Montreal Neurological Institute-Hospital)](https://www.mcgill.ca/neuro/)/[ORIGAMI lab](https://neurodatascience.github.io/) (PI: [Dr. JB Poline](https://www.mcgill.ca/neuro/jean-baptiste-poline-phd)) at [McGill University](https://www.mcgill.ca/) and the [McGovern Institute for Brain Research](https://mcgovern.mit.edu/)/[Senseable Intelligence Group](https://sensein.group/) (PI: [Satra Ghosh](https://satra.cogitatum.org/)). He obtained his PhD in cognitive & computational neuroscience, focusing on auditory processing in humans and machines. Afterwards, he conducted multiple postdocs further working at the intersection between neuroscience & artificial intelligence, as well as expanding the integration of open & reproducible scientific practices therein. Currently, he is working on research questions related to generalization in biological and artificial neural networks, comparing respective representations and their underlying computation.
+
+**Pierre-Louis Barbarant** is a first-year PhD student with the [MIND](https://team.inria.fr/mind/) team at INRIA Saclay, France. His research focuses on enhancing fMRI hyperalignment techniques to improve brain decoding performance, leveraging machine learning models and optimal transport methods. He is a maintainer of the [FUGW](https://github.com/alexisthual/fugw) and [fmralign](https://github.com/Parietal-INRIA/fmralign) packages, which are used for inter-subject alignment in neuroimaging. Recently, he has also developed an interest in the neural representation of confidence and probabilistic reasoning in the human brain.
 
 ### Objectives 📍
  * Understand the core aspects & principles of `brain decoding`
