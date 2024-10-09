@@ -328,8 +328,26 @@ Representational Similarity Analysis (RSA) is a multivariate technique that link
  - **Explore Applications Across Modalities**: Discuss how RSA can be applied to various data types, such as fMRI, M/EEG, behavioral data, 	and ANN activations, facilitating a multidisciplinary approach to understanding representation.
  - **Using Noise Ceilings and Random Models as Benchmark Tools**: Understand how these tools can provide critical benchmarks for 	interpreting RSA results.
 
-### Materials
-TBA
+ ### Materials
+ ::::{grid}
+
+ :::{grid-item-card}
+ :margin: 3
+ :columns: 12 6 3 3
+ :class-header: bg-light text-center
+ :link: https://github.com/BabaSanfour/main-edu-courses-rsa
+
+ **The session's repository**
+ ^^^
+ ```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+ :height: 100
+ ```
+
+ Check out the session's materials on `GitHub`.
+ +++
+ Explore {fas}`arrow-right`
+ :::
+ ::::
 
 ## Brain decoding
 
