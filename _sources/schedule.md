@@ -67,14 +67,14 @@ Learn more {fas}`arrow-right`
 :margin: 3
 :columns: 12 6 3 3
 :class-header: bg-light text-center
-:link: ./program.html#machine-learning-on-electro-and-magneto-encephalography-eeg-meg
+:link: ./program.html#train-machine-learning-models-on-meg-data-using-mne-python-and-pytorch
 
 **10:45-12:00 Annalisa Pascarella and Vanessa Hadid**
 ^^^
 ```{image} images/logo_mne.png
 :height: 100
 ```
-Introduction to electro- and magneto-encephalography data analysis with MNE-python.
+Train machine learning models on MEG data using MNE-python and PyTorch.
 +++
 Learn more {fas}`arrow-right`
 :::
