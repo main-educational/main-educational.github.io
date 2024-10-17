@@ -111,7 +111,7 @@ Explore the `GitHub` repository {fas}`arrow-right`
 
 **Himanshu Aggarwal** is a research engineer at the [MIND](https://team.inria.fr/mind/) team, INRIA Saclay, France, and is currently working as a core maintainer on [Nilearn](https://nilearn.github.io/). Previously, he was involved in the Individual Brain Charting (IBC) project with the same team, where he developed various cognitive experiments for task-based fMRI acquisitions, as well as documentation and preprocessing pipelines for the acquired data. His other recent projects involve subject fingerprinting and naturalistic task decoding with functional connectivity and improving task decoding accuracy in scarce data settings.
 
-**Hao-Ting Wang, PhD** is a IVADO postdoctoral fellow at CRIUGM. Her project focuses on discovery of transdiagnostic brain biomarkers amongst neurodegenerative conditions from multiple open access datasets. Her expertise lies in fMRI data processing, functional connectivity, and data workflow construction. She is also a core developer of Nilearn with a focus on fMRI data processing and feature extraction.
+**Hao-Ting Wang, PhD** is a Canadian Neuroanalytic Scholar and postdoctoral fellow at CRIUGM. Her project focuses on discovery of transdiagnostic brain biomarkers amongst neurodegenerative conditions from multiple open access datasets. Her expertise lies in fMRI data processing, functional connectivity, and data workflow construction. She is also a core developer of Nilearn with a focus on fMRI data processing and feature extraction.
 
 ### Objectives
  * Understand the structure of functional magnetic resonance imaging data.
