@@ -156,7 +156,8 @@ Get to the session {fas}`arrow-right`
 :::
 ::::
 
-## Machine learning on electro- and magneto-encephalography (EEG/MEG)
+## Train machine learning models on MEG data using MNE-python and PyTorch
+
 
 ### Instructor
 ::::{grid}
@@ -298,6 +299,22 @@ Explore {fas}`arrow-right`
 :height: 100
 ```
 Check out the session's materials on `GitHub`.
++++
+Explore {fas}`arrow-right`
+:::
+
+:::{grid-item-card}
+:margin: 3
+:columns: 12 6 3 3
+:class-header: bg-light text-center
+:link: https://docs.google.com/presentation/d/1RV6c8Xf3fwHTJF55TMwROoDzgoR5ujyXoSV3-i1eU08/edit?usp=sharing
+
+**Session slides**
+^^^
+```{image} images/logo_gslides.png
+:height: 100
+```
+Check out the session's slides on `Google slides`.
 +++
 Explore {fas}`arrow-right`
 :::
