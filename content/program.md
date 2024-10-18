@@ -5,16 +5,15 @@
 
 ### Instructor
 ::::{grid}
-:::{grid-item-card} Nikhil Bhagwat
+:::{grid-item-card} Jean-Baptiste Poline
 :margin: 3
 :columns: 12 6 3 3
-:link: https://github.com/nikhil153
-:img-top: https://avatars.githubusercontent.com/u/7978607?v=4
+:link: https://www.mcgill.ca/ludmercentre/our-people/principal-investigators/jb-poline
+:img-top: images/profile_jbpoline.jpg
 :::
 ::::
 
-**Nikhil Bhagwat, PhD** is an Academic Associate in the [ORIGAMI lab](https://neurodatascience.github.io/) (PI: [Dr. JB Poline](https://www.mcgill.ca/neuro/jean-baptiste-poline-phd)) at McGill University. He completed his PhD thesis on prognostic applications for Alzheimer’s disease using MR imaging and machine-learning (ML) techniques in the [CoBrA Lab](https://www.cobralab.ca/) (PI: [Dr. Mallar Chakravarty](http://cobralab.ca/members/commander/)) at the University of Toronto. Subsequently, he worked as a researcher at the University of Massachusetts and the Allen Institute. His current research interests include disease staging, subtyping, and prognosis using ML models, along with development of neuroinformatics tools for improving [reproducibility](https://github.com/neurodatascience/mr_proc) and [sustainability](https://neuropipelines.github.io/10carbon) of computational pipelines.
-
+**Jean-Baptiste (JB) Poline, PhD**, is a Professor in the Department of Neurology and Neurosurgery at McGill; the director of the [ORIGAMI](https://neurodatascience.github.io/) neuro-data-science laboratory, PI of the [Neurobagel](https://neurobagel.org) and [Nipoppy](https://nipoppy.readthedocs.io/en/latest/) projects, chair of the International Neuroinformatics Coordinating Facility (ex-officio), co-Chair of the NeuroHub and Chair of the Technical Steering Committee for the Canadian Open Neuroscience Platform (CONP) at the Neuro; and a Principal Investigator at the Ludmer Centre for Neuroinformatics & Mental Health. Among the early pioneers of functional magnetic resonance imaging (fMRI), today, Prof. Jean-Baptiste Poline is a leading researcher in the fields of neuroimaging, imaging genetics research, and neuroinformatics technologies. 
 
 ### Objectives
   * Define machine-learning nomenclature
@@ -53,15 +52,16 @@ Explore {fas}`arrow-right`
 
 ### Instructor
 ::::{grid}
-:::{grid-item-card} Jean-Baptiste Poline
+:::{grid-item-card} Nikhil Bhagwat
 :margin: 3
 :columns: 12 6 3 3
-:link: https://www.mcgill.ca/ludmercentre/our-people/principal-investigators/jb-poline
-:img-top: images/profile_jbpoline.jpg
+:link: https://github.com/nikhil153
+:img-top: https://avatars.githubusercontent.com/u/7978607?v=4
 :::
 ::::
 
-**Jean-Baptiste (JB) Poline, PhD**, is an Associate Professor in the Department of Neurology and Neurosurgery at McGill; the co-Chair of the NeuroHub and Chair of the Technical Steering Committee for the Canadian Open Neuroscience Platform (CONP) at the Neuro; and a Principal Investigator at the Ludmer Centre for Neuroinformatics & Mental Health. Among the early pioneers of functional magnetic resonance imaging (fMRI), today, Prof. Jean-Baptiste Poline is a leading researcher in the fields of fMRI, imaging genetics research, and the neuroinformatics technologies that make a big-data approach to neuroscience possible. His work in brain imaging methods, specifically fMRI, is advancing research in neurological and mental disorders by providing unique ways to explore the effects of genetic variations on brain structure, function, and connectivity.
+**Nikhil Bhagwat, PhD** is an Academic Associate in the [ORIGAMI lab](https://neurodatascience.github.io/) (PI: [Dr. JB Poline](https://www.mcgill.ca/neuro/jean-baptiste-poline-phd)) at McGill University. He completed his PhD thesis on prognostic applications for Alzheimer’s disease using MR imaging and machine-learning (ML) techniques in the [CoBrA Lab](https://www.cobralab.ca/) (PI: [Dr. Mallar Chakravarty](http://cobralab.ca/members/commander/)) at the University of Toronto. Subsequently, he worked as a researcher at the University of Massachusetts and the Allen Institute. His current research interests include disease staging, subtyping, and prognosis using ML models, along with development of neuroinformatics tools for improving [reproducibility](https://github.com/neurodatascience/mr_proc) and [sustainability](https://neuropipelines.github.io/10carbon) of computational pipelines.
+
 
 ### Objectives
  * Understand how to evaluate the performance of machine learning models.
