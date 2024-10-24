@@ -34,7 +34,7 @@
 :margin: 3
 :columns: 12 6 3 3
 :class-header: bg-light text-center
-:link: https://github.com/neurodatascience/main-2021-ml-parts-1-2
+:link: https://github.com/neurodatascience/QLS-course-materials/tree/main/Lectures/2024/08_machine_learning_1
 
 **The session's repository**
 ^^^
@@ -75,7 +75,7 @@ Explore {fas}`arrow-right`
 :margin: 3
 :columns: 12 6 3 3
 :class-header: bg-light text-center
-:link: https://github.com/neurodatascience/main-2021-ml-parts-1-2
+:link: https://github.com/neurodatascience/QLS-course-materials/tree/main/Lectures/2024/09_machine_learning_2
 
 **The session's GitHub repository**
 ^^^
