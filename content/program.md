@@ -447,3 +447,16 @@ Participants will:
 * gain a deeper understanding of how to integrate this approach into broader research frameworks in neuroscience.
 
 Specific concepts covered will include pre-trained vision transformers for movement analysis; movement tokenization; movement foundation models; foundation model fine-tuning.
+
+
+Check out the session's materials on `GitHub`.
++++
+Explore {fas}`arrow-right`
+:::
+
+:::{grid-item-card}
+:margin: 3
+:columns: 12 6 3 3
+:class-header: bg-light text-center
+:link: [Foundation movement model primer](https://github.com/quietscientist/Foundation_Models_Primer_MAIN2024EDU.git
+)
