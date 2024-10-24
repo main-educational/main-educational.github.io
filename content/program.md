@@ -448,15 +448,21 @@ Participants will:
 
 Specific concepts covered will include pre-trained vision transformers for movement analysis; movement tokenization; movement foundation models; foundation model fine-tuning.
 
-
-Check out the session's materials on `GitHub`.
-+++
-Explore {fas}`arrow-right`
-:::
+::::{grid}
 
 :::{grid-item-card}
 :margin: 3
 :columns: 12 6 3 3
 :class-header: bg-light text-center
-:link: [Foundation movement model primer](https://github.com/quietscientist/Foundation_Models_Primer_MAIN2024EDU.git
-)
+:link: https://github.com/quietscientist/Foundation_Models_Primer_MAIN2024EDU.git
+**The session's GitHub repository**
+^^^
+```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+:height: 100
+```
+
+Check out the session's materials on `GitHub`.
++++
+Explore the `GitHub` repository {fas}`arrow-right`
+:::
+::::
