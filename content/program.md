@@ -358,6 +358,11 @@ Representational Similarity Analysis (RSA) is a multivariate technique that link
 ```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 :height: 100
 ```
+Check out the session's materials on `GitHub`.
++++
+Explore the `GitHub` repository {fas}`arrow-right`
+:::
+::::
 
 ## Brain decoding
 
