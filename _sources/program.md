@@ -346,7 +346,18 @@ Representational Similarity Analysis (RSA) is a multivariate technique that link
  - **Using Noise Ceilings and Random Models as Benchmark Tools**: Understand how these tools can provide critical benchmarks for 	interpreting RSA results.
 
 ### Materials
-TBA
+::::{grid}
+:::{grid-item-card}
+:margin: 3
+:columns: 12 6 3 3
+:class-header: bg-light text-center
+:link: https://github.com/BabaSanfour/main-edu-courses-rsa
+
+**The session's GitHub repository**
+^^^
+```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+:height: 100
+```
 
 ## Brain decoding
 
