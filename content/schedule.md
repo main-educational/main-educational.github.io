@@ -1,13 +1,22 @@
 # Schedule
 
-All sessions running on October 25th 2024.
+All sessions running on December 11th 2025.
 
-## Morning: neuroAI primers
-Two tracks will run in parallel, with common events:
-08:00-09:00 **Registration**, snack and coffee (main entrance hall).
-09:00-09:10 **Welcome** (room P310).
+## Morning
+
+08:00-08:50 **Registration**, snack and coffee.
+08:50-09:00 **Welcome**.
 10:30-10:45 **break with coffee and snack** (main entrance hall).
 
+::::{grid}
+
+```{card} Cognitive benchmarking in large models
+:header: ![cognitive benchmarking](images/logo_cognitive_benchmarks.png)
+:url: program
+09:00 am - 12:00 am
+```
+
+::::
 ### Introduction to machine learning (room P310)
 This track is hosted in room P310.
 
@@ -36,31 +45,16 @@ Nikhil Bhagwat
 :header: ![Nilearn](images/logo_nilearn.png)
 :url: program#machine-learning-in-functional-mri-using-nilearn
 09:15 am -10:30 am
+
 ```
 
-<<<<<<< Updated upstream
-:::{grid-item-card}
-:margin: 3
-:columns: 12 6 3 3
-:class-header: bg-light text-center
-:link: ./program.html#train-machine-learning-models-on-meg-data-using-mne-python-and-pytorch
-
-**10:45-12:00 Annalisa Pascarella and Vanessa Hadid**
-^^^
-```{image} images/logo_mne.png
-:height: 100
-```
-Train machine learning models on MEG data using MNE-python and PyTorch.
-+++
-Learn more {fas}`arrow-right`
-:::
-=======
 ```{card} Train machine learning models on MEG data using MNE-python and PyTorch
 :header: ![MNE python](images/logo_mne.png)
 :url: program#train-machine-learning-models-on-meg-data-using-mne-python-and-pytorch
 10:45 am - 12:00 am
+**10:45-12:00 Annalisa Pascarella and Vanessa Hadid**
+
 ```
->>>>>>> Stashed changes
 ::::
 
 ## Afternoon: neuroAI models
