@@ -12,57 +12,33 @@ Two tracks will run in parallel, with common events:
 This track is hosted in room P310.
 
 ::::{grid}
-:::{grid-item-card}
-:margin: 3
-:columns: 12 6 3 3
-:class-header: bg-light text-center
-:link: ./program.html#supervised-learning-using-scikit-learn
-**09:15-10:30 am TBD**
-^^^
-```{image} images/logo_scikit-learn.png
-:height: 100
-```
-Introduction to supervised learning using scikit-learn.
-+++
-Learn more {fas}`arrow-right`
-:::
 
-:::{grid-item-card}
-:margin: 3
-:columns: 12 6 3 3
-:class-header: bg-light text-center
-:link: ./program.html#model-selection-and-validation-using-scikit-learn
-**10:45-12:00 TBD**
-^^^
-```{image} images/logo_scikit-learn.png
-:height: 100
+```{card} Introduction to supervised learning using scikit-learn
+:header: ![sklearn](images/logo_scikit-learn.png)
+:url: program#scikitlearn
+Jean-Baptiste Poline
+09:15 am - 10:30 am
 ```
-Model selection and validation using scikit-learn.
-+++
-Learn more {fas}`arrow-right`
-:::
+
+```{card} Model selection and validation using scikit-learn
+:header: ![sklearn](images/logo_scikit-learn.png)
+:url: program#model-selection-and-validation-using-scikit-learn
+Nikhil Bhagwat
+10:45 am - 12:00 am
+```
 ::::
 
 ### ML interfaces for neuroimaging (S142)
 
 ::::{grid}
 
-:::{grid-item-card}
-:margin: 3
-:columns: 12 6 3 3
-:class-header: bg-light text-center
-:link: ./program.html#machine-learning-in-functional-mri-using-nilearn
-
-**9-15-10:30 Hao-Ting Wang and Himanshu Aggarwal**
-^^^
-```{image} images/logo_nilearn.png
-:height: 100
+```{card} Machine learning in functional MRI using Nilearn
+:header: ![Nilearn](images/logo_nilearn.png)
+:url: program#machine-learning-in-functional-mri-using-nilearn
+09:15 am -10:30 am
 ```
-Machine learning in functional MRI using Nilearn
-+++
-Learn more {fas}`arrow-right`
-:::
 
+<<<<<<< Updated upstream
 :::{grid-item-card}
 :margin: 3
 :columns: 12 6 3 3
@@ -78,6 +54,13 @@ Train machine learning models on MEG data using MNE-python and PyTorch.
 +++
 Learn more {fas}`arrow-right`
 :::
+=======
+```{card} Train machine learning models on MEG data using MNE-python and PyTorch
+:header: ![MNE python](images/logo_mne.png)
+:url: program#train-machine-learning-models-on-meg-data-using-mne-python-and-pytorch
+10:45 am - 12:00 am
+```
+>>>>>>> Stashed changes
 ::::
 
 ## Afternoon: neuroAI models
@@ -89,56 +72,33 @@ Note the following services offered:
 ### Keynote 1 (13:00-14:15 P310)
 
 ::::{grid}
-:::{grid-item-card} Alessandro Gifford - Experimentation on in silico neural responses
-:margin: 3
-:columns: 12 6 3 3
-:link: ./program.html#experimentation-on-in-silico-neural-responses-from-encoding-models
-:img-top: https://avatars.githubusercontent.com/u/50326481?v=4?s=100
-Learn more {fas}`arrow-right`
-:::
+```{card} Experimentation on in silico neural responses
+:header: ![Alessandro Gifford](https://avatars.githubusercontent.com/u/50326481?v=4?s=100)
+:url: program#experimentation-on-in-silico-neural-responses-from-encoding-models
+Alessandro Gifford
+```
 ::::
 
 ### Foundational techniques (14:30-15:45)
 ::::{grid}
-
-:::{grid-item-card}
-:margin: 3
-:columns: 12 6 3 3
-:class-header: bg-light text-center
-:link: ./program.html#brain-decoding
-**Pierre-Louis Barbarant, Peer Herholz (P310)**
-^^^
-```{image} images/thumbnail_decoding.png
-:height: 100
+```{card} Introduction to brain decoding in fMRI
+:header: ![Brain decoding](images/thumbnail_decoding.png)
+:url: program#brain-decoding
+Pierre-Louis Barbarant, Peer Herholz (P310)
 ```
-Introduction to brain decoding in fMRI
-+++
-Learn more {fas}`arrow-right`
-:::
 
-:::{grid-item-card}
-:margin: 3
-:columns: 12 6 3 3
-:class-header: bg-light text-center
-:link: ./program.html#understanding-representational-similarity-analysis
-**Hamza Abdelhedi (S142)**
-^^^
-```{image} images/logo_rsa.png
-:height: 100
+```{card} Understanding Representational Similarity Analysis
+:header: ![RSA](images/logo_rsa.png)
+:url: program#understanding-representational-similarity-analysis
+Hamza Abdelhedi (S142)
 ```
-Understanding Representational Similarity Analysis
-+++
-Learn more {fas}`arrow-right`
-:::
 ::::
 
 ### Keynote 2 (16:00-17:15 P310)
 ::::{grid}
-:::{grid-item-card} Melanie Segado - Towards modelling high-level movement
-:margin: 3
-:columns: 12 6 3 3
-:link: ./program.html#towards-modelling-high-level-movement
-:img-top: images/profile_melanie.jpeg
-Learn more {fas}`arrow-right`
-:::
+```{card} Towards modelling high-level movement
+:header: ![RSA](images/profile_melanie.jpeg)
+:url: program#towards-modelling-high-level-movement
+Melanie Segado (S142)
+```
 ::::

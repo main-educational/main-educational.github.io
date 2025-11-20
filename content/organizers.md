@@ -1,62 +1,40 @@
 # Organizers
 
-
-## Executive committee
 ::::{grid}
 
-:::{grid-item-card}
-:margin: 3
-:columns: 12 6 3 3
-:class-header: bg-light text-center
-:link: https://www.unique.quebec
-**UNIQUE**
-^^^
-```{image} images/logo_unique.jpg
-:height: 100
-```
+```{card} Centre UNIQUE
+:header: ![Centre UNIQUE](images/logo_unique.jpg)
+:url: https://www.unique.quebec
 A neuroAI research center for Québec
-+++
-Learn more {fas}`arrow-right`
-:::
+```
 
-:::{grid-item-card} Pierre Lune Bellec
-:margin: 3
-:columns: 12 6 3 3
-:class-body: text-center
-:link: https://github.com/pbellec
-:img-top: https://avatars.githubusercontent.com/u/1670887?v=4?s=100
-:::
+```{card} Lune Bellec
+:header: ![Lune Bellec](https://avatars.githubusercontent.com/u/1670887?v=4?s=100)
+:url: https://github.com/lunebellec
+Executive committee
+```
 
-:::{grid-item-card} Karim Jerbi
-:margin: 3
-:columns: 12 6 3 3
-:link: https://github.com/k-jerbi
-:img-top: https://avatars.githubusercontent.com/u/29810957?v=4?s=100
-:::
 
-:::{grid-item-card} Jean-Baptiste Poline
-:margin: 3
-:columns: 12 6 3 3
-:link: https://github.com/jbpoline
-:img-top: images/profile_jbpoline.jpg
-:::
+```{card} Karim Jerbi
+:header: ![Karim Jerbi](https://avatars.githubusercontent.com/u/29810957?v=4?s=100)
+:url: https://github.com/k-jerbi
+Executive committee
+```
 
-:::{grid-item-card} Pravish Sainath
-:margin: 1
-:columns: 12 6 3 3
-:link: https://github.com/pravishsainath
-:img-top: https://avatars.githubusercontent.com/u/13696562?v=4?s=100
-:::
+```{card} Jean-Baptiste Poline
+:header: ![Jean-Baptiste Poline](images/profile_jbpoline.jpg)
+:url: https://github.com/jbpoline
+Executive committee
+```
 
-:::{grid-item-card} Bertrand Thirion
-:margin: 3
-:columns: 12 6 3 3
-:link: https://x.com/BertrandThirion
-:img-top: images/profile_bertrand.jpg
-:::
+```{card} Pravish Sainath
+:header: ![Pravish Sainath](https://avatars.githubusercontent.com/u/13696562?v=4?s=100)
+:url: https://github.com/pravishsainath
+Executive committee
+```
 
-::::
-
-## Volunteers
-
-TBA
+```{card} Bertrand Thirion
+:header: ![Bertrand Thirion](images/profile_bertrand.jpg)
+:url: images/profile_bertrand.jpg
+Executive committee
+```
