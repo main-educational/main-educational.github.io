@@ -23,7 +23,7 @@ In this session you will learn how to train agents to act in complex environment
 :::
 ::::
 
-**Yann Harel** is a post-doctoral fellow in the SIMEXP laboratory in University of Montreal...
+**Yann Harel** is a post-doctoral fellow in the SIMEXP laboratory in University of Montreal, working at the intersection of brain imaging, cognitive neuroscience and interactive environments. He is a  contributor to the Courtois Neuromod project, where he helped design and build  naturalistic neuroimaging datasets, linking real-time videogame behavior with fMRI, physiological and eye-tracking data. His research draws on large-scale open datasets, electrophysiology (EEG, MEG) and fMRI to study learning, attention and flow, as well as practical aspects of human-AI alignment. Beyond data collection, he develops open-source tools for scene-level segmentation, controller instrumentation, and BIDS-compliant pipelines used across multiple labs. He currently leads projects exploring how videogames and real-world tasks can serve as benchmarks for both neuroscience and AI.
 
 **Jean-Baptiste Bonin** is a Master student in Computer Science ...
 
