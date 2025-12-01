@@ -12,7 +12,7 @@ All educational sessions will run on a single track on December 11th 2025.
 
 ```{card} Cognitive benchmarking in large models
 :header: ![cognitive benchmarking](images/logo_cognitive_benchmarks.png)
-:url: program
+:url: cognitive_benchmark_ai
 09:00 - 12:00
 ```
 
