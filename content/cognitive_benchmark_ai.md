@@ -17,7 +17,7 @@ The LLM and VLM sections will each include:
 :::
 
 :::{grid-item}
-![](Zihan Weng)
+![Zihan Weng](images/profile_zihan_weng.jpg)
 [Zihan Weng](https://github.com/bat0001)
 :::
 
@@ -29,7 +29,7 @@ The LLM and VLM sections will each include:
 
 **Lucas Gomez** is a PhD student in the Integrated Program in Neuroscience at McGill University. His research in the BashivanLab focuses on building large scale deep learning models of visual working memory that predict prefrontal cortex activity. He has a Bachelors of Computer Science from Carleton University in Ottawa, and he is broadly interested in the intersection between AI and the brain sciences.
 
-**Zihan Weng** is a PhD Student in Neuroscience at McGill University, CA.  
+**Zihan Weng** is a Ph.D. student in the Integrated Program in Neuroscience at McGill University, supervised by Pouya Bashivan, where he also completed his master's degree. His research focuses on drawing inspiration from the brain's hierarchical memory systems to develop more efficient and scalable deep learning architectures. He earned a master's degree in Biomedical Engineering from UESTC and a bachelor's degree in Computer Science. He is interested in how biological neural networks can help us build better artificial neural networks.
 
 **Declan Campbell** is a PhD Student at Princeton University, USA.
 
