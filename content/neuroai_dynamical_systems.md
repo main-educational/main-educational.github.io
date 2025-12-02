@@ -30,7 +30,6 @@ This workshop introduces a dynamical systems perspective on neural computation u
 This session is divided into two parts:
 
 ### Part 1 — Introduction: A Dynamical Systems Framework Using RNNs
-
 _How to do computational neuroscience by training artificial neural networks_
 
 Participants will:
@@ -41,12 +40,14 @@ Participants will:
 ### Part 2 — A Case Study: Modeling a Context-Integration Task with RNNs
 
 In this more involved section, participants will:
-Train an RNN to perform a context-integration behavioral task
-Perform dimensionality reduction beyond standard PCA
-Characterize the RNN’s dynamics via neural manifolds (e.g., line attractors)
-Compare RNN trajectories with neural population data from Mante & Sussillo (2013)
-Extract computational insights about how the brain may solve the task based on the RNN’s inferred dynamics
-Bonus / Homework
+
+ * Train an RNN to perform a context-integration behavioral task
+ * Perform dimensionality reduction beyond standard PCA
+ * Characterize the RNN’s dynamics via neural manifolds (e.g., line attractors)
+ * Compare RNN trajectories with neural population data from Mante & Sussillo (2013)
+ * Extract computational insights about how the brain may solve the task based on the RNN’s inferred dynamics
+
+### Bonus / Homework
 Additional optional exercises for participants who want to explore further
 
 ## Materials
