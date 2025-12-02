@@ -14,6 +14,7 @@ project:
     - file: content/schedule.md
       children:
           - file: content/cognitive_benchmark_ai.md
+          - file: content/neuroai_dynamical_systems.md
     - file: content/venue.md
     - file: content/organizers.md
     - file: content/CoC.md

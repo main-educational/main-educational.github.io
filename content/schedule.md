@@ -24,6 +24,6 @@ All educational sessions will run on a single track on December 11th 2025.
 
 ```{card} Computation in neuroscience & AI: a dynamical systems perspective
 :header: ![neuroAI dynamical systems](images/logo_neuroai_dynamical_systems.png)
-:url: program
+:url: neuroai_dynamical_systems
 15:00 - 17:00
 ```
