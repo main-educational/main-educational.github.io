@@ -18,7 +18,7 @@ All educational sessions will run on a single track on December 11th 2025.
 
 ```{card} Videogame and reinforcement learning for neuroAI
 :header: ![videogame and RL](images/logo_videogame_ai.png)
-:url: program
+:url: neuroai_videogames
 12:45  - 14:45
 ```
 
