@@ -18,7 +18,7 @@ The LLM and VLM sections will each include:
 
 :::{grid-item}
 ![Zihan Weng](images/profile_zihan_weng.jpg)
-[Zihan Weng](https://github.com/bat0001)
+[Zihan Weng](https://mila.quebec/en/directory/zihan-weng-weng)
 :::
 
 :::{grid-item}
