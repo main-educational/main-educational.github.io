@@ -13,7 +13,7 @@ All educational sessions will run on a single track on December 11th 2025. Two d
  * 15:15-15:35 **Break with coffee and snack** (room Tkaronto)
  * 15:35-17:30 **Computation in NeurAI: a dynamical systems persective** (room Tkaronto)
 
-More details on each of the session can be found using the links below:
+More details on each session can be found using the links below:
 
 ::::{grid}
 

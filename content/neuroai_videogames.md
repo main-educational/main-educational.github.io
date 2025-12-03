@@ -27,7 +27,7 @@ In this session you will learn how to train agents to act in complex environment
 
 **Baptiste Bonin** is a research Master’s student at Université Laval & Mila in Québec, Canada 🇨🇦, working on machine learning with a strong interest in reinforcement learning, preference learning, and generative modeling. His current research explores recommendation systems through world models — ways of understanding users and their choices so that agents can learn by exploring realistic virtual environments. He leads a student team working on humanoid robotics 🤖, developing reinforcement learning approaches to teach autonomous skills and decision-making in realistic physical environments. Prior to that, he had a background in software engineering from his educational journey in France 🇫🇷.
 
-**Julien Armand** is a research Master’s student at Université Laval & Mila in Québec, Canada 🇨🇦.
+**Julien Armand** is a research Master’s student at Université Laval & Mila in Québec, Canada 🇨🇦. He completed a Bachelor’s degree in Mathematics at the University of Montreal, with a focus on statistics. His work centers on reinforcement learning in multi-agent environments, with a particular interest in how the nature of exploration shapes agent behavior in games blending cooperation and competition. He studies how exploration–exploitation strategies influence coordination and emergent dynamics, with the broader aim of understanding how independent agents adapt when their environment is shaped not only by uncertainty but also by the simultaneous decisions of others.
 
 ## Objectives
 
