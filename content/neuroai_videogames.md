@@ -8,13 +8,13 @@ In this session you will learn how to train agents to act in complex environment
 
 ::::{grid}
 :::{grid-item}
-![Yann Harel](https://cdn.bsky.app/img/avatar/plain/did:plc:twxrontuww4omebwkep6htas/bafkreihsejmz2zwfnbnssmh4cbwshylvflg6vxp4s7nfl3t7g7nkpbhmoy@jpeg)
+![Yann Harel](images/profile_yann_harel.jpg)
 [Yann Harel](https://scholar.google.com/citations?user=2K-2LacAAAAJ&hl=fr)
 :::
 
 :::{grid-item}
-![Jean-Baptiste Bonin](images/empty_profile.png)
-[Jean-Baptiste Bonin](https://github.com/bat0001)
+![Baptiste Bonin](images/profile_baptiste_bonin.jpg)
+[Baptiste Bonin](https://github.com/bat0001)
 :::
 
 :::{grid-item}
@@ -25,9 +25,9 @@ In this session you will learn how to train agents to act in complex environment
 
 **Yann Harel** is a post-doctoral fellow in the SIMEXP laboratory in University of Montreal, working at the intersection of brain imaging, cognitive neuroscience and interactive environments. He is a  contributor to the Courtois Neuromod project, where he helped design and build  naturalistic neuroimaging datasets, linking real-time videogame behavior with fMRI, physiological and eye-tracking data. His research draws on large-scale open datasets, electrophysiology (EEG, MEG) and fMRI to study learning, attention and flow, as well as practical aspects of human-AI alignment. Beyond data collection, he develops open-source tools for scene-level segmentation, controller instrumentation, and BIDS-compliant pipelines used across multiple labs. He currently leads projects exploring how videogames and real-world tasks can serve as benchmarks for both neuroscience and AI.
 
-**Jean-Baptiste Bonin** is a Master student in Computer Science ...
+**Baptiste Bonin** is a research Master’s student at Université Laval & Mila in Québec, Canada 🇨🇦, working on machine learning with a strong interest in reinforcement learning, preference learning, and generative modeling. His current research explores recommendation systems through world models — ways of understanding users and their choices so that agents can learn by exploring realistic virtual environments. He leads a student team working on humanoid robotics 🤖, developing reinforcement learning approaches to teach autonomous skills and decision-making in realistic physical environments. Prior to that, he had a background in software engineering from his educational journey in France 🇫🇷.
 
-**Julien Armand** is a Master student in Computer Science ...
+**Julien Armand** is a research Master’s student at Université Laval & Mila in Québec, Canada 🇨🇦.
 
 ## Objectives
 
