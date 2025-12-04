@@ -31,7 +31,7 @@ The LLM and VLM sections will each include:
 
 **Zihan Weng** is a Ph.D. student in the Integrated Program in Neuroscience at McGill University, supervised by Pouya Bashivan, where he also completed his master's degree. His research focuses on drawing inspiration from the brain's hierarchical memory systems to develop more efficient and scalable deep learning architectures. He earned a master's degree in Biomedical Engineering from UESTC and a bachelor's degree in Computer Science. He is interested in how biological neural networks can help us build better artificial neural networks.
 
-**Declan Campbell** is a PhD Student at Princeton University, USA.
+**Declan Campbell** is a PhD student in the Princeton Neuroscience Institute and a Natural and Artificial Minds (NAM) graduate fellow, advised by Jonathan Cohen and Tom Griffiths. His research draws on behavioral paradigms from cognitive psychology and methods from mechanistic interpretability to study the mechanisms underlying abstract reasoning in humans and machines.
 
 ## Objectives
 
