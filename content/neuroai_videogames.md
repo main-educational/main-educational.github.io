@@ -7,9 +7,10 @@ In this session you will learn how to train agents to act in complex environment
 ## Instructors
 
 ::::{grid}
+
 :::{grid-item}
-![Yann Harel](images/profile_yann_harel.jpg)
-[Yann Harel](https://scholar.google.com/citations?user=2K-2LacAAAAJ&hl=fr)
+![Julien Armand](https://avatars.githubusercontent.com/u/94652458?v=4)
+[Julien Armand](https://github.com/JulienArmand1)
 :::
 
 :::{grid-item}
@@ -18,17 +19,23 @@ In this session you will learn how to train agents to act in complex environment
 :::
 
 :::{grid-item}
-![Julien Armand](https://avatars.githubusercontent.com/u/94652458?v=4)
-[Julien Armand](https://github.com/JulienArmand1)
+![Hugo Delhaye](https://github.com/SIMEXP/simexp.github.io/blob/main/images/profile_hugo.jpg?raw=true)
+[Hugo Delhaye](https://github.com/HugoDelhaye)
+:::
+
+:::{grid-item}
+![Yann Harel](images/profile_yann_harel.jpg)
+[Yann Harel](https://scholar.google.com/citations?user=2K-2LacAAAAJ&hl=fr)
 :::
 ::::
 
-**Yann Harel** is a post-doctoral fellow in the SIMEXP laboratory in University of Montreal, working at the intersection of brain imaging, cognitive neuroscience and interactive environments. He is a  contributor to the Courtois Neuromod project, where he helped design and build  naturalistic neuroimaging datasets, linking real-time videogame behavior with fMRI, physiological and eye-tracking data. His research draws on large-scale open datasets, electrophysiology (EEG, MEG) and fMRI to study learning, attention and flow, as well as practical aspects of human-AI alignment. Beyond data collection, he develops open-source tools for scene-level segmentation, controller instrumentation, and BIDS-compliant pipelines used across multiple labs. He currently leads projects exploring how videogames and real-world tasks can serve as benchmarks for both neuroscience and AI.
+**Julien Armand** is a research Master’s student at Université Laval & Mila in Québec, Canada 🇨🇦. He completed a Bachelor’s degree in Mathematics at the University of Montreal, with a focus on statistics. His work centers on reinforcement learning in multi-agent environments, with a particular interest in how the nature of exploration shapes agent behavior in games blending cooperation and competition. He studies how exploration–exploitation strategies influence coordination and emergent dynamics, with the broader aim of understanding how independent agents adapt when their environment is shaped not only by uncertainty but also by the simultaneous decisions of others.
 
 **Baptiste Bonin** is a research Master’s student at Université Laval & Mila in Québec, Canada 🇨🇦, working on machine learning with a strong interest in reinforcement learning, preference learning, and generative modeling. His current research explores recommendation systems through world models — ways of understanding users and their choices so that agents can learn by exploring realistic virtual environments. He leads a student team working on humanoid robotics 🤖, developing reinforcement learning approaches to teach autonomous skills and decision-making in realistic physical environments. Prior to that, he had a background in software engineering from his educational journey in France 🇫🇷.
 
-**Julien Armand** is a research Master’s student at Université Laval & Mila in Québec, Canada 🇨🇦. He completed a Bachelor’s degree in Mathematics at the University of Montreal, with a focus on statistics. His work centers on reinforcement learning in multi-agent environments, with a particular interest in how the nature of exploration shapes agent behavior in games blending cooperation and competition. He studies how exploration–exploitation strategies influence coordination and emergent dynamics, with the broader aim of understanding how independent agents adapt when their environment is shaped not only by uncertainty but also by the simultaneous decisions of others.
+**Hugo Delhaye** is a Master’s student in Psychology at Université de Montréal. His research combines behavioral data, artificial intelligence models, and video game simulations to compare how humans and artificial agents explore and learn from their environments.
 
+**Yann Harel** is a post-doctoral fellow in the SIMEXP laboratory in University of Montreal, working at the intersection of brain imaging, cognitive neuroscience and interactive environments. He is a  contributor to the Courtois Neuromod project, where he helped design and build  naturalistic neuroimaging datasets, linking real-time videogame behavior with fMRI, physiological and eye-tracking data. His research draws on large-scale open datasets, electrophysiology (EEG, MEG) and fMRI to study learning, attention and flow, as well as practical aspects of human-AI alignment. Beyond data collection, he develops open-source tools for scene-level segmentation, controller instrumentation, and BIDS-compliant pipelines used across multiple labs. He currently leads projects exploring how videogames and real-world tasks can serve as benchmarks for both neuroscience and AI.
 ## Objectives
 
 This session is divided into two parts:

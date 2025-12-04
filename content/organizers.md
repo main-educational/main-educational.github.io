@@ -32,16 +32,12 @@
 [Audrey Durand](https://mila.quebec/en/directory/audrey-durand) - Program committee
 :::
 
-```{card}
-:header: **Lucas Gomez**
-:url: https://www.linkedin.com/in/lucasmgomez
+:::{grid-item}
 ![Lucas Gomez](images/profile_lucas_gomez.jpg)
-Executive committee
-```
+[Lucas Gomez](https://www.linkedin.com/in/lucasmgomez) – Executive committee
+:::
 
-```{card}
-:header: **Pravish Sainath**
-:url: https://github.com/pravishsainath
+:::{grid-item}
 ![Pravish Sainath](https://avatars.githubusercontent.com/u/13696562?v=4?s=100)
-Volunteer (streaming)
-```
+[Pravish Sainath](https://github.com/pravishsainath) – Volunteer (streaming)
+:::
