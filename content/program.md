@@ -17,20 +17,17 @@ More details on each session can be found using the links below:
 
 ::::{grid}
 
-```{card}
-:header: ![cognitive benchmarking](images/logo_cognitive_benchmarks.png)
-:url: cognitive_benchmark_ai
-Cognitive benchmarking in large models
-```
+:::{grid-item}
+![profile](images/logo_cognitive_benchmarks.png)
+[Reasoning in language and visuo-language models](cognitive_benchmark_ai)
+:::
 
-```{card}
-:header: ![videogame and RL](images/logo_videogame_ai.png)
-:url: neuroai_videogames
-Videogame and reinforcement learning for neuroAI
-```
+:::{grid-item}
+![profile](images/logo_videogame_ai.png)
+[Reinforcement learning to model videogame play](neuroai_videogames)
+:::
 
-```{card}
-:header: ![neuroAI dynamical systems](images/logo_neuroai_dynamical_systems.png)
-:url: neuroai_dynamical_systems
-Computation in neuroscience & AI: a dynamical systems perspective
-```
+:::{grid-item}
+![profile](images/logo_neuroai_dynamical_systems.png)
+[Dynamical systems for context integration](neuroai_dynamical_systems)
+:::

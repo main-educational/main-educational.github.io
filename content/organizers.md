@@ -2,47 +2,35 @@
 
 ::::{grid}
 
-```{card}
-:header: **Centre UNIQUE**
-:url: https://www.unique.quebec
+:::{grid-item}
 ![Centre UNIQUE](images/logo_unique.jpg)
-A neuroAI research center for Québec
-```
+[Centre UNIQUE](https://www.unique.quebec) – A neuroAI research center for Québec
+:::
 
-```{card}
-:header: **Shahab Bakhtiari**
-:url: https://www.snailab.ca/home/shahab-bakhtiari
+:::{grid-item}
 ![Shahab Bakhtiari](images/profile_shahab.jpg)
-Program committee
-```
+[Shahab Bakhtiari](https://www.snailab.ca/home/shahab-bakhtiari) – Program committee
+:::
 
-```{card}
-:header: **Lune Bellec**
-:url: https://github.com/lunebellec
+:::{grid-item}
 ![Lune Bellec](https://avatars.githubusercontent.com/u/1670887?v=4?s=100)
-Executive committee
-```
+[Lune Bellec](https://github.com/lunebellec) – Executive committee
+:::
 
-```{card}
-:header: **Karim Jerbi**
-:url: https://github.com/k-jerbi
+:::{grid-item}
 ![Karim Jerbi](https://avatars.githubusercontent.com/u/29810957?v=4?s=100)
-Executive committee
-```
+[Karim Jerbi](https://github.com/k-jerbi) – Executive committee
+:::
 
-```{card}
-:header: **Pouya Bashivan**
-:url: https://www.mcgill.ca/physiology/directory/core-faculty/pouya-bashivan
+:::{grid-item}
 ![Pouya Bashivan](images/profile_pouya.jpg)
-Program committee
-```
+[Pouya Bashivan](https://www.mcgill.ca/physiology/directory/core-faculty/pouya-bashivan) – Program committee
+:::
 
-```{card}
-:header: **Audrey Durand**
-:url: https://mila.quebec/en/directory/audrey-durand
-![Audrey Durand](images/profile_audrey_durand.jpg)
-Program committee
-```
+:::{grid-item}
+![profile](images/profile_audrey_durand.jpg)
+[Audrey Durand](https://mila.quebec/en/directory/audrey-durand) - Program committee
+:::
 
 ```{card}
 :header: **Lucas Gomez**
