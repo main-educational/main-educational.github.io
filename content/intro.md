@@ -10,5 +10,4 @@ The educational workshop is organized by the [UNIQUE](https://www.unique.quebec/
 
 You will be required to bring a laptop and install software prior to the workshop and complete the [installation](installation) instructions. Coffee, snack and lunch will be offered onsite.
 
-![University partners](images/partners_university.jpg "MAIN University partners")
-![Network partners](images/partners_network.jpg "Network partners")
+![Sponsors](images/sponsors.png "MAIN Sponsors")
