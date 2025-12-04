@@ -18,16 +18,31 @@ More details on each session can be found using the links below:
 ::::{grid}
 
 :::{grid-item}
-![profile](images/logo_cognitive_benchmarks.png)
+```{image} images/logo_cognitive_benchmarks.png
+:alt: session_logo
+:class: bg-primary mb-1
+:height: 200px
+:align: center
+```
 [Reasoning in language and visuo-language models](cognitive_benchmark_ai)
 :::
 
 :::{grid-item}
-![profile](images/logo_videogame_ai.png)
+```{image} images/logo_videogame_ai.png
+:alt: session_logo
+:class: bg-primary mb-1
+:height: 200px
+:align: center
+```
 [Reinforcement learning to model videogame play](neuroai_videogames)
 :::
 
 :::{grid-item}
-![profile](images/logo_neuroai_dynamical_systems.png)
+```{image} images/logo_neuroai_dynamical_systems.png
+:alt: session_logo
+:class: bg-primary mb-1
+:height: 200px
+:align: center
+```
 [Dynamical systems for context integration](neuroai_dynamical_systems)
 :::

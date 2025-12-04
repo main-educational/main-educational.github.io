@@ -12,17 +12,32 @@ The LLM and VLM sections will each include:
 
 ::::{grid}
 :::{grid-item}
-![Lucas Gomez](images/profile_lucas_gomez.jpg)
+```{image} images/profile_lucas_gomez.jpg
+:alt: profile
+:class: bg-primary mb-1
+:height: 200px
+:align: center
+```
 [Lucas Gomez](https://www.lucasgomez.ca/about)
 :::
 
 :::{grid-item}
-![Zihan Weng](images/profile_zihan_weng.jpg)
+```{image} images/profile_zihan_weng.jpg
+:alt: profile
+:class: bg-primary mb-1
+:height: 200px
+:align: center
+```
 [Zihan Weng](https://mila.quebec/en/directory/zihan-weng-weng)
 :::
 
 :::{grid-item}
-![Declan Campbell](images/profile_declan_campbell.png)
+```{image} images/profile_declan_campbell.png
+:alt: profile
+:class: bg-primary mb-1
+:height: 200px
+:align: center
+```
 [Declan Campbell](https://scholar.google.com/citations?user=QS1P0NYAAAAJ&hl=en)
 :::
 ::::

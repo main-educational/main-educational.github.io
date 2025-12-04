@@ -10,12 +10,22 @@ This workshop introduces a dynamical systems perspective on neural computation u
 
 ::::{grid}
 :::{grid-item}
-![Doris Voina, PhD](https://avatars.githubusercontent.com/u/102626067?v=4)
+```{image} https://avatars.githubusercontent.com/u/102626067?v=4
+:alt: profile
+:class: bg-primary mb-1
+:height: 200px
+:align: center
+```
 [ Doris Voina, PhD](https://dorisvoina.org/)
 :::
 
 :::{grid-item}
-![Ladan Shahshahani](https://avatars.githubusercontent.com/u/44071291?v=4)
+```{image} https://avatars.githubusercontent.com/u/44071291?v=4
+:alt: profile
+:class: bg-primary mb-1
+:height: 200px
+:align: center
+```
 [Ladan Shahshahani](https://scholar.google.com/citations?user=Mn5J97oAAAAJ&hl=en)
 :::
 
