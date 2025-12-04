@@ -42,7 +42,7 @@ jobs:
       - name: Install Jupyter Book (via myst)
         run: |
           python -m pip install --upgrade pip
-          python -m pip install jupyter-book
+          python -m pip install jupyter-book==2.0.0
       - name: Build HTML Assets
         run: jupyter book build --html
       - name: Upload artifact
