@@ -1,5 +1,10 @@
 # Venue
-![HEC](images/fig_hec.png)
+```{image} images/fig_hec.png
+:alt: hec
+:class: bg-primary mb-1
+:width: 800px
+:align: center
+```
 The workshop will be located at [HEC Montréal’s Côté-Sainte-Catherine Building](https://www.hec.ca/en/campus/cote_sainte_catherine/) located at 3000 Chem. de la Côte-Sainte-Catherine, Montréal, QC H3T 2A7. The venue is accessible by Metro (Université de Montréal, blue line) or Bus (route 51).
 
 
