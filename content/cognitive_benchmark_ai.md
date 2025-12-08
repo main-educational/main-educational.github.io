@@ -52,8 +52,6 @@ The LLM and VLM sections will each include:
 
 This session is divided into three parts:
 
----
-
 ### **Large Language Models (LLMs)**
 
 - **Learning the basics of LLMs**:
@@ -74,8 +72,6 @@ This session is divided into three parts:
     - OpenRouter
     - Google colab
 
----
-
 ### **Vision-Language Models (VLMs)**
 
 - **Learning the basics of VLMs**:
@@ -93,8 +89,6 @@ This session is divided into three parts:
     - OpenRouter
     - Google colab
 
----
-
 ### **Reasoning Models**
 
 - **Learning the basics of reasoning-enhanced models**:
@@ -106,8 +100,18 @@ This session is divided into three parts:
     - Understanding reasoning visibility differences
     - Controlling reasoning effort and computation
 
----
-
 ## Materials
 
-Colab notebook for hands on sections - *links to be added*
+::::{grid}
+:::{grid-item}
+```{image} images/logo_colab.png
+:alt: logo colab
+:class: bg-primary mb-1
+:height: 200px
+:align: center
+```
+[Colab notebooks for cognitive benchmarks of language models](https://colab.research.google.com/drive/15yEv_1gD6grDG9d10GP8btoCPWQX37Xt?usp=sharing)
+:::
+:::{grid-item}
+*More material will soon be added*
+::::

@@ -24,7 +24,7 @@ More details on each session can be found using the links below:
 :height: 200px
 :align: center
 ```
-[Reasoning in language and visuo-language models](cognitive_benchmark_ai)
+[Cognitive benchmarks in large models](cognitive_benchmark_ai)
 :::
 
 :::{grid-item}
