@@ -61,6 +61,9 @@ In this more involved section, participants will:
 Additional optional exercises for participants who want to explore further
 
 ## Material
+The hands-on tutorial will focus on modeling context-dependent decision-making by reproducing analyses from the following article by [Mante and Sussillo, 2013](https://doi.org/10.1038/nature12742):
+
+Mante V, Sussillo D, Shenoy KV, Newsome WT. _Context-dependent computation by recurrent dynamics in prefrontal cortex_. Nature (2013) Nov 7;503(7474):78-84. doi: 10.1038/nature12742. PMID: 24201281; PMCID: PMC4121670.
 
 ::::{grid}
 :::{grid-item}
