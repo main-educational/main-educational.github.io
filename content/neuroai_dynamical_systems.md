@@ -31,7 +31,7 @@ This workshop introduces a dynamical systems perspective on neural computation u
 
 ::::
 
-**Doris Voina, PhD** is a Postdoctoral Scholar in the [SNAIL](https://www.snailab.ca/) laboratory at Université de Montréal.
+**Doris Voina, PhD**  is a Postdoctoral Scholar in the [SNAIL](https://www.snailab.ca/) laboratory at Université de Montréal with Dr. Shahab Bakhtiari. She earned her PhD in Applied Mathematics from the University of Washington (2022), with a broad interest in computational neuroscience. Her work focuses on developing computational and AI methods for data analysis to better understand neural mechanisms underlying learning and perception.
 
 **Ladan Shahshahani, PhD** is a Postdoctoral Scholar in the [SNAIL](https://www.snailab.ca/) laboratory at Université de Montréal where she works with Dr. Shahab Bakhtiari to investigate how the brain carries out mental simulation using psychophysics and MEG/fMRI. She is particularly interested in how the dynamics of these neural transformations can guide the development of modern AI systems, inspiring models that capture the brain’s flexible, simulation-driven computations. Her background includes research on visual working memory, cerebellar and subcortical contributions to cognition, and computational approaches to neuroimaging, which now shape her broader goal of understanding and modeling how the brain builds and manipulates internal representations.
 
@@ -60,6 +60,16 @@ In this more involved section, participants will:
 ### Bonus / Homework
 Additional optional exercises for participants who want to explore further
 
-## Materials
+## Material
 
-Colab notebook for hands on sections - *links to be added*
+::::{grid}
+:::{grid-item}
+```{image} images/logo_colab.png
+:alt: logo colab
+:class: bg-primary mb-1
+:height: 200px
+:align: center
+```
+[Colab notebooks for dynamical systems with RNNs](https://colab.research.google.com/drive/1Xxb-pNG8imI1HxC5VVhiFH-Xp4Y1z-KA#scrollTo=a5hMFudS1OMT)
+:::
+::::
