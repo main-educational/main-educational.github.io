@@ -11,7 +11,7 @@ All educational sessions will run on a single track on December 11th 2025. Two d
  * 12:45-13:55 **Videogames and RL for neuroAI part I** (room FPHEC)
  * 14:10-15:15 **Videogames and RL for neuroAI part II** (room Tkaronto)
  * 15:15-15:35 **Break with coffee and snack** (room Tkaronto)
- * 15:35-17:30 **Computation in NeurAI: a dynamical systems persective** (room Tkaronto)
+ * 15:35-17:30 **Computation in NeuroAI: a dynamical systems perspective** (room Tkaronto)
 
 More details on each session can be found using the links below:
 
