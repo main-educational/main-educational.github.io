@@ -80,7 +80,7 @@ This session is divided into two parts:
 ```{image} images/logo_colab.png
 :alt: logo colab
 :class: bg-primary mb-1
-:height: 200px
+:height: 150px
 :align: center
 ```
 [Colab notebooks for RL training](https://colab.research.google.com/drive/1SyD9gLEzpx0P3tKsl2_MYb4QmE5QkKMd#scrollTo=DZw_3OusqWWW)
@@ -90,7 +90,7 @@ This session is divided into two parts:
 ```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 :alt: logo github
 :class: bg-primary mb-1
-:height: 200px
+:height: 150px
 :align: center
 ```
 [Github repo for Mario tutorials](https://github.com/courtois-neuromod/mario.tutorials)

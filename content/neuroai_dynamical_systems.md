@@ -61,7 +61,7 @@ In this more involved section, participants will:
 Additional optional exercises for participants who want to explore further
 
 ## Material
-The hands-on tutorial will focus on modeling context-dependent decision-making by reproducing analyses from the following article by [Mante and Sussillo, 2013](https://doi.org/10.1038/nature12742):
+The first hands-on tutorial will focus on modeling context-dependent decision-making by reproducing analyses from the following article by [Mante and Sussillo, 2013](https://doi.org/10.1038/nature12742):
 
 Mante V, Sussillo D, Shenoy KV, Newsome WT. _Context-dependent computation by recurrent dynamics in prefrontal cortex_. Nature (2013) Nov 7;503(7474):78-84. doi: 10.1038/nature12742. PMID: 24201281; PMCID: PMC4121670.
 
@@ -70,9 +70,18 @@ Mante V, Sussillo D, Shenoy KV, Newsome WT. _Context-dependent computation by re
 ```{image} images/logo_colab.png
 :alt: logo colab
 :class: bg-primary mb-1
-:height: 200px
+:height: 150px
 :align: center
 ```
-[Colab notebooks for dynamical systems with RNNs](https://colab.research.google.com/drive/1Xxb-pNG8imI1HxC5VVhiFH-Xp4Y1z-KA#scrollTo=a5hMFudS1OMT)
+[Colab notebooks for context-dependent computation with RNN](https://colab.research.google.com/drive/1Xxb-pNG8imI1HxC5VVhiFH-Xp4Y1z-KA#scrollTo=a5hMFudS1OMT)
+:::
+:::{grid-item}
+```{image} images/logo_colab.png
+:alt: logo colab
+:class: bg-primary mb-1
+:height: 150px
+:align: center
+```
+[Colab notebooks for a dynamical system perspective on computation in neuroAI](https://colab.research.google.com/drive/1WrBQP1awMraJXLl-9QAFzKsflb82lE0A?usp=sharing)
 :::
 ::::
