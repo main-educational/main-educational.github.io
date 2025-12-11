@@ -63,6 +63,16 @@
 :::
 
 :::{grid-item}
+```{image} images/profile_maelle_freteault.jpg
+:alt: profile
+:class: bg-primary mb-1
+:height: 200px
+:align: center
+```
+[Maelle Freteault](https://github.com/maelleF) – Volunteer
+:::
+
+:::{grid-item}
 ```{image} images/profile_lucas_gomez.jpg
 :alt: profile
 :class: bg-primary mb-1
@@ -73,11 +83,31 @@
 :::
 
 :::{grid-item}
+```{image} images/profile_shawn_manuel.png
+:alt: profile
+:class: bg-primary mb-1
+:height: 200px
+:align: center
+```
+[Shawn Manuel](https://shwnmnl.github.io/) – Volunteer
+:::
+
+:::{grid-item}
 ```{image} https://avatars.githubusercontent.com/u/13696562?v=4?s=100
 :alt: profile
 :class: bg-primary mb-1
 :height: 200px
 :align: center
 ```
-[Pravish Sainath](https://github.com/pravishsainath) – Volunteer (streaming)
+[Pravish Sainath](https://github.com/pravishsainath) – Volunteer
+:::
+
+:::{grid-item}
+```{image} images/profile_taylor_webb.jpg
+:alt: profile
+:class: bg-primary mb-1
+:height: 200px
+:align: center
+```
+[Taylor Webb](https://scholar.google.com/citations?user=WCmrJoQAAAAJ&hl=en) – Program committee
 :::
