@@ -112,6 +112,7 @@ This session is divided into three parts:
 ```
 [Colab notebooks for cognitive benchmarks of language models](https://colab.research.google.com/drive/15yEv_1gD6grDG9d10GP8btoCPWQX37Xt?usp=sharing)
 :::
+
 :::{grid-item}
 ```{image} images/logo_colab.png
 :alt: logo colab
@@ -119,6 +120,16 @@ This session is divided into three parts:
 :height: 150px
 :align: center
 ```
-[Colab notebooks for cognitive benchmarks of visuolanguage models](https://colab.research.google.com/drive/1dKFZTKhNT9rVHwlcYEmuAIYDZokiWiVO?usp=sharing)::::
+[Colab notebooks for cognitive benchmarks of visuolanguage models](https://colab.research.google.com/drive/1dKFZTKhNT9rVHwlcYEmuAIYDZokiWiVO?usp=sharing)
+:::
+:::{grid-item}
+```{image} images/logo_gslides.png
+:alt: logo gslides
+:class: bg-primary mb-1
+:height: 200px
+:align: center
+```
+[Presentation slides](https://docs.google.com/presentation/d/1wSxPhnP08u6tCm6HMVXGr9DHkgtWVV4A7pwxNNhfBjA/edit?usp=sharing
+)
 :::
 ::::
