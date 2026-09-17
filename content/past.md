@@ -2,6 +2,16 @@
 
 ::::{grid}
 :::{grid-item}
+```{image} images/fig_main2025.png
+:alt: event_logo
+:class: bg-primary mb-1
+:height: 200px
+:align: center
+```
+[MAIN educational 2025](https://main-educational.github.io/2025)
+:::
+
+:::{grid-item}
 ```{image} images/fig_main2024.png
 :alt: event_logo
 :class: bg-primary mb-1

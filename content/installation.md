@@ -1,5 +1,11 @@
 # Installation
 
+:::{note}
+**Installation instructions coming soon.**
+
+The requirements below are carried over from a previous edition and will be updated once the MAIN educational 2026 program is announced. Please wait for the final version before installing anything.
+:::
+
 ## General computing requirements
 
 There are a few computing requirements for the course that are absolutely necessary (beyond the few software packages we would like you to install, described below):
