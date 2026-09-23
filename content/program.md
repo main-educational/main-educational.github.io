@@ -23,7 +23,9 @@ MAIN educational 2026 will run on a single track over two days, on October 26th-
  * 08:30-09:00 **Registration with coffee**
  * 09:00-12:00 **[Evaluating reasoning in large language models](llm_reasoning_eval)**: tutorial (with a break)
  * 12:00-13:00 **Lunch provided**
- * 13:00-16:50 **[Alignment across modalities and across brains](alignment)**: talk on vision-language alignment and hands-on tutorial on functional alignment across participants with fmralign (with a break)
+ * 13:00-13:50 **[Alignment across modalities and across brains](alignment)**: talk on vision-language alignment by Aishwarya Agrawal, followed by questions
+ * 13:50-14:00 **Break with coffee**
+ * 14:00-16:00 **[Alignment across modalities and across brains](alignment)**: hands-on tutorial on functional alignment across participants with fmralign, with Elizabeth DuPre
 
 The MAIN 2026 conference will follow on October 29th-30th 2026, at HEC Montréal.
 

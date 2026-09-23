@@ -4,13 +4,16 @@
 The instructors for this session are confirmed. Session details may still change.
 :::
 
-**When:** Tuesday October 27th 2026, 13:00-16:50
+**When:** Tuesday October 27th 2026
+
+ * 13:00-13:50: talk by Aishwarya Agrawal, followed by questions
+ * 14:00-16:00: hands-on tutorial with Elizabeth DuPre
 
 ## Overview
 
 This session is about alignment: finding a common space in which different representations can be compared and combined. It covers two complementary problems.
 
-**Aligning modalities.** Multimodal models learn to align representations of images and language, so that a model can describe what it sees or answer questions about an image. A one-hour talk will present how vision-language models achieve this alignment, and how to evaluate whether they truly ground language in vision.
+**Aligning modalities.** Multimodal models learn to align representations of images and language, so that a model can describe what it sees or answer questions about an image. A 45-minute talk, followed by questions, will present how vision-language models achieve this alignment, and how to evaluate whether they truly ground language in vision.
 
 **Aligning brains.** No two brains are organized exactly alike, and anatomical registration alone does not bring functional responses into correspondence. A two-hour hands-on tutorial will introduce functional alignment with [fmralign](https://fmralign.github.io/fmralign/), a Python library built on nilearn and scikit-learn that aligns brain activity across human participants, using methods such as Procrustes, shared response modeling and optimal transport.
 
