@@ -1,7 +1,7 @@
 # Evaluating reasoning in large language models
 
 :::{note}
-This session is **tentative**. The content and instructors will be confirmed by the program committee in the coming weeks.
+The instructors for this session will be announced soon. Session details may still change.
 :::
 
 **When:** Tuesday October 27th 2026, 09:00-12:00

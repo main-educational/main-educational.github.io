@@ -1,7 +1,7 @@
 # Program
 
 :::{note}
-**This program is tentative** and will be updated as the program committee confirms sessions and instructors.
+**This program is preliminary.** Session details may still change, and the remaining sessions will be announced soon.
 :::
 
 MAIN educational 2026 will run on a single track over two days, on October 26th-27th 2026, at the [CRIUGM](venue). The first day focuses on **reasoning about the world** (world models and embodied agents), and the second day on **benchmarking**, i.e. the alignment between the brain, behaviour and AI models.

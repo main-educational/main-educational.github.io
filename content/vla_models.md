@@ -1,7 +1,7 @@
 # Vision-language-action models
 
 :::{note}
-This session is **tentative**. The content and instructors will be confirmed by the program committee in the coming weeks.
+The instructors for this session are confirmed. Session details may still change.
 :::
 
 **When:** Monday October 26th 2026, 13:00-14:45

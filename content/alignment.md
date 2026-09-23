@@ -1,7 +1,7 @@
 # Alignment across modalities and across brains
 
 :::{note}
-This session is **tentative**. The content and instructors will be confirmed by the program committee in the coming weeks.
+The instructors for this session are confirmed. Session details may still change.
 :::
 
 **When:** Tuesday October 27th 2026, 13:00-16:50
