@@ -9,8 +9,11 @@ MAIN educational 2026 will run on a single track over two days, on October 26th-
 ## Monday October 26th: reasoning about the world
 
  * 08:30-09:00 **Registration with coffee**
- * 09:00-12:00 **[World models and embodied agents](world_models)**: lecture and hands-on tutorial (with a break)
- * 12:00-13:00 **Lunch provided**
+ * 09:00-09:05 **Welcome**
+ * 09:05-09:50 **[World models and embodied agents](world_models)**: lecture by Sonia Joseph, followed by questions
+ * 09:50-10:05 **Break with coffee**
+ * 10:05-12:05 **[World models and embodied agents](world_models)**: hands-on tutorial with Glen Berseth
+ * 12:05-13:00 **Lunch provided**
  * 13:00-14:45 **[Vision-language-action models](vla_models)**
  * 14:45-15:05 **Break with coffee and snack**
  * 15:05-16:50 **Session to be announced**
