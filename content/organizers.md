@@ -1,6 +1,8 @@
 # Organizers
 
 ::::{grid}
+
+:::{grid-item}
 ```{image} images/logo_unique.jpg
 :alt: profile
 :class: bg-primary mb-1
@@ -59,3 +61,4 @@
 ```
 [Audrey Durand](https://mila.quebec/en/directory/audrey-durand) - Program committee
 :::
+::::
