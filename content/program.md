@@ -6,6 +6,8 @@
 
 MAIN educational 2026 will run on a single track over two days, on October 26th-27th 2026, at the [CRIUGM](venue). The first day focuses on **reasoning about the world** (world models and embodied agents), and the second day on **benchmarking**, i.e. the alignment between the brain, behaviour and AI models.
 
+[Registration](https://www.eventbrite.ca/e/main-educational-2026-tickets-1999327932667) is open on Eventbrite.
+
 ## Monday October 26th: reasoning about the world
 
  * 08:30-09:00 **Registration with coffee**
