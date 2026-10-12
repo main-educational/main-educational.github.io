@@ -23,7 +23,7 @@ MAIN educational 2026 will run on a single track over two days, on October 26th-
 ## Tuesday October 27th: benchmarking brain-behaviour-model alignment
 
  * 08:30-09:00 **Registration with coffee**
- * 09:00-12:00 **[Evaluating reasoning in large language models](llm_reasoning_eval)**: tutorial (with a break)
+ * 09:00-12:00 **[Cognitive benchmarking in large models](llm_reasoning_eval)**: tutorial (with a break)
  * 12:00-13:00 **Lunch provided**
  * 13:00-13:50 **[Alignment across modalities and across brains](alignment)**: talk on vision-language alignment by Aishwarya Agrawal, followed by questions
  * 13:50-14:00 **Break with coffee**
@@ -35,7 +35,7 @@ More details on each session can be found on the following pages:
 
  * [World models and embodied agents](world_models)
  * [Vision-language-action models](vla_models)
- * [Evaluating reasoning in large language models](llm_reasoning_eval)
+ * [Cognitive benchmarking in large models](llm_reasoning_eval)
  * [Alignment across modalities and across brains](alignment)
 
 The program of past editions is available on the [past events](past) page.
