@@ -6,9 +6,9 @@
 
 In this session, participants will explore the fundamentals of Large Language Models (LLMs), Vision-Language Models (VLMs), and reasoning models.
 The LLM and VLM sections will each include:
-1)	A concise theoretical overview
-2)	Key practical considerations
-3)	Hands-on exercises
+1. A concise theoretical overview
+2. Key practical considerations
+3. Hands-on exercises
 
 ## Instructors
 
@@ -42,7 +42,7 @@ The LLM and VLM sections will each include:
 
 This session is divided into three parts:
 
-### **Large Language Models (LLMs)**
+### Large Language Models (LLMs)
 
 - **Learning the basics of LLMs**:
     - Architecture
@@ -62,7 +62,7 @@ This session is divided into three parts:
     - OpenRouter
     - Google Colab
 
-### **Vision-Language Models (VLMs)**
+### Vision-Language Models (VLMs)
 
 - **Learning the basics of VLMs**:
     - Image encoders
@@ -79,7 +79,7 @@ This session is divided into three parts:
     - OpenRouter
     - Google Colab
 
-### **Reasoning Models**
+### Reasoning Models
 
 - **Learning the basics of reasoning-enhanced models**:
     - Chain-of-thought (CoT) prompting
@@ -95,7 +95,7 @@ This session is divided into three parts:
 ::::{grid}
 :::{grid-item}
 ```{image} images/logo_colab.png
-:alt: logo colab
+:alt: Colab logo (language models)
 :class: bg-primary mb-1
 :height: 150px
 :align: center
@@ -105,7 +105,7 @@ This session is divided into three parts:
 
 :::{grid-item}
 ```{image} images/logo_colab.png
-:alt: logo colab
+:alt: Colab logo (vision-language models)
 :class: bg-primary mb-1
 :height: 150px
 :align: center
@@ -114,7 +114,7 @@ This session is divided into three parts:
 :::
 :::{grid-item}
 ```{image} images/logo_gslides.png
-:alt: logo gslides
+:alt: Google Slides logo
 :class: bg-primary mb-1
 :height: 150px
 :align: center
