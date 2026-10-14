@@ -68,7 +68,7 @@ This workshop explores active vision in deep neural networks, moving beyond the 
 % ::::
 :::::
 
-**Motahareh Pourrahimi** is a PhD student at Mila and in the Integrated Program in Neuroscience at McGill University, working at the intersection of neuroscience and artificial intelligence in the Bashivan Lab. Her research focuses on understanding how neural systems generate behavior in ecologically grounded settings. In particular, she is interested in the cognitive processes and neural computations that support closed-loop perception and action, such as in free viewing visual search. Before joining McGill and Mila, she received her BSc in electrical engineering from the University of Tehran.
+**Motahareh Pourrahimi** is a PhD student at Mila and McGill University, working at the intersection of neuroscience and artificial intelligence in the Bashivan Lab. Her research focuses on understanding how neural systems generate behavior in ecologically grounded settings. In particular, she is interested in the cognitive processes and neural computations that support closed-loop perception and action, such as in free viewing visual search. Before joining McGill and Mila, she received her BSc in electrical engineering from the University of Tehran.
 
 **Hafez Ghaemi** is a third-year PhD candidate at Mila and Université de Montréal. His research focuses on self-supervised learning and world modeling for perception and control, under the supervision of Eilif Muller and Shahab Bakhtiari. He holds MSc degrees in computer engineering from the University of Tehran and in data science and engineering from Politecnico di Torino, as well as a BSc in mechanical engineering with a minor in computer engineering from the University of Tehran.
 
