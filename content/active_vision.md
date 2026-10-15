@@ -20,7 +20,7 @@ This workshop explores active vision in deep neural networks, moving beyond the 
 ```
 **[Motahareh Pourrahimi](https://mila.quebec/en/directory/motahareh-pourrahimi)**
 
-<a href="mailto:motahareh.pourahimi@mail.mcgill.ca"><img src="images/icons/email.svg" alt="Email" width="20"></a>&emsp;<a href="https://bsky.app/profile/motaharehpr.bsky.social"><img src="images/icons/bluesky.svg" alt="Bluesky" width="20"></a>&emsp;<a href="https://x.com/MotaharehPR"><img src="images/icons/x.svg" alt="X" width="20"></a>
+<a href="mailto:motahareh.pourrahimi@mail.mcgill.ca"><img src="images/icons/email.svg" alt="Email" width="20"></a>&emsp;<a href="https://bsky.app/profile/motaharehpr.bsky.social"><img src="images/icons/bluesky.svg" alt="Bluesky" width="20"></a>&emsp;<a href="https://x.com/MotaharehPR"><img src="images/icons/x.svg" alt="X" width="20"></a>
 :::
 ::::
 
