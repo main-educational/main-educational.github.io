@@ -4,7 +4,7 @@
 
 ## Overview
 
-This workshop explores active vision in deep neural networks, moving beyond the standard passive setting in which models process entire images at once. We will begin with a brief introduction to supervised and self-supervised representation learning approaches such as JEPA, then connect these models to the active nature of biological vision, where information is acquired sequentially through selective sampling. We will introduce seqJEPA as a step toward active vision modeling by learning visual representations from sequences of observations, and examine how sampling strategies affect what is learned. Finally, we show how a model can learn where to look and accomplish goals such as visual search. Along the way, we will discuss evaluation through downstream task performance, computational efficiency, and behavioral and neural similarity to biological vision.
+This workshop explores active vision in deep neural networks, moving beyond the standard passive setting in which models process entire images at once. We will begin with a brief introduction to supervised and self-supervised representation learning approaches such as JEPA, then connect these models to the active nature of biological vision, where information is acquired sequentially through selective sampling. We will introduce seqJEPA as a step toward active vision modeling by learning visual representations from sequences of observations, and examine how sampling strategies affect what is learned. Finally, we will show how a model can learn where to look and accomplish goals such as visual search. Along the way, we will discuss evaluation through downstream task performance, computational efficiency, and behavioral and neural similarity to biological vision.
 
 ## Instructors
 
@@ -13,7 +13,7 @@ This workshop explores active vision in deep neural networks, moving beyond the 
 ::::{grid-item}
 :::{div}
 :class: text-center
-```{image} images/organizers/profile_motahareh_pourrahimi.jpg
+```{image} images/profile_motahareh_pourrahimi.jpg
 :alt: Motahareh Pourrahimi
 :width: 200px
 :align: center
@@ -27,7 +27,7 @@ This workshop explores active vision in deep neural networks, moving beyond the 
 ::::{grid-item}
 :::{div}
 :class: text-center
-```{image} images/organizers/profile_hafez_ghaemi.jpg
+```{image} images/profile_hafez_ghaemi.jpg
 :alt: Hafez Ghaemi
 :width: 200px
 :align: center
@@ -37,35 +37,6 @@ This workshop explores active vision in deep neural networks, moving beyond the 
 <a href="mailto:hafez.ghaemi@umontreal.ca"><img src="images/icons/email.svg" alt="Email" width="20"></a>&emsp;<a href="https://bsky.app/profile/hafezghm.bsky.social"><img src="images/icons/bluesky.svg" alt="Bluesky" width="20"></a>&emsp;<a href="https://x.com/hafezghm"><img src="images/icons/x.svg" alt="X" width="20"></a>
 :::
 ::::
-
-% Pouya Bashivan and Shahab Bakhtiari are hidden for now; remove the leading '% ' to show them again.
-% ::::{grid-item}
-% :::{div}
-% :class: text-center
-% ```{image} images/organizers/profile_pouya_bashivan.jpg
-% :alt: Pouya Bashivan
-% :width: 200px
-% :align: center
-% ```
-% **[Pouya Bashivan](http://www.bashivanlab.org/)**
-%
-% <a href="mailto:pouya.bashivan@mcgill.ca"><img src="images/icons/email.svg" alt="Email" width="20"></a>&emsp;<a href="https://bsky.app/profile/bashivan.bsky.social"><img src="images/icons/bluesky.svg" alt="Bluesky" width="20"></a>&emsp;<a href="https://x.com/PouyaBashivan"><img src="images/icons/x.svg" alt="X" width="20"></a>
-% :::
-% ::::
-%
-% ::::{grid-item}
-% :::{div}
-% :class: text-center
-% ```{image} images/organizers/profile_shahab_bakhtiari.jpg
-% :alt: Shahab Bakhtiari
-% :width: 200px
-% :align: center
-% ```
-% **[Shahab Bakhtiari](https://www.snailab.ca/home/shahab-bakhtiari)**
-%
-% <a href="mailto:shahab.bakhtiari@umontreal.ca"><img src="images/icons/email.svg" alt="Email" width="20"></a>&emsp;<a href="https://bsky.app/profile/shahabbakht.bsky.social"><img src="images/icons/bluesky.svg" alt="Bluesky" width="20"></a>&emsp;<a href="https://x.com/ShahabBakht"><img src="images/icons/x.svg" alt="X" width="20"></a>
-% :::
-% ::::
 :::::
 
 **Motahareh Pourrahimi** is a PhD student at Mila and McGill University, working at the intersection of neuroscience and artificial intelligence in the Bashivan Lab. Her research focuses on understanding how neural systems generate behavior in ecologically grounded settings. In particular, she is interested in the cognitive processes and neural computations that support closed-loop perception and action, such as in free viewing visual search. Before joining McGill and Mila, she received her BSc in electrical engineering from the University of Tehran.

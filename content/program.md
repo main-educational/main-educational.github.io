@@ -16,7 +16,7 @@ MAIN educational 2026 will run on a single track over two days, on October 26th-
  * 09:50-10:05 **Break with coffee**
  * 10:05-12:05 **[World models and embodied agents](world_models)**: hands-on tutorial with Glen Berseth
  * 12:05-13:00 **Lunch provided**
- * 13:00-14:45 **[Active vision with deep neural networks](vla_models)**
+ * 13:00-14:45 **[Active vision with deep neural networks](active_vision)**
  * 14:45-15:05 **Break with coffee and snack**
  * 15:05-16:50 **Session to be announced**
 
@@ -34,7 +34,7 @@ The MAIN 2026 conference will follow on October 29th-30th 2026, at HEC Montréal
 More details on each session can be found on the following pages:
 
  * [World models and embodied agents](world_models)
- * [Active vision with deep neural networks](vla_models)
+ * [Active vision with deep neural networks](active_vision)
  * [Cognitive benchmarking in large models](llm_reasoning_eval)
  * [Alignment across modalities and across brains](alignment)
 

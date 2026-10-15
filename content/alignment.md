@@ -19,28 +19,32 @@ This session is about alignment: finding a common space in which different repre
 
 ## Instructors
 
-::::{grid}
+:::::{grid} 1 2 2 2
 
-:::{grid-item}
+::::{grid-item}
+:::{div}
+:class: text-center
 ```{image} images/profile_aishwarya_agrawal.jpg
-:alt: profile
-:class: bg-primary mb-1
-:height: 200px
+:alt: Aishwarya Agrawal
+:width: 200px
 :align: center
 ```
-[Aishwarya Agrawal](https://www.iro.umontreal.ca/~agrawal/index.html)
-:::
-
-:::{grid-item}
-```{image} images/profile_elizabeth_dupre.jpg
-:alt: profile
-:class: bg-primary mb-1
-:height: 200px
-:align: center
-```
-[Elizabeth DuPre](https://elizabeth-dupre.com/)
+**[Aishwarya Agrawal](https://www.iro.umontreal.ca/~agrawal/index.html)**
 :::
 ::::
+
+::::{grid-item}
+:::{div}
+:class: text-center
+```{image} images/profile_elizabeth_dupre.jpg
+:alt: Elizabeth DuPre
+:width: 200px
+:align: center
+```
+**[Elizabeth DuPre](https://elizabeth-dupre.com/)**
+:::
+::::
+:::::
 
 **Aishwarya Agrawal** is an assistant professor in the Department of Computer Science and Operations Research (DIRO) at Université de Montréal, a Canada CIFAR AI Chair, and a core academic member of Mila. Her research lies at the intersection of computer vision, deep learning and natural language processing, with a focus on AI systems that can "see" and "talk".
 

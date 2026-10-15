@@ -15,28 +15,32 @@ This session opens the "reasoning about the world" day. A 45-minute lecture, fol
 
 ## Instructors
 
-::::{grid}
+:::::{grid} 1 2 2 2
 
-:::{grid-item}
+::::{grid-item}
+:::{div}
+:class: text-center
 ```{image} images/profile_sonia_joseph.jpg
-:alt: profile
-:class: bg-primary mb-1
-:height: 200px
+:alt: Sonia Joseph
+:width: 200px
 :align: center
 ```
-[Sonia Joseph](https://soniajoseph.github.io/)
-:::
-
-:::{grid-item}
-```{image} images/profile_glen_berseth.png
-:alt: profile
-:class: bg-primary mb-1
-:height: 200px
-:align: center
-```
-[Glen Berseth](https://neo-x.github.io/)
+**[Sonia Joseph](https://soniajoseph.github.io/)**
 :::
 ::::
+
+::::{grid-item}
+:::{div}
+:class: text-center
+```{image} images/profile_glen_berseth.png
+:alt: Glen Berseth
+:width: 200px
+:align: center
+```
+**[Glen Berseth](https://neo-x.github.io/)**
+:::
+::::
+:::::
 
 **Sonia Joseph** is an AI researcher working on interpretable video world models, and a PhD student at McGill University and Mila. She conducted research on the JEPA team at Meta, where she also led the company's internal interpretability community, and published the first mechanistic interpretability work on physical reasoning in video world models such as V-JEPA 2. She is also a developer of Prisma, an open source toolkit for mechanistic interpretability in vision and video models.
 
