@@ -14,7 +14,7 @@ project:
     - file: content/program.md
       children:
           - file: content/world_models.md
-          - file: content/vla_models.md
+          - file: content/active_vision.md
           - file: content/llm_reasoning_eval.md
           - file: content/alignment.md
     - file: content/venue.md

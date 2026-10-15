@@ -12,27 +12,32 @@ The LLM and VLM sections will each include:
 
 ## Instructors
 
-::::{grid}
-:::{grid-item}
+:::::{grid} 1 2 2 2
+
+::::{grid-item}
+:::{div}
+:class: text-center
 ```{image} images/profile_lucas_gomez.jpg
 :alt: Lucas Gomez
-:class: bg-primary mb-1
-:height: 200px
+:width: 200px
 :align: center
 ```
-[Lucas Gomez](https://www.lucasgomez.ca/about)
-:::
-
-:::{grid-item}
-```{image} images/profile_zihan_weng.jpg
-:alt: Zihan Weng
-:class: bg-primary mb-1
-:height: 200px
-:align: center
-```
-[Zihan Weng](https://zh-weng.github.io/)
+**[Lucas Gomez](https://www.lucasgomez.ca/about)**
 :::
 ::::
+
+::::{grid-item}
+:::{div}
+:class: text-center
+```{image} images/profile_zihan_weng.jpg
+:alt: Zihan Weng
+:width: 200px
+:align: center
+```
+**[Zihan Weng](https://zh-weng.github.io/)**
+:::
+::::
+:::::
 
 **Lucas Gomez** is a PhD student in the Integrated Program in Neuroscience at McGill University. His research in the BashivanLab focuses on building large scale deep learning models of visual working memory that predict prefrontal cortex activity. He has a Bachelor of Computer Science from Carleton University in Ottawa, and he is broadly interested in the intersection between AI and the brain sciences.
 
