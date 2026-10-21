@@ -1,7 +1,7 @@
 # Program
 
 :::{note}
-**This program is preliminary.** Session details may still change, and the remaining sessions will be announced soon.
+**This program is preliminary.** Session details may still change.
 :::
 
 MAIN educational 2026 will run on a single track over two days, on October 26th-27th 2026, at the [CRIUGM](venue). The first day focuses on **reasoning about the world** (world models and embodied agents), and the second day on **benchmarking**, i.e. the alignment between the brain, behaviour and AI models.
@@ -18,7 +18,7 @@ MAIN educational 2026 will run on a single track over two days, on October 26th-
  * 12:05-13:00 **Lunch provided**
  * 13:00-14:45 **[Active vision with deep neural networks](active_vision)**
  * 14:45-15:05 **Break with coffee and snack**
- * 15:05-16:50 **Session to be announced**
+ * 15:05-16:50 **[Reason to play](reason_to_play)**: hands-on tutorial with Yann Harel (in person) and Csaba Botos (online), tentative title
 
 ## Tuesday October 27th: benchmarking brain-behaviour-model alignment
 
@@ -35,6 +35,7 @@ More details on each session can be found on the following pages:
 
  * [World models and embodied agents](world_models)
  * [Active vision with deep neural networks](active_vision)
+ * [Reason to play](reason_to_play) (placeholder)
  * [Cognitive benchmarking in large models](llm_reasoning_eval)
  * [Alignment across modalities and across brains](alignment)
 

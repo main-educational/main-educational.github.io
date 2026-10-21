@@ -15,6 +15,7 @@ project:
       children:
           - file: content/world_models.md
           - file: content/active_vision.md
+          - file: content/reason_to_play.md
           - file: content/llm_reasoning_eval.md
           - file: content/alignment.md
     - file: content/venue.md

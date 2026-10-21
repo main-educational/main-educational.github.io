@@ -29,7 +29,8 @@ This session is about alignment: finding a common space in which different repre
 :width: 200px
 :align: center
 ```
-**[Aishwarya Agrawal](https://www.iro.umontreal.ca/~agrawal/index.html)**
+**[Aishwarya Agrawal](https://www.iro.umontreal.ca/~agrawal/index.html)**\
+Université de Montréal and Mila
 :::
 ::::
 
@@ -41,7 +42,8 @@ This session is about alignment: finding a common space in which different repre
 :width: 200px
 :align: center
 ```
-**[Elizabeth DuPre](https://elizabeth-dupre.com/)**
+**[Elizabeth DuPre](https://elizabeth-dupre.com/)**\
+Université de Montréal
 :::
 ::::
 :::::
