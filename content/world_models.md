@@ -27,7 +27,8 @@ This session opens the "reasoning about the world" day. A 45-minute lecture, fol
 :width: 200px
 :align: center
 ```
-**[Sonia Joseph](https://soniajoseph.github.io/)**
+**[Sonia Joseph](https://soniajoseph.github.io/)**\
+McGill University and Mila
 :::
 ::::
 
@@ -39,7 +40,8 @@ This session opens the "reasoning about the world" day. A 45-minute lecture, fol
 :width: 200px
 :align: center
 ```
-**[Glen Berseth](https://www.fracturedplane.com/)**
+**[Glen Berseth](https://www.fracturedplane.com/)**\
+Université de Montréal and Mila
 :::
 ::::
 :::::

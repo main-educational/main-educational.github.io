@@ -22,7 +22,8 @@ The LLM and VLM sections will each include:
 :width: 200px
 :align: center
 ```
-**[Lucas Gomez](https://www.lucasgomez.ca/about)**
+**[Lucas Gomez](https://www.lucasgomez.ca/about)**\
+McGill University
 :::
 ::::
 
@@ -34,7 +35,8 @@ The LLM and VLM sections will each include:
 :width: 200px
 :align: center
 ```
-**[Zihan Weng](https://zh-weng.github.io/)**
+**[Zihan Weng](https://zh-weng.github.io/)**\
+McGill University
 :::
 ::::
 :::::
