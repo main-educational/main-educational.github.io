@@ -5,7 +5,8 @@
 ## Overview
 
 How do we learn a game when nobody tells us the rules, and can AI help explain the brain activity behind that learning? This hands-on tutorial examines how frontier large reasoning models (LRMs) learn new games, and how their behavior and internal representations align with those of human players and their brain activity. Yann Harel will lead the session in person, and Csaba Botos will join online.  
-See this video capsule for an overview: https://youtu.be/8yEItbOE_7A?is=GXijlOjuHYh-8ILG
+
+A video capsule giving an overview is available in the Materials section below.
 
 ## Instructors
 
@@ -50,14 +51,54 @@ Boston College
 
 ## Materials
 
-Project page and interactive demos:
-https://botcs.github.io/reason-to-play/
+::::{grid} 1 2 3 3
+:::{grid-item}
+```{image} images/logo_youtube.png
+:alt: YouTube logo
+:class: bg-primary mb-1
+:height: 150px
+:align: center
+```
+[Video capsule overview](https://youtu.be/8yEItbOE_7A)
+:::
 
-Paper:
-https://arxiv.org/abs/2605.08019
+:::{grid-item}
+```{image} images/logo_website.svg
+:alt: Website icon
+:class: bg-primary mb-1
+:height: 150px
+:align: center
+```
+[Project page and interactive demos](https://botcs.github.io/reason-to-play/)
+:::
 
-Source code:
-https://github.com/botcs/reason-to-play-src
+:::{grid-item}
+```{image} images/logo_pdf.png
+:alt: PDF icon
+:class: bg-primary mb-1
+:height: 150px
+:align: center
+```
+[Paper (arXiv)](https://arxiv.org/abs/2605.08019)
+:::
 
-Hugging Face dataset:
-https://huggingface.co/datasets/csbotos/reason-to-play
+:::{grid-item}
+```{image} images/logo_github.svg
+:alt: GitHub logo
+:class: bg-primary mb-1
+:height: 150px
+:align: center
+```
+[Source code](https://github.com/botcs/reason-to-play-src)
+:::
+
+:::{grid-item}
+```{image} images/logo_huggingface.svg
+:alt: Hugging Face logo
+:class: bg-primary mb-1
+:height: 150px
+:align: center
+```
+[Hugging Face dataset](https://huggingface.co/datasets/csbotos/reason-to-play)
+:::
+::::
