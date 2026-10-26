@@ -101,4 +101,14 @@ Boston College
 ```
 [Hugging Face dataset](https://huggingface.co/datasets/csbotos/reason-to-play)
 :::
+
+:::{grid-item}
+```{image} images/logo_gslides.png
+:alt: Google Slides logo
+:class: bg-primary mb-1
+:height: 150px
+:align: center
+```
+[Presentation slides](https://docs.google.com/presentation/d/12B9duHJGxSGoQISp1iKCMC7k8lIz1CmfIWvFK2Nx5ko/edit?usp=sharing)
+:::
 ::::
