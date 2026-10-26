@@ -59,4 +59,25 @@ Université de Montréal and Mila
 
 ## Materials
 
-Coming soon.
+::::{grid}
+:::{grid-item}
+```{image} https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+:alt: logo github
+:class: bg-primary mb-1
+:height: 150px
+:align: center
+```
+[Github repo for the world models tutorial (mini-wm)](https://github.com/milarobotlearningcourse/mini-wm)
+:::
+
+:::{grid-item}
+```{image} images/logo_pytorch.png
+:alt: logo jupyter notebook
+:class: bg-primary mb-1
+:height: 150px
+:align: center
+```
+[Tutorial notebook](https://github.com/milarobotlearningcourse/mini-wm/blob/main/mini_wm_tutorial.ipynb)
+:::
+
+::::
