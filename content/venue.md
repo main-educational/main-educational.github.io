@@ -2,9 +2,7 @@
 
 The workshop will be located at the [Centre de recherche de l'Institut universitaire de gériatrie de Montréal (CRIUGM)](https://criugm.qc.ca/en/), 4545 Chemin Queen-Mary, Montréal, QC H3W 1W4. The venue is accessible by Metro (Snowdon station, orange and blue lines).
 
-:::{note}
-The rooms used for each session will be posted here closer to the event.
-:::
+All sessions will take place in the Amphithéâtre « Le Groupe Maurice ».
 
 The MAIN 2026 conference, on October 29th-30th, will take place at [HEC Montréal](https://www.hec.ca/en/).
 
