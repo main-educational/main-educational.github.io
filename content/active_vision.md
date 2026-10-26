@@ -53,4 +53,17 @@ Mila and Université de Montréal
 
 ## Materials
 
-Coming soon.
+::::{grid}
+:::{grid-item}
+```{image} images/logo_pytorch.png
+:alt: logo jupyter notebook
+:class: bg-primary mb-1
+:height: 150px
+:align: center
+```
+{download}`Hands-on notebook (download) <materials/active_vision_seqjepa.ipynb>`
+:::
+::::
+
+The notebook runs on a laptop CPU in a few minutes. Its first cell links to the data pack (`active_vision_data.zip`,
+about 380 MB), which you unzip next to the notebook.
