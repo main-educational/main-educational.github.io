@@ -71,13 +71,13 @@ Université de Montréal and Mila
 :::
 
 :::{grid-item}
-```{image} images/logo_pytorch.png
-:alt: logo jupyter notebook
+```{image} images/logo_colab.png
+:alt: logo colab
 :class: bg-primary mb-1
 :height: 150px
 :align: center
 ```
-[Tutorial notebook](https://github.com/milarobotlearningcourse/mini-wm/blob/main/mini_wm_tutorial.ipynb)
+[Colab notebook for the tutorial](https://colab.research.google.com/github/milarobotlearningcourse/mini-wm/blob/main/mini_wm_tutorial.ipynb)
 :::
 
 ::::
