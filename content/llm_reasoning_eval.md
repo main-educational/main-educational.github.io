@@ -47,7 +47,7 @@ McGill University
 
 ## Objectives
 
-This session is divided into three parts:
+This session is divided into four parts:
 
 ### Large Language Models (LLMs)
 
@@ -97,6 +97,21 @@ This session is divided into three parts:
     - Understanding reasoning visibility differences
     - Controlling reasoning effort and computation
 
+### AI & The Brain
+
+- **Learning the basics of encoding models**:
+    - Brain responses to music (fMRI)
+    - Extracting features from a multimodal model (Qwen3-Omni)
+    - Dimensionality reduction (PCA) and ridge regression
+
+- **Practical considerations**:
+    - Evaluating predictions against chance
+    - Noise ceiling
+    - Comparing model layers
+
+- **Hands-on** - Predicting the listening brain from a music AI:
+    - Google Colab
+
 ## Materials
 
 ::::{grid}
@@ -118,6 +133,16 @@ This session is divided into three parts:
 :align: center
 ```
 [Colab notebooks for cognitive benchmarks of vision-language models](https://colab.research.google.com/drive/1dKFZTKhNT9rVHwlcYEmuAIYDZokiWiVO?usp=sharing)
+:::
+
+:::{grid-item}
+```{image} images/logo_colab.png
+:alt: Colab logo (AI & the brain)
+:class: bg-primary mb-1
+:height: 150px
+:align: center
+```
+[Colab notebook for predicting brain responses to music with AI](https://colab.research.google.com/drive/1n8oqtOTVdL9rW9Ti4Rg2w8N0VFbpdewp)
 :::
 :::{grid-item}
 ```{image} images/logo_gslides.png
