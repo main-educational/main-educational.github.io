@@ -62,5 +62,34 @@ Université de Montréal
 
 ## Materials
 
- * [fmralign documentation and examples](https://fmralign.github.io/fmralign/)
- * Tutorial notebooks coming soon.
+::::{grid} 1 2 3 3
+:::{grid-item}
+```{image} images/logo_gslides.png
+:alt: Google Slides logo
+:class: bg-primary mb-1
+:height: 150px
+:align: center
+```
+[Presentation slides by Aishwarya Agrawal](https://docs.google.com/presentation/d/18NVP5FZKoD1mqpV167Gqux6WosndwrftG5V6RcXPPSE/edit?usp=sharing)
+:::
+
+:::{grid-item}
+```{image} images/logo_website.svg
+:alt: Website icon
+:class: bg-primary mb-1
+:height: 150px
+:align: center
+```
+[fmralign tutorial by Elizabeth DuPre](https://emdupre.github.io/MAIN2026-fmralign/)
+:::
+
+:::{grid-item}
+```{image} images/logo_website.svg
+:alt: Website icon
+:class: bg-primary mb-1
+:height: 150px
+:align: center
+```
+[fmralign documentation and examples](https://fmralign.github.io/fmralign/)
+:::
+::::
